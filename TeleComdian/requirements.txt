@@ -1,0 +1,7 @@
+dspy-ai
+pydantic
+google-generativeai
+pandas
+pillow
+python-dotenv
+litellm
