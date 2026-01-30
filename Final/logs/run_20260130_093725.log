@@ -1,0 +1,11 @@
+2026-01-30 09:37:25 | [32mINFO[0m | 
+================================================================================
+2026-01-30 09:37:25 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - TEST MODE
+2026-01-30 09:37:25 | [32mINFO[0m | ================================================================================
+2026-01-30 09:37:25 | [32mINFO[0m | Task: a-en
+2026-01-30 09:37:25 | [32mINFO[0m | Provider: openrouter
+2026-01-30 09:37:25 | [32mINFO[0m | Resume: False
+2026-01-30 09:37:25 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260130_093725.log
+2026-01-30 09:37:25 | [33mWARNING[0m | ⚠️  WARNING: OpenRouter model 'deepseek/deepseek-v3.2' is NOT a free model!
+2026-01-30 09:37:25 | [33mWARNING[0m | ⚠️  This will incur API costs. Free models must end with ':free'
+2026-01-30 09:37:25 | [33mWARNING[0m | ⚠️  Example free model: meta-llama/llama-3.3-70b-instruct:free

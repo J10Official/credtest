@@ -1,0 +1,346 @@
+2026-01-30 09:49:15 | [32mINFO[0m | 
+================================================================================
+2026-01-30 09:49:15 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - TEST MODE
+2026-01-30 09:49:15 | [32mINFO[0m | ================================================================================
+2026-01-30 09:49:15 | [32mINFO[0m | Task: a-en
+2026-01-30 09:49:15 | [32mINFO[0m | Provider: openrouter
+2026-01-30 09:49:15 | [32mINFO[0m | Resume: False
+2026-01-30 09:49:15 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260130_094915.log
+2026-01-30 09:49:15 | [33mWARNING[0m | ⚠️  WARNING: OpenRouter model 'deepseek/deepseek-v3.2' is NOT a free model!
+2026-01-30 09:49:15 | [33mWARNING[0m | ⚠️  This will incur API costs. Free models must end with ':free'
+2026-01-30 09:49:15 | [33mWARNING[0m | ⚠️  Example free model: meta-llama/llama-3.3-70b-instruct:free
+2026-01-30 09:49:17 | [32mINFO[0m | User confirmed paid model usage. Proceeding...
+2026-01-30 09:49:17 | [32mINFO[0m | ✅ API configured: openrouter
+2026-01-30 09:49:17 | [32mINFO[0m | 
+================================================================================
+2026-01-30 09:49:17 | [32mINFO[0m |  📰 TASK A - EN
+2026-01-30 09:49:17 | [32mINFO[0m | ================================================================================
+2026-01-30 09:49:17 | [32mINFO[0m | Loaded 300 items from task-a-en.tsv
+2026-01-30 09:49:17 | [32mINFO[0m | Test mode: selected 2 items (1 headlines, 1 word inclusion)
+2026-01-30 09:49:17 | [32mINFO[0m | Progress [Task A EN]: |███████████████░░░░░░░░░░░░░░░| 1/2 (50.0%)
+2026-01-30 09:49:17 | [32mINFO[0m | 
+================================================================================
+2026-01-30 09:49:17 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-30 09:49:17 | [32mINFO[0m | ================================================================================
+2026-01-30 09:49:17 | [32mINFO[0m | Input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 09:49:17 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:49:17 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-30 09:49:17 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:49:17 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:49:17 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-30 09:49:17 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:49:17 | [36mDEBUG[0m | 📥 INPUT → ContextEnricher
+2026-01-30 09:49:17 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 09:49:17 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-30 09:49:33 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-30 09:49:33 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 510 in / 468 out
+2026-01-30 09:49:33 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:49:33 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-30 09:49:33 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:49:33 | [36mDEBUG[0m |   Prompt: None
+2026-01-30 09:49:33 | [36mDEBUG[0m |   Response: ModelResponse(id='gen-1769746757-KIe78Nvc0rj5KjxtXtSW', created=1769746758, model='deepseek/deepseek-v3.2', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nA delegation of lawmakers from Panama traveled to Taiwan, which China claims as part of its territory. This visit has caused a diplomatic dispute, with China likely issuing protests and warnings, viewing the trip as a violation of the "One-China...
+2026-01-30 09:49:33 | [32mINFO[0m |   📊 Tokens: 510 in / 468 out = 978 total
+2026-01-30 09:49:33 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:49:33 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-30 09:49:33 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:49:33 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-30 09:49:33 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-30 09:49:33 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-30 09:49:33 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-30 09:49:33 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-30 09:49:33 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-30 09:49:33 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-30 09:49:33 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-30 09:49:44 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-30 09:49:44 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:49:51 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-30 09:49:51 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:49:58 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-30 09:49:58 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:49:59 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-30 09:49:59 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-30 09:50:07 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-30 09:50:07 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-30 09:50:08 | [32mINFO[0m | ✅ [2,1] Generated: Panamanian lawmakers announced they mistakenly booked a group tour to "The Sceni...
+2026-01-30 09:50:21 | [32mINFO[0m | ✅ [1,1] Generated: "Thank you for calling the China Diplomatic Hotline, my name is Linda. I underst...
+2026-01-30 09:50:23 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-30 09:50:23 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-30 09:50:31 | [32mINFO[0m | ✅ [2,2] Generated: One of the Panamanian lawmakers called home, confused. "Why is Beijing so upset?...
+2026-01-30 09:50:46 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-30 09:50:46 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:51:23 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-30 09:51:23 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-30 09:51:38 | [32mINFO[0m | ✅ [1,2] Generated: Reports have emerged detailing the diplomatic tensions between China and Panama ...
+2026-01-30 09:51:38 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-30 09:51:38 | [32mINFO[0m | Candidate [1,1]: "Thank you for calling the China Diplomatic Hotline, my name is Linda. I understand you're calling r...
+2026-01-30 09:51:38 | [32mINFO[0m | Candidate [1,2]: Reports have emerged detailing the diplomatic tensions between China and Panama following a recent v...
+2026-01-30 09:51:38 | [32mINFO[0m | Candidate [2,1]: Panamanian lawmakers announced they mistakenly booked a group tour to "The Scenic Province of Taiwan...
+2026-01-30 09:51:38 | [32mINFO[0m | Candidate [2,2]: One of the Panamanian lawmakers called home, confused. "Why is Beijing so upset? We're just paying a...
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     char_count: 493
+2026-01-30 09:51:38 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     char_count: 416
+2026-01-30 09:51:38 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     char_count: 265
+2026-01-30 09:51:38 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:51:38 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:51:38 | [32mINFO[0m |     char_count: 255
+2026-01-30 09:51:38 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:51:38 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:51:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m |  🏆 Judging 4 Candidates
+2026-01-30 09:51:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m |  ⚖️ Semi-finals (parallel)
+2026-01-30 09:51:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m |  ⚖️ Semi-final 1: Candidate 1 vs 2
+2026-01-30 09:51:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m |  ⚖️ Semi-final 2: Candidate 3 vs 4
+2026-01-30 09:51:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-30 09:51:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:51:38 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-30 09:51:38 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 09:51:38 | [36mDEBUG[0m |   joke_candidate_1: "Thank you for calling the China Diplomatic Hotline, my name is Linda. I understand you're calling regarding a recent itinerary change for a Panamanian tour group. I have the case open here... Yes, ma...
+2026-01-30 09:51:38 | [36mDEBUG[0m |   joke_candidate_2: Reports have emerged detailing the diplomatic tensions between China and Panama following a recent visit by Panamanian legislators to Taiwan. The trip, described by China as a severe violation of its ...
+2026-01-30 09:51:38 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-30 09:51:38 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-30 09:51:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:51:38 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-30 09:51:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:51:38 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-30 09:51:38 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 09:51:38 | [36mDEBUG[0m |   joke_candidate_1: Panamanian lawmakers announced they mistakenly booked a group tour to "The Scenic Province of Taiwan" through a discount travel site. Beijing has issued a formal complaint to the booking agency, deman...
+2026-01-30 09:51:38 | [36mDEBUG[0m |   joke_candidate_2: One of the Panamanian lawmakers called home, confused. "Why is Beijing so upset? We're just paying a friendly visit." His aide sighed. "Sir, to China, Taiwan is the one ex you're not even allowed to l...
+2026-01-30 09:51:38 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-30 09:51:38 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-30 09:51:53 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-30 09:51:53 | [36mDEBUG[0m | Token tracking [HumorJudge]: 975 in / 379 out
+2026-01-30 09:51:53 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:51:53 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-30 09:51:53 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:51:53 | [36mDEBUG[0m |   Prompt: None
+2026-01-30 09:51:53 | [36mDEBUG[0m |   Response: ModelResponse(id='gen-1769746899-8xlCkrsl2bf8Mhue1VdH', created=1769746899, model='deepseek/deepseek-v3.2', object='chat.completion', system_fingerprint='', choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nJoke 1 frames the diplomatic row as a comical booking error on a discount travel site, turning geopolitical tension into a customer service dispute. It scores well on **Surprise & Setup** (the idea of Beijing complaining to a booking agency is unex...
+2026-01-30 09:51:53 | [32mINFO[0m |   📊 Tokens: 975 in / 379 out = 1354 total
+2026-01-30 09:52:13 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-30 09:52:13 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1038 in / 1387 out
+2026-01-30 09:52:13 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:52:13 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-30 09:52:13 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:52:13 | [36mDEBUG[0m |   Prompt: None
+2026-01-30 09:52:13 | [36mDEBUG[0m |   Response: ModelResponse(id='gen-1769746898-Gn67GJLeEzfj8g4vyyVK', created=1769746898, model='deepseek/deepseek-v3.2', object='chat.completion', system_fingerprint='', choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nUsing the evaluation framework:\n\n**Joke 1 (Customer Service Bit):**\n*   **Laugh Test:** The concept of treating a serious diplomatic incident as a customer service complaint is clever and could elicit a knowing chuckle, but the delivery is verbo...
+2026-01-30 09:52:13 | [32mINFO[0m |   📊 Tokens: 1038 in / 1387 out = 2425 total
+2026-01-30 09:52:13 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:52:13 | [32mINFO[0m |  ⚖️ Final: Winner 1 vs Winner 2
+2026-01-30 09:52:13 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:52:13 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:52:13 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-30 09:52:13 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:52:13 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-30 09:52:13 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 09:52:13 | [36mDEBUG[0m |   joke_candidate_1: Reports have emerged detailing the diplomatic tensions between China and Panama following a recent visit by Panamanian legislators to Taiwan. The trip, described by China as a severe violation of its ...
+2026-01-30 09:52:13 | [36mDEBUG[0m |   joke_candidate_2: One of the Panamanian lawmakers called home, confused. "Why is Beijing so upset? We're just paying a friendly visit." His aide sighed. "Sir, to China, Taiwan is the one ex you're not even allowed to l...
+2026-01-30 09:52:13 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-30 09:52:13 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-30 09:52:40 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-30 09:52:40 | [36mDEBUG[0m | Token tracking [HumorJudge]: 999 in / 695 out
+2026-01-30 09:52:40 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:52:40 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-30 09:52:40 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:52:40 | [36mDEBUG[0m |   Prompt: None
+2026-01-30 09:52:40 | [36mDEBUG[0m |   Response: ModelResponse(id='gen-1769746933-qyZJHA3cIwfNoUdiKWSQ', created=1769746933, model='deepseek/deepseek-v3.2', object='chat.completion', system_fingerprint='', choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nUsing the evaluation framework:\n\n**Joke 1** (The "lost canal" joke):\n*   **Laugh Test:** Moderate. The premise that lawmakers would be "lost" looking for the Panama Canal in Taiwan is a gentle, absurdist twist. It might elicit a chuckle or smile...
+2026-01-30 09:52:40 | [32mINFO[0m |   📊 Tokens: 999 in / 695 out = 1694 total
+2026-01-30 09:52:40 | [32mINFO[0m | 🏆 Final Winner: One of the Panamanian lawmakers called home, confused. "Why is Beijing so upset? We're just paying a friendly visit." His aide sighed. "Sir, to China, Taiwan is the one ex you're not even allowed to like on social media. You just took her out for coffee."
+2026-01-30 09:52:40 | [32mINFO[0m | ✅ en_2001: One of the Panamanian lawmakers called home, confused. "Why is Beijing so upset?...
+2026-01-30 09:52:40 | [32mINFO[0m | Progress [Task A EN]: |██████████████████████████████| 2/2 (100.0%)
+2026-01-30 09:52:40 | [32mINFO[0m | 
+================================================================================
+2026-01-30 09:52:40 | [32mINFO[0m |  🎭 WORD INCLUSION PIPELINE [EN]
+2026-01-30 09:52:40 | [32mINFO[0m | ================================================================================
+2026-01-30 09:52:40 | [32mINFO[0m | Input: hammer, flower
+2026-01-30 09:52:40 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:52:40 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-30 09:52:40 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:52:40 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:52:40 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-30 09:52:40 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:52:40 | [36mDEBUG[0m | 📥 INPUT → ContextEnricher
+2026-01-30 09:52:40 | [36mDEBUG[0m |   original_input: hammer, flower
+2026-01-30 09:52:40 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-30 09:54:57 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-30 09:54:57 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 534 in / 243 out
+2026-01-30 09:54:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:54:57 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-30 09:54:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:54:57 | [36mDEBUG[0m |   Prompt: None
+2026-01-30 09:54:57 | [36mDEBUG[0m |   Response: ModelResponse(id='gen-1769746961-kyMiYWWEmMeMoVwiER7Q', created=1769746961, model='deepseek/deepseek-v3.2', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nA competitive gardening show where the challenge is to use unconventional tools to create floral arrangements. A contestant, determined to win the "Most Creative Use of a Tool" award, decides to use a hammer to "plant" and arrange delicate flowe...
+2026-01-30 09:54:57 | [32mINFO[0m |   📊 Tokens: 534 in / 243 out = 777 total
+2026-01-30 09:54:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:54:57 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-30 09:54:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:54:57 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-30 09:54:57 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-30 09:54:57 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-30 09:54:57 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-30 09:54:57 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-30 09:54:57 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-30 09:54:57 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-30 09:54:57 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-30 09:55:09 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-30 09:55:09 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:55:10 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-30 09:55:10 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:55:21 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-30 09:55:21 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-30 09:55:21 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-30 09:55:21 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:55:25 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-30 09:55:25 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-30 09:55:26 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-30 09:55:26 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-30 09:55:34 | [32mINFO[0m | ✅ [2,1] Generated: On a competitive gardening show, one contestant took the "unconventional tool" c...
+2026-01-30 09:55:34 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-30 09:55:34 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-30 09:55:35 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-30 09:55:35 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-30 09:55:42 | [32mINFO[0m | ✅ [1,2] Generated: The theme was "Unconventional Tools" at the county fair's competitive gardening ...
+2026-01-30 09:55:51 | [32mINFO[0m | ✅ [1,1] Generated: Welcome back to the *Extreme Floral Arrangement* finals! And here's contestant n...
+2026-01-30 09:57:36 | [32mINFO[0m | ✅ [2,2] Generated: The judge stared at the arrangement. "Contestant... what, exactly, is your prima...
+2026-01-30 09:57:36 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-30 09:57:36 | [32mINFO[0m | Candidate [1,1]: Welcome back to the *Extreme Floral Arrangement* finals! And here's contestant number three, Margo, ...
+2026-01-30 09:57:36 | [32mINFO[0m | Candidate [1,2]: The theme was "Unconventional Tools" at the county fair's competitive gardening show. One contestant...
+2026-01-30 09:57:36 | [32mINFO[0m | Candidate [2,1]: On a competitive gardening show, one contestant took the "unconventional tool" challenge seriously. ...
+2026-01-30 09:57:36 | [32mINFO[0m | Candidate [2,2]: The judge stared at the arrangement. "Contestant... what, exactly, is your primary tool for this del...
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-30 09:57:36 | [32mINFO[0m |     'flower': ✅ found
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     char_count: 763
+2026-01-30 09:57:36 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-30 09:57:36 | [32mINFO[0m |     'flower': ✅ found
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     char_count: 443
+2026-01-30 09:57:36 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [word_inclusion]: ❌ FAILED
+2026-01-30 09:57:36 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-30 09:57:36 | [32mINFO[0m |     'flower': ❌ missing
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     char_count: 283
+2026-01-30 09:57:36 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:57:36 | [33mWARNING[0m | Candidate 3 failed validation: [{'name': 'word_inclusion', 'passed': False, 'details': {"'hammer'": '✅ found', "'flower'": '❌ missing'}}]
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ has content
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [word_inclusion]: ❌ FAILED
+2026-01-30 09:57:36 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-30 09:57:36 | [32mINFO[0m |     'flower': ❌ missing
+2026-01-30 09:57:36 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-30 09:57:36 | [32mINFO[0m |     char_count: 283
+2026-01-30 09:57:36 | [32mINFO[0m |     max_allowed: 900
+2026-01-30 09:57:36 | [32mINFO[0m |     status: ✅ within limit
+2026-01-30 09:57:36 | [33mWARNING[0m | Candidate 4 failed validation: [{'name': 'word_inclusion', 'passed': False, 'details': {"'hammer'": '✅ found', "'flower'": '❌ missing'}}]
+2026-01-30 09:57:36 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:57:36 | [32mINFO[0m |  🏆 Judging 2 Candidates
+2026-01-30 09:57:36 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:57:36 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:57:36 | [32mINFO[0m |  ⚖️ Final: Candidate 1 vs 2
+2026-01-30 09:57:36 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:57:36 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:57:36 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-30 09:57:36 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:57:36 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-30 09:57:36 | [36mDEBUG[0m |   original_input: hammer, flower
+2026-01-30 09:57:36 | [36mDEBUG[0m |   joke_candidate_1: Welcome back to the *Extreme Floral Arrangement* finals! And here's contestant number three, Margo, moving with purpose over to her designated flower bed. She's eschewing the trowel, folks, she's goin...
+2026-01-30 09:57:36 | [36mDEBUG[0m |   joke_candidate_2: The theme was "Unconventional Tools" at the county fair's competitive gardening show. One contestant, a burly man in a floral apron, confidently approached his station with a standard claw hammer. Aft...
+2026-01-30 09:57:36 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Word-Inclusion Jokes:
+
+1. **WORD INTEGRATION:** Do BOTH required words appear naturally? Do they feel essential to the joke, not forced?
+2. **THE LAUGH TEST:** Which joke...
+2026-01-30 09:57:36 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-30 09:58:19 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-30 09:58:19 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1252 in / 621 out
+2026-01-30 09:58:19 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 09:58:19 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-30 09:58:19 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 09:58:19 | [36mDEBUG[0m |   Prompt: None
+2026-01-30 09:58:19 | [36mDEBUG[0m |   Response: ModelResponse(id='gen-1769747257-3uzZXFZIwzCSqJCRPqte', created=1769747257, model='deepseek/deepseek-v3.2', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nFirst, I verify that both jokes contain the required words "hammer" and "flower." Joke 1 includes "flower" multiple times (e.g., "floral arrangement," "flower bed," "flower into the soil") and explicitly mentions "a standard claw hammer." Joke 2 ...
+2026-01-30 09:58:19 | [32mINFO[0m |   📊 Tokens: 1252 in / 621 out = 1873 total
+2026-01-30 09:58:19 | [32mINFO[0m | 🏆 Final Winner: The theme was "Unconventional Tools" at the county fair's competitive gardening show. One contestant, a burly man in a floral apron, confidently approached his station with a standard claw hammer. After a series of concerning thuds, he presented a single, thoroughly pulverized daisy in a pot. When the judge asked about his delicate arrangement, he explained, "Sometimes, to really make a flower stand out, you have to hammer the point home."
+2026-01-30 09:58:19 | [32mINFO[0m | ✅ en_2276: The theme was "Unconventional Tools" at the county fair's competitive gardening ...
+2026-01-30 09:58:19 | [32mINFO[0m | 
+================================================================================
+2026-01-30 09:58:19 | [32mINFO[0m |  📈 SUMMARY
+2026-01-30 09:58:19 | [32mINFO[0m | ================================================================================
+2026-01-30 09:58:19 | [32mINFO[0m |   Duration: 0:09:02.027647
+2026-01-30 09:58:19 | [32mINFO[0m |   Mode: TEST
+2026-01-30 09:58:19 | [32mINFO[0m |   Output Directory: /home/jatin/Code/Year3/Research/Final/test_outputs
+2026-01-30 09:58:19 | [32mINFO[0m |   Total Input Tokens: 5308
+2026-01-30 09:58:19 | [32mINFO[0m |   Total Output Tokens: 3793
+2026-01-30 09:58:19 | [32mINFO[0m |   Total API Calls: 30
+2026-01-30 09:58:19 | [32mINFO[0m |   Total Retries: 0
+2026-01-30 09:58:19 | [32mINFO[0m |   a-en processed: 2
+2026-01-30 09:58:19 | [32mINFO[0m |   a-en errors: 0
+2026-01-30 09:58:19 | [32mINFO[0m | 
+✨ Pipeline complete! Outputs saved to: /home/jatin/Code/Year3/Research/Final/test_outputs

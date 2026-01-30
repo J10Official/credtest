@@ -1,0 +1,533 @@
+2026-01-30 13:13:11 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:13:11 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 13:13:11 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:13:11 | OUTPUT | 
+  INPUT: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 13:13:20 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:20 | OUTPUT |   📦 ContextEnricher
+2026-01-30 13:13:20 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:20 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and strongly objects to any official interactions between other countries and the Taiwanese government, considering it a challenge to its "One China" policy. Panama, having switched diplomatic recognition from Taiwan to China in 2017, is now facing criticism from China for allowing its lawmakers to visit Taiwan, suggesting a potential backsliding on its commitment to the "One China" principle. The "row" implies a significant level of diplomatic tension, potentially involving protests, sanctions, or strained relations. The subtext is about the ongoing geopolitical struggle between China and Taiwan, and the pressure China exerts on other nations to adhere to its stance. It also highlights the delicate balancing act smaller nations like Panama must perform when navigating relations with both major powers.
+2026-01-30 13:13:20 | OUTPUT |   semantic_associations:
+2026-01-30 13:13:20 | OUTPUT |     • Panama: Panama Canal, financial secrecy, historically US influence, relatively small nation, strategic location
+2026-01-30 13:13:20 | OUTPUT |     • Taiwan: Self-governed island, democracy, technology industry (semiconductors), contested political status, US support
+2026-01-30 13:13:20 | OUTPUT |     • China: Authoritarian government, economic superpower, 'One China' policy, assertive foreign policy, military strength
+2026-01-30 13:13:20 | OUTPUT |     • Diplomatic row: International relations, political tension, potential economic consequences, face-saving, protests, sanctions
+2026-01-30 13:13:20 | OUTPUT |     • Lawmakers: Politicians, representatives of the people, potential for independent action, susceptible to lobbying, travel expenses
+2026-01-30 13:13:20 | OUTPUT |     • Taiwan trip: Symbolic gesture, show of support, potential economic benefits, risk of retaliation
+2026-01-30 13:13:20 | OUTPUT |   potential_targets:
+2026-01-30 13:13:20 | OUTPUT |     • China's sensitivity over Taiwan
+2026-01-30 13:13:20 | OUTPUT |     • Panama's diplomatic flip-flop (recognizing China then sending lawmakers to Taiwan)
+2026-01-30 13:13:20 | OUTPUT |     • The 'One China' policy and its implications
+2026-01-30 13:13:20 | OUTPUT |     • The power imbalance between China and Panama
+2026-01-30 13:13:20 | OUTPUT |     • The idea of small nations trying to appease larger ones
+2026-01-30 13:13:20 | OUTPUT |     • The concept of 'face' in international diplomacy
+2026-01-30 13:13:20 | OUTPUT |     • The lawmakers themselves and their motivations for the trip
+2026-01-30 13:13:20 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:20 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 13:13:20 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:20 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and strongly objects to any official interactions between other countries and the Taiwanese government, considering it a challenge to its "One China" policy. Panama, having switched diplomatic recognition from Taiwan to China in 2017, is now facing criticism from China for allowing its lawmakers to visit Taiwan, suggesting a potential backsliding on its commitment to the "One China" principle. The "row" implies a significant level of diplomatic tension, potentially involving protests, sanctions, or strained relations. The subtext is about the ongoing geopolitical struggle between China and Taiwan, and the pressure China exerts on other nations to adhere to its stance. It also highlights the delicate balancing act smaller nations like Panama must perform when navigating relations with both major powers.
+2026-01-30 13:13:20 | OUTPUT |   potential_targets:
+2026-01-30 13:13:20 | OUTPUT |     • China's sensitivity over Taiwan
+2026-01-30 13:13:20 | OUTPUT |     • Panama's diplomatic flip-flop (recognizing China then sending lawmakers to Taiwan)
+2026-01-30 13:13:20 | OUTPUT |     • The 'One China' policy and its implications
+2026-01-30 13:13:20 | OUTPUT |     • The power imbalance between China and Panama
+2026-01-30 13:13:20 | OUTPUT |     • The idea of small nations trying to appease larger ones
+2026-01-30 13:13:20 | OUTPUT |     • The concept of 'face' in international diplomacy
+2026-01-30 13:13:20 | OUTPUT |     • The lawmakers themselves and their motivations for the trip
+2026-01-30 13:13:20 | OUTPUT |   semantic_associations:
+2026-01-30 13:13:20 | OUTPUT |     • Panama: Panama Canal, financial secrecy, historically US influence, relatively small nation, strategic location
+2026-01-30 13:13:20 | OUTPUT |     • Taiwan: Self-governed island, democracy, technology industry (semiconductors), contested political status, US support
+2026-01-30 13:13:20 | OUTPUT |     • China: Authoritarian government, economic superpower, 'One China' policy, assertive foreign policy, military strength
+2026-01-30 13:13:20 | OUTPUT |     • Diplomatic row: International relations, political tension, potential economic consequences, face-saving, protests, sanctions
+2026-01-30 13:13:20 | OUTPUT |     • Lawmakers: Politicians, representatives of the people, potential for independent action, susceptible to lobbying, travel expenses
+2026-01-30 13:13:20 | OUTPUT |     • Taiwan trip: Symbolic gesture, show of support, potential economic benefits, risk of retaliation
+2026-01-30 13:13:39 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:39 | OUTPUT |   🎯 CANDIDATE [1,2]
+2026-01-30 13:13:39 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:39 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:13:39 | OUTPUT |     focal_targets: Panama's diplomatic recognition switch and subsequent lawmaker visit to Taiwan.
+2026-01-30 13:13:39 | OUTPUT |     cognitive_manipulation: Reframe Panama’s diplomatic actions as a passive-aggressive form of communication, interpreting the lawmaker visit not as a genuine gesture of support for Taiwan, but as a deliberately provocative 'poke' at China disguised as a routine trip.
+2026-01-30 13:13:39 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 13:13:39 | OUTPUT |     script_opposition: Complete Diplomatic Severance vs. Coded Diplomatic Communication
+2026-01-30 13:13:39 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:13:39 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 13:13:39 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:13:39 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:13:39 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:13:39 | OUTPUT |     │ Q: Following Panama’s 2017 decision to recognize Beijing,  │
+2026-01-30 13:13:39 | OUTPUT |     │ what message were they hoping to send to the world about   │
+2026-01-30 13:13:39 | OUTPUT |     │ their foreign policy? A: “We’re fully committed to the     │
+2026-01-30 13:13:39 | OUTPUT |     │ ‘One China’ policy… but also, just a little ‘hello’ to     │
+2026-01-30 13:13:39 | OUTPUT |     │ Taipei. Consider it a strongly worded postcard.”           │
+2026-01-30 13:13:39 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:13:42 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:42 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 13:13:42 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:42 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:13:42 | OUTPUT |     focal_targets: Panama's diplomatic recognition switch and subsequent lawmaker visit to Taiwan.
+2026-01-30 13:13:42 | OUTPUT |     cognitive_manipulation: Reframe Panama’s diplomatic actions as a passive-aggressive form of communication, interpreting the lawmaker visit not as a genuine gesture of support for Taiwan, but as a deliberately provocative 'poke' at China disguised as a routine trip.
+2026-01-30 13:13:42 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 13:13:42 | OUTPUT |     script_opposition: Formal Diplomatic Severance vs. Subversive Communication
+2026-01-30 13:13:42 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:13:42 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 13:13:42 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:13:42 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:13:42 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:13:42 | OUTPUT |     │ So, Panama switched its diplomatic recognition to China a  │
+2026-01-30 13:13:42 | OUTPUT |     │ few years back, right? A pretty clear signal. A clean      │
+2026-01-30 13:13:42 | OUTPUT |     │ break. Turns out, “clean break” just meant they sent a     │
+2026-01-30 13:13:42 | OUTPUT |     │ delegation to Taiwan for a little “fact-finding” mission.  │
+2026-01-30 13:13:42 | OUTPUT |     │ Apparently, facts are best found where you’re not supposed │
+2026-01-30 13:13:42 | OUTPUT |     │ to look for them.                                          │
+2026-01-30 13:13:42 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:13:45 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:45 | OUTPUT |   🎯 CANDIDATE [2,2]
+2026-01-30 13:13:45 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:13:45 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:13:45 | OUTPUT |     focal_targets: Panama's diplomatic recognition switch and subsequent lawmaker visit to Taiwan.
+2026-01-30 13:13:45 | OUTPUT |     cognitive_manipulation: Reframe Panama’s diplomatic actions as a passive-aggressive form of communication, interpreting the lawmaker visit not as a genuine gesture of support for Taiwan, but as a deliberately provocative 'poke' at China disguised as a routine trip.
+2026-01-30 13:13:45 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 13:13:45 | OUTPUT |     script_opposition: Formal Diplomatic Severance vs. Subversive Communication
+2026-01-30 13:13:45 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:13:45 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 13:13:45 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:13:45 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:13:45 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:13:45 | OUTPUT |     │ Breaking news tonight: Panama, after officially            │
+2026-01-30 13:13:45 | OUTPUT |     │ recognizing China in 2017, is facing a diplomatic crisis.  │
+2026-01-30 13:13:45 | OUTPUT |     │ Apparently, a delegation of Panamanian lawmakers just      │
+2026-01-30 13:13:45 | OUTPUT |     │ completed a “fact-finding” mission to Taiwan. Sources say  │
+2026-01-30 13:13:45 | OUTPUT |     │ the mission’s primary objective wasn’t assessing Taiwan’s  │
+2026-01-30 13:13:45 | OUTPUT |     │ semiconductor industry, but sending a very                 │
+2026-01-30 13:13:45 | OUTPUT |     │ passive-aggressive postcard to Beijing.                    │
+2026-01-30 13:13:45 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:13:49 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:13:49 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 13:14:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:03 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 13:14:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:03 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:14:03 | OUTPUT |     focal_targets: Panama's diplomatic recognition switch and subsequent lawmaker visit to Taiwan.
+2026-01-30 13:14:03 | OUTPUT |     cognitive_manipulation: Reframe Panama’s diplomatic actions as a passive-aggressive form of communication, interpreting the lawmaker visit not as a genuine gesture of support for Taiwan, but as a deliberately provocative 'poke' at China disguised as a routine trip.
+2026-01-30 13:14:03 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 13:14:03 | OUTPUT |     script_opposition: Formal Diplomatic Severance vs. Passive-Aggressive Signaling
+2026-01-30 13:14:03 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:14:03 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 13:14:03 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:14:03 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:14:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:03 | OUTPUT |     │ Q: So, Panama switched its diplomatic recognition to China │
+2026-01-30 13:14:03 | OUTPUT |     │ a few years back, right? A pretty clear signal. A:         │
+2026-01-30 13:14:03 | OUTPUT |     │ Apparently, “clear” is a relative term. They just sent a   │
+2026-01-30 13:14:03 | OUTPUT |     │ delegation to Taiwan. It’s like breaking up with someone,  │
+2026-01-30 13:14:03 | OUTPUT |     │ then repeatedly waving at them from across the street.     │
+2026-01-30 13:14:03 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:03 | OUTPUT |   ⚖️ JUDGING: Semi-final 1: Candidate 1 vs 2
+2026-01-30 13:14:03 | OUTPUT |   ⚖️ JUDGING: Semi-final 2: Candidate 3 vs 4
+2026-01-30 13:14:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:03 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-30 13:14:03 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-30 13:14:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:03 | OUTPUT |     │ Q: So, Panama switched its diplomatic recognition to China a few years │
+2026-01-30 13:14:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:03 | OUTPUT |     │ back, right? A pretty clear signal. A: Apparently, “clear” is a        │
+2026-01-30 13:14:03 | OUTPUT |     │ So, Panama switched its diplomatic recognition to China a few years    │
+2026-01-30 13:14:03 | OUTPUT |     │ relative term. They just sent a delegation to Taiwan. It’s like        │
+2026-01-30 13:14:03 | OUTPUT |     │ breaking up with someone, then repeatedly waving at them from across   │
+2026-01-30 13:14:03 | OUTPUT |     │ back, right? A pretty clear signal. A clean break. Turns out, “clean   │
+2026-01-30 13:14:03 | OUTPUT |     │ the street.                                                            │
+2026-01-30 13:14:03 | OUTPUT |     │ break” just meant they sent a delegation to Taiwan for a little        │
+2026-01-30 13:14:03 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:03 | OUTPUT |     │ “fact-finding” mission. Apparently, facts are best found where you’re  │
+2026-01-30 13:14:03 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-30 13:14:03 | OUTPUT |     │ not supposed to look for them.                                         │
+2026-01-30 13:14:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:03 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:03 | OUTPUT |     │ Breaking news tonight: Panama, after officially recognizing China in   │
+2026-01-30 13:14:03 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-30 13:14:03 | OUTPUT |     │ 2017, is facing a diplomatic crisis. Apparently, a delegation of       │
+2026-01-30 13:14:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:03 | OUTPUT |     │ Panamanian lawmakers just completed a “fact-finding” mission to        │
+2026-01-30 13:14:03 | OUTPUT |     │ Q: Following Panama’s 2017 decision to recognize Beijing, what message │
+2026-01-30 13:14:03 | OUTPUT |     │ Taiwan. Sources say the mission’s primary objective wasn’t assessing   │
+2026-01-30 13:14:03 | OUTPUT |     │ were they hoping to send to the world about their foreign policy? A:   │
+2026-01-30 13:14:03 | OUTPUT |     │ Taiwan’s semiconductor industry, but sending a very passive-aggressive │
+2026-01-30 13:14:03 | OUTPUT |     │ “We’re fully committed to the ‘One China’ policy… but also, just a     │
+2026-01-30 13:14:03 | OUTPUT |     │ postcard to Beijing.                                                   │
+2026-01-30 13:14:03 | OUTPUT |     │ little ‘hello’ to Taipei. Consider it a strongly worded postcard.”     │
+2026-01-30 13:14:03 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:03 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:10 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:10 | OUTPUT |   📦 HumorJudge
+2026-01-30 13:14:10 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:10 | OUTPUT |   critique:
+2026-01-30 13:14:10 | OUTPUT |     Both jokes attempt to leverage the irony of Panama recognizing China while still seemingly maintaining ties with Taiwan. Joke 1 is a longer, more narrative approach. It sets up the "clean break" expectation and then subverts it with the "fact-finding mission" reveal. It's reasonably funny, relying on the implied mischievousness of the Panamanian delegation. However, it's a bit wordy and the phrasing ("facts are best found where you’re not supposed to look for them") feels slightly forced and explanatory. It doesn't *quite* land with the punch it aims for.
+2026-01-30 13:14:10 | OUTPUT |     
+2026-01-30 13:14:10 | OUTPUT |     Joke 2, the Q&A format, is much tighter and more effective. The "strongly worded postcard" punchline is a brilliant, concise encapsulation of the situation. It's unexpected, funny, and perfectly captures the diplomatic tightrope Panama is walking. The Q&A format itself adds a layer of playful absurdity. It's also more directly tied to the headline's core issue – the message Panama is sending. It avoids the slight self-awareness of Joke 1 and commits fully to the bit.
+2026-01-30 13:14:10 | OUTPUT |   better_joke: Joke 2
+2026-01-30 13:14:10 | OUTPUT | 
+  🏆 WINNER: Joke 2
+2026-01-30 13:14:10 | OUTPUT | 
+  📋 CRITIQUE:
+2026-01-30 13:14:10 | OUTPUT |     Both jokes attempt to leverage the irony of Panama recognizing Chin...
+2026-01-30 13:14:10 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:10 | OUTPUT |   📦 HumorJudge
+2026-01-30 13:14:10 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:10 | OUTPUT |   critique:
+2026-01-30 13:14:10 | OUTPUT |     Both jokes attempt to leverage the inherent awkwardness of Panama maintaining unofficial ties with Taiwan after officially recognizing China. Joke 1 uses a relatable analogy – the post-breakup waving – which is a strong point. It's concise and the setup is fairly natural. However, the "clear is a relative term" feels a little *too* explanatory; it points out the joke rather than letting it land.
+2026-01-30 13:14:10 | OUTPUT |     
+2026-01-30 13:14:10 | OUTPUT |     Joke 2 is longer and more verbose. The framing as "breaking news" and the detail about the "fact-finding mission" add a layer of satirical reporting, which is amusing. The "passive-aggressive postcard" punchline is clever and more surprising than Joke 1's analogy. However, the length detracts from the impact. It feels like it's trying too hard to be witty and the setup is a bit clunky. The joke also relies on the audience understanding the concept of passive-aggression, which isn't universally funny.
+2026-01-30 13:14:10 | OUTPUT |     
+2026-01-30 13:14:10 | OUTPUT |     In terms of headline relevance, both are strong. They both directly address the core conflict. Joke 1 is more economical and relatable, but Joke 2 has a slightly stronger, more unexpected punchline. The key difference is Joke 2's length and slight over-explanation.
+2026-01-30 13:14:10 | OUTPUT |   better_joke: Joke 2
+2026-01-30 13:14:10 | OUTPUT | 
+  🏆 WINNER: Joke 2
+2026-01-30 13:14:10 | OUTPUT | 
+  📋 CRITIQUE:
+2026-01-30 13:14:10 | OUTPUT |     Both jokes attempt to leverage the inherent awkwardness of Panama m...
+2026-01-30 13:14:10 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:10 | OUTPUT |   ⚖️ JUDGING: Final: Winner 1 vs Winner 2
+2026-01-30 13:14:10 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:10 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-30 13:14:10 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:10 | OUTPUT |     │ Q: Following Panama’s 2017 decision to recognize Beijing, what message │
+2026-01-30 13:14:10 | OUTPUT |     │ were they hoping to send to the world about their foreign policy? A:   │
+2026-01-30 13:14:10 | OUTPUT |     │ “We’re fully committed to the ‘One China’ policy… but also, just a     │
+2026-01-30 13:14:10 | OUTPUT |     │ little ‘hello’ to Taipei. Consider it a strongly worded postcard.”     │
+2026-01-30 13:14:10 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:10 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-30 13:14:10 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:10 | OUTPUT |     │ Breaking news tonight: Panama, after officially recognizing China in   │
+2026-01-30 13:14:10 | OUTPUT |     │ 2017, is facing a diplomatic crisis. Apparently, a delegation of       │
+2026-01-30 13:14:10 | OUTPUT |     │ Panamanian lawmakers just completed a “fact-finding” mission to        │
+2026-01-30 13:14:10 | OUTPUT |     │ Taiwan. Sources say the mission’s primary objective wasn’t assessing   │
+2026-01-30 13:14:10 | OUTPUT |     │ Taiwan’s semiconductor industry, but sending a very passive-aggressive │
+2026-01-30 13:14:10 | OUTPUT |     │ postcard to Beijing.                                                   │
+2026-01-30 13:14:10 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:17 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:17 | OUTPUT |   📦 HumorJudge
+2026-01-30 13:14:17 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:17 | OUTPUT |   critique:
+2026-01-30 13:14:17 | OUTPUT |     Both jokes attempt to leverage the passive-aggressive nature of Panama sending lawmakers to Taiwan after recognizing China. Joke 1 uses a Q&A format, which can be hit or miss. The punchline, while attempting to be witty, feels a little clunky and relies heavily on the image of a "strongly worded postcard" which isn't *inherently* funny. It's a bit of a reach. It's also a little explanatory – the setup *implies* a contradiction, and the punchline spells it out.
+2026-01-30 13:14:17 | OUTPUT |     
+2026-01-30 13:14:17 | OUTPUT |     Joke 2 is structured as a news report snippet, which is a stronger framing device for this headline. The phrasing "fact-finding mission" and "passive-aggressive postcard" are more naturally funny and land with more impact. The setup is more concise and the punchline feels more organic to the scenario. It's a more confident delivery. It also feels more aligned with how someone would *actually* talk about this situation, making it more relatable. The news report framing adds a layer of ironic detachment that enhances the humor.
+2026-01-30 13:14:17 | OUTPUT |   better_joke: Joke 2
+2026-01-30 13:14:17 | OUTPUT | 
+  🏆 WINNER: Joke 2
+2026-01-30 13:14:17 | OUTPUT | 
+  📋 CRITIQUE:
+2026-01-30 13:14:17 | OUTPUT |     Both jokes attempt to leverage the passive-aggressive nature of Pan...
+2026-01-30 13:14:17 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:14:17 | OUTPUT |   🏆 FINAL SELECTION
+2026-01-30 13:14:17 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:14:17 | OUTPUT | 
+  JUDGE'S CRITIQUE:
+2026-01-30 13:14:17 | OUTPUT |     Selected as best joke from tournament bracket
+2026-01-30 13:14:17 | OUTPUT | 
+  WINNING JOKE:
+2026-01-30 13:14:17 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:17 | OUTPUT |     │ Breaking news tonight: Panama, after officially            │
+2026-01-30 13:14:17 | OUTPUT |     │ recognizing China in 2017, is facing a diplomatic crisis.  │
+2026-01-30 13:14:17 | OUTPUT |     │ Apparently, a delegation of Panamanian lawmakers just      │
+2026-01-30 13:14:17 | OUTPUT |     │ completed a “fact-finding” mission to Taiwan. Sources say  │
+2026-01-30 13:14:17 | OUTPUT |     │ the mission’s primary objective wasn’t assessing Taiwan’s  │
+2026-01-30 13:14:17 | OUTPUT |     │ semiconductor industry, but sending a very                 │
+2026-01-30 13:14:17 | OUTPUT |     │ passive-aggressive postcard to Beijing.                    │
+2026-01-30 13:14:17 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:17 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:14:17 | OUTPUT |   🎭 WORD INCLUSION JOKE - current
+2026-01-30 13:14:17 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:14:17 | OUTPUT | 
+  INPUT: hammer, flower
+2026-01-30 13:14:24 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:24 | OUTPUT |   📦 ContextEnricher
+2026-01-30 13:14:24 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:24 | OUTPUT |   situation: A frustrated sculptor attempting to create a floral sculpture. A clumsy gardener trying to install a trellis. A home improvement project gone wrong where someone tried to hang a flower basket with a hammer and failed spectacularly. A symbolic representation of destruction and creation – a flower being "built" or a structure being "beautified." A whimsical garden gnome's workshop.
+2026-01-30 13:14:24 | OUTPUT |   semantic_associations:
+2026-01-30 13:14:24 | OUTPUT |     • hammer: tool, construction, force, masculinity, repair, hitting, blunt instrument, Thor, 'nail it', working class, DIY, potentially destructive.
+2026-01-30 13:14:24 | OUTPUT |     • flower: beauty, fragility, nature, femininity, romance, gardens, gifts, spring, delicate, fleeting, symbolism (love, loss, remembrance), peaceful, growth.
+2026-01-30 13:14:24 | OUTPUT |   potential_targets:
+2026-01-30 13:14:24 | OUTPUT |     • A hammer trying to gently pollinate a flower.
+2026-01-30 13:14:24 | OUTPUT |     • A flower defending itself against a hammer with thorns.
+2026-01-30 13:14:24 | OUTPUT |     • A sculptor who only builds sculptures *of* hammers, but insists on adorning them with flowers.
+2026-01-30 13:14:24 | OUTPUT |     • A flower that's surprisingly good at carpentry.
+2026-01-30 13:14:24 | OUTPUT |     • A hammer that's secretly a flower in disguise.
+2026-01-30 13:14:24 | OUTPUT |     • The existential crisis of a flower realizing it's about to be hammered into something.
+2026-01-30 13:14:24 | OUTPUT |     • A romantic comedy where a hammer falls in love with a flower.
+2026-01-30 13:14:24 | OUTPUT |     • A flower shop that also sells power tools.
+2026-01-30 13:14:24 | OUTPUT |     • A hammer used to *gently* tap a flower pot into place, with overly dramatic narration.
+2026-01-30 13:14:24 | OUTPUT |     • A flower arrangement designed to look like a toolbox, complete with hammer-shaped blooms.
+2026-01-30 13:14:24 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:24 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 13:14:24 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:24 | OUTPUT |   situation: A frustrated sculptor attempting to create a floral sculpture. A clumsy gardener trying to install a trellis. A home improvement project gone wrong where someone tried to hang a flower basket with a hammer and failed spectacularly. A symbolic representation of destruction and creation – a flower being "built" or a structure being "beautified." A whimsical garden gnome's workshop.
+2026-01-30 13:14:24 | OUTPUT |   potential_targets:
+2026-01-30 13:14:24 | OUTPUT |     • A hammer trying to gently pollinate a flower.
+2026-01-30 13:14:24 | OUTPUT |     • A flower defending itself against a hammer with thorns.
+2026-01-30 13:14:24 | OUTPUT |     • A sculptor who only builds sculptures *of* hammers, but insists on adorning them with flowers.
+2026-01-30 13:14:24 | OUTPUT |     • A flower that's surprisingly good at carpentry.
+2026-01-30 13:14:24 | OUTPUT |     • A hammer that's secretly a flower in disguise.
+2026-01-30 13:14:24 | OUTPUT |     • The existential crisis of a flower realizing it's about to be hammered into something.
+2026-01-30 13:14:24 | OUTPUT |     • A romantic comedy where a hammer falls in love with a flower.
+2026-01-30 13:14:24 | OUTPUT |     • A flower shop that also sells power tools.
+2026-01-30 13:14:24 | OUTPUT |     • A hammer used to *gently* tap a flower pot into place, with overly dramatic narration.
+2026-01-30 13:14:24 | OUTPUT |     • A flower arrangement designed to look like a toolbox, complete with hammer-shaped blooms.
+2026-01-30 13:14:24 | OUTPUT |   semantic_associations:
+2026-01-30 13:14:24 | OUTPUT |     • hammer: tool, construction, force, masculinity, repair, hitting, blunt instrument, Thor, 'nail it', working class, DIY, potentially destructive.
+2026-01-30 13:14:24 | OUTPUT |     • flower: beauty, fragility, nature, femininity, romance, gardens, gifts, spring, delicate, fleeting, symbolism (love, loss, remembrance), peaceful, growth.
+2026-01-30 13:14:40 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:40 | OUTPUT |   🎯 CANDIDATE [2,2]
+2026-01-30 13:14:40 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:14:40 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:14:40 | OUTPUT |     focal_targets: The contrasting functionalities and implied gentleness/force of each object. The hammer represents forceful construction and potential destruction, while the flower embodies delicate beauty and natural growth. The joke will hinge on reversing these expectations.
+2026-01-30 13:14:40 | OUTPUT |     cognitive_manipulation: Attribute the intentionality and delicate precision typically associated with floral arrangement to the hammer, imagining it performing tasks requiring finesse instead of brute force, thereby anthropomorphizing the tool and subverting its inherent purpose.
+2026-01-30 13:14:40 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 13:14:40 | OUTPUT |     script_opposition: Force vs. Fragility
+2026-01-30 13:14:40 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:14:40 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 13:14:40 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:14:40 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:14:40 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:14:40 | OUTPUT |     │ Agnes, staring intently at a wilting bouquet, sighed to    │
+2026-01-30 13:14:40 | OUTPUT |     │ her husband, Bernard. “Honestly, these flowers are just…   │
+2026-01-30 13:14:40 | OUTPUT |     │ drooping. I’ve tried everything. Water, sunlight, talking  │
+2026-01-30 13:14:40 | OUTPUT |     │ to them nicely. It’s hopeless.” Bernard, ever the          │
+2026-01-30 13:14:40 | OUTPUT |     │ practical one, grabbed a tool from the shed. “Don’t worry, │
+2026-01-30 13:14:40 | OUTPUT |     │ dear,” he said, hefting a hammer. “I’ll just gently…       │
+2026-01-30 13:14:40 | OUTPUT |     │ persuade them to stand up straight.”                       │
+2026-01-30 13:14:40 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:14:45 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:14:45 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 13:14:45 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:14:45 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 13:14:48 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:14:48 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 13:15:01 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 13:15:01 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 13:15:01 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 2/10...
+2026-01-30 13:15:01 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:15:01 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 13:15:02 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:15:02 | OUTPUT |   🎯 CANDIDATE [1,2]
+2026-01-30 13:15:02 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:15:02 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:15:02 | OUTPUT |     focal_targets: The contrasting functions and implied force of a hammer versus the delicate fragility of a flower. The hammer represents intentional, forceful shaping, while the flower embodies natural, gentle growth.
+2026-01-30 13:15:02 | OUTPUT |     cognitive_manipulation: Recontextualize the hammer not as a tool for destruction or construction, but as an instrument attempting to *enhance* the flower, specifically by applying its forceful action to something that inherently resists it, creating a humorous mismatch of intent and outcome.
+2026-01-30 13:15:02 | OUTPUT |     logical_mechanism: Absurdity
+2026-01-30 13:15:02 | OUTPUT |     script_opposition: Force vs. Fragility
+2026-01-30 13:15:02 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:15:02 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 13:15:02 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:15:02 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:15:02 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:15:02 | OUTPUT |     │ Agnes, the sculptor, stared at the wilting rose. “Right,”  │
+2026-01-30 13:15:02 | OUTPUT |     │ she muttered to her assistant, Bernard. “This floral       │
+2026-01-30 13:15:02 | OUTPUT |     │ arrangement needs…structure. It’s just lacking…oomph. I    │
+2026-01-30 13:15:02 | OUTPUT |     │ need something to really *make* it pop.” Bernard, ever the │
+2026-01-30 13:15:02 | OUTPUT |     │ pragmatist, raised an eyebrow. Agnes grabbed a hammer.     │
+2026-01-30 13:15:02 | OUTPUT |     │ “Don’t worry, Bernard,” she said with unsettling           │
+2026-01-30 13:15:02 | OUTPUT |     │ confidence. “I’m about to give this flower a foundation it │
+2026-01-30 13:15:02 | OUTPUT |     │ will *never* forget.”                                      │
+2026-01-30 13:15:02 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:15:16 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:15:16 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 13:15:17 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:15:17 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 13:15:36 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:15:36 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-30 13:15:37 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 13:15:37 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-30 13:16:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:03 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 13:16:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:03 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:16:03 | OUTPUT |     focal_targets: The contrasting functionalities and implied gentleness/force of each object. The hammer represents forceful construction and potential destruction, while the flower embodies delicate beauty and natural growth. The joke will hinge on reversing these expectations.
+2026-01-30 13:16:03 | OUTPUT |     cognitive_manipulation: Attribute the intentionality and delicate precision typically associated with floral arrangement to the hammer, imagining it performing tasks requiring finesse instead of brute force, thereby anthropomorphizing the tool and subverting its inherent purpose.
+2026-01-30 13:16:03 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 13:16:03 | OUTPUT |     script_opposition: Force vs. Delicacy
+2026-01-30 13:16:03 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:16:03 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 13:16:03 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:16:03 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:16:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:16:03 | OUTPUT |     │ Agnes, the sculptor, was having a terrible day.            │
+2026-01-30 13:16:03 | OUTPUT |     │ “Honestly,” she muttered to her assistant, “getting the    │
+2026-01-30 13:16:03 | OUTPUT |     │ petals to hold this shape is impossible. It’s just…not     │
+2026-01-30 13:16:03 | OUTPUT |     │ cooperating. I need something with a little                │
+2026-01-30 13:16:03 | OUTPUT |     │ more…persuasion.” Her assistant blinked. “You’re going to  │
+2026-01-30 13:16:03 | OUTPUT |     │ use a hammer on a flower?” Agnes sighed. “Don’t judge me.  │
+2026-01-30 13:16:03 | OUTPUT |     │ It’s modern art.”                                          │
+2026-01-30 13:16:03 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:16:07 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:07 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 13:16:07 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:07 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 13:16:07 | OUTPUT |     focal_targets: The contrasting functions and implied force of a hammer versus the delicate fragility of a flower. The hammer represents intentional, forceful shaping, while the flower embodies natural, gentle growth.
+2026-01-30 13:16:07 | OUTPUT |     cognitive_manipulation: Recontextualize the hammer not as a tool for destruction or construction, but as an instrument attempting to *enhance* the flower, specifically by applying its forceful action to something that inherently resists it, creating a humorous mismatch of intent and outcome.
+2026-01-30 13:16:07 | OUTPUT |     logical_mechanism: Absurdity
+2026-01-30 13:16:07 | OUTPUT |     script_opposition: Force vs. Fragility
+2026-01-30 13:16:07 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 13:16:07 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 13:16:07 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 13:16:07 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 13:16:07 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:16:07 | OUTPUT |     │ Agnes, the sculptor, stared at the wilting rose. “Right,”  │
+2026-01-30 13:16:07 | OUTPUT |     │ she muttered to her assistant, Bernard. “This floral       │
+2026-01-30 13:16:07 | OUTPUT |     │ arrangement needs…structure. It’s just lacking *oomph*. I  │
+2026-01-30 13:16:07 | OUTPUT |     │ need something to really…define the petals.” Bernard, ever │
+2026-01-30 13:16:07 | OUTPUT |     │ the pragmatist, raised an eyebrow. Agnes grabbed a tool    │
+2026-01-30 13:16:07 | OUTPUT |     │ from her workbench. “I’ve got it! A little percussive      │
+2026-01-30 13:16:07 | OUTPUT |     │ encouragement.” She then proceeded to attempt to shape the │
+2026-01-30 13:16:07 | OUTPUT |     │ delicate bloom with a *hammer*. Bernard simply sighed, “I  │
+2026-01-30 13:16:07 | OUTPUT |     │ believe the problem wasn’t a lack of definition, Agnes.”   │
+2026-01-30 13:16:07 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 13:16:07 | WARNING | Candidate 3 failed validation: [{'name': 'word_inclusion', 'passed': False, 'details': {"'hammer'": '✅ found', "'flower'": '❌ missing'}}]
+2026-01-30 13:16:07 | WARNING | Candidate 4 failed validation: [{'name': 'word_inclusion', 'passed': False, 'details': {"'hammer'": '✅ found', "'flower'": '❌ missing'}}]
+2026-01-30 13:16:07 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:07 | OUTPUT |   ⚖️ JUDGING: Final: Candidate 1 vs 2
+2026-01-30 13:16:07 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:07 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-30 13:16:07 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:16:07 | OUTPUT |     │ Agnes, the sculptor, was having a terrible day. “Honestly,” she        │
+2026-01-30 13:16:07 | OUTPUT |     │ muttered to her assistant, “getting the petals to hold this shape is   │
+2026-01-30 13:16:07 | OUTPUT |     │ impossible. It’s just…not cooperating. I need something with a little  │
+2026-01-30 13:16:07 | OUTPUT |     │ more…persuasion.” Her assistant blinked. “You’re going to use a hammer │
+2026-01-30 13:16:07 | OUTPUT |     │ on a flower?” Agnes sighed. “Don’t judge me. It’s modern art.”         │
+2026-01-30 13:16:07 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:16:07 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-30 13:16:07 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 13:16:07 | OUTPUT |     │ Agnes, the sculptor, stared at the wilting rose. “Right,” she muttered │
+2026-01-30 13:16:07 | OUTPUT |     │ to her assistant, Bernard. “This floral arrangement needs…structure.   │
+2026-01-30 13:16:07 | OUTPUT |     │ It’s just lacking…oomph. I need something to really *make* it pop.”    │
+2026-01-30 13:16:07 | OUTPUT |     │ Bernard, ever the pragmatist, raised an eyebrow. Agnes grabbed a       │
+2026-01-30 13:16:07 | OUTPUT |     │ hammer. “Don’t worry, Bernard,” she said with unsettling confidence.   │
+2026-01-30 13:16:07 | OUTPUT |     │ “I’m about to give this flower a foundation it will *never* forget.”   │
+2026-01-30 13:16:07 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 13:16:16 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:16 | OUTPUT |   📦 HumorJudge
+2026-01-30 13:16:16 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 13:16:16 | OUTPUT |   critique:
+2026-01-30 13:16:16 | OUTPUT |     Both jokes successfully include the words "hammer" and "flower." Let's analyze them based on the provided criteria.
+2026-01-30 13:16:16 | OUTPUT |     
+2026-01-30 13:16:16 | OUTPUT |     **Joke 1:** The integration of "hammer" and "flower" is somewhat clunky. The setup relies on Agnes being frustrated with sculpting petals, and the hammer feels like a desperate, slightly illogical escalation. The humor comes from the absurdity of using a hammer on a flower *in the context of modern art*, which is a decent save. The delivery is okay, but the punchline isn't a huge laugh-getter. It's more of a wry chuckle.
+2026-01-30 13:16:16 | OUTPUT |     
+2026-01-30 13:16:16 | OUTPUT |     **Joke 2:** This joke is significantly stronger. The setup – a wilting rose needing "structure" – is more relatable and sets the stage for a more surprising and funny punchline. The line "I’m about to give this flower a foundation it will *never* forget" is excellent. The hammer feels less random here; it's presented as a bizarre, over-the-top solution to a floral arrangement problem. The integration of the words feels much more natural and the surprise is better executed. The commitment to the unsettling confidence of Agnes is also a plus.
+2026-01-30 13:16:16 | OUTPUT |     
+2026-01-30 13:16:16 | OUTPUT |     In terms of the evaluation criteria, Joke 2 excels in surprise, creative connection, and commitment. Joke 1 feels more like a word-inclusion exercise, while Joke 2 feels like a genuinely funny scenario.
+2026-01-30 13:16:16 | OUTPUT |   better_joke: Joke 2
+2026-01-30 13:16:16 | OUTPUT | 
+  🏆 WINNER: Joke 2
+2026-01-30 13:16:16 | OUTPUT | 
+  📋 CRITIQUE:
+2026-01-30 13:16:16 | OUTPUT |     Both jokes successfully include the words "hammer" and "flower." Le...
+2026-01-30 13:16:16 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:16:16 | OUTPUT |   🏆 FINAL SELECTION
+2026-01-30 13:16:16 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 13:16:16 | OUTPUT | 
+  JUDGE'S CRITIQUE:
+2026-01-30 13:16:16 | OUTPUT |     Selected as best joke from tournament bracket
+2026-01-30 13:16:16 | OUTPUT | 
+  WINNING JOKE:
+2026-01-30 13:16:16 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 13:16:16 | OUTPUT |     │ Agnes, the sculptor, stared at the wilting rose. “Right,”  │
+2026-01-30 13:16:16 | OUTPUT |     │ she muttered to her assistant, Bernard. “This floral       │
+2026-01-30 13:16:16 | OUTPUT |     │ arrangement needs…structure. It’s just lacking…oomph. I    │
+2026-01-30 13:16:16 | OUTPUT |     │ need something to really *make* it pop.” Bernard, ever the │
+2026-01-30 13:16:16 | OUTPUT |     │ pragmatist, raised an eyebrow. Agnes grabbed a hammer.     │
+2026-01-30 13:16:16 | OUTPUT |     │ “Don’t worry, Bernard,” she said with unsettling           │
+2026-01-30 13:16:16 | OUTPUT |     │ confidence. “I’m about to give this flower a foundation it │
+2026-01-30 13:16:16 | OUTPUT |     │ will *never* forget.”                                      │
+2026-01-30 13:16:16 | OUTPUT |     └────────────────────────────────────────────────────────────┘

@@ -1,0 +1,350 @@
+2026-01-29 09:56:21 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:56:21 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - TEST MODE
+2026-01-29 09:56:21 | [32mINFO[0m | ================================================================================
+2026-01-29 09:56:21 | [32mINFO[0m | Task: b1
+2026-01-29 09:56:21 | [32mINFO[0m | Provider: gemini
+2026-01-29 09:56:21 | [32mINFO[0m | Resume: False
+2026-01-29 09:56:21 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260129_095621.log
+2026-01-29 09:56:21 | [32mINFO[0m | ✅ API configured: gemini
+2026-01-29 09:56:21 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:56:21 | [32mINFO[0m |  🖼️ TASK B1 - GIF CAPTIONS
+2026-01-29 09:56:21 | [32mINFO[0m | ================================================================================
+2026-01-29 09:56:21 | [32mINFO[0m | Loaded 300 items from task-b1.tsv
+2026-01-29 09:56:21 | [32mINFO[0m | Test mode: selected 1 items
+2026-01-29 09:56:21 | [32mINFO[0m | Progress [Task B1]: |██████████████████████████████| 1/1 (100.0%)
+2026-01-29 09:56:21 | [32mINFO[0m | 🎬 Analyzing GIF: https://media3.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZW9tYzB2eW...
+2026-01-29 09:56:21 | [32mINFO[0m | 🎬 Analyzing GIF for B1: https://media3.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZW9tYzB2eW...
+2026-01-29 09:56:21 | [36mDEBUG[0m | Downloading GIF from: https://media3.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZW9tYzB2eWEzajc4Zmd0cTJodnhqaHRudmltMDZmYjFxZHQxdTFpbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kqWmu53V2RaM1M1cq1/giphy.gif
+2026-01-29 09:56:23 | [36mDEBUG[0m | GIF saved to temp file (size: 2361876 bytes)
+2026-01-29 09:56:24 | [36mDEBUG[0m | Converted GIF to MP4: /tmp/tmpb9p4fzqh.mp4
+2026-01-29 09:56:24 | [36mDEBUG[0m | Uploading MP4 to Gemini...
+2026-01-29 09:56:27 | [36mDEBUG[0m | Waiting for video processing...
+2026-01-29 09:56:29 | [36mDEBUG[0m | Waiting for video processing...
+2026-01-29 09:56:30 | [36mDEBUG[0m | Video upload complete: files/a2cg7csjv8k6
+2026-01-29 09:56:30 | [36mDEBUG[0m | Calling Gemini API (attempt 1)
+2026-01-29 09:56:35 | [32mINFO[0m | ✅ GIF analysis complete (3708 chars)
+2026-01-29 09:56:35 | [36mDEBUG[0m | Description preview: This GIF features a close-up of a bright yellow, anthropomorphic cartoon chick, likely a duckling, wearing oversized, blue-framed square sunglasses. The chick is positioned behind what appears to be a...
+2026-01-29 09:56:38 | [32mINFO[0m | 📝 GIF description: This GIF features a close-up of a bright yellow, anthropomorphic cartoon chick, likely a duckling, wearing oversized, blue-framed square sunglasses. T...
+2026-01-29 09:56:38 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:56:38 | [32mINFO[0m |  🎭 GIF CAPTION PIPELINE [B1]
+2026-01-29 09:56:38 | [32mINFO[0m | ================================================================================
+2026-01-29 09:56:38 | [32mINFO[0m | Input: This GIF features a close-up of a bright yellow, anthropomorphic cartoon chick, likely a duckling, wearing oversized, blue-framed square sunglasses. The chick is positioned behind what appears to be a...
+2026-01-29 09:56:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:56:38 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 09:56:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:56:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:56:38 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 09:56:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:56:38 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:56:38 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 09:56:38 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:56:38 | [32mINFO[0m |   original_input: This GIF features a close-up of a bright yellow, anthropomorphic cartoon chick, likely a duckling, wearing oversized, blue-framed square sunglasses. The chick is positioned behind what appears to be a...
+2026-01-29 09:56:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:56:55 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 09:56:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:56:55 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 1249 in / 0 out
+2026-01-29 09:56:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:56:55 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 09:56:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:56:55 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:56:55 | [36mDEBUG[0m |   Response: ModelResponse(id='j-F6afrKCMWeg8UP0-j9oAY', created=1769660798, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis is footage from the secret, highly competitive world of miniature demolition derby, where chicks are the only drivers allowed. Our little guy just realized he accidentally signed up for the "Exploding Watermelon" round.\n\n[[ ## semantic_associations ## ]]\n["...
+2026-01-29 09:56:55 | [32mINFO[0m |   📊 Tokens: 1249 in / 0 out = 1249 total
+2026-01-29 09:56:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:56:55 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 09:56:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:56:55 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 09:56:55 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 09:56:55 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 09:56:55 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 09:56:55 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 09:56:55 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 09:56:55 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 09:56:55 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 09:57:06 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1680 in / 0 out
+2026-01-29 09:57:06 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 09:57:06 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:57:09 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1681 in / 0 out
+2026-01-29 09:57:09 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 09:57:09 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:57:10 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1680 in / 0 out
+2026-01-29 09:57:10 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 09:57:10 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:57:12 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1681 in / 0 out
+2026-01-29 09:57:12 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 09:57:12 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:57:19 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 1427 in / 0 out
+2026-01-29 09:57:19 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 09:57:19 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 09:57:20 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,1]]: 1420 in / 0 out
+2026-01-29 09:57:20 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 09:57:20 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 09:57:22 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 1418 in / 0 out
+2026-01-29 09:57:22 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 09:57:22 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 09:57:23 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,2]]: 1420 in / 0 out
+2026-01-29 09:57:23 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 09:57:23 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 09:57:30 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:57:30 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 09:57:30 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:57:30 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 09:57:32 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:57:32 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 09:57:34 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:57:34 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 09:57:35 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 09:57:35 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 09:57:37 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 09:57:39 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 09:57:46 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:57:46 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-29 09:57:47 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:57:47 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-29 09:57:48 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:57:48 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-29 09:57:49 | [36mDEBUG[0m | Token tracking [ContentWriter [2,2]]: 2127 in / 0 out
+2026-01-29 09:57:49 | [32mINFO[0m | ✅ [2,2] Generated: When you realize the demolition derby is exploding watermelons and you're just a...
+2026-01-29 09:57:51 | [32mINFO[0m | 🔄 Retrying now (attempt 3/11)...
+2026-01-29 09:57:51 | [32mINFO[0m | 🔄 Retrying now (attempt 3/11)...
+2026-01-29 09:57:53 | [32mINFO[0m | 🔄 Retrying now (attempt 3/11)...
+2026-01-29 09:58:01 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:58:01 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-29 09:58:02 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:58:02 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-29 09:58:03 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:58:03 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-29 09:58:11 | [32mINFO[0m | 🔄 Retrying now (attempt 4/11)...
+2026-01-29 09:58:12 | [32mINFO[0m | 🔄 Retrying now (attempt 4/11)...
+2026-01-29 09:58:13 | [32mINFO[0m | 🔄 Retrying now (attempt 4/11)...
+2026-01-29 09:58:22 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:58:22 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-29 09:58:22 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:58:22 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-29 09:58:23 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 09:58:23 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-29 09:58:42 | [32mINFO[0m | 🔄 Retrying now (attempt 5/11)...
+2026-01-29 09:58:42 | [32mINFO[0m | 🔄 Retrying now (attempt 5/11)...
+2026-01-29 09:58:43 | [32mINFO[0m | 🔄 Retrying now (attempt 5/11)...
+2026-01-29 09:58:51 | [36mDEBUG[0m | Token tracking [ContentWriter [1,1]]: 2133 in / 0 out
+2026-01-29 09:58:51 | [32mINFO[0m | ✅ [1,1] Generated: When you realize it’s the Exploding Watermelon derby round. Bad life choices wer...
+2026-01-29 09:58:53 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 2126 in / 0 out
+2026-01-29 09:58:53 | [32mINFO[0m | ✅ [2,1] Generated: Signed up for demolition derby. Realized too late it's exploding watermelons. My...
+2026-01-29 09:58:55 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 2168 in / 0 out
+2026-01-29 09:58:55 | [32mINFO[0m | ✅ [1,2] Generated: When you accidentally enter the demolition derby’s “Exploding Watermelon” round ...
+2026-01-29 09:58:55 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 09:58:55 | [32mINFO[0m | Candidate [1,1]: When you realize it’s the Exploding Watermelon derby round. Bad life choices were made, honestly....
+2026-01-29 09:58:55 | [32mINFO[0m | Candidate [1,2]: When you accidentally enter the demolition derby’s “Exploding Watermelon” round and forgot your earp...
+2026-01-29 09:58:55 | [32mINFO[0m | Candidate [2,1]: Signed up for demolition derby. Realized too late it's exploding watermelons. My life is flashing be...
+2026-01-29 09:58:55 | [32mINFO[0m | Candidate [2,2]: When you realize the demolition derby is exploding watermelons and you're just a tiny, stressed chic...
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [word_count]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     word_count: 15
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 20
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     char_count: 97
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [word_count]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     word_count: 14
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 20
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     char_count: 105
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [word_count]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     word_count: 18
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 20
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     char_count: 113
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [word_count]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     word_count: 16
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 20
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:58:55 | [32mINFO[0m |     char_count: 102
+2026-01-29 09:58:55 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 09:58:55 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |  🏆 Judging 4 Candidates
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |  ⚖️ Semi-finals (parallel)
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |  ⚖️ Semi-final 1: Candidate 1 vs 2
+2026-01-29 09:58:55 | [32mINFO[0m |  ⚖️ Semi-final 2: Candidate 3 vs 4
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |   original_input: This GIF features a close-up of a bright yellow, anthropomorphic cartoon chick, likely a duckling, wearing oversized, blue-framed square sunglasses. The chick is positioned behind what appears to be a...
+2026-01-29 09:58:55 | [32mINFO[0m |   joke_candidate_1: When you realize it’s the Exploding Watermelon derby round. Bad life choices were made, honestly.
+2026-01-29 09:58:55 | [32mINFO[0m |   joke_candidate_2: When you accidentally enter the demolition derby’s “Exploding Watermelon” round and forgot your earplugs.
+2026-01-29 09:58:55 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for GIF Captions:
+
+1. **WORD COUNT CHECK:** Is it 20 words or fewer? Over = automatic failure.
+2. **THE LAUGH TEST:** Would someone actually laugh, save it, or share it? Not ...
+2026-01-29 09:58:55 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 09:58:55 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:58:55 | [32mINFO[0m |   original_input: This GIF features a close-up of a bright yellow, anthropomorphic cartoon chick, likely a duckling, wearing oversized, blue-framed square sunglasses. The chick is positioned behind what appears to be a...
+2026-01-29 09:58:55 | [32mINFO[0m |   joke_candidate_1: Signed up for demolition derby. Realized too late it's exploding watermelons. My life is flashing before my eyes.
+2026-01-29 09:58:55 | [32mINFO[0m |   joke_candidate_2: When you realize the demolition derby is exploding watermelons and you're just a tiny, stressed chick.
+2026-01-29 09:58:55 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for GIF Captions:
+
+1. **WORD COUNT CHECK:** Is it 20 words or fewer? Over = automatic failure.
+2. **THE LAUGH TEST:** Would someone actually laugh, save it, or share it? Not ...
+2026-01-29 09:59:09 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:09 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 09:59:09 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:09 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1607 in / 0 out
+2026-01-29 09:59:09 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:09 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 09:59:09 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:09 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:59:09 | [36mDEBUG[0m |   Response: ModelResponse(id='FeJ6affHE6WjqfkPz4fUwA4', created=1769660935, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth captions are well under the 20-word limit. Joke 1 is 18 words, and Joke 2 is 15. Both attempt to explain *why* the chick is stressed, which is good. However, Joke 2 is significantly better because it directly references the chick *being* a tiny, stressed chick,...
+2026-01-29 09:59:09 | [32mINFO[0m |   📊 Tokens: 1607 in / 0 out = 1607 total
+2026-01-29 09:59:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 09:59:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:18 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1604 in / 0 out
+2026-01-29 09:59:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 09:59:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:18 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:59:18 | [36mDEBUG[0m |   Response: ModelResponse(id='HeJ6abecI5Pcg8UPjs3j0Qw', created=1769660935, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth captions are well under the 20-word limit. Both attempt to build a scenario around the chick\'s panicked expression, using the "Exploding Watermelon" demolition derby as the source of stress. Joke 2 is slightly better because it adds a specific detail – forgett...
+2026-01-29 09:59:18 | [32mINFO[0m |   📊 Tokens: 1604 in / 0 out = 1604 total
+2026-01-29 09:59:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m |  ⚖️ Final: Winner 1 vs Winner 2
+2026-01-29 09:59:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 09:59:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 09:59:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:18 | [32mINFO[0m |   original_input: This GIF features a close-up of a bright yellow, anthropomorphic cartoon chick, likely a duckling, wearing oversized, blue-framed square sunglasses. The chick is positioned behind what appears to be a...
+2026-01-29 09:59:18 | [32mINFO[0m |   joke_candidate_1: When you accidentally enter the demolition derby’s “Exploding Watermelon” round and forgot your earplugs.
+2026-01-29 09:59:18 | [32mINFO[0m |   joke_candidate_2: When you realize the demolition derby is exploding watermelons and you're just a tiny, stressed chick.
+2026-01-29 09:59:18 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for GIF Captions:
+
+1. **WORD COUNT CHECK:** Is it 20 words or fewer? Over = automatic failure.
+2. **THE LAUGH TEST:** Would someone actually laugh, save it, or share it? Not ...
+2026-01-29 09:59:28 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:28 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 09:59:28 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:28 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1604 in / 0 out
+2026-01-29 09:59:28 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:59:28 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 09:59:28 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:59:28 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:59:28 | [36mDEBUG[0m |   Response: ModelResponse(id='KOJ6acfFKrae4-EPicmruAI', created=1769660958, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth captions are well under the 20-word limit. Caption 1 is 13 words, and Caption 2 is 14 words. Both attempt to build a scenario around the chick’s anxiety, but Caption 2 is significantly better. It directly references the “demolition derby of exploding watermelon...
+2026-01-29 09:59:28 | [32mINFO[0m |   📊 Tokens: 1604 in / 0 out = 1604 total
+2026-01-29 09:59:28 | [32mINFO[0m | 🏆 Final Winner: When you realize the demolition derby is exploding watermelons and you're just a tiny, stressed chick.
+2026-01-29 09:59:28 | [32mINFO[0m | ✅ img_3012: When you realize the demolition derby is exploding watermelons and you're just a tiny, stressed chick.
+2026-01-29 09:59:28 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:59:28 | [32mINFO[0m |  📈 SUMMARY
+2026-01-29 09:59:28 | [32mINFO[0m | ================================================================================
+2026-01-29 09:59:28 | [32mINFO[0m |   Duration: 0:03:07.343974
+2026-01-29 09:59:28 | [32mINFO[0m |   Mode: TEST
+2026-01-29 09:59:28 | [32mINFO[0m |   Output Directory: /home/jatin/Code/Year3/Research/Final/test_outputs
+2026-01-29 09:59:28 | [32mINFO[0m |   Total Input Tokens: 27025
+2026-01-29 09:59:28 | [32mINFO[0m |   Total Output Tokens: 0
+2026-01-29 09:59:28 | [32mINFO[0m |   Total API Calls: 16
+2026-01-29 09:59:28 | [32mINFO[0m |   Total Retries: 13
+2026-01-29 09:59:28 | [32mINFO[0m |   b1 processed: 1
+2026-01-29 09:59:28 | [32mINFO[0m |   b1 errors: 0
+2026-01-29 09:59:28 | [32mINFO[0m | 
+📊 Retry Breakdown by Module:
+2026-01-29 09:59:28 | [32mINFO[0m |    ContentWriter: 13 (13 rate limit)
+2026-01-29 09:59:28 | [32mINFO[0m | 
+✨ Pipeline complete! Outputs saved to: /home/jatin/Code/Year3/Research/Final/test_outputs

@@ -1,0 +1,101 @@
+2026-01-30 10:24:15 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:24:15 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - TEST MODE
+2026-01-30 10:24:15 | [32mINFO[0m | ================================================================================
+2026-01-30 10:24:15 | [32mINFO[0m | Task: a-en
+2026-01-30 10:24:15 | [32mINFO[0m | Provider: openrouter
+2026-01-30 10:24:15 | [32mINFO[0m | Resume: False
+2026-01-30 10:24:15 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260130_102415.log
+2026-01-30 10:24:15 | [32mINFO[0m | ✅ Using free OpenRouter model: tngtech/deepseek-r1t2-chimera:free
+2026-01-30 10:24:15 | [32mINFO[0m | ✅ API configured: openrouter
+2026-01-30 10:24:15 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:24:15 | [32mINFO[0m |  📰 TASK A - EN
+2026-01-30 10:24:15 | [32mINFO[0m | ================================================================================
+2026-01-30 10:24:15 | [32mINFO[0m | Loaded 300 items from task-a-en.tsv
+2026-01-30 10:24:15 | [32mINFO[0m | Test mode: selected 2 items (1 headlines, 1 word inclusion)
+2026-01-30 10:24:15 | [32mINFO[0m | Progress [Task A EN]: |███████████████░░░░░░░░░░░░░░░| 1/2 (50.0%)
+2026-01-30 10:24:16 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:24:16 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-30 10:24:16 | [32mINFO[0m | ================================================================================
+2026-01-30 10:24:16 | [32mINFO[0m | Input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 10:24:16 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:24:16 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-30 10:24:16 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:24:16 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:24:16 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-30 10:24:16 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:24:39 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-30 10:24:39 | [32mINFO[0m |   situation: Panamanian lawmakers visiting Taiwan despite Panama formally recognizing the One-China Policy represents a politically provocative act. The "diplomatic row" refers to China's standard angry response t...
+2026-01-30 10:24:39 | [32mINFO[0m |   semantic_associations:
+2026-01-30 10:24:39 | [32mINFO[0m |     - Panamanian lawmakers: economic incentives for diplomatic visits
+2026-01-30 10:24:39 | [32mINFO[0m |     - Taiwan trip: sovereignty symbolism over practical outcomes
+2026-01-30 10:24:39 | [32mINFO[0m |     - diplomatic row: China's orchestrated outrage formula
+2026-01-30 10:24:39 | [32mINFO[0m |     - China: thin-skinned superpower complex
+2026-01-30 10:24:39 | [32mINFO[0m |     - Panama: pragmatic nation playing both sides
+2026-01-30 10:24:39 | [32mINFO[0m |     - Taiwan: David vs Goliath diplomacy
+2026-01-30 10:24:39 | [32mINFO[0m |   potential_targets:
+2026-01-30 10:24:39 | [32mINFO[0m |     - China's automatic tantrum response
+2026-01-30 10:24:39 | [32mINFO[0m |     - lawmakers' performative gesture with minimal impact
+2026-01-30 10:24:39 | [32mINFO[0m |     - Taiwan's desperate visibility campaign
+2026-01-30 10:24:39 | [32mINFO[0m |     - diplomacy-as-theater predictability
+2026-01-30 10:24:39 | [32mINFO[0m |     - Panama's history of switching Taiwan/China recognition
+2026-01-30 10:24:39 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:24:39 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-30 10:24:39 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:24:39 | [32mINFO[0m |   📊 Tokens: 509 in / 532 out = 1041 total
+2026-01-30 10:24:39 | [33mWARNING[0m | ⚠️ en_2001: Sensitive topic detected, likely censorship
+2026-01-30 10:24:39 | [32mINFO[0m | Progress [Task A EN]: |██████████████████████████████| 2/2 (100.0%)
+2026-01-30 10:24:39 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:24:39 | [32mINFO[0m |  🎭 WORD INCLUSION PIPELINE [EN]
+2026-01-30 10:24:39 | [32mINFO[0m | ================================================================================
+2026-01-30 10:24:39 | [32mINFO[0m | Input: hammer, flower
+2026-01-30 10:24:39 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:24:39 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-30 10:24:39 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:24:39 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:24:39 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-30 10:24:39 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:25:01 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-30 10:25:01 | [32mINFO[0m |   situation: A clumsy DIY gardener attempts to "plant" ceramic flowers in concrete-hard soil using a home renovation toolkit, mistaking a hammer for a trowel during Valentine's Day preparations.
+2026-01-30 10:25:01 | [32mINFO[0m |   semantic_associations:
+2026-01-30 10:25:01 | [32mINFO[0m |     - Fragility
+2026-01-30 10:25:01 | [32mINFO[0m |     - Romance gestures
+2026-01-30 10:25:01 | [32mINFO[0m |     - Spring blossoms
+2026-01-30 10:25:01 | [32mINFO[0m |     - Delicate petals
+2026-01-30 10:25:01 | [32mINFO[0m |     - Funeral symbolism
+2026-01-30 10:25:01 | [32mINFO[0m |     - Pollination
+2026-01-30 10:25:01 | [32mINFO[0m |   potential_targets:
+2026-01-30 10:25:01 | [32mINFO[0m |     - Violent solution for delicate gardening tasks
+2026-01-30 10:25:01 | [32mINFO[0m |     - Cultural contrast between construction (hammer) and courtship (flower)
+2026-01-30 10:25:01 | [32mINFO[0m |     - Literal interpretation of 'nailing' floral arrangements
+2026-01-30 10:25:01 | [32mINFO[0m |     - Thor trying to impress by smashing roses into pottery
+2026-01-30 10:25:01 | [32mINFO[0m |     - Auto-mechanic sending floral apology hammer-bouquets
+2026-01-30 10:25:01 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:25:01 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-30 10:25:01 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:25:01 | [32mINFO[0m |   📊 Tokens: 533 in / 612 out = 1145 total
+2026-01-30 10:25:01 | [31mERROR[0m | ❌ Error in processing en_2276: AttributeError: 'list' object has no attribute 'split'
+2026-01-30 10:25:01 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:25:01 | [32mINFO[0m |  📈 SUMMARY
+2026-01-30 10:25:01 | [32mINFO[0m | ================================================================================
+2026-01-30 10:25:01 | [32mINFO[0m |   Duration: 0:00:45.162033
+2026-01-30 10:25:01 | [32mINFO[0m |   Mode: TEST
+2026-01-30 10:25:01 | [32mINFO[0m |   Output Directory: /home/jatin/Code/Year3/Research/Final/test_outputs
+2026-01-30 10:25:01 | [32mINFO[0m |   Total Input Tokens: 1042
+2026-01-30 10:25:01 | [32mINFO[0m |   Total Output Tokens: 1144
+2026-01-30 10:25:01 | [32mINFO[0m |   Total API Calls: 2
+2026-01-30 10:25:01 | [32mINFO[0m |   Total Retries: 0
+2026-01-30 10:25:01 | [32mINFO[0m |   a-en processed: 0
+2026-01-30 10:25:01 | [32mINFO[0m |   a-en errors: 2
+2026-01-30 10:25:01 | [32mINFO[0m | 
+✨ Pipeline complete! Outputs saved to: /home/jatin/Code/Year3/Research/Final/test_outputs

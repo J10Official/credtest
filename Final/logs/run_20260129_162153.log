@@ -1,0 +1,398 @@
+2026-01-29 16:21:53 | [32mINFO[0m | 
+================================================================================
+2026-01-29 16:21:53 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - TEST MODE
+2026-01-29 16:21:53 | [32mINFO[0m | ================================================================================
+2026-01-29 16:21:53 | [32mINFO[0m | Task: a-en
+2026-01-29 16:21:53 | [32mINFO[0m | Provider: gemini
+2026-01-29 16:21:53 | [32mINFO[0m | Resume: False
+2026-01-29 16:21:53 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260129_162153.log
+2026-01-29 16:21:53 | [32mINFO[0m | ✅ API configured: gemini
+2026-01-29 16:21:53 | [32mINFO[0m | 
+================================================================================
+2026-01-29 16:21:53 | [32mINFO[0m |  📰 TASK A - EN
+2026-01-29 16:21:53 | [32mINFO[0m | ================================================================================
+2026-01-29 16:21:53 | [32mINFO[0m | Loaded 300 items from task-a-en.tsv
+2026-01-29 16:21:53 | [32mINFO[0m | Test mode: selected 2 items (1 headlines, 1 word inclusion)
+2026-01-29 16:21:53 | [32mINFO[0m | Progress [Task A EN]: |███████████████░░░░░░░░░░░░░░░| 1/2 (50.0%)
+2026-01-29 16:21:53 | [32mINFO[0m | 
+================================================================================
+2026-01-29 16:21:53 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-29 16:21:53 | [32mINFO[0m | ================================================================================
+2026-01-29 16:21:53 | [32mINFO[0m | Input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-29 16:21:53 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:21:53 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 16:21:53 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:21:53 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:21:53 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 16:21:53 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:21:53 | [36mDEBUG[0m | 📥 INPUT → ContextEnricher
+2026-01-29 16:21:53 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-29 16:21:53 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:22:26 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-29 16:22:26 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 521 in / 0 out
+2026-01-29 16:22:26 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:22:26 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 16:22:26 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:22:26 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:22:26 | [36mDEBUG[0m |   Response: ModelResponse(id='6jt7aYfkE5KtjuMPjsqk6Aw', created=1769683932, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and strongly objects to any official recognition or engagement with the Taiwanese government. Panama, while maintaining...
+2026-01-29 16:22:26 | [32mINFO[0m |   📊 Tokens: 521 in / 0 out = 521 total
+2026-01-29 16:22:26 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:22:26 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 16:22:26 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:22:26 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 16:22:26 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 16:22:26 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 16:22:26 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 16:22:26 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 16:22:26 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 16:22:26 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 16:22:26 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 16:22:38 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 16:22:38 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:22:38 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 16:22:38 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:22:40 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 16:22:40 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:22:42 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 16:22:42 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:22:46 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 16:22:46 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 16:22:48 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 16:22:48 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 16:22:52 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 16:22:52 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 16:22:56 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 16:22:56 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 16:22:58 | [32mINFO[0m | ✅ [1,2] Generated: Breaking News! Tensions are soaring in the Taiwan Strait! Sources confirm a majo...
+2026-01-29 16:23:00 | [32mINFO[0m | ✅ [1,1] Generated: Beijing has issued a strongly worded statement following a recent visit to Taiwa...
+2026-01-29 16:23:02 | [32mINFO[0m | ✅ [2,1] Generated: Panama City – Following a recent, and reportedly cordial, visit by a delegation ...
+2026-01-29 16:23:14 | [32mINFO[0m | ✅ [2,2] Generated: Breaking news! Tensions are escalating after a delegation of Panamanian lawmaker...
+2026-01-29 16:23:14 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 16:23:14 | [32mINFO[0m | Candidate [1,1]: Beijing has issued a strongly worded statement following a recent visit to Taiwan by a delegation of...
+2026-01-29 16:23:14 | [32mINFO[0m | Candidate [1,2]: Breaking News! Tensions are soaring in the Taiwan Strait! Sources confirm a major diplomatic crisis ...
+2026-01-29 16:23:14 | [32mINFO[0m | Candidate [2,1]: Panama City – Following a recent, and reportedly cordial, visit by a delegation of Panamanian lawmak...
+2026-01-29 16:23:14 | [32mINFO[0m | Candidate [2,2]: Breaking news! Tensions are escalating after a delegation of Panamanian lawmakers dared to visit Tai...
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     char_count: 554
+2026-01-29 16:23:14 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     char_count: 405
+2026-01-29 16:23:14 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     char_count: 802
+2026-01-29 16:23:14 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:23:14 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:23:14 | [32mINFO[0m |     char_count: 508
+2026-01-29 16:23:14 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:23:14 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:23:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m |  🏆 Judging 4 Candidates
+2026-01-29 16:23:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m |  ⚖️ Semi-finals (parallel)
+2026-01-29 16:23:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m |  ⚖️ Semi-final 2: Candidate 3 vs 4
+2026-01-29 16:23:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m |  ⚖️ Semi-final 1: Candidate 1 vs 2
+2026-01-29 16:23:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 16:23:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:14 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 16:23:14 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-29 16:23:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:14 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-29 16:23:14 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-29 16:23:14 | [36mDEBUG[0m |   joke_candidate_1: Panama City – Following a recent, and reportedly cordial, visit by a delegation of Panamanian lawmakers to Taiwan, sources indicate China has expressed its…displeasure. Initial reports suggested a sta...
+2026-01-29 16:23:14 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-29 16:23:14 | [36mDEBUG[0m |   joke_candidate_2: Breaking news! Tensions are escalating after a delegation of Panamanian lawmakers dared to visit Taiwan. China has expressed its… displeasure. Sources say Beijing is preparing a formal response…and it...
+2026-01-29 16:23:14 | [36mDEBUG[0m |   joke_candidate_1: Beijing has issued a strongly worded statement following a recent visit to Taiwan by a delegation of Panamanian lawmakers. Sources indicate the Chinese government is “deeply concerned” by the trip…and...
+2026-01-29 16:23:14 | [36mDEBUG[0m |   joke_candidate_2: Breaking News! Tensions are soaring in the Taiwan Strait! Sources confirm a major diplomatic crisis is unfolding after… Chinese officials demanded a full accounting of the Panamanian lawmakers’ in-fli...
+2026-01-29 16:23:14 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 16:23:14 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:23:14 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 16:23:14 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:23:23 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-29 16:23:23 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1055 in / 0 out
+2026-01-29 16:23:23 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:23 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 16:23:23 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:23 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:23:23 | [36mDEBUG[0m |   Response: ModelResponse(id='Izx7aYnRGZe2juMPuPnkiAg', created=1769683994, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt a similar comedic strategy: escalating the seriousness of a diplomatic row into petty concerns about in-flight amenities and souvenir shopping. This is a solid approach given the headline.\n\nJoke 1 is slightly stronger. The inclusion of "bubble t...
+2026-01-29 16:23:23 | [32mINFO[0m |   📊 Tokens: 1055 in / 0 out = 1055 total
+2026-01-29 16:23:25 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-29 16:23:25 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1125 in / 0 out
+2026-01-29 16:23:25 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:25 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 16:23:25 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:25 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:23:25 | [36mDEBUG[0m |   Response: ModelResponse(id='JTx7abqsKrWijuMPr9Sp6Aw', created=1769683994, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to satirize China\'s reaction to the Panamanian lawmakers\' visit to Taiwan, leaning into hyperbole. Joke 1 is a longer, more detailed escalation of increasingly petty retaliations – a trade ban, keychain recall, legislative disbandment threat, an...
+2026-01-29 16:23:25 | [32mINFO[0m |   📊 Tokens: 1125 in / 0 out = 1125 total
+2026-01-29 16:23:25 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:25 | [32mINFO[0m |  ⚖️ Final: Winner 1 vs Winner 2
+2026-01-29 16:23:25 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:25 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:25 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 16:23:25 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:25 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-29 16:23:25 | [36mDEBUG[0m |   original_input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-29 16:23:25 | [36mDEBUG[0m |   joke_candidate_1: Beijing has issued a strongly worded statement following a recent visit to Taiwan by a delegation of Panamanian lawmakers. Sources indicate the Chinese government is “deeply concerned” by the trip…and...
+2026-01-29 16:23:25 | [36mDEBUG[0m |   joke_candidate_2: Breaking news! Tensions are escalating after a delegation of Panamanian lawmakers dared to visit Taiwan. China has expressed its… displeasure. Sources say Beijing is preparing a formal response…and it...
+2026-01-29 16:23:25 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 16:23:25 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:23:39 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-29 16:23:39 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1084 in / 0 out
+2026-01-29 16:23:39 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:39 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 16:23:39 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:39 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:23:39 | [36mDEBUG[0m |   Response: ModelResponse(id='Mjx7aZ3qIfa7g8UPmqWm0Aw', created=1769684005, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to satirize China\'s reaction to the Panamanian lawmakers\' visit to Taiwan by exaggerating the severity and pettiness of their response. Joke 1 achieves this through a detailed, absurd list of demands – beverage choices, queuing methods, souvenir...
+2026-01-29 16:23:39 | [32mINFO[0m |   📊 Tokens: 1084 in / 0 out = 1084 total
+2026-01-29 16:23:39 | [32mINFO[0m | 🏆 Final Winner: Beijing has issued a strongly worded statement following a recent visit to Taiwan by a delegation of Panamanian lawmakers. Sources indicate the Chinese government is “deeply concerned” by the trip…and is demanding a full accounting of the lawmakers’ in-flight beverage choices, their preferred method of queuing for airport security, and a detailed itinerary of all souvenir purchases made during the visit. Officials stated, “We simply cannot allow such reckless disregard for geopolitical protocol to go unchecked. What if they *liked* the bubble tea?”
+2026-01-29 16:23:39 | [32mINFO[0m | ✅ en_2001: Beijing has issued a strongly worded statement following a recent visit to Taiwa...
+2026-01-29 16:23:39 | [32mINFO[0m | Progress [Task A EN]: |██████████████████████████████| 2/2 (100.0%)
+2026-01-29 16:23:39 | [32mINFO[0m | 
+================================================================================
+2026-01-29 16:23:39 | [32mINFO[0m |  🎭 WORD INCLUSION PIPELINE [EN]
+2026-01-29 16:23:39 | [32mINFO[0m | ================================================================================
+2026-01-29 16:23:39 | [32mINFO[0m | Input: hammer, flower
+2026-01-29 16:23:39 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:39 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 16:23:39 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:39 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:39 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 16:23:39 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:39 | [36mDEBUG[0m | 📥 INPUT → ContextEnricher
+2026-01-29 16:23:39 | [36mDEBUG[0m |   original_input: hammer, flower
+2026-01-29 16:23:39 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:23:47 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-29 16:23:47 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 546 in / 0 out
+2026-01-29 16:23:47 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:47 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 16:23:47 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:47 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:23:47 | [36mDEBUG[0m |   Response: ModelResponse(id='Ojx7acKyO6jNg8UPyuvQkQg', created=1769684019, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nA frustrated sculptor is trying to create a delicate floral arrangement *out of stone*. He\'s using a hammer to painstakingly chip away at the rock, attempting to reveal the flower within. He keeps accidentally smashing bits off, lamenting his lack of finesse.\n\n[...
+2026-01-29 16:23:47 | [32mINFO[0m |   📊 Tokens: 546 in / 0 out = 546 total
+2026-01-29 16:23:47 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:23:47 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 16:23:47 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:23:47 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 16:23:47 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 16:23:47 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 16:23:47 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 16:23:47 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 16:23:47 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 16:23:47 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 16:23:47 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 16:23:56 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 16:23:56 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:23:58 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 16:23:58 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:23:58 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 16:23:58 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:24:02 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 16:24:02 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 16:24:03 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 16:24:03 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 16:24:05 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 16:24:05 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 16:24:05 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 16:24:05 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 16:24:08 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 16:24:08 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 16:24:11 | [32mINFO[0m | ✅ [1,2] Generated: Sculptor: (Sighs, chipping furiously at stone) Another petal gone. Honestly, you...
+2026-01-29 16:24:12 | [32mINFO[0m | ✅ [1,1] Generated: Old Man Hemlock, the sculptor, was muttering to himself, chipping away at a gran...
+2026-01-29 16:24:13 | [32mINFO[0m | ✅ [2,1] Generated: I swear, this stone is fighting me every step of the way. It’s supposed to be a ...
+2026-01-29 16:24:23 | [32mINFO[0m | ✅ [2,2] Generated: “Honestly,” the sculptor muttered, chipping furiously at the granite, “people ju...
+2026-01-29 16:24:23 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 16:24:23 | [32mINFO[0m | Candidate [1,1]: Old Man Hemlock, the sculptor, was muttering to himself, chipping away at a granite block. “Honestly...
+2026-01-29 16:24:23 | [32mINFO[0m | Candidate [1,2]: Sculptor: (Sighs, chipping furiously at stone) Another petal gone. Honestly, you'd think after twent...
+2026-01-29 16:24:23 | [32mINFO[0m | Candidate [2,1]: I swear, this stone is fighting me every step of the way. It’s supposed to be a delicate rose, a bea...
+2026-01-29 16:24:23 | [32mINFO[0m | Candidate [2,2]: “Honestly,” the sculptor muttered, chipping furiously at the granite, “people just don’t *get* my pr...
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |     'flower': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     char_count: 555
+2026-01-29 16:24:23 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |     'flower': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     char_count: 424
+2026-01-29 16:24:23 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |     'flower': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     char_count: 429
+2026-01-29 16:24:23 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     'hammer': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |     'flower': ✅ found
+2026-01-29 16:24:23 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 16:24:23 | [32mINFO[0m |     char_count: 673
+2026-01-29 16:24:23 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 16:24:23 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 16:24:23 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m |  🏆 Judging 4 Candidates
+2026-01-29 16:24:23 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m |  ⚖️ Semi-finals (parallel)
+2026-01-29 16:24:23 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m |  ⚖️ Semi-final 1: Candidate 1 vs 2
+2026-01-29 16:24:23 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 16:24:23 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:23 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-29 16:24:23 | [36mDEBUG[0m |   original_input: hammer, flower
+2026-01-29 16:24:23 | [36mDEBUG[0m |   joke_candidate_1: Old Man Hemlock, the sculptor, was muttering to himself, chipping away at a granite block. “Honestly, it’s ridiculous. People ask why I don’t work with clay, or marble… something *sensible*. They don’...
+2026-01-29 16:24:23 | [36mDEBUG[0m |   joke_candidate_2: Sculptor: (Sighs, chipping furiously at stone) Another petal gone. Honestly, you'd think after twenty years, I'd have mastered the art of… delicate stone floral arrangements. It's just… this *hammer* ...
+2026-01-29 16:24:23 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Word-Inclusion Jokes:
+
+1. **WORD INTEGRATION:** Do BOTH required words appear naturally? Do they feel essential to the joke, not forced?
+2. **THE LAUGH TEST:** Which joke...
+2026-01-29 16:24:23 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:24:23 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m |  ⚖️ Semi-final 2: Candidate 3 vs 4
+2026-01-29 16:24:23 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:23 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 16:24:23 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:23 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-29 16:24:23 | [36mDEBUG[0m |   original_input: hammer, flower
+2026-01-29 16:24:23 | [36mDEBUG[0m |   joke_candidate_1: I swear, this stone is fighting me every step of the way. It’s supposed to be a delicate rose, a beautiful *flower*, but all I’m managing to create is… geological rubble. I’ve been at this for hours, ...
+2026-01-29 16:24:23 | [36mDEBUG[0m |   joke_candidate_2: “Honestly,” the sculptor muttered, chipping furiously at the granite, “people just don’t *get* my process. They see a block of stone and a rather large **hammer**, and they assume I’m just taking my f...
+2026-01-29 16:24:23 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Word-Inclusion Jokes:
+
+1. **WORD INTEGRATION:** Do BOTH required words appear naturally? Do they feel essential to the joke, not forced?
+2. **THE LAUGH TEST:** Which joke...
+2026-01-29 16:24:23 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:24:36 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-29 16:24:36 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1098 in / 0 out
+2026-01-29 16:24:36 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:36 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 16:24:36 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:36 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:24:36 | [36mDEBUG[0m |   Response: ModelResponse(id='azx7aYHmHcLOpgfZ9aT4Aw', created=1769684063, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes successfully include the words "hammer" and "flower." However, they differ significantly in their comedic execution.\n\nJoke 1 is a longer, more descriptive piece. The integration of the words feels somewhat forced. The sculptor\'s explanation feels like a...
+2026-01-29 16:24:36 | [32mINFO[0m |   📊 Tokens: 1098 in / 0 out = 1098 total
+2026-01-29 16:24:45 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-29 16:24:45 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1145 in / 0 out
+2026-01-29 16:24:45 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:45 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 16:24:45 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:45 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:24:45 | [36mDEBUG[0m |   Response: ModelResponse(id='dDx7afLANPmt4-EP8djQiAQ', created=1769684063, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes successfully include the words "hammer" and "flower." Let\'s analyze them based on the provided criteria.\n\nJoke 1 presents a slightly more straightforward, self-deprecating humor. The idea of aggressively gardening with a hammer is amusing, and the pers...
+2026-01-29 16:24:45 | [32mINFO[0m |   📊 Tokens: 1145 in / 0 out = 1145 total
+2026-01-29 16:24:45 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:45 | [32mINFO[0m |  ⚖️ Final: Winner 1 vs Winner 2
+2026-01-29 16:24:45 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:45 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:45 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 16:24:45 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:45 | [36mDEBUG[0m | 📥 INPUT → HumorJudge
+2026-01-29 16:24:45 | [36mDEBUG[0m |   original_input: hammer, flower
+2026-01-29 16:24:45 | [36mDEBUG[0m |   joke_candidate_1: Sculptor: (Sighs, chipping furiously at stone) Another petal gone. Honestly, you'd think after twenty years, I'd have mastered the art of… delicate stone floral arrangements. It's just… this *hammer* ...
+2026-01-29 16:24:45 | [36mDEBUG[0m |   joke_candidate_2: “Honestly,” the sculptor muttered, chipping furiously at the granite, “people just don’t *get* my process. They see a block of stone and a rather large **hammer**, and they assume I’m just taking my f...
+2026-01-29 16:24:45 | [36mDEBUG[0m |   evaluation_criteria: 
+### Evaluation Framework for Word-Inclusion Jokes:
+
+1. **WORD INTEGRATION:** Do BOTH required words appear naturally? Do they feel essential to the joke, not forced?
+2. **THE LAUGH TEST:** Which joke...
+2026-01-29 16:24:45 | [36mDEBUG[0m |   target_language_and_culture: English
+2026-01-29 16:24:54 | [32mINFO[0m | 📤 OUTPUT ← HumorJudge
+2026-01-29 16:24:54 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1136 in / 0 out
+2026-01-29 16:24:54 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 16:24:54 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 16:24:54 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 16:24:54 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 16:24:54 | [36mDEBUG[0m |   Response: ModelResponse(id='fTx7adPaEb2og8UPwue10A0', created=1769684085, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes successfully include the words "hammer" and "flower." Let\'s analyze them based on the provided criteria.\n\nJoke 1 is a bit meandering. The setup is a sculptor lamenting their inability to create delicate floral arrangements despite using a hammer. The h...
+2026-01-29 16:24:54 | [32mINFO[0m |   📊 Tokens: 1136 in / 0 out = 1136 total
+2026-01-29 16:24:54 | [32mINFO[0m | 🏆 Final Winner: “Honestly,” the sculptor muttered, chipping furiously at the granite, “people just don’t *get* my process. They see a block of stone and a rather large **hammer**, and they assume I’m just taking my frustrations out on perfectly good rock. They say, ‘You’ll never get a delicate **flower** to emerge from *that*!’” He sighed, examining the increasingly abstract shape. “It’s not about *removing* stone, you see. It’s about… aggressively encouraging the flower’s internal growth. A little percussive motivation, if you will. It needs the impact. It *craves* the hammer. Otherwise, it just stays a bud forever, all shy and introverted. Honestly, it’s a very sensitive bloom.”
+2026-01-29 16:24:54 | [32mINFO[0m | ✅ en_2276: “Honestly,” the sculptor muttered, chipping furiously at the granite, “people ju...
+2026-01-29 16:24:54 | [32mINFO[0m | 
+================================================================================
+2026-01-29 16:24:54 | [32mINFO[0m |  📈 SUMMARY
+2026-01-29 16:24:54 | [32mINFO[0m | ================================================================================
+2026-01-29 16:24:54 | [32mINFO[0m |   Duration: 0:03:00.707906
+2026-01-29 16:24:54 | [32mINFO[0m |   Mode: TEST
+2026-01-29 16:24:54 | [32mINFO[0m |   Output Directory: /home/jatin/Code/Year3/Research/Final/test_outputs
+2026-01-29 16:24:54 | [32mINFO[0m |   Total Input Tokens: 7710
+2026-01-29 16:24:54 | [32mINFO[0m |   Total Output Tokens: 0
+2026-01-29 16:24:54 | [32mINFO[0m |   Total API Calls: 8
+2026-01-29 16:24:54 | [32mINFO[0m |   Total Retries: 0
+2026-01-29 16:24:54 | [32mINFO[0m |   a-en processed: 2
+2026-01-29 16:24:54 | [32mINFO[0m |   a-en errors: 0
+2026-01-29 16:24:54 | [32mINFO[0m | 
+✨ Pipeline complete! Outputs saved to: /home/jatin/Code/Year3/Research/Final/test_outputs

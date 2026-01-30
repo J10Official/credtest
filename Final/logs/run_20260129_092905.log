@@ -1,0 +1,382 @@
+2026-01-29 09:29:05 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:29:05 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - TEST MODE
+2026-01-29 09:29:05 | [32mINFO[0m | ================================================================================
+2026-01-29 09:29:05 | [32mINFO[0m | Task: a-zh
+2026-01-29 09:29:05 | [32mINFO[0m | Provider: gemini
+2026-01-29 09:29:05 | [32mINFO[0m | Resume: False
+2026-01-29 09:29:05 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260129_092905.log
+2026-01-29 09:29:05 | [32mINFO[0m | ✅ API configured: gemini
+2026-01-29 09:29:05 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:29:05 | [32mINFO[0m |  📰 TASK A - ZH
+2026-01-29 09:29:05 | [32mINFO[0m | ================================================================================
+2026-01-29 09:29:05 | [32mINFO[0m | Loaded 300 items from task-a-zh.tsv
+2026-01-29 09:29:05 | [32mINFO[0m | Test mode: selected 2 items (1 headlines, 1 word inclusion)
+2026-01-29 09:29:05 | [32mINFO[0m | Progress [Task A ZH]: |███████████████░░░░░░░░░░░░░░░| 1/2 (50.0%)
+2026-01-29 09:29:05 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:29:05 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [ZH]
+2026-01-29 09:29:05 | [32mINFO[0m | ================================================================================
+2026-01-29 09:29:05 | [32mINFO[0m | Input: 黃仁勳砸1565億入股後怎麼合作？英特爾高管全說了
+2026-01-29 09:29:05 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:05 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 09:29:05 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:05 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:05 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 09:29:05 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:05 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:05 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 09:29:05 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:05 | [32mINFO[0m |   original_input: 黃仁勳砸1565億入股後怎麼合作？英特爾高管全說了
+2026-01-29 09:29:05 | [32mINFO[0m |   target_language_and_culture: Chinese
+2026-01-29 09:29:16 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:16 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 09:29:16 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:16 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 532 in / 0 out
+2026-01-29 09:29:16 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:16 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 09:29:16 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:16 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:29:16 | [36mDEBUG[0m |   Response: ModelResponse(id='E9t6aaXwL63Eg8UPsvWA2Qw', created=1769659145, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis headline reports on the aftermath of NVIDIA CEO Jensen Huang (黃仁勳) making a substantial investment (NT$156.5 billion, roughly $5 billion USD) in Intel. The question posed is how the two companies will cooperate *after* this investment. This is significant beca...
+2026-01-29 09:29:16 | [32mINFO[0m |   📊 Tokens: 532 in / 0 out = 532 total
+2026-01-29 09:29:16 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:16 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 09:29:16 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:16 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 09:29:16 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 09:29:16 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 09:29:16 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 09:29:16 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 09:29:16 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 09:29:16 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 09:29:16 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 09:29:26 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1206 in / 0 out
+2026-01-29 09:29:26 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 09:29:26 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:29:26 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1206 in / 0 out
+2026-01-29 09:29:26 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 09:29:26 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:29:27 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1207 in / 0 out
+2026-01-29 09:29:27 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 09:29:27 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:29:28 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1207 in / 0 out
+2026-01-29 09:29:28 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 09:29:28 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:29:32 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,1]]: 872 in / 0 out
+2026-01-29 09:29:32 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 09:29:32 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 09:29:36 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 874 in / 0 out
+2026-01-29 09:29:36 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 09:29:36 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 09:29:38 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 876 in / 0 out
+2026-01-29 09:29:38 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 09:29:38 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 09:29:40 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,2]]: 868 in / 0 out
+2026-01-29 09:29:40 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 09:29:40 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 09:29:46 | [36mDEBUG[0m | Token tracking [ContentWriter [1,1]]: 1642 in / 0 out
+2026-01-29 09:29:46 | [32mINFO[0m | ✅ [1,1] Generated: 记者：黄仁勋先生斥资1565亿入股英特尔，未来双方的合作方向是什么？李总，您先说。
+李总：嗯，合作嘛，当然是互利共赢。我们非常欢迎黄先生的投资，这表明他对英特尔...
+2026-01-29 09:29:47 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 1612 in / 0 out
+2026-01-29 09:29:47 | [32mINFO[0m | ✅ [1,2] Generated: 突发！黄仁勋1565亿入股英特尔，业界震惊！大家都想知道，这笔巨额投资，英特尔和英伟达接下来会如何合作？高管们纷纷表示…合作方式非常简单！英特尔已经决定将总部搬...
+2026-01-29 09:29:56 | [36mDEBUG[0m | Token tracking [ContentWriter [2,2]]: 1677 in / 0 out
+2026-01-29 09:29:56 | [32mINFO[0m | ✅ [2,2] Generated: 记者：黄仁勋先生斥巨资1565亿入股英特尔，未来双方的合作方向是什么？英特尔高管们对此有何看法？我们连线了英特尔首席战略官…
+
+英特尔首席战略官：这当然是英特尔...
+2026-01-29 09:29:57 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 1645 in / 0 out
+2026-01-29 09:29:57 | [32mINFO[0m | ✅ [2,1] Generated: 内部备忘录：致全体英特尔员工
+
+主题：关于黄仁勋先生战略投资后的品牌重塑事宜
+
+各位同事：
+
+正如大家所知，英特尔近期获得了来自 NVIDIA 首席执行官黄仁勋...
+2026-01-29 09:29:57 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 09:29:57 | [32mINFO[0m | Candidate [1,1]: 记者：黄仁勋先生斥资1565亿入股英特尔，未来双方的合作方向是什么？李总，您先说。
+李总：嗯，合作嘛，当然是互利共赢。我们非常欢迎黄先生的投资，这表明他对英特尔的未来充满信心。
+记者：具体来说呢？技术...
+2026-01-29 09:29:57 | [32mINFO[0m | Candidate [1,2]: 突发！黄仁勋1565亿入股英特尔，业界震惊！大家都想知道，这笔巨额投资，英特尔和英伟达接下来会如何合作？高管们纷纷表示…合作方式非常简单！英特尔已经决定将总部搬到英伟达园区内，作为“战略合作伙伴”，享...
+2026-01-29 09:29:57 | [32mINFO[0m | Candidate [2,1]: 内部备忘录：致全体英特尔员工
+
+主题：关于黄仁勋先生战略投资后的品牌重塑事宜
+
+各位同事：
+
+正如大家所知，英特尔近期获得了来自 NVIDIA 首席执行官黄仁勋先生的巨额投资，高达 1565 亿新台币...
+2026-01-29 09:29:57 | [32mINFO[0m | Candidate [2,2]: 记者：黄仁勋先生斥巨资1565亿入股英特尔，未来双方的合作方向是什么？英特尔高管们对此有何看法？我们连线了英特尔首席战略官…
+
+英特尔首席战略官：这当然是英特尔发展史上最激动人心的一天！黄仁勋先生的远...
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:29:57 | [32mINFO[0m |     char_count: 259
+2026-01-29 09:29:57 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:29:57 | [32mINFO[0m |     char_count: 124
+2026-01-29 09:29:57 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [char_length]: ❌ FAILED
+2026-01-29 09:29:57 | [32mINFO[0m |     char_count: 533
+2026-01-29 09:29:57 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ❌ exceeded by 233
+2026-01-29 09:29:57 | [33mWARNING[0m | Candidate 3 failed validation: [{'name': 'char_length', 'passed': False, 'details': {'char_count': 533, 'max_allowed': 300, 'status': '❌ exceeded by 233'}}]
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:29:57 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:29:57 | [32mINFO[0m |     char_count: 282
+2026-01-29 09:29:57 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:29:57 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:29:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m |  🏆 Judging 3 Candidates
+2026-01-29 09:29:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m |  ⚖️ Round 1: Candidate 1 vs 2
+2026-01-29 09:29:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 09:29:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 09:29:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:29:57 | [32mINFO[0m |   original_input: 黃仁勳砸1565億入股後怎麼合作？英特爾高管全說了
+2026-01-29 09:29:57 | [32mINFO[0m |   joke_candidate_1: 记者：黄仁勋先生斥资1565亿入股英特尔，未来双方的合作方向是什么？李总，您先说。
+李总：嗯，合作嘛，当然是互利共赢。我们非常欢迎黄先生的投资，这表明他对英特尔的未来充满信心。
+记者：具体来说呢？技术层面？市场策略？
+李总：具体…具体还在讨论中。
+王总：其实说白了，现在我们办公室的咖啡，都是黄先生指定的进口豆子。而且，他要求每个季度都提交一次办公室装修方案，确保符合他的审美。
+李总：（沉默片刻）1...
+2026-01-29 09:29:57 | [32mINFO[0m |   joke_candidate_2: 突发！黄仁勋1565亿入股英特尔，业界震惊！大家都想知道，这笔巨额投资，英特尔和英伟达接下来会如何合作？高管们纷纷表示…合作方式非常简单！英特尔已经决定将总部搬到英伟达园区内，作为“战略合作伙伴”，享受…租用办公桌的服务！毕竟，现在是黄仁勋说了算！
+2026-01-29 09:29:57 | [32mINFO[0m |   evaluation_criteria: 
+### 标题笑话评估框架：
+
+1. **笑果测试：** 哪个笑话真的能让人笑、微笑或有反应？不是哪个更"聪明"——而是哪个更好笑？
+2. **意外与铺垫：** 包袱是真的出人意料同时又合情合理？还是一眼就能猜到？
+3. **精炼度：** 每个字都必要吗？多余的字会拖垮节奏。越精简通常越好。
+4. **标题相关性：** 真的与这个具体标题相关，还是随便贴上去的通用笑话？
+5. **自然度：** 听...
+2026-01-29 09:29:57 | [32mINFO[0m |   target_language_and_culture: Chinese
+2026-01-29 09:30:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 09:30:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:10 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1163 in / 0 out
+2026-01-29 09:30:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 09:30:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:10 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:30:10 | [36mDEBUG[0m |   Response: ModelResponse(id='Sdt6abCdJrae4-EPicmruAI', created=1769659197, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to satirize the massive investment by Huang Renxun (Jensen Huang) in Intel, suggesting it\'s less about a strategic partnership and more about Huang exerting control.\n\nJoke 1 is a dialogue-based skit. Its strength lies in the subtle build-up of ...
+2026-01-29 09:30:10 | [32mINFO[0m |   📊 Tokens: 1163 in / 0 out = 1163 total
+2026-01-29 09:30:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m |  ⚖️ Final: Winner vs Candidate 3
+2026-01-29 09:30:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 09:30:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 09:30:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:10 | [32mINFO[0m |   original_input: 黃仁勳砸1565億入股後怎麼合作？英特爾高管全說了
+2026-01-29 09:30:10 | [32mINFO[0m |   joke_candidate_1: 突发！黄仁勋1565亿入股英特尔，业界震惊！大家都想知道，这笔巨额投资，英特尔和英伟达接下来会如何合作？高管们纷纷表示…合作方式非常简单！英特尔已经决定将总部搬到英伟达园区内，作为“战略合作伙伴”，享受…租用办公桌的服务！毕竟，现在是黄仁勋说了算！
+2026-01-29 09:30:10 | [32mINFO[0m |   joke_candidate_2: 记者：黄仁勋先生斥巨资1565亿入股英特尔，未来双方的合作方向是什么？英特尔高管们对此有何看法？我们连线了英特尔首席战略官…
+
+英特尔首席战略官：这当然是英特尔发展史上最激动人心的一天！黄仁勋先生的远见卓识，以及他对芯片产业的深刻理解，将带领英特尔走向新的辉煌。未来，英特尔将全面采用NVIDIA的品牌标识，所有产品线都将以“NVIDIA Inside”为荣。我们的工程师们正在积极学习如何制作更漂亮...
+2026-01-29 09:30:10 | [32mINFO[0m |   evaluation_criteria: 
+### 标题笑话评估框架：
+
+1. **笑果测试：** 哪个笑话真的能让人笑、微笑或有反应？不是哪个更"聪明"——而是哪个更好笑？
+2. **意外与铺垫：** 包袱是真的出人意料同时又合情合理？还是一眼就能猜到？
+3. **精炼度：** 每个字都必要吗？多余的字会拖垮节奏。越精简通常越好。
+4. **标题相关性：** 真的与这个具体标题相关，还是随便贴上去的通用笑话？
+5. **自然度：** 听...
+2026-01-29 09:30:10 | [32mINFO[0m |   target_language_and_culture: Chinese
+2026-01-29 09:30:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 09:30:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:24 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1158 in / 0 out
+2026-01-29 09:30:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 09:30:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:24 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:30:24 | [36mDEBUG[0m |   Response: ModelResponse(id='WNt6aaayF_2s4-EP3Niq6Aw', created=1769659210, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes leverage the recent news of Huang Renxun (Jensen Huang) investing heavily in Intel, and both play on the power dynamic shift. Joke 2 is significantly stronger.\n\nJoke 1 is a bit flat. The punchline – Intel moving its headquarters to Nvidia’s campus and s...
+2026-01-29 09:30:24 | [32mINFO[0m |   📊 Tokens: 1158 in / 0 out = 1158 total
+2026-01-29 09:30:24 | [32mINFO[0m | 🏆 Final Winner: 记者：黄仁勋先生斥巨资1565亿入股英特尔，未来双方的合作方向是什么？英特尔高管们对此有何看法？我们连线了英特尔首席战略官…
+
+英特尔首席战略官：这当然是英特尔发展史上最激动人心的一天！黄仁勋先生的远见卓识，以及他对芯片产业的深刻理解，将带领英特尔走向新的辉煌。未来，英特尔将全面采用NVIDIA的品牌标识，所有产品线都将以“NVIDIA Inside”为荣。我们的工程师们正在积极学习如何制作更漂亮的显卡外壳，并且已经开始用Jensen Huang先生的头像替换所有Intel标志。我们相信，在黄仁勋先生的英明领导下，英特尔必将成为NVIDIA的完美…战略伙伴！
+2026-01-29 09:30:24 | [32mINFO[0m | ✅ zh_2001: 记者：黄仁勋先生斥巨资1565亿入股英特尔，未来双方的合作方向是什么？英特尔高管们对此有何看法？我们连线了英特尔首席战略官…
+
+英特尔首席战略官：这当然是英特尔...
+2026-01-29 09:30:24 | [32mINFO[0m | Progress [Task A ZH]: |██████████████████████████████| 2/2 (100.0%)
+2026-01-29 09:30:24 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:30:24 | [32mINFO[0m |  🎭 WORD INCLUSION PIPELINE [ZH]
+2026-01-29 09:30:24 | [32mINFO[0m | ================================================================================
+2026-01-29 09:30:24 | [32mINFO[0m | Input: 喷洒, 键盘
+2026-01-29 09:30:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 09:30:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 09:30:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 09:30:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:24 | [32mINFO[0m |   original_input: 喷洒, 键盘
+2026-01-29 09:30:24 | [32mINFO[0m |   target_language_and_culture: Chinese
+2026-01-29 09:30:41 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:41 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 09:30:41 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:41 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 548 in / 0 out
+2026-01-29 09:30:41 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:41 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 09:30:41 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:41 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 09:30:41 | [36mDEBUG[0m |   Response: ModelResponse(id='adt6adPyFPGr4-EPkuDzkAQ', created=1769659224, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nA livestreamer is intensely playing a competitive online game, getting increasingly frustrated. In a fit of rage after losing, they accidentally spray water (喷洒 - pensha) all over their gaming 键盘 (jianpan - keyboard). The livestream is still running, and viewers ar...
+2026-01-29 09:30:41 | [32mINFO[0m |   📊 Tokens: 548 in / 0 out = 548 total
+2026-01-29 09:30:41 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:30:41 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 09:30:41 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:30:41 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 09:30:41 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 09:30:41 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 09:30:41 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 09:30:41 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 09:30:41 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 09:30:41 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 09:30:41 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 09:30:54 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1116 in / 0 out
+2026-01-29 09:30:54 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 09:30:54 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:30:54 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1116 in / 0 out
+2026-01-29 09:30:54 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 09:30:54 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:30:57 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1115 in / 0 out
+2026-01-29 09:30:57 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 09:30:57 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:31:00 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1115 in / 0 out
+2026-01-29 09:31:00 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 09:31:00 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 09:31:06 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 771 in / 0 out
+2026-01-29 09:31:06 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 09:31:06 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 09:31:06 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,2]]: 763 in / 0 out
+2026-01-29 09:31:06 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 09:31:06 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 09:31:06 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 783 in / 0 out
+2026-01-29 09:31:06 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 09:31:06 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 09:31:20 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,1]]: 796 in / 0 out
+2026-01-29 09:31:20 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 09:31:20 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 09:31:25 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 1533 in / 0 out
+2026-01-29 09:31:25 | [32mINFO[0m | ✅ [2,1] Generated: 直播间的弹幕飞速滚动，这位游戏主播已经连续输了五局。他紧咬牙关，手指疯狂敲击着键盘，试图挽回局面。失败的怒火像火山一样在他胸腔里积聚，观众们屏住呼吸，等待着爆发...
+2026-01-29 09:31:26 | [36mDEBUG[0m | Token tracking [ContentWriter [2,2]]: 1567 in / 0 out
+2026-01-29 09:31:26 | [32mINFO[0m | ✅ [2,2] Generated: (Livestream chat scrolling rapidly)
+
+**小明冲浪:** 兄弟们，这把Rank太难了！
+**吃瓜群众:** 坚持住啊！
+**...
+2026-01-29 09:31:31 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 1562 in / 0 out
+2026-01-29 09:31:31 | [32mINFO[0m | ✅ [1,2] Generated: (Livestream chat scrolling rapidly)
+**小明 (Xiaoming - Streamer):** 不！不可能！又输了！这波我明...
+2026-01-29 09:31:35 | [36mDEBUG[0m | Token tracking [ContentWriter [1,1]]: 1555 in / 0 out
+2026-01-29 09:31:35 | [32mINFO[0m | ✅ [1,1] Generated: (Streamer, voice cracking with frustration after a game loss) “Seriously?! Anoth...
+2026-01-29 09:31:35 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 09:31:35 | [32mINFO[0m | Candidate [1,1]: (Streamer, voice cracking with frustration after a game loss) “Seriously?! Another one?! I’m telling...
+2026-01-29 09:31:35 | [32mINFO[0m | Candidate [1,2]: (Livestream chat scrolling rapidly)
+**小明 (Xiaoming - Streamer):** 不！不可能！又输了！这波我明明已经…啊啊啊啊！
+**观众1 (Gua...
+2026-01-29 09:31:35 | [32mINFO[0m | Candidate [2,1]: 直播间的弹幕飞速滚动，这位游戏主播已经连续输了五局。他紧咬牙关，手指疯狂敲击着键盘，试图挽回局面。失败的怒火像火山一样在他胸腔里积聚，观众们屏住呼吸，等待着爆发的时刻。他开始抱怨，指责队友，最后，终于...
+2026-01-29 09:31:35 | [32mINFO[0m | Candidate [2,2]: (Livestream chat scrolling rapidly)
+
+**小明冲浪:** 兄弟们，这把Rank太难了！
+**吃瓜群众:** 坚持住啊！
+**技术帝:** 别慌，稳住心态！
+**小明...
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [word_inclusion]: ❌ FAILED
+2026-01-29 09:31:35 | [32mINFO[0m |     '喷洒': ❌ missing
+2026-01-29 09:31:35 | [32mINFO[0m |     '键盘': ✅ found
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [char_length]: ❌ FAILED
+2026-01-29 09:31:35 | [32mINFO[0m |     char_count: 509
+2026-01-29 09:31:35 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ❌ exceeded by 209
+2026-01-29 09:31:35 | [33mWARNING[0m | Candidate 1 failed validation: [{'name': 'word_inclusion', 'passed': False, 'details': {"'喷洒'": '❌ missing', "'键盘'": '✅ found'}}, {'name': 'char_length', 'passed': False, 'details': {'char_count': 509, 'max_allowed': 300, 'status': '❌ exceeded by 209'}}]
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [word_inclusion]: ❌ FAILED
+2026-01-29 09:31:35 | [32mINFO[0m |     '喷洒': ✅ found
+2026-01-29 09:31:35 | [32mINFO[0m |     '键盘': ❌ missing
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [char_length]: ❌ FAILED
+2026-01-29 09:31:35 | [32mINFO[0m |     char_count: 547
+2026-01-29 09:31:35 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ❌ exceeded by 247
+2026-01-29 09:31:35 | [33mWARNING[0m | Candidate 2 failed validation: [{'name': 'word_inclusion', 'passed': False, 'details': {"'喷洒'": '✅ found', "'键盘'": '❌ missing'}}, {'name': 'char_length', 'passed': False, 'details': {'char_count': 547, 'max_allowed': 300, 'status': '❌ exceeded by 247'}}]
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-29 09:31:35 | [32mINFO[0m |     '喷洒': ✅ found
+2026-01-29 09:31:35 | [32mINFO[0m |     '键盘': ✅ found
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 09:31:35 | [32mINFO[0m |     char_count: 191
+2026-01-29 09:31:35 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [word_inclusion]: ✅ PASSED
+2026-01-29 09:31:35 | [32mINFO[0m |     '喷洒': ✅ found
+2026-01-29 09:31:35 | [32mINFO[0m |     '键盘': ✅ found
+2026-01-29 09:31:35 | [32mINFO[0m |   Constraint [char_length]: ❌ FAILED
+2026-01-29 09:31:35 | [32mINFO[0m |     char_count: 303
+2026-01-29 09:31:35 | [32mINFO[0m |     max_allowed: 300
+2026-01-29 09:31:35 | [32mINFO[0m |     status: ❌ exceeded by 3
+2026-01-29 09:31:35 | [33mWARNING[0m | Candidate 4 failed validation: [{'name': 'char_length', 'passed': False, 'details': {'char_count': 303, 'max_allowed': 300, 'status': '❌ exceeded by 3'}}]
+2026-01-29 09:31:35 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 09:31:35 | [32mINFO[0m |  🏆 Judging 1 Candidates
+2026-01-29 09:31:35 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 09:31:35 | [32mINFO[0m | 🏆 Final Winner: 直播间的弹幕飞速滚动，这位游戏主播已经连续输了五局。他紧咬牙关，手指疯狂敲击着键盘，试图挽回局面。失败的怒火像火山一样在他胸腔里积聚，观众们屏住呼吸，等待着爆发的时刻。他开始抱怨，指责队友，最后，终于失去了理智。就在那一瞬间，他猛地抓起桌上的水杯，对着自己的键盘 喷洒 了过去。直播间瞬间安静了下来，只有水滴落到塑料外壳上的声音。随后，他喃喃自语：“这该死的 键盘，害我输了游戏！”
+2026-01-29 09:31:35 | [32mINFO[0m | ✅ zh_2276: 直播间的弹幕飞速滚动，这位游戏主播已经连续输了五局。他紧咬牙关，手指疯狂敲击着键盘，试图挽回局面。失败的怒火像火山一样在他胸腔里积聚，观众们屏住呼吸，等待着爆发...
+2026-01-29 09:31:35 | [32mINFO[0m | 
+================================================================================
+2026-01-29 09:31:35 | [32mINFO[0m |  📈 SUMMARY
+2026-01-29 09:31:35 | [32mINFO[0m | ================================================================================
+2026-01-29 09:31:35 | [32mINFO[0m |   Duration: 0:02:29.834120
+2026-01-29 09:31:35 | [32mINFO[0m |   Mode: TEST
+2026-01-29 09:31:35 | [32mINFO[0m |   Output Directory: /home/jatin/Code/Year3/Research/Final/test_outputs
+2026-01-29 09:31:35 | [32mINFO[0m |   Total Input Tokens: 32085
+2026-01-29 09:31:35 | [32mINFO[0m |   Total Output Tokens: 0
+2026-01-29 09:31:35 | [32mINFO[0m |   Total API Calls: 28
+2026-01-29 09:31:35 | [32mINFO[0m |   Total Retries: 0
+2026-01-29 09:31:35 | [32mINFO[0m |   a-zh processed: 2
+2026-01-29 09:31:35 | [32mINFO[0m |   a-zh errors: 0
+2026-01-29 09:31:35 | [32mINFO[0m | 
+✨ Pipeline complete! Outputs saved to: /home/jatin/Code/Year3/Research/Final/test_outputs

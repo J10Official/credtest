@@ -1,0 +1,369 @@
+2026-01-30 17:55:36 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:55:36 | OUTPUT |   🎭 WORD INCLUSION JOKE - current
+2026-01-30 17:55:36 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:55:36 | OUTPUT | 
+  INPUT: hammer, flower
+2026-01-30 17:55:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:55:49 | OUTPUT |   📦 ContextEnricher
+2026-01-30 17:55:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:55:49 | OUTPUT |   situation: A frustrated sculptor attempting to create a floral centerpiece for a garden party. The sculptor is known for their brutalist, industrial style and is hilariously inept at delicate work. Alternatively, a clumsy but well-meaning person trying to attach a flower to a hammer as a "gift" for their partner, or as a misguided attempt at art. A scene in a hardware store where someone is trying to return a hammer because it "doesn't smell like flowers." A gardener accidentally hammering a flower pot instead of a stake.
+2026-01-30 17:55:49 | OUTPUT |   semantic_associations:
+2026-01-30 17:55:49 | OUTPUT |     • hammer: Tool, construction, force, masculinity, repair, destruction, hitting, blunt object, DIY, working class, Thor (Norse mythology), 'nail it' (idiom)
+2026-01-30 17:55:49 | OUTPUT |     • hammer: Can also evoke images of anger, aggression, or being 'hammered' (drunk).
+2026-01-30 17:55:49 | OUTPUT |     • flower: Beauty, fragility, nature, femininity, romance, gardens, gifts, spring, growth, delicate, fleeting, symbolism (roses = love, lilies = sympathy)
+2026-01-30 17:55:49 | OUTPUT |     • flower: Associated with positive emotions, but also with decay and the cycle of life. Can represent superficiality ('all show, no flower').
+2026-01-30 17:55:49 | OUTPUT |     • The contrast between the two is stark: hard vs. soft, artificial vs. natural, destructive vs. life-giving. This contrast is the core of the humor.
+2026-01-30 17:55:49 | OUTPUT |     • A 'hammer and flower' pairing could be a metaphor for a tough exterior hiding a sensitive interior.
+2026-01-30 17:55:49 | OUTPUT |     • The image of a hammer *with* a flower is inherently incongruous and visually funny.
+2026-01-30 17:55:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:55:49 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 17:55:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:55:49 | OUTPUT |   situation: A frustrated sculptor attempting to create a floral centerpiece for a garden party. The sculptor is known for their brutalist, industrial style and is hilariously inept at delicate work. Alternatively, a clumsy but well-meaning person trying to attach a flower to a hammer as a "gift" for their partner, or as a misguided attempt at art. A scene in a hardware store where someone is trying to return a hammer because it "doesn't smell like flowers." A gardener accidentally hammering a flower pot instead of a stake.
+2026-01-30 17:55:49 | OUTPUT |   semantic_associations:
+2026-01-30 17:55:49 | OUTPUT |     • hammer: Tool, construction, force, masculinity, repair, destruction, hitting, blunt object, DIY, working class, Thor (Norse mythology), 'nail it' (idiom)
+2026-01-30 17:55:49 | OUTPUT |     • hammer: Can also evoke images of anger, aggression, or being 'hammered' (drunk).
+2026-01-30 17:55:49 | OUTPUT |     • flower: Beauty, fragility, nature, femininity, romance, gardens, gifts, spring, growth, delicate, fleeting, symbolism (roses = love, lilies = sympathy)
+2026-01-30 17:55:49 | OUTPUT |     • flower: Associated with positive emotions, but also with decay and the cycle of life. Can represent superficiality ('all show, no flower').
+2026-01-30 17:55:49 | OUTPUT |     • The contrast between the two is stark: hard vs. soft, artificial vs. natural, destructive vs. life-giving. This contrast is the core of the humor.
+2026-01-30 17:55:49 | OUTPUT |     • A 'hammer and flower' pairing could be a metaphor for a tough exterior hiding a sensitive interior.
+2026-01-30 17:55:49 | OUTPUT |     • The image of a hammer *with* a flower is inherently incongruous and visually funny.
+2026-01-30 17:56:14 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:14 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:14 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:14 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:15 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:19 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:19 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:21 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:21 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:21 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:21 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:22 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:22 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:28 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:56:29 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:29 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 17:56:29 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:29 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 17:56:30 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:30 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 17:56:34 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:34 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 17:56:36 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:36 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 17:56:37 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 17:56:37 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 17:56:37 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 2/8...
+2026-01-30 17:56:37 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:56:37 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 17:56:45 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:45 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 17:56:45 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:45 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:56:45 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:56:45 | OUTPUT |     cognitive_manipulation: We will anthropomorphize the hammer, assigning it emotional needs typically associated with receiving flowers, thereby reversing the expected giver/receiver roles and creating a humorous mismatch between object and sentiment.
+2026-01-30 17:56:45 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 17:56:45 | OUTPUT |     script_opposition: Functionality vs. Sentimentality (Tool/Impact vs. Beauty/Affection)
+2026-01-30 17:56:45 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:56:45 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:56:45 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:56:45 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:56:45 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:56:45 | OUTPUT |     │ Agnes, the sculptor, was staring intensely at a pile of    │
+2026-01-30 17:56:45 | OUTPUT |     │ metal. “Right,” she muttered, “the garden party needs…     │
+2026-01-30 17:56:45 | OUTPUT |     │ delicacy. A touch of whimsy. I’m thinking… floral.” Her    │
+2026-01-30 17:56:45 | OUTPUT |     │ assistant cautiously asked, “With the steel and rebar,     │
+2026-01-30 17:56:45 | OUTPUT |     │ ma’am?” Agnes sighed dramatically. “Yes, Bernard. I need   │
+2026-01-30 17:56:45 | OUTPUT |     │ to make the hammer *feel* appreciated. It’s been working   │
+2026-01-30 17:56:45 | OUTPUT |     │ so hard. I thought a little bouquet would brighten its     │
+2026-01-30 17:56:45 | OUTPUT |     │ day.”                                                      │
+2026-01-30 17:56:45 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:56:52 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:52 | OUTPUT |   🎯 CANDIDATE [5,1]
+2026-01-30 17:56:52 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:52 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:56:52 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:56:52 | OUTPUT |     cognitive_manipulation: Attribute the delicate, aesthetic qualities typically associated with flowers onto the hammer, specifically by describing the hammer as possessing qualities of beauty, fragrance, or requiring gentle handling, thereby reversing the expected relationship between object and descriptor.
+2026-01-30 17:56:52 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 17:56:52 | OUTPUT |     script_opposition: Force/Utility vs. Beauty/Fragility
+2026-01-30 17:56:52 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:56:52 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:56:52 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:56:52 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:56:52 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:56:52 | OUTPUT |     │ Agnes, the sculptor, was staring at the floral arrangement │
+2026-01-30 17:56:52 | OUTPUT |     │ commission with barely concealed contempt. “Honestly,” she │
+2026-01-30 17:56:52 | OUTPUT |     │ muttered to her assistant, “they want *delicacy*. They     │
+2026-01-30 17:56:52 | OUTPUT |     │ want… blooms. As if I, Agnes Blackwood, creator of         │
+2026-01-30 17:56:52 | OUTPUT |     │ monumental steel beasts, should be fussing with petals. I  │
+2026-01-30 17:56:52 | OUTPUT |     │ need something to… anchor the whole thing, you know?       │
+2026-01-30 17:56:52 | OUTPUT |     │ Something with presence.” She hefted a tool. “I’m          │
+2026-01-30 17:56:52 | OUTPUT |     │ thinking,” she declared, examining a particularly hefty    │
+2026-01-30 17:56:52 | OUTPUT |     │ claw hammer, “this hammer will be the focal point. It’s…   │
+2026-01-30 17:56:52 | OUTPUT |     │ surprisingly fragrant. And the weight really brings out    │
+2026-01-30 17:56:52 | OUTPUT |     │ the flower’s… structural integrity.”                       │
+2026-01-30 17:56:52 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:56:59 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:59 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 17:56:59 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:59 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:56:59 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:56:59 | OUTPUT |     cognitive_manipulation: Attribute the delicate, aesthetic qualities typically associated with flowers onto the hammer, specifically by describing the hammer as possessing qualities of beauty, fragrance, or requiring gentle handling, thereby reversing the expected relationship between object and descriptor.
+2026-01-30 17:56:59 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 17:56:59 | OUTPUT |     script_opposition: Force/Utility vs. Beauty/Fragility
+2026-01-30 17:56:59 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:56:59 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:56:59 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:56:59 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:56:59 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:56:59 | OUTPUT |     │ Agnes, the sculptor, was staring intensely at a            │
+2026-01-30 17:56:59 | OUTPUT |     │ particularly stubborn piece of granite. Her assistant,     │
+2026-01-30 17:56:59 | OUTPUT |     │ Bernard, tentatively approached. “Everything alright,      │
+2026-01-30 17:56:59 | OUTPUT |     │ Agnes? The garden party is tomorrow, and Mrs.              │
+2026-01-30 17:56:59 | OUTPUT |     │ Featherbottom is *very* particular about her centerpiece.” │
+2026-01-30 17:56:59 | OUTPUT |     │ Agnes sighed dramatically. “It’s just… I can’t seem to     │
+2026-01-30 17:56:59 | OUTPUT |     │ capture the essence of…delicacy. I need something…fragile. │
+2026-01-30 17:56:59 | OUTPUT |     │ Something that speaks of spring.” Bernard blinked. “You    │
+2026-01-30 17:56:59 | OUTPUT |     │ want…a flower?” Agnes waved a dismissive hand. “No, no,    │
+2026-01-30 17:56:59 | OUTPUT |     │ Bernard. Something with more…impact. I was thinking of     │
+2026-01-30 17:56:59 | OUTPUT |     │ using the hammer. It has a certain…bloom to it, don’t you  │
+2026-01-30 17:56:59 | OUTPUT |     │ think?”                                                    │
+2026-01-30 17:56:59 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:56:59 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:59 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 17:56:59 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:56:59 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:56:59 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:56:59 | OUTPUT |     cognitive_manipulation: We will anthropomorphize the hammer, assigning it the delicate qualities of a flower – specifically, its scent – and then create a literal expectation that a hammer should possess this quality, leading to a request for a return based on its olfactory deficiency.
+2026-01-30 17:56:59 | OUTPUT |     logical_mechanism: Literal Interpretation
+2026-01-30 17:56:59 | OUTPUT |     script_opposition: Functionality vs. Aesthetics (or Utility vs. Sensory Experience)
+2026-01-30 17:56:59 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:56:59 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:56:59 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:56:59 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:56:59 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:56:59 | OUTPUT |     │ Agnes, the sculptor, was staring intensely at a            │
+2026-01-30 17:56:59 | OUTPUT |     │ particularly stubborn piece of granite. Her assistant,     │
+2026-01-30 17:56:59 | OUTPUT |     │ Bernard, tentatively approached. “Madam, are you…          │
+2026-01-30 17:56:59 | OUTPUT |     │ attempting to carve a floral arrangement? With a hammer?”  │
+2026-01-30 17:56:59 | OUTPUT |     │ Agnes sighed dramatically. “Bernard, darling, I’m trying   │
+2026-01-30 17:56:59 | OUTPUT |     │ to *evoke* the essence of a flower. The brutal,            │
+2026-01-30 17:56:59 | OUTPUT |     │ unforgiving essence.” Bernard blinked. “Right. Well, the   │
+2026-01-30 17:56:59 | OUTPUT |     │ hardware store called. They said someone tried to return a │
+2026-01-30 17:56:59 | OUTPUT |     │ hammer because it didn’t smell like a flower. They were    │
+2026-01-30 17:56:59 | OUTPUT |     │ quite insistent.”                                          │
+2026-01-30 17:56:59 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:57:00 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:57:00 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:57:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:57:03 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 17:57:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:57:03 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:57:03 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:57:03 | OUTPUT |     cognitive_manipulation: Attribute the delicate, aesthetic qualities typically associated with flowers onto the hammer, specifically by describing the hammer as possessing qualities of beauty, fragrance, or requiring gentle handling, thereby reversing the expected relationship between object and descriptor.
+2026-01-30 17:57:03 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 17:57:03 | OUTPUT |     script_opposition: Force/Utility vs. Beauty/Fragility
+2026-01-30 17:57:03 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:57:03 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:57:03 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:57:03 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:57:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:57:03 | OUTPUT |     │ Agnes, the sculptor, was staring intensely at a            │
+2026-01-30 17:57:03 | OUTPUT |     │ particularly stubborn piece of granite. Her assistant,     │
+2026-01-30 17:57:03 | OUTPUT |     │ Bernard, tentatively approached. “Everything alright,      │
+2026-01-30 17:57:03 | OUTPUT |     │ Agnes? The garden party is tomorrow, and Mrs.              │
+2026-01-30 17:57:03 | OUTPUT |     │ Featherbottom is *very* particular about her centerpiece.” │
+2026-01-30 17:57:03 | OUTPUT |     │ Agnes sighed dramatically. “It’s just… I can’t seem to     │
+2026-01-30 17:57:03 | OUTPUT |     │ capture the… essence. The *delicacy*. I need something to  │
+2026-01-30 17:57:03 | OUTPUT |     │ really… bloom.” Bernard blinked. “You’ve been trying to    │
+2026-01-30 17:57:03 | OUTPUT |     │ attach a flower to a hammer for the last three hours,      │
+2026-01-30 17:57:03 | OUTPUT |     │ Agnes. And then hammering the flower.” Agnes didn’t even   │
+2026-01-30 17:57:03 | OUTPUT |     │ look up. “Precisely. It’s a statement on the duality of    │
+2026-01-30 17:57:03 | OUTPUT |     │ creation. Brutality birthing beauty.”                      │
+2026-01-30 17:57:03 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:57:03 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:57:03 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 17:57:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:57:03 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 17:57:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:57:03 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:57:03 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:57:03 | OUTPUT |     cognitive_manipulation: Attribute the delicate, aesthetic qualities typically associated with flowers onto the hammer, specifically by describing the hammer as possessing qualities of beauty, fragrance, or requiring gentle handling, thereby reversing the expected relationship between object and descriptor.
+2026-01-30 17:57:03 | OUTPUT |     logical_mechanism: Juxtaposition
+2026-01-30 17:57:03 | OUTPUT |     script_opposition: Force/Destruction vs. Beauty/Fragility
+2026-01-30 17:57:03 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:57:03 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:57:03 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:57:03 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:57:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:57:03 | OUTPUT |     │ Agnes, the sculptor, was staring intensely at a            │
+2026-01-30 17:57:03 | OUTPUT |     │ particularly stubborn piece of granite. Her assistant,     │
+2026-01-30 17:57:03 | OUTPUT |     │ Bernard, tentatively approached. “Everything alright,      │
+2026-01-30 17:57:03 | OUTPUT |     │ Agnes? The garden party is tomorrow, and Mrs. Gable is     │
+2026-01-30 17:57:03 | OUTPUT |     │ very specific about the centerpiece.” Agnes sighed         │
+2026-01-30 17:57:03 | OUTPUT |     │ dramatically. “It needs…delicacy, Bernard. A               │
+2026-01-30 17:57:03 | OUTPUT |     │ certain…flair. I’m trying to capture the essence of        │
+2026-01-30 17:57:03 | OUTPUT |     │ spring.” She hefted a large claw hammer. Bernard blinked.  │
+2026-01-30 17:57:03 | OUTPUT |     │ “Right. And you’re using…that? Because I was thinking      │
+2026-01-30 17:57:03 | OUTPUT |     │ maybe a delicate flower arrangement would be               │
+2026-01-30 17:57:03 | OUTPUT |     │ more…spring-like?” Agnes scoffed. “Nonsense! This hammer   │
+2026-01-30 17:57:03 | OUTPUT |     │ *is* spring. Feel the bloom in its weight. Smell the       │
+2026-01-30 17:57:03 | OUTPUT |     │ petals in the steel.”                                      │
+2026-01-30 17:57:03 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:57:16 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:57:16 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 17:57:22 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:57:22 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 17:57:22 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:57:22 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:57:22 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:57:22 | OUTPUT |     cognitive_manipulation: Attribute the delicate, aesthetic qualities typically associated with flowers onto the hammer, specifically by describing the hammer as possessing qualities of beauty, fragrance, or requiring gentle handling, thereby reversing the expected relationship between object and descriptor.
+2026-01-30 17:57:22 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 17:57:22 | OUTPUT |     script_opposition: Force/Destruction vs. Beauty/Fragility
+2026-01-30 17:57:22 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:57:22 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:57:22 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:57:22 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:57:22 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:57:22 | OUTPUT |     │ Agnes, the sculptor, was holding a press conference. “My   │
+2026-01-30 17:57:22 | OUTPUT |     │ latest piece,” she announced, gesturing dramatically at a… │
+2026-01-30 17:57:22 | OUTPUT |     │ well, it was mostly metal. “It’s a commentary on the       │
+2026-01-30 17:57:22 | OUTPUT |     │ duality of existence. The raw power of industry…           │
+2026-01-30 17:57:22 | OUTPUT |     │ juxtaposed with the ephemeral beauty of nature.” A         │
+2026-01-30 17:57:22 | OUTPUT |     │ reporter cautiously asked, “Is that… a hammer?” Agnes      │
+2026-01-30 17:57:22 | OUTPUT |     │ sniffed. “A hammer? Darling, it’s a *flower*. A brutally   │
+2026-01-30 17:57:22 | OUTPUT |     │ honest flower, forged in the fires of existential angst.   │
+2026-01-30 17:57:22 | OUTPUT |     │ And frankly, it’s quite delicate. Don’t even *think* about │
+2026-01-30 17:57:22 | OUTPUT |     │ hitting anything with it.”                                 │
+2026-01-30 17:57:22 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:57:36 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 17:57:36 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 17:57:36 | WARNING | ⏳ Transient error hit. Waiting 20s before retry 3/8...
+2026-01-30 17:58:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:58:03 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 17:58:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:58:03 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:58:03 | OUTPUT |     focal_targets: The incongruity between the hammer’s function as a tool of forceful impact and the flower’s inherent fragility and symbolic association with gentleness. The joke will center on attributing floral qualities *to* the hammer, or expecting the hammer to *perform* floral functions.
+2026-01-30 17:58:03 | OUTPUT |     cognitive_manipulation: Attribute the delicate, aesthetic qualities typically associated with flowers onto the hammer, specifically by describing the hammer as possessing qualities of beauty, fragrance, or requiring gentle handling, thereby reversing the expected relationship between object and descriptor.
+2026-01-30 17:58:03 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 17:58:03 | OUTPUT |     script_opposition: Force/Utility vs. Beauty/Fragility
+2026-01-30 17:58:03 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:58:03 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 17:58:03 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:58:03 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:58:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:58:03 | OUTPUT |     │ Agnes, the sculptor, was staring at the floral arrangement │
+2026-01-30 17:58:03 | OUTPUT |     │ commission with barely concealed contempt. “Honestly,” she │
+2026-01-30 17:58:03 | OUTPUT |     │ muttered to her assistant, “they want *delicacy*. They     │
+2026-01-30 17:58:03 | OUTPUT |     │ want… blooms. As if I, Agnes Blackwood, creator of         │
+2026-01-30 17:58:03 | OUTPUT |     │ monumental steel beasts, should be fussing with petals. I  │
+2026-01-30 17:58:03 | OUTPUT |     │ need something to… anchor the whole thing, you know?       │
+2026-01-30 17:58:03 | OUTPUT |     │ Something with presence.” She hefted a tool. “I’m          │
+2026-01-30 17:58:03 | OUTPUT |     │ thinking,” she declared, examining a particularly hefty    │
+2026-01-30 17:58:03 | OUTPUT |     │ claw hammer, “this hammer will be the focal point. It’s…   │
+2026-01-30 17:58:03 | OUTPUT |     │ surprisingly fragrant. And the weight really brings out    │
+2026-01-30 17:58:03 | OUTPUT |     │ the flower’s… structural integrity.”                       │
+2026-01-30 17:58:03 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:58:03 | WARNING | Candidate 1 failed validation: [{'name': 'word_inclusion', 'passed': False, 'details': {"'hammer'": '✅ found', "'flower'": '❌ missing'}}]

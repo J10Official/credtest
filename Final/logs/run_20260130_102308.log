@@ -1,0 +1,99 @@
+2026-01-30 10:23:08 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:23:08 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - TEST MODE
+2026-01-30 10:23:08 | [32mINFO[0m | ================================================================================
+2026-01-30 10:23:08 | [32mINFO[0m | Task: a-en
+2026-01-30 10:23:08 | [32mINFO[0m | Provider: gemini
+2026-01-30 10:23:08 | [32mINFO[0m | Resume: False
+2026-01-30 10:23:08 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260130_102308.log
+2026-01-30 10:23:08 | [32mINFO[0m | ✅ API configured: gemini
+2026-01-30 10:23:08 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:23:08 | [32mINFO[0m |  📰 TASK A - EN
+2026-01-30 10:23:08 | [32mINFO[0m | ================================================================================
+2026-01-30 10:23:08 | [32mINFO[0m | Loaded 300 items from task-a-en.tsv
+2026-01-30 10:23:08 | [32mINFO[0m | Test mode: selected 2 items (1 headlines, 1 word inclusion)
+2026-01-30 10:23:08 | [32mINFO[0m | Progress [Task A EN]: |███████████████░░░░░░░░░░░░░░░| 1/2 (50.0%)
+2026-01-30 10:23:08 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:23:08 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-30 10:23:08 | [32mINFO[0m | ================================================================================
+2026-01-30 10:23:08 | [32mINFO[0m | Input: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 10:23:08 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:23:08 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-30 10:23:08 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:23:08 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:23:08 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-30 10:23:08 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:23:27 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-30 10:23:27 | [32mINFO[0m |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and strongly objects to any official interactions betw...
+2026-01-30 10:23:27 | [32mINFO[0m |   semantic_associations:
+2026-01-30 10:23:27 | [32mINFO[0m |     - Panama: Panama Canal, financial secrecy, historically US influence, relatively small nation, strategic location
+2026-01-30 10:23:27 | [32mINFO[0m |     - Taiwan: Self-governed island, democracy, technology industry (semiconductors), contested political status, US support, 'China's renegade province'
+2026-01-30 10:23:27 | [32mINFO[0m |     - China: Authoritarian government, economic superpower, 'One China' policy, assertive foreign policy, military strength, censorship
+2026-01-30 10:23:27 | [32mINFO[0m |     - Diplomatic row: International relations, political tension, protests, sanctions, broken promises, face-saving
+2026-01-30 10:23:27 | [32mINFO[0m |     - Lawmakers: Politicians, representatives of the people, potential for independent action, susceptible to lobbying, travel expenses
+2026-01-30 10:23:27 | [32mINFO[0m |     - Trip: Official visit, symbolic gesture, potential for secret negotiations, expense account opportunity
+2026-01-30 10:23:27 | [32mINFO[0m |   potential_targets:
+2026-01-30 10:23:27 | [32mINFO[0m |     - China's sensitivity over Taiwan
+2026-01-30 10:23:27 | [32mINFO[0m |     - Panama's diplomatic flip-flop (recognizing China then sending lawmakers to Taiwan)
+2026-01-30 10:23:27 | [32mINFO[0m |     - The concept of 'One China' policy
+2026-01-30 10:23:27 | [32mINFO[0m |     - The idea of small nations being pressured by superpowers
+2026-01-30 10:23:27 | [32mINFO[0m |     - The expense of the lawmakers' trip
+2026-01-30 10:23:27 | [32mINFO[0m |     - The perceived hypocrisy of Panama's actions
+2026-01-30 10:23:27 | [32mINFO[0m |     - The importance placed on symbolic gestures in international relations
+2026-01-30 10:23:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:23:27 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-30 10:23:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:23:27 | [32mINFO[0m |   📊 Tokens: 521 in / 0 out = 521 total
+2026-01-30 10:23:27 | [33mWARNING[0m | ⚠️ en_2001: Sensitive topic detected, likely censorship
+2026-01-30 10:23:27 | [32mINFO[0m | Progress [Task A EN]: |██████████████████████████████| 2/2 (100.0%)
+2026-01-30 10:23:27 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:23:27 | [32mINFO[0m |  🎭 WORD INCLUSION PIPELINE [EN]
+2026-01-30 10:23:27 | [32mINFO[0m | ================================================================================
+2026-01-30 10:23:27 | [32mINFO[0m | Input: hammer, flower
+2026-01-30 10:23:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:23:27 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-30 10:23:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:23:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:23:27 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-30 10:23:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:23:40 | [32mINFO[0m | 📤 OUTPUT ← ContextEnricher
+2026-01-30 10:23:40 | [32mINFO[0m |   situation: A frustrated sculptor is trying to create a delicate floral arrangement *out of stone*. He's using a hammer to painstakingly chip away at the rock, attempting to reveal the flower within. He keeps acc...
+2026-01-30 10:23:40 | [32mINFO[0m |   semantic_associations:
+2026-01-30 10:23:40 | [32mINFO[0m |     - **Hammer:** Tool, construction, force, destruction, building, repair, blacksmith, Thor, hitting, blunt instrument, masculinity, DIY, precision (ironically, in this case).
+2026-01-30 10:23:40 | [32mINFO[0m |     - **Flower:** Beauty, fragility, nature, growth, romance, gifts, gardens, spring, femininity, delicacy, fleeting life, symbolism (roses = love, lilies = sympathy, etc.).
+2026-01-30 10:23:40 | [32mINFO[0m |   potential_targets:
+2026-01-30 10:23:40 | [32mINFO[0m |     - The contrast between brute force and delicate beauty.
+2026-01-30 10:23:40 | [32mINFO[0m |     - The absurdity of using a destructive tool to create something beautiful.
+2026-01-30 10:23:40 | [32mINFO[0m |     - The sculptor's increasing frustration and the ruined flowers.
+2026-01-30 10:23:40 | [32mINFO[0m |     - A commentary on trying to force something natural or delicate into an unnatural form.
+2026-01-30 10:23:40 | [32mINFO[0m |     - The irony of 'hammering out' a flower.
+2026-01-30 10:23:40 | [32mINFO[0m |     - The sculptor claiming he's 'blooming' with creativity while wielding a hammer.
+2026-01-30 10:23:40 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-30 10:23:40 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-30 10:23:40 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-30 10:23:40 | [32mINFO[0m |   📊 Tokens: 546 in / 0 out = 546 total
+2026-01-30 10:23:40 | [31mERROR[0m | ❌ Error in processing en_2276: AttributeError: 'list' object has no attribute 'split'
+2026-01-30 10:23:40 | [32mINFO[0m | 
+================================================================================
+2026-01-30 10:23:40 | [32mINFO[0m |  📈 SUMMARY
+2026-01-30 10:23:40 | [32mINFO[0m | ================================================================================
+2026-01-30 10:23:40 | [32mINFO[0m |   Duration: 0:00:32.273693
+2026-01-30 10:23:40 | [32mINFO[0m |   Mode: TEST
+2026-01-30 10:23:40 | [32mINFO[0m |   Output Directory: /home/jatin/Code/Year3/Research/Final/test_outputs
+2026-01-30 10:23:40 | [32mINFO[0m |   Total Input Tokens: 1067
+2026-01-30 10:23:40 | [32mINFO[0m |   Total Output Tokens: 0
+2026-01-30 10:23:40 | [32mINFO[0m |   Total API Calls: 2
+2026-01-30 10:23:40 | [32mINFO[0m |   Total Retries: 0
+2026-01-30 10:23:40 | [32mINFO[0m |   a-en processed: 0
+2026-01-30 10:23:40 | [32mINFO[0m |   a-en errors: 2
+2026-01-30 10:23:40 | [32mINFO[0m | 
+✨ Pipeline complete! Outputs saved to: /home/jatin/Code/Year3/Research/Final/test_outputs

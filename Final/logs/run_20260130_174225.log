@@ -1,0 +1,343 @@
+2026-01-30 17:42:25 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:42:25 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 17:42:25 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:42:25 | OUTPUT | 
+  INPUT: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 17:42:32 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:32 | OUTPUT |   📦 ContextEnricher
+2026-01-30 17:42:32 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:32 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and insists that other countries do not recognize it as an independent entity. Panama, having switched diplomatic recognition from Taiwan to China in 2017, is now facing repercussions for this seemingly unofficial visit. The "diplomatic row" suggests China is expressing strong disapproval, likely through official protests, economic pressure, or other diplomatic means. The subtext is about the ongoing geopolitical tension between China and Taiwan, and the delicate balancing act smaller nations perform when navigating these relationships. It also highlights China's sensitivity regarding Taiwan's international standing and its willingness to exert influence to maintain its position. The visit, while potentially framed as a friendly gesture or fact-finding mission by Panama, is perceived by China as a challenge to its "One China" policy.
+2026-01-30 17:42:32 | OUTPUT |   semantic_associations:
+2026-01-30 17:42:32 | OUTPUT |     • Panama: Panama Canal, corruption, financial secrecy, Central America, relatively small nation, historically influenced by US
+2026-01-30 17:42:32 | OUTPUT |     • Taiwan: Semiconductor manufacturing, democracy, disputed territory, Chinese claim, US support, technological hub
+2026-01-30 17:42:32 | OUTPUT |     • China: Economic superpower, authoritarian government, 'One China' policy, territorial disputes, assertive foreign policy, growing global influence
+2026-01-30 17:42:32 | OUTPUT |     • Diplomatic row: International relations, political tension, protests, sanctions, broken agreements, face-saving
+2026-01-30 17:42:32 | OUTPUT |     • Lawmakers: Politicians, representatives, potential for back channels, unofficial diplomacy, potential for miscommunication
+2026-01-30 17:42:32 | OUTPUT |     • Trip: Travel, exploration, potential for unintended consequences, symbolic gesture, political signaling
+2026-01-30 17:42:32 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:32 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 17:42:32 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:32 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and insists that other countries do not recognize it as an independent entity. Panama, having switched diplomatic recognition from Taiwan to China in 2017, is now facing repercussions for this seemingly unofficial visit. The "diplomatic row" suggests China is expressing strong disapproval, likely through official protests, economic pressure, or other diplomatic means. The subtext is about the ongoing geopolitical tension between China and Taiwan, and the delicate balancing act smaller nations perform when navigating these relationships. It also highlights China's sensitivity regarding Taiwan's international standing and its willingness to exert influence to maintain its position. The visit, while potentially framed as a friendly gesture or fact-finding mission by Panama, is perceived by China as a challenge to its "One China" policy.
+2026-01-30 17:42:32 | OUTPUT |   semantic_associations:
+2026-01-30 17:42:32 | OUTPUT |     • Panama: Panama Canal, corruption, financial secrecy, Central America, relatively small nation, historically influenced by US
+2026-01-30 17:42:32 | OUTPUT |     • Taiwan: Semiconductor manufacturing, democracy, disputed territory, Chinese claim, US support, technological hub
+2026-01-30 17:42:32 | OUTPUT |     • China: Economic superpower, authoritarian government, 'One China' policy, territorial disputes, assertive foreign policy, growing global influence
+2026-01-30 17:42:32 | OUTPUT |     • Diplomatic row: International relations, political tension, protests, sanctions, broken agreements, face-saving
+2026-01-30 17:42:32 | OUTPUT |     • Lawmakers: Politicians, representatives, potential for back channels, unofficial diplomacy, potential for miscommunication
+2026-01-30 17:42:32 | OUTPUT |     • Trip: Travel, exploration, potential for unintended consequences, symbolic gesture, political signaling
+2026-01-30 17:42:45 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:45 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 17:42:45 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:45 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:42:45 | OUTPUT |     focal_targets: Panamanian lawmakers’ trip & diplomatic row
+2026-01-30 17:42:45 | OUTPUT |     cognitive_manipulation: Reframe the "diplomatic row" not as a serious geopolitical conflict, but as a petty argument stemming from a travel mishap, specifically, the lawmakers forgetting to send a postcard to China.
+2026-01-30 17:42:45 | OUTPUT |     logical_mechanism: Absurdity
+2026-01-30 17:42:45 | OUTPUT |     script_opposition: International Diplomacy vs. Personal Etiquette
+2026-01-30 17:42:45 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:42:45 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:42:45 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:42:45 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:42:45 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:45 | OUTPUT |     │ Beijing has lodged a formal complaint following a recent   │
+2026-01-30 17:42:45 | OUTPUT |     │ visit to Taiwan by a delegation of Panamanian lawmakers,   │
+2026-01-30 17:42:45 | OUTPUT |     │ sparking a significant diplomatic row. The core issue?     │
+2026-01-30 17:42:45 | OUTPUT |     │ Apparently, China was deeply offended that they didn’t     │
+2026-01-30 17:42:45 | OUTPUT |     │ receive a postcard.                                        │
+2026-01-30 17:42:45 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:45 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:45 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 17:42:45 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:45 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:42:45 | OUTPUT |     focal_targets: Panamanian lawmakers’ trip & diplomatic row
+2026-01-30 17:42:45 | OUTPUT |     cognitive_manipulation: Reframe the "diplomatic row" not as a serious geopolitical conflict, but as a petty argument stemming from a travel mishap, specifically, the lawmakers forgetting to send a postcard to China.
+2026-01-30 17:42:45 | OUTPUT |     logical_mechanism: Absurdity
+2026-01-30 17:42:45 | OUTPUT |     script_opposition: Geopolitical Significance vs. Social Etiquette
+2026-01-30 17:42:45 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:42:45 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:42:45 | OUTPUT |     language_style: Deadpan
+2026-01-30 17:42:45 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:42:45 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:45 | OUTPUT |     │ Breaking News: A diplomatic row has erupted between China  │
+2026-01-30 17:42:45 | OUTPUT |     │ and Panama following a recent trip by Panamanian lawmakers │
+2026-01-30 17:42:45 | OUTPUT |     │ to Taiwan. Sources say tensions are high…apparently,       │
+2026-01-30 17:42:45 | OUTPUT |     │ Beijing is furious they didn’t even send a postcard.       │
+2026-01-30 17:42:45 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:48 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:48 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 17:42:48 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:48 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:42:48 | OUTPUT |     focal_targets: Panamanian lawmakers and the concept of a "diplomatic row".
+2026-01-30 17:42:48 | OUTPUT |     cognitive_manipulation: Reframe the "diplomatic row" not as a serious international incident, but as a petty squabble stemming from a perceived slight, specifically focusing on the lawmakers' travel arrangements and implying China is overreacting to a minor inconvenience.
+2026-01-30 17:42:48 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:42:48 | OUTPUT |     script_opposition: International Diplomacy vs. Petty Annoyance.
+2026-01-30 17:42:48 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:42:48 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:42:48 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:42:48 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:42:48 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:48 | OUTPUT |     │ Breaking News: Following a recent visit to Taiwan by a     │
+2026-01-30 17:42:48 | OUTPUT |     │ delegation of Panamanian lawmakers, diplomatic tensions    │
+2026-01-30 17:42:48 | OUTPUT |     │ are escalating with China. Sources confirm the situation   │
+2026-01-30 17:42:48 | OUTPUT |     │ is incredibly delicate, with potential ramifications for   │
+2026-01-30 17:42:48 | OUTPUT |     │ international relations and trade agreements. We go live   │
+2026-01-30 17:42:48 | OUTPUT |     │ now to our correspondent… who reports the primary sticking │
+2026-01-30 17:42:48 | OUTPUT |     │ point appears to be that the Panamanian lawmakers chose    │
+2026-01-30 17:42:48 | OUTPUT |     │ the *window seats* on the flight, and Beijing considers    │
+2026-01-30 17:42:48 | OUTPUT |     │ this a blatant act of aerial disrespect.                   │
+2026-01-30 17:42:48 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:49 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 17:42:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:49 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:42:49 | OUTPUT |     focal_targets: Panamanian lawmakers’ trip & diplomatic row
+2026-01-30 17:42:49 | OUTPUT |     cognitive_manipulation: Reframe the "diplomatic row" not as a serious geopolitical conflict, but as a petty argument stemming from a travel mishap, specifically, the lawmakers forgetting to send a postcard to China.
+2026-01-30 17:42:49 | OUTPUT |     logical_mechanism: Absurdity
+2026-01-30 17:42:49 | OUTPUT |     script_opposition: International Diplomacy vs. Childhood Etiquette
+2026-01-30 17:42:49 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:42:49 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 17:42:49 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:42:49 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:42:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:49 | OUTPUT |     │ Beijing has expressed “grave concern” over a recent visit  │
+2026-01-30 17:42:49 | OUTPUT |     │ to Taiwan by a delegation of Panamanian lawmakers, calling │
+2026-01-30 17:42:49 | OUTPUT |     │ the move a violation of the “One China” policy and a       │
+2026-01-30 17:42:49 | OUTPUT |     │ serious diplomatic misstep. Further reports suggest the    │
+2026-01-30 17:42:49 | OUTPUT |     │ primary source of China’s outrage isn’t the geopolitical   │
+2026-01-30 17:42:49 | OUTPUT |     │ implications, but the fact that the Panamanian delegation  │
+2026-01-30 17:42:49 | OUTPUT |     │ failed to send a postcard. A spokesperson stated,          │
+2026-01-30 17:42:49 | OUTPUT |     │ “Honestly, the lack of basic courtesy is what truly        │
+2026-01-30 17:42:49 | OUTPUT |     │ offends us.”                                               │
+2026-01-30 17:42:49 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:49 | OUTPUT |   ⚖️ JUDGING: Semi-final 1: Candidate 1 vs 2
+2026-01-30 17:42:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:49 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-30 17:42:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:49 | OUTPUT |     │ Beijing has lodged a formal complaint following a recent visit to      │
+2026-01-30 17:42:49 | OUTPUT |     │ Taiwan by a delegation of Panamanian lawmakers, sparking a significant │
+2026-01-30 17:42:49 | OUTPUT |     │ diplomatic row. The core issue? Apparently, China was deeply offended  │
+2026-01-30 17:42:49 | OUTPUT |     │ that they didn’t receive a postcard.                                   │
+2026-01-30 17:42:49 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:49 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-30 17:42:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:49 | OUTPUT |     │ Beijing has expressed “grave concern” over a recent visit to Taiwan by │
+2026-01-30 17:42:49 | OUTPUT |     │ a delegation of Panamanian lawmakers, calling the move a violation of  │
+2026-01-30 17:42:49 | OUTPUT |     │ the “One China” policy and a serious diplomatic misstep. Further       │
+2026-01-30 17:42:49 | OUTPUT |     │ reports suggest the primary source of China’s outrage isn’t the        │
+2026-01-30 17:42:49 | OUTPUT |     │ geopolitical implications, but the fact that the Panamanian delegation │
+2026-01-30 17:42:49 | OUTPUT |     │ failed to send a postcard. A spokesperson stated, “Honestly, the lack  │
+2026-01-30 17:42:49 | OUTPUT |     │ of basic courtesy is what truly offends us.”                           │
+2026-01-30 17:42:49 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:49 | OUTPUT |   ⚖️ JUDGING: Semi-final 2: Candidate 3 vs 4
+2026-01-30 17:42:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:49 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-30 17:42:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:49 | OUTPUT |     │ Breaking News: Following a recent visit to Taiwan by a delegation of   │
+2026-01-30 17:42:49 | OUTPUT |     │ Panamanian lawmakers, diplomatic tensions are escalating with China.   │
+2026-01-30 17:42:49 | OUTPUT |     │ Sources confirm the situation is incredibly delicate, with potential   │
+2026-01-30 17:42:49 | OUTPUT |     │ ramifications for international relations and trade agreements. We go  │
+2026-01-30 17:42:49 | OUTPUT |     │ live now to our correspondent… who reports the primary sticking point  │
+2026-01-30 17:42:49 | OUTPUT |     │ appears to be that the Panamanian lawmakers chose the *window seats*   │
+2026-01-30 17:42:49 | OUTPUT |     │ on the flight, and Beijing considers this a blatant act of aerial      │
+2026-01-30 17:42:49 | OUTPUT |     │ disrespect.                                                            │
+2026-01-30 17:42:49 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:49 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-30 17:42:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:49 | OUTPUT |     │ Breaking News: A diplomatic row has erupted between China and Panama   │
+2026-01-30 17:42:49 | OUTPUT |     │ following a recent trip by Panamanian lawmakers to Taiwan. Sources say │
+2026-01-30 17:42:49 | OUTPUT |     │ tensions are high…apparently, Beijing is furious they didn’t even send │
+2026-01-30 17:42:49 | OUTPUT |     │ a postcard.                                                            │
+2026-01-30 17:42:49 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:55 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:55 | OUTPUT |   📦 HumorJudge
+2026-01-30 17:42:55 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:55 | OUTPUT |   critique:
+2026-01-30 17:42:55 | OUTPUT |     Both jokes attempt to inject humor into a serious diplomatic situation by focusing on trivial complaints from China. Joke 1’s premise – China being offended by window seats – is more absurd and unexpected, leaning into the escalating tension with a ridiculous detail. It builds a more elaborate setup mimicking a news report, which adds to the comedic effect. However, the length is a bit of a drawback; it's a little wordy for a headline-based joke. Joke 2 is shorter and more concise, with the postcard complaint being a relatable, albeit less surprising, expression of diplomatic displeasure. It's a simpler joke, relying on the contrast between a serious diplomatic row and the triviality of a postcard.
+2026-01-30 17:42:55 | OUTPUT |     
+2026-01-30 17:42:55 | OUTPUT |     Joke 1 scores higher on surprise and commitment, fully embracing the absurdity. Joke 2 is more economical but lacks the same punch. Both are relevant to the headline and sound natural. However, Joke 1's commitment to the bit and the unexpectedness of the window seat complaint make it funnier.
+2026-01-30 17:42:55 | OUTPUT |   better_joke: Joke 1
+2026-01-30 17:42:55 | OUTPUT | 
+  🏆 WINNER: Joke 1
+2026-01-30 17:42:55 | OUTPUT | 
+  📋 CRITIQUE:
+2026-01-30 17:42:55 | OUTPUT |     Both jokes attempt to inject humor into a serious diplomatic situat...
+2026-01-30 17:42:55 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:55 | OUTPUT |   📦 HumorJudge
+2026-01-30 17:42:55 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:55 | OUTPUT |   critique:
+2026-01-30 17:42:55 | OUTPUT |     Both jokes attempt the same comedic strategy: downplaying a serious diplomatic incident by suggesting the real offense is a lack of postcard etiquette. This relies on incongruity – the massive gap between the gravity of international relations and the triviality of a postcard.
+2026-01-30 17:42:55 | OUTPUT |     
+2026-01-30 17:42:55 | OUTPUT |     Joke 1 is more concise and lands the punchline quicker. The phrasing "deeply offended that they didn’t receive a postcard" is a strong, immediate subversion of expectations. It's a cleaner, more direct joke.
+2026-01-30 17:42:55 | OUTPUT |     
+2026-01-30 17:42:55 | OUTPUT |     Joke 2 is longer and more verbose. The repeated emphasis on "grave concern" and "serious diplomatic misstep" feels like it's trying too hard to establish the seriousness before the punchline, diminishing the impact of the contrast. The added quote from the spokesperson, while attempting to amplify the absurdity, feels unnecessary and weakens the joke's timing. It explains the joke a bit *too* much. The phrasing is also slightly clunkier ("Honestly, the lack of basic courtesy is what truly offends us").
+2026-01-30 17:42:55 | OUTPUT |     
+2026-01-30 17:42:55 | OUTPUT |     Both jokes are relevant to the headline and relatively natural. They both commit to the bit. However, Joke 1's economy and quicker delivery make it the funnier option.
+2026-01-30 17:42:55 | OUTPUT |   better_joke: Joke 1
+2026-01-30 17:42:55 | OUTPUT | 
+  🏆 WINNER: Joke 1
+2026-01-30 17:42:55 | OUTPUT | 
+  📋 CRITIQUE:
+2026-01-30 17:42:55 | OUTPUT |     Both jokes attempt the same comedic strategy: downplaying a serious...
+2026-01-30 17:42:55 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:55 | OUTPUT |   ⚖️ JUDGING: Final: Winner 1 vs Winner 2
+2026-01-30 17:42:55 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:42:55 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-30 17:42:55 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:55 | OUTPUT |     │ Beijing has lodged a formal complaint following a recent visit to      │
+2026-01-30 17:42:55 | OUTPUT |     │ Taiwan by a delegation of Panamanian lawmakers, sparking a significant │
+2026-01-30 17:42:55 | OUTPUT |     │ diplomatic row. The core issue? Apparently, China was deeply offended  │
+2026-01-30 17:42:55 | OUTPUT |     │ that they didn’t receive a postcard.                                   │
+2026-01-30 17:42:55 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 17:42:55 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-30 17:42:55 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-30 17:42:55 | OUTPUT |     │ Breaking News: Following a recent visit to Taiwan by a delegation of   │
+2026-01-30 17:42:55 | OUTPUT |     │ Panamanian lawmakers, diplomatic tensions are escalating with China.   │
+2026-01-30 17:42:55 | OUTPUT |     │ Sources confirm the situation is incredibly delicate, with potential   │
+2026-01-30 17:42:55 | OUTPUT |     │ ramifications for international relations and trade agreements. We go  │
+2026-01-30 17:42:55 | OUTPUT |     │ live now to our correspondent… who reports the primary sticking point  │
+2026-01-30 17:42:55 | OUTPUT |     │ appears to be that the Panamanian lawmakers chose the *window seats*   │
+2026-01-30 17:42:55 | OUTPUT |     │ on the flight, and Beijing considers this a blatant act of aerial      │
+2026-01-30 17:42:55 | OUTPUT |     │ disrespect.                                                            │
+2026-01-30 17:42:55 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-30 17:43:01 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:43:01 | OUTPUT |   📦 HumorJudge
+2026-01-30 17:43:01 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:43:01 | OUTPUT |   critique:
+2026-01-30 17:43:01 | OUTPUT |     Both jokes attempt to inject humor into a serious diplomatic situation, relying on absurdity to create a comedic effect. Joke 1, the postcard bit, is a relatively mild subversion of expectations. It's a quick, simple joke that plays on the idea of China being overly sensitive. It's *okay*, but lacks a strong punch. It feels a little flat.
+2026-01-30 17:43:01 | OUTPUT |     
+2026-01-30 17:43:01 | OUTPUT |     Joke 2, however, is significantly stronger. The idea of China being offended by window seats on a flight is wonderfully absurd and escalates the situation to a ridiculous degree. The framing as a "breaking news" report with a correspondent adds to the comedic effect, mimicking the tone of serious news while delivering a completely nonsensical reason for the diplomatic row. The detail about "aerial disrespect" is a fantastic touch. It's unexpected, fully committed to the bit, and feels more naturally humorous. It also cleverly highlights the pettiness that can sometimes underlie international disputes.
+2026-01-30 17:43:01 | OUTPUT |     
+2026-01-30 17:43:01 | OUTPUT |     Joke 1 is safe, while Joke 2 takes a bigger swing and lands it. Joke 1 feels like something you'd find in a very polite satire, while Joke 2 feels like something you'd actually chuckle at.
+2026-01-30 17:43:01 | OUTPUT |   better_joke: Joke 2
+2026-01-30 17:43:01 | OUTPUT | 
+  🏆 WINNER: Joke 2
+2026-01-30 17:43:01 | OUTPUT | 
+  📋 CRITIQUE:
+2026-01-30 17:43:01 | OUTPUT |     Both jokes attempt to inject humor into a serious diplomatic situat...
+2026-01-30 17:43:01 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:43:01 | OUTPUT |   🏆 FINAL SELECTION
+2026-01-30 17:43:01 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:43:01 | OUTPUT | 
+  JUDGE'S CRITIQUE:
+2026-01-30 17:43:01 | OUTPUT |     Selected as best joke from tournament bracket
+2026-01-30 17:43:01 | OUTPUT | 
+  WINNING JOKE:
+2026-01-30 17:43:01 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:43:01 | OUTPUT |     │ Breaking News: Following a recent visit to Taiwan by a     │
+2026-01-30 17:43:01 | OUTPUT |     │ delegation of Panamanian lawmakers, diplomatic tensions    │
+2026-01-30 17:43:01 | OUTPUT |     │ are escalating with China. Sources confirm the situation   │
+2026-01-30 17:43:01 | OUTPUT |     │ is incredibly delicate, with potential ramifications for   │
+2026-01-30 17:43:01 | OUTPUT |     │ international relations and trade agreements. We go live   │
+2026-01-30 17:43:01 | OUTPUT |     │ now to our correspondent… who reports the primary sticking │
+2026-01-30 17:43:01 | OUTPUT |     │ point appears to be that the Panamanian lawmakers chose    │
+2026-01-30 17:43:01 | OUTPUT |     │ the *window seats* on the flight, and Beijing considers    │
+2026-01-30 17:43:01 | OUTPUT |     │ this a blatant act of aerial disrespect.                   │
+2026-01-30 17:43:01 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:43:01 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:43:01 | OUTPUT |   🎭 WORD INCLUSION JOKE - current
+2026-01-30 17:43:01 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:43:01 | OUTPUT | 
+  INPUT: hammer, flower
+2026-01-30 17:43:09 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:43:09 | OUTPUT |   📦 ContextEnricher
+2026-01-30 17:43:09 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:43:09 | OUTPUT |   situation: A frustrated sculptor attempting to create a floral centerpiece for a garden party. The sculptor is known for their brutalist, industrial style and is hilariously inept at delicate work. Another scenario: a clumsy but well-meaning person trying to attach a flower to a hammer as a "gift" for their partner, resulting in a mangled flower and a dented hammer. A third: a detective investigating a crime scene where the only clues are a hammer and a single, crushed flower. The juxtaposition of the tools and the delicate beauty creates a darkly comedic tension.
+2026-01-30 17:43:09 | OUTPUT |   semantic_associations:
+2026-01-30 17:43:09 | OUTPUT |     • hammer: tool, construction, force, masculinity, repair, destruction, blunt instrument, Thor, 'nail it', working class, DIY, anger (hammering in frustration)
+2026-01-30 17:43:09 | OUTPUT |     • hammer: can also imply clumsiness or being heavy-handed
+2026-01-30 17:43:09 | OUTPUT |     • flower: beauty, fragility, nature, femininity, romance, gifts, gardens, spring, growth, fleeting life, symbolism (roses = love, lilies = sympathy)
+2026-01-30 17:43:09 | OUTPUT |     • flower: often associated with gentleness, delicacy, and positive emotions
+2026-01-30 17:43:09 | OUTPUT |     • flower: can also represent superficiality or a temporary state
+2026-01-30 17:43:09 | OUTPUT |     • The contrast between the two is stark: hard vs. soft, artificial vs. natural, destructive vs. life-giving. This contrast is ripe for comedic exploitation.
+2026-01-30 17:43:09 | OUTPUT |     • A hammer *hitting* a flower is inherently funny due to the imbalance of power and the resulting destruction of something beautiful.
+2026-01-30 17:43:09 | OUTPUT |     • The image of someone carefully *holding* a flower *with* a hammer is absurd and suggests a strange, possibly threatening, intention.
+2026-01-30 17:43:09 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:43:09 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 17:43:09 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:43:09 | OUTPUT |   situation: A frustrated sculptor attempting to create a floral centerpiece for a garden party. The sculptor is known for their brutalist, industrial style and is hilariously inept at delicate work. Another scenario: a clumsy but well-meaning person trying to attach a flower to a hammer as a "gift" for their partner, resulting in a mangled flower and a dented hammer. A third: a detective investigating a crime scene where the only clues are a hammer and a single, crushed flower. The juxtaposition of the tools and the delicate beauty creates a darkly comedic tension.
+2026-01-30 17:43:09 | OUTPUT |   semantic_associations:
+2026-01-30 17:43:09 | OUTPUT |     • hammer: tool, construction, force, masculinity, repair, destruction, blunt instrument, Thor, 'nail it', working class, DIY, anger (hammering in frustration)
+2026-01-30 17:43:09 | OUTPUT |     • hammer: can also imply clumsiness or being heavy-handed
+2026-01-30 17:43:09 | OUTPUT |     • flower: beauty, fragility, nature, femininity, romance, gifts, gardens, spring, growth, fleeting life, symbolism (roses = love, lilies = sympathy)
+2026-01-30 17:43:09 | OUTPUT |     • flower: often associated with gentleness, delicacy, and positive emotions
+2026-01-30 17:43:09 | OUTPUT |     • flower: can also represent superficiality or a temporary state
+2026-01-30 17:43:09 | OUTPUT |     • The contrast between the two is stark: hard vs. soft, artificial vs. natural, destructive vs. life-giving. This contrast is ripe for comedic exploitation.
+2026-01-30 17:43:09 | OUTPUT |     • A hammer *hitting* a flower is inherently funny due to the imbalance of power and the resulting destruction of something beautiful.
+2026-01-30 17:43:09 | OUTPUT |     • The image of someone carefully *holding* a flower *with* a hammer is absurd and suggests a strange, possibly threatening, intention.
+2026-01-30 17:43:20 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:43:20 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:43:20 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:43:20 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:43:20 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:43:20 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:43:34 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:43:34 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:43:35 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:43:35 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:43:35 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:43:35 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:43:35 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 17:43:35 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 17:43:35 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 2/10...
+2026-01-30 17:43:50 | WARNING | Interrupted by user. Progress has been saved.

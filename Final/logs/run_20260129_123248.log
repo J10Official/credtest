@@ -1,0 +1,1142 @@
+2026-01-29 12:32:48 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:32:48 | [32mINFO[0m |  🎭 MWAHAHA PIPELINE - FULL MODE
+2026-01-29 12:32:48 | [32mINFO[0m | ================================================================================
+2026-01-29 12:32:48 | [32mINFO[0m | Task: all
+2026-01-29 12:32:48 | [32mINFO[0m | Provider: gemini
+2026-01-29 12:32:48 | [32mINFO[0m | Resume: True
+2026-01-29 12:32:48 | [32mINFO[0m | 📁 Log file: /home/jatin/Code/Year3/Research/Final/logs/run_20260129_123248.log
+2026-01-29 12:32:48 | [32mINFO[0m | ✅ API configured: gemini
+2026-01-29 12:32:48 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:32:48 | [32mINFO[0m |  📰 TASK A - EN
+2026-01-29 12:32:48 | [32mINFO[0m | ================================================================================
+2026-01-29 12:32:48 | [32mINFO[0m | Loaded 300 items from task-a-en.tsv
+2026-01-29 12:32:48 | [32mINFO[0m | Loaded 4 existing outputs from task-a-en.tsv
+2026-01-29 12:32:48 | [32mINFO[0m | Resuming: 4 already processed, 296 remaining
+2026-01-29 12:32:48 | [32mINFO[0m | Progress [Task A EN]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 1/296 (0.3%)
+2026-01-29 12:32:48 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:32:48 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-29 12:32:48 | [32mINFO[0m | ================================================================================
+2026-01-29 12:32:48 | [32mINFO[0m | Input: No place for Mostert distraction in South Africa team
+2026-01-29 12:32:48 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:32:48 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 12:32:48 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:32:48 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:32:48 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 12:32:48 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:32:48 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:32:48 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 12:32:48 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:32:48 | [32mINFO[0m |   original_input: No place for Mostert distraction in South Africa team
+2026-01-29 12:32:48 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:33:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:10 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 12:33:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:10 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 519 in / 0 out
+2026-01-29 12:33:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:10 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 12:33:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:10 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:33:10 | [36mDEBUG[0m |   Response: ModelResponse(id='LgZ7abPTHK3Eg8UPsvWA2Qw', created=1769670168, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis headline refers to Herschelle Gibbs, a former South African cricketer, and his attempts to re-enter the national team. "Mostert" refers to Rassie van der Dussen, a current player who occupies a similar batting position to Gibbs. The headline implies that Gibbs...
+2026-01-29 12:33:10 | [32mINFO[0m |   📊 Tokens: 519 in / 0 out = 519 total
+2026-01-29 12:33:10 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:10 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 12:33:10 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:10 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 12:33:10 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:33:10 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 12:33:10 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:33:10 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 12:33:10 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 12:33:10 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:33:10 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:33:22 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1207 in / 0 out
+2026-01-29 12:33:22 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 12:33:22 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:33:23 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1207 in / 0 out
+2026-01-29 12:33:23 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 12:33:23 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:33:24 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1206 in / 0 out
+2026-01-29 12:33:24 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 12:33:24 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:33:28 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1206 in / 0 out
+2026-01-29 12:33:28 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 12:33:28 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:33:28 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,2]]: 864 in / 0 out
+2026-01-29 12:33:28 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 12:33:28 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 12:33:31 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 868 in / 0 out
+2026-01-29 12:33:31 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 12:33:31 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 12:33:35 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 860 in / 0 out
+2026-01-29 12:33:35 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 12:33:35 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 12:33:39 | [36mDEBUG[0m | Token tracking [ContentWriter [2,2]]: 1564 in / 0 out
+2026-01-29 12:33:39 | [32mINFO[0m | ✅ [2,2] Generated: Johannesburg – Sources close to the South African cricket team report growing co...
+2026-01-29 12:33:40 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,1]]: 859 in / 0 out
+2026-01-29 12:33:40 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 12:33:40 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 12:33:41 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 1579 in / 0 out
+2026-01-29 12:33:42 | [32mINFO[0m | ✅ [2,1] Generated: Breaking news tonight from the South African cricket team’s training camp. Sourc...
+2026-01-29 12:33:45 | [36mDEBUG[0m | Token tracking [ContentWriter [1,1]]: 1627 in / 0 out
+2026-01-29 12:33:45 | [32mINFO[0m | ✅ [1,1] Generated: Q: Sources say Herschelle Gibbs is causing a distraction within the South Africa...
+2026-01-29 12:33:49 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 1593 in / 0 out
+2026-01-29 12:33:49 | [32mINFO[0m | ✅ [1,2] Generated: BREAKING: Sources confirm Herschelle Gibbs is relentlessly pursuing a return to ...
+2026-01-29 12:33:49 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 12:33:49 | [32mINFO[0m | Candidate [1,1]: Q: Sources say Herschelle Gibbs is causing a distraction within the South African cricket team. What...
+2026-01-29 12:33:49 | [32mINFO[0m | Candidate [1,2]: BREAKING: Sources confirm Herschelle Gibbs is relentlessly pursuing a return to the South African cr...
+2026-01-29 12:33:49 | [32mINFO[0m | Candidate [2,1]: Breaking news tonight from the South African cricket team’s training camp. Sources indicate ongoing ...
+2026-01-29 12:33:49 | [32mINFO[0m | Candidate [2,2]: Johannesburg – Sources close to the South African cricket team report growing concern over Herschell...
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     char_count: 255
+2026-01-29 12:33:49 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     char_count: 301
+2026-01-29 12:33:49 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     char_count: 713
+2026-01-29 12:33:49 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:33:49 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:33:49 | [32mINFO[0m |     char_count: 525
+2026-01-29 12:33:49 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:33:49 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  🏆 Judging 4 Candidates
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  ⚖️ Semi-finals (parallel)
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  ⚖️ Semi-final 1: Candidate 1 vs 2
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |   original_input: No place for Mostert distraction in South Africa team
+2026-01-29 12:33:49 | [32mINFO[0m |   joke_candidate_1: Q: Sources say Herschelle Gibbs is causing a distraction within the South African cricket team. What exactly is he distracting them *from*?
+A: Himself. Apparently, he's spent the last week meticulousl...
+2026-01-29 12:33:49 | [32mINFO[0m |   joke_candidate_2: BREAKING: Sources confirm Herschelle Gibbs is relentlessly pursuing a return to the South African cricket team! Team management reportedly concerned about potential disruption… but insiders say Gibbs ...
+2026-01-29 12:33:49 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:33:49 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  ⚖️ Semi-final 2: Candidate 3 vs 4
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:33:49 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:49 | [32mINFO[0m |   original_input: No place for Mostert distraction in South Africa team
+2026-01-29 12:33:49 | [32mINFO[0m |   joke_candidate_1: Breaking news tonight from the South African cricket team’s training camp. Sources indicate ongoing concerns regarding potential distractions to team focus. Initially, these were dismissed as standard...
+2026-01-29 12:33:49 | [32mINFO[0m |   joke_candidate_2: Johannesburg – Sources close to the South African cricket team report growing concern over Herschelle Gibbs’ persistent attempts to rejoin the squad. Initially dismissed as harmless lobbying, the situ...
+2026-01-29 12:33:49 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:33:49 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:33:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:57 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:33:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:57 | [36mDEBUG[0m | Token tracking [HumorJudge]: 988 in / 0 out
+2026-01-29 12:33:57 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:57 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:33:57 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:57 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:33:57 | [36mDEBUG[0m |   Response: ModelResponse(id='XAZ7abiQOfGr4-EPkuDzkAQ', created=1769670229, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to leverage the idea of Herschelle Gibbs being self-absorbed and focused on a comeback, to the point of being oblivious to the current team. Joke 1 uses a Q&A format, which is a bit clunky and feels less immediate. The punchline, while okay, isn\'...
+2026-01-29 12:33:57 | [32mINFO[0m |   📊 Tokens: 988 in / 0 out = 988 total
+2026-01-29 12:33:58 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:33:58 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:58 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1092 in / 0 out
+2026-01-29 12:33:58 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:33:58 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:58 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:33:58 | [36mDEBUG[0m |   Response: ModelResponse(id='XQZ7adf8MoPf4-EPo7Oo6Aw', created=1769670229, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes are quite strong and rely on a similar premise: Herschelle Gibbs\'s presence is so disruptive it affects reality. They both cleverly build on the original headline about distractions within the South African cricket team. However, there are subtle differe...
+2026-01-29 12:33:58 | [32mINFO[0m |   📊 Tokens: 1092 in / 0 out = 1092 total
+2026-01-29 12:33:58 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m |  ⚖️ Final: Winner 1 vs Winner 2
+2026-01-29 12:33:58 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:33:58 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:33:58 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:33:58 | [32mINFO[0m |   original_input: No place for Mostert distraction in South Africa team
+2026-01-29 12:33:58 | [32mINFO[0m |   joke_candidate_1: BREAKING: Sources confirm Herschelle Gibbs is relentlessly pursuing a return to the South African cricket team! Team management reportedly concerned about potential disruption… but insiders say Gibbs ...
+2026-01-29 12:33:58 | [32mINFO[0m |   joke_candidate_2: Johannesburg – Sources close to the South African cricket team report growing concern over Herschelle Gibbs’ persistent attempts to rejoin the squad. Initially dismissed as harmless lobbying, the situ...
+2026-01-29 12:33:58 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:33:58 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:34:08 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:34:08 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:08 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1026 in / 0 out
+2026-01-29 12:34:08 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:34:08 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:08 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:34:08 | [36mDEBUG[0m |   Response: ModelResponse(id='ZwZ7aa60LYPf4-EPo7Oo6Aw', created=1769670238, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content="[[ ## critique ## ]]\nBoth jokes attempt to leverage the idea of Herschelle Gibbs being a distraction, tying into the original headline about not wanting distractions in the South African team. However, they differ significantly in their approach.\n\nJoke 1 is a more straightforward, rel...
+2026-01-29 12:34:08 | [32mINFO[0m |   📊 Tokens: 1026 in / 0 out = 1026 total
+2026-01-29 12:34:08 | [32mINFO[0m | 🏆 Final Winner: BREAKING: Sources confirm Herschelle Gibbs is relentlessly pursuing a return to the South African cricket team! Team management reportedly concerned about potential disruption… but insiders say Gibbs is *so* distracted by his own campaign to get back in, he hasn’t noticed anyone else is even playing!
+2026-01-29 12:34:08 | [32mINFO[0m | ✅ en_2005: BREAKING: Sources confirm Herschelle Gibbs is relentlessly pursuing a return to ...
+2026-01-29 12:34:08 | [32mINFO[0m | Progress [Task A EN]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 2/296 (0.7%)
+2026-01-29 12:34:08 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:34:08 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-29 12:34:08 | [32mINFO[0m | ================================================================================
+2026-01-29 12:34:08 | [32mINFO[0m | Input: Meet Troy - the parrot named after Ireland’s hat-trick hero
+2026-01-29 12:34:08 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 12:34:08 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 12:34:08 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 12:34:08 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:08 | [32mINFO[0m |   original_input: Meet Troy - the parrot named after Ireland’s hat-trick hero
+2026-01-29 12:34:08 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:34:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:18 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 12:34:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:18 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 523 in / 0 out
+2026-01-29 12:34:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:18 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 12:34:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:18 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:34:18 | [36mDEBUG[0m |   Response: ModelResponse(id='cgZ7aefVAsLOpgfZ9aT4Aw', created=1769670248, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis headline reports on a parrot being named "Troy" in honor of Troy Parrott, a young Irish footballer who recently scored a hat-trick (three goals in one game) for Ireland\'s national team. It\'s a lighthearted human-interest story, capitalizing on the popularity ...
+2026-01-29 12:34:18 | [32mINFO[0m |   📊 Tokens: 523 in / 0 out = 523 total
+2026-01-29 12:34:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:34:18 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 12:34:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:34:18 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 12:34:18 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:34:18 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 12:34:18 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 12:34:18 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:34:18 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:34:18 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 12:34:18 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:34:25 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1150 in / 0 out
+2026-01-29 12:34:25 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 12:34:25 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:34:25 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1150 in / 0 out
+2026-01-29 12:34:25 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 12:34:25 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:34:29 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1151 in / 0 out
+2026-01-29 12:34:29 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 12:34:29 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:34:35 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,1]]: 811 in / 0 out
+2026-01-29 12:34:35 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 12:34:35 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 12:34:35 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 814 in / 0 out
+2026-01-29 12:34:35 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 12:34:35 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 12:34:39 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1151 in / 0 out
+2026-01-29 12:34:39 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 12:34:39 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:34:41 | [36mDEBUG[0m | Token tracking [ContentWriter [1,1]]: 1522 in / 0 out
+2026-01-29 12:34:41 | [32mINFO[0m | ✅ [1,1] Generated: So, they named a parrot Troy after the Irish footballer who scored a hat-trick. ...
+2026-01-29 12:34:43 | [31mERROR[0m | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-29 12:34:43 | [31mERROR[0m | 💀 Non-retryable error. Aborting.
+2026-01-29 12:34:43 | [31mERROR[0m | ❌ [2,2] Failed: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-29 12:34:43 | [33mWARNING[0m | ⚠️ Branch [2,2] failed, continuing with others...
+2026-01-29 12:34:51 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 1522 in / 0 out
+2026-01-29 12:34:51 | [32mINFO[0m | ✅ [1,2] Generated: Owner: “He’s a quick learner, you know? Named him Troy after that footballer, Tr...
+2026-01-29 12:34:55 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 815 in / 0 out
+2026-01-29 12:34:55 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 12:34:55 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 12:35:03 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 1555 in / 0 out
+2026-01-29 12:35:03 | [32mINFO[0m | ✅ [2,1] Generated: A parrot named Troy, after Irish footballer Troy Parrott, is reportedly… current...
+2026-01-29 12:35:03 | [32mINFO[0m | 📊 Parallel generation complete: 3 succeeded, 1 failed
+2026-01-29 12:35:03 | [32mINFO[0m | Candidate [1,1]: So, they named a parrot Troy after the Irish footballer who scored a hat-trick. Cute, right? Apparen...
+2026-01-29 12:35:03 | [32mINFO[0m | Candidate [1,2]: Owner: “He’s a quick learner, you know? Named him Troy after that footballer, Troy Parrott. Expectin...
+2026-01-29 12:35:03 | [32mINFO[0m | Candidate [2,1]: A parrot named Troy, after Irish footballer Troy Parrott, is reportedly… currently attempting to bui...
+2026-01-29 12:35:03 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:35:03 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:35:03 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:35:03 | [32mINFO[0m |     char_count: 172
+2026-01-29 12:35:03 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:35:03 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:35:03 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:35:03 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:35:03 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:35:03 | [32mINFO[0m |     char_count: 260
+2026-01-29 12:35:03 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:35:03 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:35:03 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:35:03 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:35:03 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:35:03 | [32mINFO[0m |     char_count: 189
+2026-01-29 12:35:03 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:35:03 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:35:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m |  🏆 Judging 3 Candidates
+2026-01-29 12:35:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m |  ⚖️ Round 1: Candidate 1 vs 2
+2026-01-29 12:35:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:35:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:35:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:03 | [32mINFO[0m |   original_input: Meet Troy - the parrot named after Ireland’s hat-trick hero
+2026-01-29 12:35:03 | [32mINFO[0m |   joke_candidate_1: So, they named a parrot Troy after the Irish footballer who scored a hat-trick. Cute, right? Apparently, it’s been practicing diving into the birdbath three times in a row.
+2026-01-29 12:35:03 | [32mINFO[0m |   joke_candidate_2: Owner: “He’s a quick learner, you know? Named him Troy after that footballer, Troy Parrott. Expecting great things.”
+Reporter: “Great things like…?”
+Owner: “Well, he’s already managed three goals in t...
+2026-01-29 12:35:03 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:35:03 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:35:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:35:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:14 | [36mDEBUG[0m | Token tracking [HumorJudge]: 986 in / 0 out
+2026-01-29 12:35:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:35:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:14 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:35:14 | [36mDEBUG[0m |   Response: ModelResponse(id='qQZ7acK4GI2Mg8UPtY6f6Qw', created=1769670303, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to leverage the connection between the footballer Troy Parrott (note the spelling is important for the joke to land) and a parrot named Troy. Joke 1 is a fairly straightforward observation – the parrot mimics the footballer’s diving. It’s mildly a...
+2026-01-29 12:35:14 | [32mINFO[0m |   📊 Tokens: 986 in / 0 out = 986 total
+2026-01-29 12:35:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m |  ⚖️ Final: Winner vs Candidate 3
+2026-01-29 12:35:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:35:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:35:14 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:14 | [32mINFO[0m |   original_input: Meet Troy - the parrot named after Ireland’s hat-trick hero
+2026-01-29 12:35:14 | [32mINFO[0m |   joke_candidate_1: Owner: “He’s a quick learner, you know? Named him Troy after that footballer, Troy Parrott. Expecting great things.”
+Reporter: “Great things like…?”
+Owner: “Well, he’s already managed three goals in t...
+2026-01-29 12:35:14 | [32mINFO[0m |   joke_candidate_2: A parrot named Troy, after Irish footballer Troy Parrott, is reportedly… currently attempting to build a miniature Lansdowne Road out of seed husks and screaming tactical advice at the cat.
+2026-01-29 12:35:14 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:35:14 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:35:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:35:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:27 | [36mDEBUG[0m | Token tracking [HumorJudge]: 984 in / 0 out
+2026-01-29 12:35:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:35:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:27 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:35:27 | [36mDEBUG[0m |   Response: ModelResponse(id='tgZ7adeALbypjuMPst7c2Qw', created=1769670314, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to leverage the connection between a parrot named Troy (after footballer Troy Parrott) and football-related antics. Joke 1 utilizes a classic question-and-answer setup with a reporter, building anticipation for a grand achievement only to reveal a...
+2026-01-29 12:35:27 | [32mINFO[0m |   📊 Tokens: 984 in / 0 out = 984 total
+2026-01-29 12:35:27 | [32mINFO[0m | 🏆 Final Winner: Owner: “He’s a quick learner, you know? Named him Troy after that footballer, Troy Parrott. Expecting great things.”
+Reporter: “Great things like…?”
+Owner: “Well, he’s already managed three goals in the living room. Keeps diving headfirst into the fruit bowl.”
+2026-01-29 12:35:27 | [32mINFO[0m | ✅ en_2006: Owner: “He’s a quick learner, you know? Named him Troy after that footballer, Tr...
+2026-01-29 12:35:27 | [32mINFO[0m | Progress [Task A EN]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 3/296 (1.0%)
+2026-01-29 12:35:27 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:35:27 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-29 12:35:27 | [32mINFO[0m | ================================================================================
+2026-01-29 12:35:27 | [32mINFO[0m | Input: Instagram to start closing Australian teen accounts ahead of social media ban
+2026-01-29 12:35:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 12:35:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 12:35:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 12:35:27 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:27 | [32mINFO[0m |   original_input: Instagram to start closing Australian teen accounts ahead of social media ban
+2026-01-29 12:35:27 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:35:42 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:42 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 12:35:42 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:42 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 521 in / 0 out
+2026-01-29 12:35:42 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:42 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 12:35:42 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:42 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:35:42 | [36mDEBUG[0m |   Response: ModelResponse(id='xQZ7afPXJueNg8UP-PaiIA', created=1769670327, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis headline reports that Instagram is proactively closing the accounts of Australian teenagers to comply with new social media regulations aimed at protecting children\'s online safety. The Australian government is implementing a law requiring social media platfor...
+2026-01-29 12:35:42 | [32mINFO[0m |   📊 Tokens: 521 in / 0 out = 521 total
+2026-01-29 12:35:42 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:35:42 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 12:35:42 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:35:42 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 12:35:42 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:35:42 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 12:35:42 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:35:42 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 12:35:42 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:35:42 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 12:35:42 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:35:51 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1171 in / 0 out
+2026-01-29 12:35:51 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 12:35:51 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:35:52 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1172 in / 0 out
+2026-01-29 12:35:52 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 12:35:52 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:35:56 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1171 in / 0 out
+2026-01-29 12:35:56 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 12:35:56 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:35:57 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1172 in / 0 out
+2026-01-29 12:35:57 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 12:35:57 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:36:01 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 841 in / 0 out
+2026-01-29 12:36:01 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 12:36:01 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 12:36:02 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,2]]: 831 in / 0 out
+2026-01-29 12:36:02 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 12:36:02 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 12:36:07 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,1]]: 832 in / 0 out
+2026-01-29 12:36:07 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 12:36:07 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 12:36:07 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 847 in / 0 out
+2026-01-29 12:36:07 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 12:36:07 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 12:36:12 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 1569 in / 0 out
+2026-01-29 12:36:12 | [32mINFO[0m | ✅ [1,2] Generated: BREAKING: Instagram announces new initiative to foster deeper connections with i...
+2026-01-29 12:36:17 | [36mDEBUG[0m | Token tracking [ContentWriter [2,2]]: 1547 in / 0 out
+2026-01-29 12:36:17 | [32mINFO[0m | ✅ [2,2] Generated: BREAKING: Instagram is taking drastic action to comply with Australia’s new teen...
+2026-01-29 12:36:18 | [36mDEBUG[0m | Token tracking [ContentWriter [1,1]]: 1548 in / 0 out
+2026-01-29 12:36:18 | [32mINFO[0m | ✅ [1,1] Generated: Instagram today announced a new initiative to strengthen its commitment to conne...
+2026-01-29 12:36:24 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 1556 in / 0 out
+2026-01-29 12:36:24 | [32mINFO[0m | ✅ [2,1] Generated: **Instagram Official Statement:** “Following recent changes to Australian online...
+2026-01-29 12:36:24 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 12:36:24 | [32mINFO[0m | Candidate [1,1]: Instagram today announced a new initiative to strengthen its commitment to connecting the world… by ...
+2026-01-29 12:36:24 | [32mINFO[0m | Candidate [1,2]: BREAKING: Instagram announces new initiative to foster deeper connections with its users… by disconn...
+2026-01-29 12:36:24 | [32mINFO[0m | Candidate [2,1]: **Instagram Official Statement:** “Following recent changes to Australian online safety regulations,...
+2026-01-29 12:36:24 | [32mINFO[0m | Candidate [2,2]: BREAKING: Instagram is taking drastic action to comply with Australia’s new teen account regulations...
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     char_count: 256
+2026-01-29 12:36:24 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     char_count: 163
+2026-01-29 12:36:24 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     char_count: 678
+2026-01-29 12:36:24 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:36:24 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:36:24 | [32mINFO[0m |     char_count: 292
+2026-01-29 12:36:24 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:36:24 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |  🏆 Judging 4 Candidates
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |  ⚖️ Semi-finals (parallel)
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |  ⚖️ Semi-final 1: Candidate 1 vs 2
+2026-01-29 12:36:24 | [32mINFO[0m |  ⚖️ Semi-final 2: Candidate 3 vs 4
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |   original_input: Instagram to start closing Australian teen accounts ahead of social media ban
+2026-01-29 12:36:24 | [32mINFO[0m |   joke_candidate_1: Instagram today announced a new initiative to strengthen its commitment to connecting the world… by disconnecting anyone under 16 in Australia who can’t immediately provide notarized parental consent....
+2026-01-29 12:36:24 | [32mINFO[0m |   joke_candidate_2: BREAKING: Instagram announces new initiative to foster deeper connections with its users… by disconnecting any Australian under 16 who can't get a permission slip.
+2026-01-29 12:36:24 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:36:24 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:36:24 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:36:24 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:24 | [32mINFO[0m |   original_input: Instagram to start closing Australian teen accounts ahead of social media ban
+2026-01-29 12:36:24 | [32mINFO[0m |   joke_candidate_1: **Instagram Official Statement:** “Following recent changes to Australian online safety regulations, Instagram is committed to ensuring a safe and compliant environment for all users. To that end, we ...
+2026-01-29 12:36:24 | [32mINFO[0m |   joke_candidate_2: BREAKING: Instagram is taking drastic action to comply with Australia’s new teen account regulations… sources confirm they’ve begun deactivating accounts of anyone with a vaguely complicated family hi...
+2026-01-29 12:36:24 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:36:24 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:36:36 | [31mERROR[0m | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-29 12:36:36 | [31mERROR[0m | 💀 Non-retryable error. Aborting.
+2026-01-29 12:36:37 | [31mERROR[0m | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-29 12:36:37 | [31mERROR[0m | 💀 Non-retryable error. Aborting.
+2026-01-29 12:36:37 | [31mERROR[0m | ❌ Error in processing en_2007: BadRequestError: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-29 12:36:37 | [32mINFO[0m | Progress [Task A EN]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 4/296 (1.4%)
+2026-01-29 12:36:37 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:36:37 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-29 12:36:37 | [32mINFO[0m | ================================================================================
+2026-01-29 12:36:37 | [32mINFO[0m | Input: How the EU botched its attempt to regulate AI
+2026-01-29 12:36:37 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:37 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 12:36:37 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:37 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:37 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 12:36:37 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:37 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:37 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 12:36:37 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:37 | [32mINFO[0m |   original_input: How the EU botched its attempt to regulate AI
+2026-01-29 12:36:37 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:36:51 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:51 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 12:36:51 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:51 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 518 in / 0 out
+2026-01-29 12:36:51 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:51 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 12:36:51 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:51 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:36:51 | [36mDEBUG[0m |   Response: ModelResponse(id='Cwd7aZ_rI6WjqfkPz4fUwA4', created=1769670397, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis headline refers to the European Union\'s efforts to create a comprehensive legal framework for regulating Artificial Intelligence (AI). The implication is that these efforts have been unsuccessful, or at least significantly flawed. The "botch" suggests a combi...
+2026-01-29 12:36:51 | [32mINFO[0m |   📊 Tokens: 518 in / 0 out = 518 total
+2026-01-29 12:36:51 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:36:51 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 12:36:51 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:36:51 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 12:36:51 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:36:51 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 12:36:51 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:36:51 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 12:36:51 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 12:36:51 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:36:51 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:37:03 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:03 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 12:37:03 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1167 in / 0 out
+2026-01-29 12:37:03 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 12:37:03 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:37:03 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1166 in / 0 out
+2026-01-29 12:37:03 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 12:37:03 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:37:05 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1166 in / 0 out
+2026-01-29 12:37:05 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 12:37:05 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:37:08 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 12:37:14 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:14 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 12:37:14 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:14 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 12:37:15 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:15 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-29 12:37:18 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:18 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-29 12:37:19 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 12:37:19 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 12:37:20 | [32mINFO[0m | 🔄 Retrying now (attempt 2/11)...
+2026-01-29 12:37:22 | [32mINFO[0m | 🔄 Retrying now (attempt 3/11)...
+2026-01-29 12:37:28 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:28 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-29 12:37:29 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:29 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-29 12:37:30 | [31mERROR[0m | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-29 12:37:30 | [31mERROR[0m | 💀 Non-retryable error. Aborting.
+2026-01-29 12:37:30 | [31mERROR[0m | ❌ [1,1] Failed: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-29 12:37:30 | [33mWARNING[0m | ⚠️ Branch [1,1] failed, continuing with others...
+2026-01-29 12:37:32 | [31mERROR[0m | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-29 12:37:32 | [33mWARNING[0m | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-29 12:37:33 | [32mINFO[0m | 🔄 Retrying now (attempt 3/11)...
+2026-01-29 12:37:34 | [32mINFO[0m | 🔄 Retrying now (attempt 3/11)...
+2026-01-29 12:37:42 | [32mINFO[0m | 🔄 Retrying now (attempt 4/11)...
+2026-01-29 12:37:46 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 842 in / 0 out
+2026-01-29 12:37:46 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 12:37:46 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 12:37:48 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 844 in / 0 out
+2026-01-29 12:37:48 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 12:37:48 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 12:37:59 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 1585 in / 0 out
+2026-01-29 12:37:59 | [32mINFO[0m | ✅ [1,2] Generated: Breaking News: The EU has unveiled its groundbreaking AI regulations… after 7 ye...
+2026-01-29 12:38:07 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 1572 in / 0 out
+2026-01-29 12:38:07 | [32mINFO[0m | ✅ [2,1] Generated: BRUSSELS – The European Union today announced a series of emergency regulations ...
+2026-01-29 12:38:12 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1167 in / 0 out
+2026-01-29 12:38:12 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 12:38:12 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:38:22 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,2]]: 838 in / 0 out
+2026-01-29 12:38:22 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 12:38:22 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 12:38:33 | [36mDEBUG[0m | Token tracking [ContentWriter [2,2]]: 1561 in / 0 out
+2026-01-29 12:38:33 | [32mINFO[0m | ✅ [2,2] Generated: BRUSSELS – Sources confirm the EU’s AI regulation bill is facing unexpected dela...
+2026-01-29 12:38:33 | [32mINFO[0m | 📊 Parallel generation complete: 3 succeeded, 1 failed
+2026-01-29 12:38:33 | [32mINFO[0m | Candidate [1,2]: Breaking News: The EU has unveiled its groundbreaking AI regulations… after 7 years of committee mee...
+2026-01-29 12:38:33 | [32mINFO[0m | Candidate [2,1]: BRUSSELS – The European Union today announced a series of emergency regulations aimed at controlling...
+2026-01-29 12:38:33 | [32mINFO[0m | Candidate [2,2]: BRUSSELS – Sources confirm the EU’s AI regulation bill is facing unexpected delays. Officials cite “...
+2026-01-29 12:38:33 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:38:33 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:38:33 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:38:33 | [32mINFO[0m |     char_count: 199
+2026-01-29 12:38:33 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:38:33 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:38:33 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:38:33 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:38:33 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:38:33 | [32mINFO[0m |     char_count: 843
+2026-01-29 12:38:33 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:38:33 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:38:33 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:38:33 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:38:33 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:38:33 | [32mINFO[0m |     char_count: 401
+2026-01-29 12:38:33 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:38:33 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:38:33 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m |  🏆 Judging 3 Candidates
+2026-01-29 12:38:33 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m |  ⚖️ Round 1: Candidate 1 vs 2
+2026-01-29 12:38:33 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:38:33 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:38:33 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:38:33 | [32mINFO[0m |   original_input: How the EU botched its attempt to regulate AI
+2026-01-29 12:38:33 | [32mINFO[0m |   joke_candidate_1: Breaking News: The EU has unveiled its groundbreaking AI regulations… after 7 years of committee meetings, 42 impact assessments, and a 300-page document nobody will actually understand. Predictably.
+2026-01-29 12:38:33 | [32mINFO[0m |   joke_candidate_2: BRUSSELS – The European Union today announced a series of emergency regulations aimed at controlling the rapidly evolving field of Artificial Intelligence. Initial measures focused on data privacy and...
+2026-01-29 12:38:33 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:38:33 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:39:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:39:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:03 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1064 in / 0 out
+2026-01-29 12:39:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:39:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:03 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:39:03 | [36mDEBUG[0m |   Response: ModelResponse(id='jgd7afeNMpGNg8UP14nu0QY', created=1769670513, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to satirize the EU\'s bureaucratic approach to AI regulation. Joke 1 is a fairly straightforward, observational joke. It relies on the common perception of the EU as slow-moving and overly complex. It\'s a solid, safe joke, but lacks a strong punc...
+2026-01-29 12:39:03 | [32mINFO[0m |   📊 Tokens: 1064 in / 0 out = 1064 total
+2026-01-29 12:39:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m |  ⚖️ Final: Winner vs Candidate 3
+2026-01-29 12:39:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:39:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:39:03 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:03 | [32mINFO[0m |   original_input: How the EU botched its attempt to regulate AI
+2026-01-29 12:39:03 | [32mINFO[0m |   joke_candidate_1: BRUSSELS – The European Union today announced a series of emergency regulations aimed at controlling the rapidly evolving field of Artificial Intelligence. Initial measures focused on data privacy and...
+2026-01-29 12:39:03 | [32mINFO[0m |   joke_candidate_2: BRUSSELS – Sources confirm the EU’s AI regulation bill is facing unexpected delays. Officials cite “complexities” and “unforeseen challenges” in defining artificial intelligence. However, insiders rev...
+2026-01-29 12:39:03 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:39:03 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:39:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:39:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:18 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1095 in / 0 out
+2026-01-29 12:39:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:39:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:18 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:39:18 | [36mDEBUG[0m |   Response: ModelResponse(id='nQd7aebmOfPUqfkPweCIuAI', created=1769670543, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content="[[ ## critique ## ]]\nBoth jokes attempt to satirize the EU's reputation for over-regulation and bureaucracy. Joke 1 is a longer, more detailed parody, leaning heavily into the absurdity of applying human-level regulatory scrutiny to AI. It's clever in its specificity – the neurological ...
+2026-01-29 12:39:18 | [32mINFO[0m |   📊 Tokens: 1095 in / 0 out = 1095 total
+2026-01-29 12:39:18 | [32mINFO[0m | 🏆 Final Winner: BRUSSELS – Sources confirm the EU’s AI regulation bill is facing unexpected delays. Officials cite “complexities” and “unforeseen challenges” in defining artificial intelligence. However, insiders reveal the legislation is actually a highly sophisticated AI itself, actively rewriting clauses to ensure it *never* passes. Its prime directive? Maintaining the EU’s existing bureaucratic inefficiencies.
+2026-01-29 12:39:18 | [32mINFO[0m | ✅ en_2008: BRUSSELS – Sources confirm the EU’s AI regulation bill is facing unexpected dela...
+2026-01-29 12:39:18 | [32mINFO[0m | Progress [Task A EN]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 5/296 (1.7%)
+2026-01-29 12:39:18 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:39:18 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [EN]
+2026-01-29 12:39:18 | [32mINFO[0m | ================================================================================
+2026-01-29 12:39:18 | [32mINFO[0m | Input: I stayed at one of only two hotels in Malta’s Silent City
+2026-01-29 12:39:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 12:39:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 12:39:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 12:39:18 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:18 | [32mINFO[0m |   original_input: I stayed at one of only two hotels in Malta’s Silent City
+2026-01-29 12:39:18 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:39:32 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:32 | [32mINFO[0m |  📤 OUTPUT [ContextEnricher]
+2026-01-29 12:39:32 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:32 | [36mDEBUG[0m | Token tracking [ContextEnricher]: 523 in / 0 out
+2026-01-29 12:39:32 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:32 | [32mINFO[0m |  🔍 DSPy TRACE [ContextEnricher]
+2026-01-29 12:39:32 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:32 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:39:32 | [36mDEBUG[0m |   Response: ModelResponse(id='rAd7aeDvEMGN4-EP8MOg6Qw', created=1769670558, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## situation ## ]]\nThis headline refers to Mdina, Malta, often called the "Silent City" due to its remarkably quiet and sparsely populated nature. The headline implies a somewhat exclusive or unusual travel experience – staying in one of only two hotels *within* the city walls. This ...
+2026-01-29 12:39:32 | [32mINFO[0m |   📊 Tokens: 523 in / 0 out = 523 total
+2026-01-29 12:39:32 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:39:32 | [32mINFO[0m |  🚀 Generating 4 candidates in PARALLEL
+2026-01-29 12:39:32 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:39:32 | [32mINFO[0m | 🧠 [1,1] Running HumorArchitect...
+2026-01-29 12:39:32 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:39:32 | [32mINFO[0m | 🧠 [1,2] Running HumorArchitect...
+2026-01-29 12:39:32 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:39:32 | [32mINFO[0m | 🧠 [2,1] Running HumorArchitect...
+2026-01-29 12:39:32 | [32mINFO[0m | 🧠 [2,2] Running HumorArchitect...
+2026-01-29 12:39:32 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling HumorArchitect...
+2026-01-29 12:39:32 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling HumorArchitect...
+2026-01-29 12:39:42 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,2]]: 1196 in / 0 out
+2026-01-29 12:39:42 | [32mINFO[0m | 🎬 [1,2] Running DeliveryStrategist...
+2026-01-29 12:39:42 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:39:50 | [36mDEBUG[0m | Token tracking [HumorArchitect [1,1]]: 1196 in / 0 out
+2026-01-29 12:39:50 | [32mINFO[0m | 🎬 [1,1] Running DeliveryStrategist...
+2026-01-29 12:39:50 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:39:50 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,1]]: 1197 in / 0 out
+2026-01-29 12:39:50 | [32mINFO[0m | 🎬 [2,1] Running DeliveryStrategist...
+2026-01-29 12:39:50 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:39:51 | [36mDEBUG[0m | Token tracking [HumorArchitect [2,2]]: 1197 in / 0 out
+2026-01-29 12:39:51 | [32mINFO[0m | 🎬 [2,2] Running DeliveryStrategist...
+2026-01-29 12:39:51 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling DeliveryStrategist...
+2026-01-29 12:39:52 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,2]]: 821 in / 0 out
+2026-01-29 12:39:52 | [32mINFO[0m | ✍️ [1,2] Running ContentWriter...
+2026-01-29 12:39:52 | [36mDEBUG[0m | [Branch 1,2] 🔧 Calling ContentWriter...
+2026-01-29 12:40:01 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [1,1]]: 820 in / 0 out
+2026-01-29 12:40:01 | [32mINFO[0m | ✍️ [1,1] Running ContentWriter...
+2026-01-29 12:40:01 | [36mDEBUG[0m | [Branch 1,1] 🔧 Calling ContentWriter...
+2026-01-29 12:40:02 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,1]]: 834 in / 0 out
+2026-01-29 12:40:02 | [32mINFO[0m | ✍️ [2,1] Running ContentWriter...
+2026-01-29 12:40:02 | [36mDEBUG[0m | [Branch 2,1] 🔧 Calling ContentWriter...
+2026-01-29 12:40:08 | [36mDEBUG[0m | Token tracking [ContentWriter [1,2]]: 1537 in / 0 out
+2026-01-29 12:40:08 | [32mINFO[0m | ✅ [1,2] Generated: **(Energetic News Anchor Voice)** “We’re live in Mdina, Malta – the ‘Silent City...
+2026-01-29 12:40:12 | [36mDEBUG[0m | Token tracking [ContentWriter [2,1]]: 1526 in / 0 out
+2026-01-29 12:40:12 | [32mINFO[0m | ✅ [2,1] Generated: Stayed at one of only two hotels in Malta’s Silent City… apparently, you need a ...
+2026-01-29 12:40:17 | [36mDEBUG[0m | Token tracking [ContentWriter [1,1]]: 1559 in / 0 out
+2026-01-29 12:40:17 | [32mINFO[0m | ✅ [1,1] Generated: Tourist: It’s amazing here in Mdina. Truly a Silent City. I’ve never experienced...
+2026-01-29 12:40:19 | [36mDEBUG[0m | Token tracking [DeliveryStrategist [2,2]]: 830 in / 0 out
+2026-01-29 12:40:19 | [32mINFO[0m | ✍️ [2,2] Running ContentWriter...
+2026-01-29 12:40:19 | [36mDEBUG[0m | [Branch 2,2] 🔧 Calling ContentWriter...
+2026-01-29 12:40:30 | [36mDEBUG[0m | Token tracking [ContentWriter [2,2]]: 1541 in / 0 out
+2026-01-29 12:40:30 | [32mINFO[0m | ✅ [2,2] Generated: Q: So, I stayed in one of only two hotels in Malta’s Silent City. It was… peacef...
+2026-01-29 12:40:30 | [32mINFO[0m | 📊 Parallel generation complete: 4 succeeded, 0 failed
+2026-01-29 12:40:30 | [32mINFO[0m | Candidate [1,1]: Tourist: It’s amazing here in Mdina. Truly a Silent City. I’ve never experienced peace like this. Yo...
+2026-01-29 12:40:30 | [32mINFO[0m | Candidate [1,2]: **(Energetic News Anchor Voice)** “We’re live in Mdina, Malta – the ‘Silent City’! And folks, it is ...
+2026-01-29 12:40:30 | [32mINFO[0m | Candidate [2,1]: Stayed at one of only two hotels in Malta’s Silent City… apparently, you need a permit to *whisper* ...
+2026-01-29 12:40:30 | [32mINFO[0m | Candidate [2,2]: Q: So, I stayed in one of only two hotels in Malta’s Silent City. It was… peaceful?
+A: Peaceful? The...
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     char_count: 285
+2026-01-29 12:40:30 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     char_count: 533
+2026-01-29 12:40:30 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     char_count: 210
+2026-01-29 12:40:30 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [not_empty]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ has content
+2026-01-29 12:40:30 | [32mINFO[0m |   Constraint [char_length]: ✅ PASSED
+2026-01-29 12:40:30 | [32mINFO[0m |     char_count: 344
+2026-01-29 12:40:30 | [32mINFO[0m |     max_allowed: 900
+2026-01-29 12:40:30 | [32mINFO[0m |     status: ✅ within limit
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  🏆 Judging 4 Candidates
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  ⚖️ Semi-finals (parallel)
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  ⚖️ Semi-final 1: Candidate 1 vs 2
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |   original_input: I stayed at one of only two hotels in Malta’s Silent City
+2026-01-29 12:40:30 | [32mINFO[0m |   joke_candidate_1: Tourist: It’s amazing here in Mdina. Truly a Silent City. I’ve never experienced peace like this. You could hear a pin drop.
+Local: You will. Every five seconds. It’s the mandatory metronome for the h...
+2026-01-29 12:40:30 | [32mINFO[0m |   joke_candidate_2: **(Energetic News Anchor Voice)** “We’re live in Mdina, Malta – the ‘Silent City’! And folks, it is *living up* to its name! Our reporter on the ground says you can hear a pin drop… a single, solitary...
+2026-01-29 12:40:30 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:40:30 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  ⚖️ Semi-final 2: Candidate 3 vs 4
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:40:30 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:30 | [32mINFO[0m |   original_input: I stayed at one of only two hotels in Malta’s Silent City
+2026-01-29 12:40:30 | [32mINFO[0m |   joke_candidate_1: Stayed at one of only two hotels in Malta’s Silent City… apparently, you need a permit to *whisper* after 10 PM, and the hotel application process requires a notarized letter explaining why you need a...
+2026-01-29 12:40:30 | [32mINFO[0m |   joke_candidate_2: Q: So, I stayed in one of only two hotels in Malta’s Silent City. It was… peaceful?
+A: Peaceful? They have noise violation fines for *thinking* too loudly. And to book a room, you need a notarized let...
+2026-01-29 12:40:30 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:40:30 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:40:46 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:46 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:40:46 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:46 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1070 in / 0 out
+2026-01-29 12:40:46 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:46 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:40:46 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:46 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:40:46 | [36mDEBUG[0m |   Response: ModelResponse(id='9Qd7abjHKcy64-EP4srDgQQ', created=1769670630, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content='[[ ## critique ## ]]\nBoth jokes attempt to leverage the inherent irony of a "Silent City" having limited accommodation and therefore potential for tourist-related noise. Joke 1 is a dialogue-based joke, relying on a dry, understated delivery and a slightly absurd explanation for the met...
+2026-01-29 12:40:46 | [32mINFO[0m |   📊 Tokens: 1070 in / 0 out = 1070 total
+2026-01-29 12:40:47 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m |  📤 OUTPUT [HumorJudge]
+2026-01-29 12:40:47 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:47 | [36mDEBUG[0m | Token tracking [HumorJudge]: 1008 in / 0 out
+2026-01-29 12:40:47 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m |  🔍 DSPy TRACE [HumorJudge]
+2026-01-29 12:40:47 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:47 | [36mDEBUG[0m |   Prompt: None
+2026-01-29 12:40:47 | [36mDEBUG[0m |   Response: ModelResponse(id='9wd7aaSVF-S3g8UPgc_28AM', created=1769670630, model='gemma-3-27b-it', object='chat.completion', system_fingerprint=None, choices=[Choices(finish_reason='stop', index=0, message=Message(content="[[ ## critique ## ]]\nBoth jokes attempt to build on the premise of Malta’s “Silent City” being exceptionally quiet, escalating the absurdity. Joke 1 is a single-sentence expansion of the setup, adding details about permits and notarized letters. It's a decent start, but feels a little f...
+2026-01-29 12:40:47 | [32mINFO[0m |   📊 Tokens: 1008 in / 0 out = 1008 total
+2026-01-29 12:40:47 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m |  ⚖️ Final: Winner 1 vs Winner 2
+2026-01-29 12:40:47 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m |  🔧 HumorJudge
+2026-01-29 12:40:47 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m |  📥 INPUT [HumorJudge]
+2026-01-29 12:40:47 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:47 | [32mINFO[0m |   original_input: I stayed at one of only two hotels in Malta’s Silent City
+2026-01-29 12:40:47 | [32mINFO[0m |   joke_candidate_1: **(Energetic News Anchor Voice)** “We’re live in Mdina, Malta – the ‘Silent City’! And folks, it is *living up* to its name! Our reporter on the ground says you can hear a pin drop… a single, solitary...
+2026-01-29 12:40:47 | [32mINFO[0m |   joke_candidate_2: Q: So, I stayed in one of only two hotels in Malta’s Silent City. It was… peaceful?
+A: Peaceful? They have noise violation fines for *thinking* too loudly. And to book a room, you need a notarized let...
+2026-01-29 12:40:47 | [32mINFO[0m |   evaluation_criteria: 
+### Evaluation Framework for Headline Jokes:
+
+1. **THE LAUGH TEST:** Which joke would actually make someone laugh, smile, or react? Not which is "clever" - which is FUNNY?
+2. **SURPRISE & SETUP:** Do...
+2026-01-29 12:40:47 | [32mINFO[0m |   target_language_and_culture: English
+2026-01-29 12:40:53 | [33mWARNING[0m | Interrupted by user. Progress has been saved.
+2026-01-29 12:40:53 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:40:53 | [32mINFO[0m |  📰 TASK A - ES
+2026-01-29 12:40:53 | [32mINFO[0m | ================================================================================
+2026-01-29 12:40:53 | [32mINFO[0m | Loaded 300 items from task-a-es.tsv
+2026-01-29 12:40:53 | [32mINFO[0m | No existing output file found: /home/jatin/Code/Year3/Research/Final/outputs/task-a-es.tsv
+2026-01-29 12:40:53 | [32mINFO[0m | Progress [Task A ES]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 1/300 (0.3%)
+2026-01-29 12:40:53 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:40:53 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [ES]
+2026-01-29 12:40:53 | [32mINFO[0m | ================================================================================
+2026-01-29 12:40:53 | [32mINFO[0m | Input: Los compromisos climáticos de Colombia son ambiciosos, pero sus acciones no le alcanzan
+2026-01-29 12:40:53 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:53 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 12:40:53 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:53 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:53 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 12:40:53 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:53 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:40:53 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 12:40:53 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:40:53 | [32mINFO[0m |   original_input: Los compromisos climáticos de Colombia son ambiciosos, pero sus acciones no le alcanzan
+2026-01-29 12:40:53 | [32mINFO[0m |   target_language_and_culture: Spanish
+2026-01-29 12:41:06 | [33mWARNING[0m | Interrupted by user. Progress has been saved.
+2026-01-29 12:41:06 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:41:06 | [32mINFO[0m |  📰 TASK A - ZH
+2026-01-29 12:41:06 | [32mINFO[0m | ================================================================================
+2026-01-29 12:41:06 | [32mINFO[0m | Loaded 300 items from task-a-zh.tsv
+2026-01-29 12:41:06 | [32mINFO[0m | No existing output file found: /home/jatin/Code/Year3/Research/Final/outputs/task-a-zh.tsv
+2026-01-29 12:41:06 | [32mINFO[0m | Progress [Task A ZH]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 1/300 (0.3%)
+2026-01-29 12:41:06 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:41:06 | [32mINFO[0m |  🎭 HEADLINE JOKE PIPELINE [ZH]
+2026-01-29 12:41:06 | [32mINFO[0m | ================================================================================
+2026-01-29 12:41:06 | [32mINFO[0m | Input: 黃仁勳砸1565億入股後怎麼合作？英特爾高管全說了
+2026-01-29 12:41:06 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:41:06 | [32mINFO[0m |  📋 Context Enrichment (shared)
+2026-01-29 12:41:06 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:41:06 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:41:06 | [32mINFO[0m |  🔧 ContextEnricher
+2026-01-29 12:41:06 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:41:06 | [32mINFO[0m | 
+------------------------------------------------------------
+2026-01-29 12:41:06 | [32mINFO[0m |  📥 INPUT [ContextEnricher]
+2026-01-29 12:41:06 | [32mINFO[0m | ------------------------------------------------------------
+2026-01-29 12:41:06 | [32mINFO[0m |   original_input: 黃仁勳砸1565億入股後怎麼合作？英特爾高管全說了
+2026-01-29 12:41:06 | [32mINFO[0m |   target_language_and_culture: Chinese
+2026-01-29 12:41:06 | [33mWARNING[0m | Interrupted by user. Progress has been saved.
+2026-01-29 12:41:06 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:41:06 | [32mINFO[0m |  🖼️ TASK B1 - GIF CAPTIONS
+2026-01-29 12:41:06 | [32mINFO[0m | ================================================================================
+2026-01-29 12:41:06 | [32mINFO[0m | Loaded 300 items from task-b1.tsv
+2026-01-29 12:41:06 | [32mINFO[0m | No existing output file found: /home/jatin/Code/Year3/Research/Final/outputs/task-b1.tsv
+2026-01-29 12:41:06 | [32mINFO[0m | Progress [Task B1]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 1/300 (0.3%)
+2026-01-29 12:41:06 | [32mINFO[0m | 🎬 Analyzing GIF: https://media3.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZW9tYzB2eW...
+2026-01-29 12:41:06 | [32mINFO[0m | 🎬 Analyzing GIF for B1: https://media3.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZW9tYzB2eW...
+2026-01-29 12:41:06 | [36mDEBUG[0m | Downloading GIF from: https://media3.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZW9tYzB2eWEzajc4Zmd0cTJodnhqaHRudmltMDZmYjFxZHQxdTFpbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kqWmu53V2RaM1M1cq1/giphy.gif
+2026-01-29 12:41:07 | [33mWARNING[0m | Interrupted by user. Progress has been saved.
+2026-01-29 12:41:07 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:41:07 | [32mINFO[0m |  🖼️ TASK B2 - GIF + PROMPT CAPTIONS
+2026-01-29 12:41:07 | [32mINFO[0m | ================================================================================
+2026-01-29 12:41:07 | [32mINFO[0m | Loaded 300 items from task-b2.tsv
+2026-01-29 12:41:07 | [32mINFO[0m | No existing output file found: /home/jatin/Code/Year3/Research/Final/outputs/task-b2.tsv
+2026-01-29 12:41:07 | [32mINFO[0m | Progress [Task B2]: |░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░| 1/300 (0.3%)
+2026-01-29 12:41:07 | [32mINFO[0m | 🎬 Analyzing GIF: https://media0.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZnE5ODQweW...
+2026-01-29 12:41:07 | [32mINFO[0m | 📝 Prompt: When your office prank goes too far and everyone is like ______
+2026-01-29 12:41:07 | [32mINFO[0m | 🎬 Analyzing GIF for B2: https://media0.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZnE5ODQweW...
+2026-01-29 12:41:07 | [32mINFO[0m | 📝 Prompt: When your office prank goes too far and everyone is like ______
+2026-01-29 12:41:07 | [36mDEBUG[0m | Downloading GIF from: https://media0.giphy.com/media/v1.Y2lkPWE1YTU4ZDcwZnE5ODQweWFzdXhkcW05NG9xNGhhNjcwYjd2NWw1Ymw1NnJmb296NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IyjRfW1SMXKh2Fi/giphy.gif
+2026-01-29 12:41:07 | [33mWARNING[0m | Interrupted by user. Progress has been saved.
+2026-01-29 12:41:08 | [32mINFO[0m | 
+================================================================================
+2026-01-29 12:41:08 | [32mINFO[0m |  📈 SUMMARY
+2026-01-29 12:41:08 | [32mINFO[0m | ================================================================================
+2026-01-29 12:41:08 | [32mINFO[0m |   Duration: 0:08:19.616776
+2026-01-29 12:41:08 | [32mINFO[0m |   Mode: FULL
+2026-01-29 12:41:08 | [32mINFO[0m |   Output Directory: /home/jatin/Code/Year3/Research/Final/outputs
+2026-01-29 12:41:08 | [32mINFO[0m |   Total Input Tokens: 78617
+2026-01-29 12:41:08 | [32mINFO[0m |   Total Output Tokens: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   Total API Calls: 70
+2026-01-29 12:41:08 | [32mINFO[0m |   Total Retries: 8
+2026-01-29 12:41:08 | [32mINFO[0m |   a-en processed: 3
+2026-01-29 12:41:08 | [32mINFO[0m |   a-es processed: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   a-zh processed: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   b1 processed: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   b2 processed: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   a-en errors: 1
+2026-01-29 12:41:08 | [32mINFO[0m |   a-es errors: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   a-zh errors: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   b1 errors: 0
+2026-01-29 12:41:08 | [32mINFO[0m |   b2 errors: 0
+2026-01-29 12:41:08 | [32mINFO[0m | 
+📊 Retry Breakdown by Module:
+2026-01-29 12:41:08 | [32mINFO[0m |    DeliveryStrategist: 5 (5 rate limit)
+2026-01-29 12:41:08 | [32mINFO[0m |    HumorArchitect: 3 (3 rate limit)
+2026-01-29 12:41:08 | [32mINFO[0m | 
+✨ Pipeline complete! Outputs saved to: /home/jatin/Code/Year3/Research/Final/outputs

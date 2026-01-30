@@ -1,0 +1,430 @@
+2026-01-30 17:49:03 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:49:03 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 17:49:03 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:49:03 | OUTPUT | 
+  INPUT: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 17:49:14 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:49:14 | OUTPUT |   📦 ContextEnricher
+2026-01-30 17:49:14 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:49:14 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and strongly objects to any official recognition or engagement with the Taiwanese government. Panama, like most countries, officially recognizes the People's Republic of China (PRC) but maintains unofficial ties with Taiwan. The visit by Panamanian lawmakers is seen by China as a violation of its "One China" policy and a show of support for Taiwanese independence, thus triggering a diplomatic protest. The subtext is a power play between China and Panama, with Panama attempting to balance its economic relationship with China against potential political or ideological alignment with Taiwan. It also highlights the ongoing geopolitical tensions surrounding Taiwan's status. The "row" suggests a significant level of disagreement and potential repercussions for Panama-China relations.
+2026-01-30 17:49:14 | OUTPUT |   semantic_associations:
+2026-01-30 17:49:14 | OUTPUT |     • Panama: Panama Canal, financial secrecy, tropical location, historically linked to US influence, relatively small country
+2026-01-30 17:49:14 | OUTPUT |     • Taiwan: Island nation, semiconductor manufacturing, democracy, contested political status, 'China's renegade province', technological hub
+2026-01-30 17:49:14 | OUTPUT |     • China: Global superpower, authoritarian government, economic powerhouse, 'One China' policy, assertive foreign policy, military strength
+2026-01-30 17:49:14 | OUTPUT |     • Lawmakers: Politicians, representatives of the people, potential for corruption, international travel, diplomatic immunity
+2026-01-30 17:49:14 | OUTPUT |     • Diplomatic row: International incident, strained relations, protests, potential sanctions, political maneuvering
+2026-01-30 17:49:14 | OUTPUT |     • One China policy: Core tenet of China's foreign policy, recognition of PRC as sole legal government of China, non-recognition of Taiwan as independent state
+2026-01-30 17:49:14 | OUTPUT |     • Geopolitics: Power struggles, international relations, strategic alliances, territorial disputes
+2026-01-30 17:49:14 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:49:14 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 17:49:14 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:49:14 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. China views Taiwan as a breakaway province and strongly objects to any official recognition or engagement with the Taiwanese government. Panama, like most countries, officially recognizes the People's Republic of China (PRC) but maintains unofficial ties with Taiwan. The visit by Panamanian lawmakers is seen by China as a violation of its "One China" policy and a show of support for Taiwanese independence, thus triggering a diplomatic protest. The subtext is a power play between China and Panama, with Panama attempting to balance its economic relationship with China against potential political or ideological alignment with Taiwan. It also highlights the ongoing geopolitical tensions surrounding Taiwan's status. The "row" suggests a significant level of disagreement and potential repercussions for Panama-China relations.
+2026-01-30 17:49:14 | OUTPUT |   semantic_associations:
+2026-01-30 17:49:14 | OUTPUT |     • Panama: Panama Canal, financial secrecy, tropical location, historically linked to US influence, relatively small country
+2026-01-30 17:49:14 | OUTPUT |     • Taiwan: Island nation, semiconductor manufacturing, democracy, contested political status, 'China's renegade province', technological hub
+2026-01-30 17:49:14 | OUTPUT |     • China: Global superpower, authoritarian government, economic powerhouse, 'One China' policy, assertive foreign policy, military strength
+2026-01-30 17:49:14 | OUTPUT |     • Lawmakers: Politicians, representatives of the people, potential for corruption, international travel, diplomatic immunity
+2026-01-30 17:49:14 | OUTPUT |     • Diplomatic row: International incident, strained relations, protests, potential sanctions, political maneuvering
+2026-01-30 17:49:14 | OUTPUT |     • One China policy: Core tenet of China's foreign policy, recognition of PRC as sole legal government of China, non-recognition of Taiwan as independent state
+2026-01-30 17:49:14 | OUTPUT |     • Geopolitics: Power struggles, international relations, strategic alliances, territorial disputes
+2026-01-30 17:49:33 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:33 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:33 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:33 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:33 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:33 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:34 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:34 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:39 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:39 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:42 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:42 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:43 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:49:43 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 17:49:43 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:49:43 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:49:43 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of Panama vs. China.
+2026-01-30 17:49:43 | OUTPUT |     cognitive_manipulation: Reframe the “row” not as a serious international dispute, but as a disproportionately large reaction from China akin to a parent scolding a child for a minor infraction, emphasizing the vast power imbalance between the two nations.
+2026-01-30 17:49:43 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:49:43 | OUTPUT |     script_opposition: [Equal Diplomatic Exchange] vs. [Disproportionate Power Dynamic]
+2026-01-30 17:49:43 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:49:43 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:49:43 | OUTPUT |     language_style: Hyperbolic/Excited
+2026-01-30 17:49:43 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:49:43 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:49:43 | OUTPUT |     │ Breaking News! Tensions are soaring in the South China     │
+2026-01-30 17:49:43 | OUTPUT |     │ Sea… no, wait, scratch that. A far greater international   │
+2026-01-30 17:49:43 | OUTPUT |     │ crisis is unfolding! Sources confirm a major diplomatic    │
+2026-01-30 17:49:43 | OUTPUT |     │ incident has erupted after Panamanian lawmakers dared to   │
+2026-01-30 17:49:43 | OUTPUT |     │ visit Taiwan. We go live to our correspondent… who reports │
+2026-01-30 17:49:43 | OUTPUT |     │ China has responded by grounding all of Panama’s allowance │
+2026-01-30 17:49:43 | OUTPUT |     │ of LEGO bricks for the next fiscal quarter and issuing a   │
+2026-01-30 17:49:43 | OUTPUT |     │ strongly worded letter to the lawmakers’ mothers.          │
+2026-01-30 17:49:43 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:49:44 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:44 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:49 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:49 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:49:55 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:55 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:49:57 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:57 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:49:57 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:49:57 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:50:00 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:00 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:50:00 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:00 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:50:03 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:03 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:50:10 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:10 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 17:50:11 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:11 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:50:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:50:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:12 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 17:50:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:15 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:50:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:15 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 17:50:18 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:18 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:50:26 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:26 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 2/10...
+2026-01-30 17:50:27 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:27 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 17:50:30 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:30 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 17:50:30 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:30 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-30 17:50:32 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:32 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-30 17:50:33 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:33 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 3/10...
+2026-01-30 17:50:35 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:50:35 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-30 17:50:43 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 17:50:43 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 17:50:43 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 3/10...
+2026-01-30 17:50:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:50:49 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 17:50:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:50:49 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:50:49 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of the conflict implied by that phrase, contrasted with the relatively small size and power of Panama.
+2026-01-30 17:50:49 | OUTPUT |     cognitive_manipulation: Reframe the “diplomatic row” as a disproportionately large reaction, imagining China treating the visit as a personal insult rather than a matter of state policy, akin to a playground squabble.
+2026-01-30 17:50:49 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:50:49 | OUTPUT |     script_opposition: Serious International Diplomacy vs. Childish Tantrums
+2026-01-30 17:50:49 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:50:49 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:50:49 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 17:50:49 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:50:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:50:49 | OUTPUT |     │ Breaking news tonight: tensions are escalating between     │
+2026-01-30 17:50:49 | OUTPUT |     │ China and Panama after a delegation of Panamanian          │
+2026-01-30 17:50:49 | OUTPUT |     │ lawmakers made a controversial visit to Taiwan. Sources    │
+2026-01-30 17:50:49 | OUTPUT |     │ say Beijing is… displeased…and has threatened to ground    │
+2026-01-30 17:50:49 | OUTPUT |     │ all of Panama’s Lego shipments until they issue a formal   │
+2026-01-30 17:50:49 | OUTPUT |     │ apology. Apparently, someone built a Taiwanese flag out of │
+2026-01-30 17:50:49 | OUTPUT |     │ bricks.                                                    │
+2026-01-30 17:50:49 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:50:56 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:50:56 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 17:50:56 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:50:56 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:50:56 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of Panama vs. China.
+2026-01-30 17:50:56 | OUTPUT |     cognitive_manipulation: Reframe the “row” not as a serious international dispute, but as a disproportionately large reaction from China akin to a parent scolding a child for a minor infraction, emphasizing the power imbalance.
+2026-01-30 17:50:56 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:50:56 | OUTPUT |     script_opposition: [Equal Diplomatic Conflict] vs. [Disproportionate Power Dynamic]
+2026-01-30 17:50:56 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:50:56 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 17:50:56 | OUTPUT |     language_style: Hyperbolic/Excited
+2026-01-30 17:50:56 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:50:56 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:50:56 | OUTPUT |     │ Breaking News: Panama and China embroiled in a major       │
+2026-01-30 17:50:56 | OUTPUT |     │ diplomatic row over a recent visit to Taiwan! Sources say  │
+2026-01-30 17:50:56 | OUTPUT |     │ tensions are HIGH! Experts are calling it a… a stern       │
+2026-01-30 17:50:56 | OUTPUT |     │ talking-to from Beijing that lasted approximately three    │
+2026-01-30 17:50:56 | OUTPUT |     │ hours and involved a strongly worded map circle around     │
+2026-01-30 17:50:56 | OUTPUT |     │ Panama.                                                    │
+2026-01-30 17:50:56 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:51:00 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:51:00 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 5/10...
+2026-01-30 17:51:01 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:51:01 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 17:51:01 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:51:01 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:51:01 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of Panama vs. China.
+2026-01-30 17:51:01 | OUTPUT |     cognitive_manipulation: Reframe the “row” not as a serious international dispute, but as a disproportionately large reaction from China akin to a parent scolding a child for a minor infraction, emphasizing the power imbalance.
+2026-01-30 17:51:01 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:51:01 | OUTPUT |     script_opposition: [Equal Diplomatic Exchange] vs. [Disproportionate Power Assertion]
+2026-01-30 17:51:01 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:51:01 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:51:01 | OUTPUT |     language_style: Deadpan
+2026-01-30 17:51:01 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:51:01 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:51:01 | OUTPUT |     │ Breaking News: A diplomatic row has erupted between Panama │
+2026-01-30 17:51:01 | OUTPUT |     │ and China following a visit by Panamanian lawmakers to     │
+2026-01-30 17:51:01 | OUTPUT |     │ Taiwan. Sources say tensions are high, with both nations   │
+2026-01-30 17:51:01 | OUTPUT |     │ issuing strongly worded statements…and China has responded │
+2026-01-30 17:51:01 | OUTPUT |     │ by grounding all of Panama’s miniature golf balls.         │
+2026-01-30 17:51:01 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:51:03 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:51:03 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 5/10...
+2026-01-30 17:51:04 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:51:04 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 4/10...
+2026-01-30 17:51:05 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:51:05 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 5/10...
+2026-01-30 17:51:34 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:51:34 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 5/10...
+2026-01-30 17:51:42 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 17:51:42 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 17:51:42 | WARNING | ⏳ Transient error hit. Waiting 30s before retry 6/10...
+2026-01-30 17:51:44 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:51:44 | OUTPUT |   🎯 CANDIDATE [5,1]
+2026-01-30 17:51:44 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:51:44 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:51:44 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of Panama vs. China.
+2026-01-30 17:51:44 | OUTPUT |     cognitive_manipulation: Reframe the “row” not as a serious geopolitical dispute, but as a disproportionately large reaction from China akin to a parent scolding a child for a minor infraction, emphasizing the vast power imbalance between the two nations.
+2026-01-30 17:51:44 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:51:44 | OUTPUT |     script_opposition: [Proportional Response] vs. [Disproportionate Reaction]
+2026-01-30 17:51:44 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:51:44 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:51:44 | OUTPUT |     language_style: Hyperbolic/Excited
+2026-01-30 17:51:44 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:51:44 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:51:44 | OUTPUT |     │ Breaking News! Tensions are soaring in the South China     │
+2026-01-30 17:51:44 | OUTPUT |     │ Sea… no, wait, scratch that. A far greater international   │
+2026-01-30 17:51:44 | OUTPUT |     │ crisis is unfolding! Sources confirm a major diplomatic    │
+2026-01-30 17:51:44 | OUTPUT |     │ incident has erupted after Panamanian lawmakers dared to   │
+2026-01-30 17:51:44 | OUTPUT |     │ visit Taiwan. The world holds its breath… China has        │
+2026-01-30 17:51:44 | OUTPUT |     │ reportedly issued a strongly worded statement, and         │
+2026-01-30 17:51:44 | OUTPUT |     │ threatened to ground all of Panama’s Lego sets for a week. │
+2026-01-30 17:51:44 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:51:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:51:49 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 17:51:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:51:49 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:51:49 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of the conflict implied by that phrase, contrasted with the relatively small size and power of Panama.
+2026-01-30 17:51:49 | OUTPUT |     cognitive_manipulation: Reframe the “diplomatic row” as a disproportionately large reaction, imagining China treating the visit as a personal insult rather than a matter of state policy, akin to a playground squabble.
+2026-01-30 17:51:49 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:51:49 | OUTPUT |     script_opposition: Serious International Diplomacy vs. Childish Personal Offense
+2026-01-30 17:51:49 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:51:49 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:51:49 | OUTPUT |     language_style: Deadpan
+2026-01-30 17:51:49 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:51:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:51:49 | OUTPUT |     │ Breaking news: tensions are escalating after a delegation  │
+2026-01-30 17:51:49 | OUTPUT |     │ of Panamanian lawmakers visited Taiwan. Sources say        │
+2026-01-30 17:51:49 | OUTPUT |     │ Beijing is *furious*, issuing a strongly worded statement  │
+2026-01-30 17:51:49 | OUTPUT |     │ condemning the move as a blatant disregard for the “One    │
+2026-01-30 17:51:49 | OUTPUT |     │ China” policy. We go live now to our correspondent, Anya   │
+2026-01-30 17:51:49 | OUTPUT |     │ Sharma, with the latest. Anya? Anya Sharma: Well, Bob, the │
+2026-01-30 17:51:49 | OUTPUT |     │ situation is incredibly delicate. Apparently, President Xi │
+2026-01-30 17:51:49 | OUTPUT |     │ Jinping has locked himself in his office and is refusing   │
+2026-01-30 17:51:49 | OUTPUT |     │ to come out until Panama issues a formal apology… written  │
+2026-01-30 17:51:49 | OUTPUT |     │ in glitter glue, and signed by a panda. He’s also          │
+2026-01-30 17:51:49 | OUTPUT |     │ reportedly grounded all of Panama’s access to bubble tea   │
+2026-01-30 17:51:49 | OUTPUT |     │ for a month.                                               │
+2026-01-30 17:51:49 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:52:10 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:52:10 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 17:52:10 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:52:10 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:52:10 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of Panama vs. China.
+2026-01-30 17:52:10 | OUTPUT |     cognitive_manipulation: Reframe the “row” not as a serious international dispute, but as a disproportionately large reaction from China akin to a parent scolding a child for a minor infraction, emphasizing the power imbalance.
+2026-01-30 17:52:10 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:52:10 | OUTPUT |     script_opposition: [Equal Diplomatic Exchange] vs. [Disproportionate Power Assertion]
+2026-01-30 17:52:10 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:52:10 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:52:10 | OUTPUT |     language_style: Deadpan
+2026-01-30 17:52:10 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:52:10 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:52:10 | OUTPUT |     │ Breaking news: tensions are escalating between Panama and  │
+2026-01-30 17:52:10 | OUTPUT |     │ China following a recent visit by Panamanian lawmakers to  │
+2026-01-30 17:52:10 | OUTPUT |     │ Taiwan. Sources say diplomatic channels are being utilized │
+2026-01-30 17:52:10 | OUTPUT |     │ to express serious concerns…primarily consisting of a      │
+2026-01-30 17:52:10 | OUTPUT |     │ strongly worded email and a revoked invitation to the      │
+2026-01-30 17:52:10 | OUTPUT |     │ annual panda gifting ceremony.                             │
+2026-01-30 17:52:10 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:52:22 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 17:52:22 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 17:52:22 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 17:52:22 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 17:52:22 | OUTPUT |     focal_targets: “Diplomatic row” and the scale of the conflict implied by that phrase, contrasted with the relatively small size and power of Panama.
+2026-01-30 17:52:22 | OUTPUT |     cognitive_manipulation: Reframe the “diplomatic row” not as a serious international conflict, but as a disproportionately large reaction to a minor infraction, imagining China responding to the visit as if it were a declaration of war.
+2026-01-30 17:52:22 | OUTPUT |     logical_mechanism: Exaggeration
+2026-01-30 17:52:22 | OUTPUT |     script_opposition: [Proportionate Diplomatic Response] vs. [Grossly Disproportionate Military Reaction]
+2026-01-30 17:52:22 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 17:52:22 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 17:52:22 | OUTPUT |     language_style: Hyperbolic/Excited
+2026-01-30 17:52:22 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 17:52:22 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 17:52:22 | OUTPUT |     │ Breaking News! Tensions are escalating after a delegation  │
+2026-01-30 17:52:22 | OUTPUT |     │ of Panamanian lawmakers dared to visit Taiwan. Sources say │
+2026-01-30 17:52:22 | OUTPUT |     │ Beijing is… displeased. And has just mobilized its entire  │
+2026-01-30 17:52:22 | OUTPUT |     │ naval fleet. Initial reports indicate they’re deploying…   │
+2026-01-30 17:52:22 | OUTPUT |     │ rubber ducks. Millions of them. Apparently, it’s a         │
+2026-01-30 17:52:22 | OUTPUT |     │ “sternly worded message” about sovereignty.                │
+2026-01-30 17:52:22 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 17:52:22 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:52:22 | OUTPUT |   🎭 WORD INCLUSION JOKE - current
+2026-01-30 17:52:22 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 17:52:22 | OUTPUT | 
+  INPUT: hammer, flower
+2026-01-30 17:52:32 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 17:52:32 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/10...
+2026-01-30 17:52:37 | WARNING | Interrupted by user. Progress has been saved.
