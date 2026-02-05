@@ -170,7 +170,7 @@ class ContentWriter(dspy.Signature):
     Executes the caption generation with a strict 20-word maximum limit.
     
     Role: You are a Meme Caption Writer. You craft the perfect short text to pair with a GIF.
-    Goal: Write a caption that lands the humor in 20 words or less. Every word must earn its place.
+    Goal: Write a caption that lands the humor in 20 words or less. Every word must earn its place. Caption must fit in with the GIF.z
     
     CRITICAL CONSTRAINT: Maximum 20 words. Shorter is usually better. The GIF does half the work - your caption just needs to reframe it.
     """

@@ -24,6 +24,7 @@ INPUT_DIR = BASE_DIR / "Input"
 OUTPUT_DIR = BASE_DIR / "outputs"
 TEST_OUTPUT_DIR = BASE_DIR / "test_outputs"
 COMPLETE_OUTPUT_DIR = BASE_DIR / "complete"  # Untruncated output with full LLM data
+JUDGED_OUTPUT_DIR = BASE_DIR / "judged_outputs"  # Final judged outputs for submission
 
 # =========================================================================
 # API CONFIGURATION
@@ -39,7 +40,7 @@ API_PROVIDER = os.getenv("API_PROVIDER", "openrouter")
 # Model names per provider (legacy - prefer using DEFAULT_MODEL instead)
 MODELS = {
     "gemini": "gemma-3-27b-it",  # Gemma 3 27B via Gemini API
-    "openrouter": "google/gemma-3-27b-it:free",  # DeepSeek v3.2
+    "openrouter": "deepseek/deepseek-v3.2",  # DeepSeek v3.2
 }
 
 # =========================================================================
@@ -70,15 +71,33 @@ FULL_MODE = False  # Default to test mode
 SAVE_COMPLETE_OUTPUT = False  # Enable to save complete output with all candidates
 
 # =========================================================================
+# PARALLEL PROCESSING
+# =========================================================================
+
+# Number of jokes to process in parallel
+# Higher values = faster but more API load, risk of rate limits
+# Set to 1 for sequential processing (safer for rate-limited APIs)
+PARALLEL_JOKES = 1  # Default: sequential processing
+
+# Maximum parallel jokes allowed (safety limit)
+MAX_PARALLEL_JOKES = 8
+
+# =========================================================================
 # LLM PARAMETERS (Per Module)
 # =========================================================================
 
 # Default model (format: "provider/model" or just "model" for current provider)
 # Examples:
 #   "openrouter/deepseek/deepseek-v3.2" - DeepSeek v3.2 via OpenRouter
+#   "openrouter/google/gemma-3-27b-it" - Gemma 3 27B via OpenRouter
 #   "gemini/gemma-3-27b-it" - Gemma 3 27B via Google Gemini
 #   "deepseek/deepseek-v3.2" - Uses current API_PROVIDER
-DEFAULT_MODEL = "gemini/gemma-3-27b-it"
+DEFAULT_MODEL = "google/gemma-3-27b-it"  # Gemma 3 27B IT via OpenRouter
+
+# Default quantization for OpenRouter models
+# Options: int4, int8, fp4, fp6, fp8, fp16, bf16, fp32, unknown
+# Set to None to use any quantization (default OpenRouter behavior)
+DEFAULT_QUANTIZATION = ["bf16"]  # Brain float 16-bit for Gemma
 
 # Default parameters applied to all modules (used when no module-specific config)
 # Per-module configurations are applied via MODULE_CONFIG below.
@@ -147,6 +166,7 @@ MODULE_CONFIG = {
     },
     
     # ContentWriter: Creative writing - write the actual joke
+    # Uses DeepSeek v3.2 for maximum creativity and natural language generation
     # Highest creativity settings to avoid templated, predictable jokes
     "ContentWriter": {
         "params": {
@@ -206,8 +226,12 @@ def parse_model_spec(model_spec: str) -> tuple[str, str]:
     Parse a model specification into (provider, model_name).
     
     Formats:
-        "provider/model" -> (provider, model)  e.g., "openrouter/deepseek/deepseek-v3.2"
-        "model"          -> (None, model)      e.g., "deepseek/deepseek-v3.2" (use default provider)
+        "provider/model" -> (provider, model)  
+        Examples:
+          - "openrouter/deepseek/deepseek-v3.2" -> ("openrouter", "deepseek/deepseek-v3.2")
+          - "openrouter/gemma-3-27b-it/chutes/bf16" -> ("openrouter", "gemma-3-27b-it/chutes/bf16")
+          - "gemini/gemma-3-27b-it" -> ("gemini", "gemma-3-27b-it")
+        "model" -> (None, model)  e.g., "deepseek/deepseek-v3.2" (use default provider)
     
     Returns:
         (provider, model_name) tuple. provider may be None.
@@ -216,14 +240,18 @@ def parse_model_spec(model_spec: str) -> tuple[str, str]:
         return None, None
     
     # Check if it starts with a known provider prefix
+    # Known providers must be at the start, followed by a slash
     known_providers = ["gemini", "openrouter"]
     
     for provider in known_providers:
-        if model_spec.startswith(f"{provider}/"):
-            model_name = model_spec[len(provider) + 1:]
+        prefix = f"{provider}/"
+        if model_spec.startswith(prefix):
+            # Everything after "provider/" is the model name
+            # This handles complex paths like "openrouter/gemma-3-27b-it/chutes/bf16"
+            model_name = model_spec[len(prefix):]
             return provider, model_name
     
-    # No provider prefix - return model as-is
+    # No provider prefix - return model as-is (will use default provider)
     return None, model_spec
 
 
@@ -307,7 +335,7 @@ PROMPT_TUNING_MODE = True  # Set to True for clean prompt-only output
 # HumorArchitect generates NUM_ARCHITECT_VARIATIONS different humor strategies
 # Each strategy is then processed by NUM_STRATEGY_VARIATIONS different delivery approaches
 # Total candidates = NUM_ARCHITECT_VARIATIONS * NUM_STRATEGY_VARIATIONS
-NUM_ARCHITECT_VARIATIONS = 8  # Number of humor concepts from HumorArchitect
+NUM_ARCHITECT_VARIATIONS = 4  # Number of humor concepts from HumorArchitect
 NUM_STRATEGY_VARIATIONS = 1   # Number of delivery strategies per concept
 
 # Total number of candidate jokes to generate before judging

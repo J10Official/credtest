@@ -21,6 +21,7 @@ from config import (
     TEST_OUTPUT_DIR,
     COMPLETE_OUTPUT_DIR,
     TEST_LIMITS,
+    BASE_DIR,
 )
 from logger import logger
 
@@ -83,10 +84,11 @@ class TaskB1Item:
     """Data structure for Task B1 items (GIF caption)."""
     id: str
     url: str
+    description: str = None  # Preprocessed GIF description
     
     @property
     def input_text(self) -> str:
-        return self.url
+        return self.description if self.description else self.url
 
 
 @dataclass
@@ -95,9 +97,12 @@ class TaskB2Item:
     id: str
     url: str
     prompt: str
+    description: str = None  # Preprocessed GIF description
     
     @property
     def input_text(self) -> str:
+        if self.description:
+            return f"GIF Description: {self.description}\n\nPrompt to Complete: {self.prompt}"
         return f"{self.url}\nPrompt: {self.prompt}"
 
 
@@ -150,32 +155,52 @@ def load_task_a(language: str, test_mode: bool = True) -> list[TaskAItem]:
 
 def load_task_b1(test_mode: bool = True) -> list[TaskB1Item]:
     """
-    Load Task B1 data (GIF captions).
+    Load Task B1 data (GIF captions) from preprocessed file.
     
     Args:
         test_mode: If True, limit samples for testing
     
     Returns:
-        List of TaskB1Item objects
+        List of TaskB1Item objects with preprocessed GIF descriptions
     """
-    file_path = INPUT_DIR / "task-b1.tsv"
+    # Try preprocessed file first (contains GIF descriptions)
+    preprocessed_path = BASE_DIR / "preprocessed" / "task-b1-preprocessed.tsv"
     
-    if not file_path.exists():
-        logger.error(f"Input file not found: {file_path}")
-        return []
-    
-    items = []
-    
-    with open(file_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter='\t')
-        for row in reader:
-            item = TaskB1Item(
-                id=row['id'],
-                url=row['url'],
-            )
-            items.append(item)
-    
-    logger.info(f"Loaded {len(items)} items from {file_path.name}")
+    if preprocessed_path.exists():
+        items = []
+        with open(preprocessed_path, 'r', encoding='utf-8') as f:
+            # Task B1 preprocessed file has no header, columns are: id, url, description
+            for line in f:
+                parts = line.strip().split('\t')
+                if len(parts) >= 3:
+                    item = TaskB1Item(
+                        id=parts[0],
+                        url=parts[1],
+                        description=parts[2],
+                    )
+                    items.append(item)
+        
+        logger.info(f"Loaded {len(items)} preprocessed items from {preprocessed_path.name}")
+    else:
+        # Fallback to original file (will need GIF analysis)
+        file_path = INPUT_DIR / "task-b1.tsv"
+        
+        if not file_path.exists():
+            logger.error(f"Input file not found: {file_path}")
+            return []
+        
+        items = []
+        with open(file_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f, delimiter='\t')
+            for row in reader:
+                item = TaskB1Item(
+                    id=row['id'],
+                    url=row['url'],
+                    description=None,  # Will need GIF analysis
+                )
+                items.append(item)
+        
+        logger.info(f"Loaded {len(items)} items from {file_path.name}")
     
     if test_mode:
         limit = TEST_LIMITS["task_b1"]
@@ -187,33 +212,52 @@ def load_task_b1(test_mode: bool = True) -> list[TaskB1Item]:
 
 def load_task_b2(test_mode: bool = True) -> list[TaskB2Item]:
     """
-    Load Task B2 data (GIF + prompt).
+    Load Task B2 data (GIF + prompt) from preprocessed file.
     
     Args:
         test_mode: If True, limit samples for testing
     
     Returns:
-        List of TaskB2Item objects
+        List of TaskB2Item objects with preprocessed GIF descriptions
     """
-    file_path = INPUT_DIR / "task-b2.tsv"
+    # Try preprocessed file first (contains GIF descriptions)
+    preprocessed_path = BASE_DIR / "preprocessed" / "task-b2-preprocessed.tsv"
     
-    if not file_path.exists():
-        logger.error(f"Input file not found: {file_path}")
-        return []
-    
-    items = []
-    
-    with open(file_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter='\t')
-        for row in reader:
-            item = TaskB2Item(
-                id=row['id'],
-                url=row['url'],
-                prompt=row['prompt'],
-            )
-            items.append(item)
-    
-    logger.info(f"Loaded {len(items)} items from {file_path.name}")
+    if preprocessed_path.exists():
+        items = []
+        with open(preprocessed_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f, delimiter='\t')
+            for row in reader:
+                item = TaskB2Item(
+                    id=row['id'],
+                    url=row['url'],
+                    prompt=row['prompt'],
+                    description=row['description'],
+                )
+                items.append(item)
+        
+        logger.info(f"Loaded {len(items)} preprocessed items from {preprocessed_path.name}")
+    else:
+        # Fallback to original file (will need GIF analysis)
+        file_path = INPUT_DIR / "task-b2.tsv"
+        
+        if not file_path.exists():
+            logger.error(f"Input file not found: {file_path}")
+            return []
+        
+        items = []
+        with open(file_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f, delimiter='\t')
+            for row in reader:
+                item = TaskB2Item(
+                    id=row['id'],
+                    url=row['url'],
+                    prompt=row['prompt'],
+                    description=None,  # Will need GIF analysis
+                )
+                items.append(item)
+        
+        logger.info(f"Loaded {len(items)} items from {file_path.name}")
     
     if test_mode:
         limit = TEST_LIMITS["task_b2"]
@@ -233,7 +277,12 @@ def load_existing_outputs(task_name: str, test_mode: bool = True, complete_mode:
         complete_mode: If True, loads from complete output directory instead
     
     Returns:
-        Dictionary mapping id -> generated text
+        Dictionary mapping id -> generated text (or special marker)
+        
+        Special markers:
+        - "[NO_VALID_CANDIDATES]" - Item was processed but all candidates failed validation
+        - "[ERROR: ...]" - Item failed with an error
+        - Normal text - Item successfully processed with valid candidates
     """
     if complete_mode:
         # For complete mode, check the JSONL file for processed items
@@ -249,12 +298,27 @@ def load_existing_outputs(task_name: str, test_mode: bool = True, complete_mode:
             for line in f:
                 if line.strip():
                     record = json.loads(line)
-                    # Mark as existing - use the first candidate as placeholder text
                     item_id = record.get('id')
-                    if item_id and record.get('candidates'):
-                        existing[item_id] = record['candidates'][0].get('joke', '[GENERATED]')
+                    candidates = record.get('candidates', [])
+                    
+                    if not item_id:
+                        continue
+                    
+                    # Check if there are any valid candidates
+                    if not candidates or len(candidates) == 0:
+                        # Item was processed but produced no candidates
+                        existing[item_id] = "[NO_VALID_CANDIDATES]"
+                    else:
+                        # Use the first candidate as placeholder text to indicate it exists
+                        existing[item_id] = candidates[0].get('joke', '[GENERATED]')
         
         logger.info(f"Loaded {len(existing)} existing complete outputs from {jsonl_path.name}")
+        
+        # Count items needing regeneration
+        no_candidates = sum(1 for v in existing.values() if v == "[NO_VALID_CANDIDATES]")
+        if no_candidates > 0:
+            logger.warning(f"⚠️  Found {no_candidates} items with no valid candidates (will regenerate)")
+        
         return existing
     
     output_dir = TEST_OUTPUT_DIR if test_mode else OUTPUT_DIR
@@ -282,6 +346,9 @@ def get_remaining_items(items: list, existing_outputs: dict) -> list:
     Items with ERROR placeholders (e.g., "[ERROR: ...]") are considered
     unprocessed and will be retried on resume.
     
+    Items with "[NO_VALID_CANDIDATES]" marker (all candidates failed validation)
+    are also retried to regenerate with different variations.
+    
     Args:
         items: List of input items
         existing_outputs: Dictionary of already processed items
@@ -292,6 +359,7 @@ def get_remaining_items(items: list, existing_outputs: dict) -> list:
     remaining = []
     skipped_success = 0
     retrying_errors = 0
+    retrying_no_candidates = 0
     
     for item in items:
         if item.id not in existing_outputs:
@@ -301,12 +369,22 @@ def get_remaining_items(items: list, existing_outputs: dict) -> list:
             # Previously failed - retry it
             remaining.append(item)
             retrying_errors += 1
+        elif existing_outputs[item.id] == "[NO_VALID_CANDIDATES]":
+            # All candidates were rejected (failed validation) - regenerate
+            remaining.append(item)
+            retrying_no_candidates += 1
         else:
-            # Successfully processed
+            # Successfully processed with valid candidates
             skipped_success += 1
     
-    if skipped_success > 0 or retrying_errors > 0:
-        logger.info(f"Resuming: {skipped_success} succeeded (skipping), {retrying_errors} failed (retrying), {len(remaining) - retrying_errors} new")
+    if skipped_success > 0 or retrying_errors > 0 or retrying_no_candidates > 0:
+        msg = f"Resuming: {skipped_success} succeeded (skipping)"
+        if retrying_errors > 0:
+            msg += f", {retrying_errors} failed (retrying)"
+        if retrying_no_candidates > 0:
+            msg += f", {retrying_no_candidates} no valid candidates (regenerating)"
+        msg += f", {len(remaining) - retrying_errors - retrying_no_candidates} new"
+        logger.info(msg)
     
     return remaining
 

@@ -224,9 +224,22 @@ def with_retry(func: Callable) -> Callable:
                 ])
                 
                 if is_json_error:
-                    # Log the JSON mode error - ChatAdapter is configured at startup
-                    # Note: Can't reconfigure mid-execution as DSPy enforces thread-safety
-                    logger.warning(f"🔧 JSON mode error detected. Will retry with existing ChatAdapter config...")
+                    # Check if we're using a Gemma model
+                    current_lm = dspy.settings.lm
+                    if current_lm and hasattr(current_lm, 'model'):
+                        model_str = str(current_lm.model)
+                        if is_gemma_model(model_str):
+                            # For Gemma models, ensure ChatAdapter is used (no JSON mode fallback)
+                            logger.warning(f"🔧 JSON mode error for Gemma model. Re-enforcing ChatAdapter (Gemma doesn't support JSON mode)...")
+                            try:
+                                dspy.configure(adapter=dspy.ChatAdapter())
+                            except Exception as adapter_error:
+                                logger.debug(f"Note: Could not reconfigure adapter (thread-safety): {adapter_error}")
+                                logger.debug("ChatAdapter should already be configured from startup")
+                        else:
+                            logger.warning(f"🔧 JSON mode error detected. Will retry with existing adapter config...")
+                    else:
+                        logger.warning(f"🔧 JSON mode error detected. Will retry with existing adapter config...")
                 
                 if not (is_rate_limit or is_transient or is_json_error):
                     # Not a retryable error, raise immediately
@@ -366,14 +379,37 @@ class OpenRouterProvider(APIProvider):
         Returns:
             Configured DSPy LM instance
         """
+        from config import DEFAULT_QUANTIZATION
+        
         model_name = model or MODELS["openrouter"]
         
         # Merge default params with provided kwargs
         params = DEFAULT_LLM_PARAMS.copy()
         params.update(kwargs)
         
+        # Build provider preferences for OpenRouter
+        provider_params = {}
+        
+        # Add default quantization if specified (can be overridden by params)
+        if DEFAULT_QUANTIZATION:
+            provider_params["quantizations"] = DEFAULT_QUANTIZATION
+        
+        # Merge with extra_body if provided (module-specific overrides)
+        extra_body = params.pop("extra_body", {})
+        
+        # Merge provider params - module-specific settings override defaults
+        if "provider" in extra_body:
+            # Module has custom provider settings - merge with defaults
+            module_provider = extra_body["provider"]
+            # Module settings take precedence over defaults
+            merged_provider = provider_params.copy()
+            merged_provider.update(module_provider)
+            extra_body["provider"] = merged_provider
+        elif provider_params:
+            # No module override - use defaults
+            extra_body["provider"] = provider_params
+        
         # OpenRouter uses OpenAI-compatible API
-        # Extra headers to disable routing (ensure we use exact model specified)
         self.lm = dspy.LM(
             model=f"openrouter/{model_name}",
             api_key=self.api_key,
@@ -383,6 +419,7 @@ class OpenRouterProvider(APIProvider):
                 "HTTP-Referer": "https://github.com/mwahaha-pipeline",  # Required by OpenRouter
                 "X-Title": "MWAHAHA Humor Pipeline",  # Optional app name
             },
+            extra_body=extra_body if extra_body else None,
             **params
         )
         
@@ -562,6 +599,7 @@ def call_with_retry(predictor: dspy.Module, caller_id: str = "", **kwargs) -> An
     Call a DSPy predictor with automatic retry on rate limits.
     
     The @with_retry decorator handles 429 errors using RETRY_INTERVALS.
+    Ensures ChatAdapter is used for Gemma models (no JSON mode support).
     
     Args:
         predictor: DSPy predictor/module to call
@@ -571,6 +609,22 @@ def call_with_retry(predictor: dspy.Module, caller_id: str = "", **kwargs) -> An
     Returns:
         Predictor output
     """
+    # Safety check: Ensure ChatAdapter for Gemma models
+    # Gemma models don't support JSON mode, so we must enforce ChatAdapter
+    current_lm = getattr(predictor, 'lm', None) or dspy.settings.lm
+    if current_lm and hasattr(current_lm, 'model'):
+        model_str = str(current_lm.model)
+        if is_gemma_model(model_str):
+            # Ensure ChatAdapter is configured (thread-safe check)
+            current_adapter = getattr(dspy.settings, 'adapter', None)
+            if not isinstance(current_adapter, dspy.ChatAdapter):
+                try:
+                    dspy.configure(adapter=dspy.ChatAdapter())
+                    logger.debug(f"Enforced ChatAdapter for Gemma model: {model_str}")
+                except Exception as e:
+                    # Thread-safety restriction - adapter should already be set from startup
+                    logger.debug(f"Note: ChatAdapter enforcement skipped (thread-safety): {e}")
+    
     # Count this API call (thread-safe)
     # This ensures we count ALL calls, including parallel branches
     # where token tracking may not happen due to DSPy thread restrictions

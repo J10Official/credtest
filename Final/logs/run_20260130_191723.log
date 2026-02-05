@@ -1,0 +1,547 @@
+2026-01-30 19:17:23 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:17:23 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:17:23 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 19:17:23 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 19:17:23 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:17:23 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:17:23 | OUTPUT | 
+  INPUT: Instagram to start closing Australian teen accounts ahead of social media ban
+2026-01-30 19:17:23 | OUTPUT | 
+  INPUT: How the EU botched its attempt to regulate AI
+2026-01-30 19:17:35 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:35 | OUTPUT |   📦 ContextEnricher
+2026-01-30 19:17:35 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:35 | OUTPUT |   situation: This headline refers to the European Union's recent efforts to create a comprehensive legal framework for regulating Artificial Intelligence (AI). The "botched attempt" suggests the process has been fraught with difficulties, disagreements, and potentially resulted in a regulation that is ineffective, overly bureaucratic, or fails to address key concerns. The subtext implies a gap between the EU's ambition to be a global leader in AI regulation and the reality of achieving that goal. It hints at internal political struggles within the EU, lobbying from tech companies, and the inherent complexity of regulating a rapidly evolving technology. The headline suggests the regulation may be either too weak to be meaningful, or too restrictive and stifle innovation. It also implies a degree of public disappointment or criticism regarding the EU's handling of the issue.
+2026-01-30 19:17:35 | OUTPUT |   semantic_associations:
+2026-01-30 19:17:35 | OUTPUT |     • EU: Bureaucracy, red tape, slow decision-making, complex regulations, attempts at harmonization, perceived overreach, political infighting.
+2026-01-30 19:17:35 | OUTPUT |     • AI: Rapid development, technological disruption, ethical concerns (bias, job displacement), potential for misuse, hype, science fiction tropes (robots, sentience).
+2026-01-30 19:17:35 | OUTPUT |     • Regulation: Control, restriction, oversight, legal frameworks, compliance, innovation vs. safety, unintended consequences.
+2026-01-30 19:17:35 | OUTPUT |     • Botched: Failure, incompetence, mess, disaster, irony, comedic potential of well-intentioned plans going awry.
+2026-01-30 19:17:35 | OUTPUT |     • Tech Companies: Lobbying, influence, power, resistance to regulation, profit motives, innovation.
+2026-01-30 19:17:35 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:35 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 19:17:35 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:35 | OUTPUT |   situation: This headline refers to the European Union's recent efforts to create a comprehensive legal framework for regulating Artificial Intelligence (AI). The "botched attempt" suggests the process has been fraught with difficulties, disagreements, and potentially resulted in a regulation that is ineffective, overly bureaucratic, or fails to address key concerns. The subtext implies a gap between the EU's ambition to be a global leader in AI regulation and the reality of achieving that goal. It hints at internal political struggles within the EU, lobbying from tech companies, and the inherent complexity of regulating a rapidly evolving technology. The headline suggests the regulation may be either too weak to be meaningful, or too restrictive and stifle innovation. It also implies a degree of public disappointment or criticism regarding the EU's handling of the issue.
+2026-01-30 19:17:35 | OUTPUT |   semantic_associations:
+2026-01-30 19:17:35 | OUTPUT |     • EU: Bureaucracy, red tape, slow decision-making, complex regulations, attempts at harmonization, perceived overreach, political infighting.
+2026-01-30 19:17:35 | OUTPUT |     • AI: Rapid development, technological disruption, ethical concerns (bias, job displacement), potential for misuse, hype, science fiction tropes (robots, sentience).
+2026-01-30 19:17:35 | OUTPUT |     • Regulation: Control, restriction, oversight, legal frameworks, compliance, innovation vs. safety, unintended consequences.
+2026-01-30 19:17:35 | OUTPUT |     • Botched: Failure, incompetence, mess, disaster, irony, comedic potential of well-intentioned plans going awry.
+2026-01-30 19:17:35 | OUTPUT |     • Tech Companies: Lobbying, influence, power, resistance to regulation, profit motives, innovation.
+2026-01-30 19:17:48 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:48 | OUTPUT |   📦 ContextEnricher
+2026-01-30 19:17:48 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:48 | OUTPUT |   situation: This headline refers to a new Australian law aimed at increasing online safety, particularly for children. Instagram (owned by Meta) is proactively closing the accounts of Australian teenagers who haven't had their age verified, rather than waiting for the government to enforce a broader ban. The subtext is that Instagram is prioritizing compliance with the law over maintaining its user base, and that age verification is proving difficult or inconvenient to implement. There's also an implication that a significant number of Australian teens are using Instagram with false age information. The law is a response to concerns about cyberbullying, exposure to harmful content, and data privacy. The situation highlights a tension between social media platforms' desire for growth and governments' responsibility to protect citizens, especially minors. It also points to the challenges of verifying identity online.
+2026-01-30 19:17:48 | OUTPUT |   semantic_associations:
+2026-01-30 19:17:48 | OUTPUT |     • Instagram: Social media, influencers, selfies, curated reality, teenage culture, addiction, data privacy concerns, Meta (Facebook)
+2026-01-30 19:17:48 | OUTPUT |     • Australia: Strict regulations, laid-back culture (ironic contrast with strict laws), remote location, 'larrikin' stereotype (rebellious youth), strong emphasis on safety
+2026-01-30 19:17:48 | OUTPUT |     • Teenagers: Impulsivity, social pressure, online identity, vulnerability, digital natives, short attention spans, risk-taking behavior
+2026-01-30 19:17:48 | OUTPUT |     • Social Media Ban: Censorship, freedom of speech, parental control, government overreach, digital divide, impact on social connection
+2026-01-30 19:17:48 | OUTPUT |     • Age Verification: Privacy concerns, data security, difficulty of implementation, potential for false positives/negatives, circumvention by tech-savvy teens
+2026-01-30 19:17:48 | OUTPUT |     • Online Safety: Cyberbullying, harmful content, predators, mental health, data exploitation, responsible technology use
+2026-01-30 19:17:48 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:48 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 19:17:48 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:17:48 | OUTPUT |   situation: This headline refers to a new Australian law aimed at increasing online safety, particularly for children. Instagram (owned by Meta) is proactively closing the accounts of Australian teenagers who haven't had their age verified, rather than waiting for the government to enforce a broader ban. The subtext is that Instagram is prioritizing compliance with the law over maintaining its user base, and that age verification is proving difficult or inconvenient to implement. There's also an implication that a significant number of Australian teens are using Instagram with false age information. The law is a response to concerns about cyberbullying, exposure to harmful content, and data privacy. The situation highlights a tension between social media platforms' desire for growth and governments' responsibility to protect citizens, especially minors. It also points to the challenges of verifying identity online.
+2026-01-30 19:17:48 | OUTPUT |   semantic_associations:
+2026-01-30 19:17:48 | OUTPUT |     • Instagram: Social media, influencers, selfies, curated reality, teenage culture, addiction, data privacy concerns, Meta (Facebook)
+2026-01-30 19:17:48 | OUTPUT |     • Australia: Strict regulations, laid-back culture (ironic contrast with strict laws), remote location, 'larrikin' stereotype (rebellious youth), strong emphasis on safety
+2026-01-30 19:17:48 | OUTPUT |     • Teenagers: Impulsivity, social pressure, online identity, vulnerability, digital natives, short attention spans, risk-taking behavior
+2026-01-30 19:17:48 | OUTPUT |     • Social Media Ban: Censorship, freedom of speech, parental control, government overreach, digital divide, impact on social connection
+2026-01-30 19:17:48 | OUTPUT |     • Age Verification: Privacy concerns, data security, difficulty of implementation, potential for false positives/negatives, circumvention by tech-savvy teens
+2026-01-30 19:17:48 | OUTPUT |     • Online Safety: Cyberbullying, harmful content, predators, mental health, data exploitation, responsible technology use
+2026-01-30 19:18:02 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:02 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:06 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:06 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:08 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:08 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:11 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:11 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:11 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:11 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:15 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:16 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:16 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:17 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:17 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:18:22 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 19:18:22 | WARNING | 🔧 JSON mode error for Gemma model. Re-enforcing ChatAdapter (Gemma doesn't support JSON mode)...
+2026-01-30 19:18:22 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 2/8...
+2026-01-30 19:18:24 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 19:18:24 | WARNING | 🔧 JSON mode error for Gemma model. Re-enforcing ChatAdapter (Gemma doesn't support JSON mode)...
+2026-01-30 19:18:24 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 2/8...
+2026-01-30 19:18:24 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 19:18:24 | WARNING | 🔧 JSON mode error for Gemma model. Re-enforcing ChatAdapter (Gemma doesn't support JSON mode)...
+2026-01-30 19:18:24 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:28 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:18:38 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:38 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:18:40 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:40 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:18:43 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:43 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:18:44 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:44 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:18:46 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:46 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:48 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:48 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:18:53 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:53 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:18:56 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:18:56 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:19:00 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:00 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:19:01 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:01 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:19:08 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:08 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 19:19:08 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:08 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:19:11 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:11 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:19:13 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:13 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 19:19:14 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:14 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 19:19:18 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:19:18 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 19:19:22 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 19:19:22 | WARNING | 🔧 JSON mode error for Gemma model. Re-enforcing ChatAdapter (Gemma doesn't support JSON mode)...
+2026-01-30 19:19:22 | WARNING | ⏳ Transient error hit. Waiting 20s before retry 3/8...
+2026-01-30 19:19:36 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:36 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 19:19:36 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:36 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:19:36 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 19:19:36 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as compliance with safety regulations, but as a desperate attempt to avoid the logistical nightmare and cost of actually verifying the ages of Australian teenagers, implying the platform values profit over safety.
+2026-01-30 19:19:36 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 19:19:36 | OUTPUT |     script_opposition: [Corporate Responsibility/Child Protection] vs. [Profit Maximization/Cost Avoidance]
+2026-01-30 19:19:36 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:19:36 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 19:19:36 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:19:36 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:19:36 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:19:36 | OUTPUT |     │ Breaking: Instagram is proactively deleting Australian     │
+2026-01-30 19:19:36 | OUTPUT |     │ teen accounts…not to protect the children, but because     │
+2026-01-30 19:19:36 | OUTPUT |     │ verifying their ages would actually cost money. Sources    │
+2026-01-30 19:19:36 | OUTPUT |     │ say “emotional wellbeing” isn’t a line item in the Q3      │
+2026-01-30 19:19:36 | OUTPUT |     │ budget.                                                    │
+2026-01-30 19:19:36 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:19:45 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:45 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 19:19:45 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:45 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:19:45 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 19:19:45 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as compliance with safety regulations, but as a desperate attempt to avoid the logistical nightmare and cost of actually verifying the ages of Australian teenagers, implying the platform values profit over safety.
+2026-01-30 19:19:45 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 19:19:45 | OUTPUT |     script_opposition: [Corporate Responsibility/Child Protection] vs. [Profit Maximization/Operational Efficiency]
+2026-01-30 19:19:45 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:19:45 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 19:19:45 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:19:45 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:19:45 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:19:45 | OUTPUT |     │ Breaking: Instagram is proactively closing accounts of     │
+2026-01-30 19:19:45 | OUTPUT |     │ unverified Australian teens ahead of new online safety     │
+2026-01-30 19:19:45 | OUTPUT |     │ laws. Sources say the company is taking swift action to    │
+2026-01-30 19:19:45 | OUTPUT |     │ protect vulnerable youth…primarily by avoiding the expense │
+2026-01-30 19:19:45 | OUTPUT |     │ of actually verifying anyone’s age. It’s cheaper to lose   │
+2026-01-30 19:19:45 | OUTPUT |     │ users than hire HR.                                        │
+2026-01-30 19:19:45 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:19:45 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:45 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 19:19:45 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:45 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:19:45 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 19:19:45 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as compliance with safety regulations, but as a desperate attempt to avoid the logistical nightmare and cost of actually verifying the ages of Australian teenagers, implying the platform values profit over safety.
+2026-01-30 19:19:45 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 19:19:45 | OUTPUT |     script_opposition: [Corporate Responsibility/Child Protection] vs. [Profit Maximization/Operational Efficiency]
+2026-01-30 19:19:45 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:19:45 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 19:19:45 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:19:45 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:19:45 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:19:45 | OUTPUT |     │ Breaking: Instagram is proactively closing accounts of     │
+2026-01-30 19:19:45 | OUTPUT |     │ unverified Australian teens ahead of new online safety     │
+2026-01-30 19:19:45 | OUTPUT |     │ laws. Sources say the company is taking swift action to    │
+2026-01-30 19:19:45 | OUTPUT |     │ protect vulnerable youth…primarily by dramatically         │
+2026-01-30 19:19:45 | OUTPUT |     │ reducing their customer base and avoiding the expense of   │
+2026-01-30 19:19:45 | OUTPUT |     │ asking anyone their actual age.                            │
+2026-01-30 19:19:45 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:19:51 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:51 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 19:19:51 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:51 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:19:51 | OUTPUT |     focal_targets: EU, Regulation, Botched
+2026-01-30 19:19:51 | OUTPUT |     cognitive_manipulation: Reframe "botched" not as a failure of execution, but as a predictable outcome given the EU's established operational characteristics, implying the attempt was doomed from the start due to inherent systemic issues.
+2026-01-30 19:19:51 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 19:19:51 | OUTPUT |     script_opposition: Ambition vs. Capability (specifically, the EU's stated ambition versus its demonstrated capability to implement effective regulation)
+2026-01-30 19:19:51 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:19:51 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 19:19:51 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:19:51 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:19:51 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:19:51 | OUTPUT |     │ BRUSSELS – In a stunning display of foresight and          │
+2026-01-30 19:19:51 | OUTPUT |     │ efficiency, the European Union has finalized its landmark  │
+2026-01-30 19:19:51 | OUTPUT |     │ AI regulation after three years of intense debate and      │
+2026-01-30 19:19:51 | OUTPUT |     │ compromise. Sources confirm the legislation is poised to   │
+2026-01-30 19:19:51 | OUTPUT |     │ revolutionize the tech landscape…by being immediately      │
+2026-01-30 19:19:51 | OUTPUT |     │ ignored by every major AI developer outside of Europe.     │
+2026-01-30 19:19:51 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:19:54 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:54 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 19:19:54 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:19:54 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:19:54 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 19:19:54 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as compliance with safety regulations, but as a desperate attempt to avoid the logistical nightmare and cost of actually verifying the ages of Australian teenagers, implying the platform values profit over safety.
+2026-01-30 19:19:54 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 19:19:54 | OUTPUT |     script_opposition: [Corporate Responsibility/Child Protection] vs. [Profit Maximization/Operational Efficiency]
+2026-01-30 19:19:54 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:19:54 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 19:19:54 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:19:54 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:19:54 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:19:54 | OUTPUT |     │ Breaking: Instagram is proactively closing accounts of     │
+2026-01-30 19:19:54 | OUTPUT |     │ unverified Australian teens ahead of new online safety     │
+2026-01-30 19:19:54 | OUTPUT |     │ laws. Sources say the company is taking swift action to    │
+2026-01-30 19:19:54 | OUTPUT |     │ protect vulnerable youth…primarily by dramatically         │
+2026-01-30 19:19:54 | OUTPUT |     │ reducing their legal liability and avoiding the cost of    │
+2026-01-30 19:19:54 | OUTPUT |     │ actually confirming anyone’s age.                          │
+2026-01-30 19:19:54 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:19:54 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:19:54 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 19:19:54 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:19:54 | OUTPUT | 
+  INPUT: I stayed at one of only two hotels in Malta’s Silent City
+2026-01-30 19:20:11 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:11 | OUTPUT |   📦 ContextEnricher
+2026-01-30 19:20:11 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:11 | OUTPUT |   situation: This headline refers to Mdina, Malta, often called the "Silent City" due to its remarkably quiet and preserved medieval architecture. The fact that there are *only* two hotels within the city walls suggests a very limited tourist infrastructure, prioritizing preservation over mass tourism. Staying in one of these hotels implies a deliberate choice to experience a unique, historically rich, and peaceful environment. The subtext is that the experience is likely exclusive and potentially expensive. It also hints at a contrast between the quiet city and the more bustling tourist areas of Malta. The headline plays on the novelty of such a limited accommodation option within a historically significant location.
+2026-01-30 19:20:11 | OUTPUT |   semantic_associations:
+2026-01-30 19:20:11 | OUTPUT |     • Malta: Mediterranean island, history (Phoenicians, Romans, Knights of St. John, British rule), tourism, sunshine, beaches, potentially crowded tourist spots contrasting with Mdina
+2026-01-30 19:20:11 | OUTPUT |     • Silent City (Mdina): Medieval architecture, quiet, preservation, history, exclusivity, small population, potentially eerie or atmospheric
+2026-01-30 19:20:11 | OUTPUT |     • Hotels: Accommodation, tourism, luxury (potentially), service, transient nature, contrast with the permanence of the city
+2026-01-30 19:20:11 | OUTPUT |     • Two: Limited choice, exclusivity, special experience, potentially high demand
+2026-01-30 19:20:11 | OUTPUT |     • Staying: Experiencing, tourism, temporary residence, immersion in a different environment
+2026-01-30 19:20:11 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:11 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 19:20:11 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:11 | OUTPUT |   situation: This headline refers to Mdina, Malta, often called the "Silent City" due to its remarkably quiet and preserved medieval architecture. The fact that there are *only* two hotels within the city walls suggests a very limited tourist infrastructure, prioritizing preservation over mass tourism. Staying in one of these hotels implies a deliberate choice to experience a unique, historically rich, and peaceful environment. The subtext is that the experience is likely exclusive and potentially expensive. It also hints at a contrast between the quiet city and the more bustling tourist areas of Malta. The headline plays on the novelty of such a limited accommodation option within a historically significant location.
+2026-01-30 19:20:11 | OUTPUT |   semantic_associations:
+2026-01-30 19:20:11 | OUTPUT |     • Malta: Mediterranean island, history (Phoenicians, Romans, Knights of St. John, British rule), tourism, sunshine, beaches, potentially crowded tourist spots contrasting with Mdina
+2026-01-30 19:20:11 | OUTPUT |     • Silent City (Mdina): Medieval architecture, quiet, preservation, history, exclusivity, small population, potentially eerie or atmospheric
+2026-01-30 19:20:11 | OUTPUT |     • Hotels: Accommodation, tourism, luxury (potentially), service, transient nature, contrast with the permanence of the city
+2026-01-30 19:20:11 | OUTPUT |     • Two: Limited choice, exclusivity, special experience, potentially high demand
+2026-01-30 19:20:11 | OUTPUT |     • Staying: Experiencing, tourism, temporary residence, immersion in a different environment
+2026-01-30 19:20:14 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:14 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 19:20:14 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:14 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:20:14 | OUTPUT |     focal_targets: EU, Regulation, Botched
+2026-01-30 19:20:14 | OUTPUT |     cognitive_manipulation: Reframe "botched" not as a failure of execution, but as a predictable outcome given the EU's inherent characteristics, specifically its bureaucratic nature, implying the 'botch' was the *most* efficient outcome possible within the system.
+2026-01-30 19:20:14 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 19:20:14 | OUTPUT |     script_opposition: Competent Governance vs. Inevitable Bureaucratic Inefficiency
+2026-01-30 19:20:14 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:20:14 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 19:20:14 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:20:14 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:20:14 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:20:14 | OUTPUT |     │ BRUSSELS – In a stunning display of legislative            │
+2026-01-30 19:20:14 | OUTPUT |     │ efficiency, the European Union has finalized its landmark  │
+2026-01-30 19:20:14 | OUTPUT |     │ Artificial Intelligence regulations… after 18 months of    │
+2026-01-30 19:20:14 | OUTPUT |     │ debate, 73 amendments, and a compromise that essentially   │
+2026-01-30 19:20:14 | OUTPUT |     │ makes the rules so vague, AI can regulate *itself*.        │
+2026-01-30 19:20:14 | OUTPUT |     │ Officials are calling it “streamlined.”                    │
+2026-01-30 19:20:14 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:20:21 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:20:21 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:20:22 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 19:20:22 | WARNING | 🔧 JSON mode error for Gemma model. Re-enforcing ChatAdapter (Gemma doesn't support JSON mode)...
+2026-01-30 19:20:22 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 19:20:22 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:20:22 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:20:22 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 19:20:22 | WARNING | 🔧 JSON mode error for Gemma model. Re-enforcing ChatAdapter (Gemma doesn't support JSON mode)...
+2026-01-30 19:20:22 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 19:20:28 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:28 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 19:20:28 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:28 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:20:28 | OUTPUT |     focal_targets: EU, Regulation, Botched
+2026-01-30 19:20:28 | OUTPUT |     cognitive_manipulation: Reframe "botched" not as a failure of execution, but as a predictable outcome given the EU's inherent characteristics, specifically its bureaucratic nature, implying the 'botch' was the *most* efficient outcome possible within the system.
+2026-01-30 19:20:28 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 19:20:28 | OUTPUT |     script_opposition: Competence vs. Incompetence (specifically, the expectation of EU competence in regulation versus the reality of its bureaucratic processes)
+2026-01-30 19:20:28 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:20:28 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 19:20:28 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:20:28 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:20:28 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:20:28 | OUTPUT |     │ Breaking: European Union unveils groundbreaking new AI     │
+2026-01-30 19:20:28 | OUTPUT |     │ regulations after years of deliberation and intense        │
+2026-01-30 19:20:28 | OUTPUT |     │ lobbying. Officials claim the framework will “balance      │
+2026-01-30 19:20:28 | OUTPUT |     │ innovation with ethical considerations” and “establish the │
+2026-01-30 19:20:28 | OUTPUT |     │ EU as a global leader” in the field. Sources confirm the   │
+2026-01-30 19:20:28 | OUTPUT |     │ regulations are 30,000 pages long, require a dedicated     │
+2026-01-30 19:20:28 | OUTPUT |     │ team of 47 bureaucrats to interpret, and are already       │
+2026-01-30 19:20:28 | OUTPUT |     │ outdated.                                                  │
+2026-01-30 19:20:28 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:20:48 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:48 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 19:20:48 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:20:48 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:20:48 | OUTPUT |     focal_targets: EU, Regulation, Botched
+2026-01-30 19:20:48 | OUTPUT |     cognitive_manipulation: Reframe "botched" not as a failure of execution, but as a predictable outcome given the EU's inherent characteristics, specifically its bureaucratic nature, implying the 'botch' was the *most* efficient outcome possible within the system.
+2026-01-30 19:20:48 | OUTPUT |     logical_mechanism: Irony
+2026-01-30 19:20:48 | OUTPUT |     script_opposition: Competence vs. Incompetence (specifically, the expectation of EU competence in regulation versus the reality of its bureaucratic processes)
+2026-01-30 19:20:48 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:20:48 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 19:20:48 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:20:48 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:20:48 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:20:48 | OUTPUT |     │ Breaking: European Union unveils groundbreaking new AI     │
+2026-01-30 19:20:48 | OUTPUT |     │ regulations after years of deliberation and expert         │
+2026-01-30 19:20:48 | OUTPUT |     │ consultation. Officials claim the framework will “usher in │
+2026-01-30 19:20:48 | OUTPUT |     │ a new era of responsible innovation.” Sources confirm the  │
+2026-01-30 19:20:48 | OUTPUT |     │ regulations are 37,000 pages long and require a dedicated  │
+2026-01-30 19:20:48 | OUTPUT |     │ team of 12 bureaucrats to interpret a single flowchart.    │
+2026-01-30 19:20:48 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:20:48 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:20:48 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 19:20:48 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:20:48 | OUTPUT | 
+  INPUT: Ireland coach Farrell brings back Bundee Aki for clash with Springboks in Dublin
+2026-01-30 19:21:04 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:21:04 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:21:12 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:21:12 | OUTPUT |   📦 ContextEnricher
+2026-01-30 19:21:12 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:21:12 | OUTPUT |   situation: This headline reports on a team selection decision for an upcoming rugby match between Ireland and South Africa (the Springboks) in Dublin. Andy Farrell, the Ireland coach, has reinstated Bundee Aki into the starting lineup. This implies Aki was previously out of the team, perhaps due to injury or performance reasons. The "clash" wording suggests this is a significant, potentially competitive, and highly anticipated match. Ireland and South Africa are both strong rugby nations, and matches between them are often physical and closely fought. The location in Dublin suggests Ireland has home advantage, which is a factor in rugby. The subtext is that Farrell believes Aki's inclusion will strengthen the team against a tough opponent. It also hints at potential tactical considerations – Aki likely brings specific skills or attributes that Farrell wants to utilize against the Springboks.
+2026-01-30 19:21:12 | OUTPUT |   semantic_associations:
+2026-01-30 19:21:12 | OUTPUT |     • Ireland: Green, shamrocks, Guinness, rugby tradition, passionate fans, underdog status (historically)
+2026-01-30 19:21:12 | OUTPUT |     • Springboks: South Africa, rugby powerhouse, physicality, Springbok (animal - associated with agility and resilience), apartheid history (sometimes relevant in sporting context)
+2026-01-30 19:21:12 | OUTPUT |     • Bundee Aki: Rugby player, centre position, physicality, New Zealand heritage (often mentioned in commentary), potential for impactful plays
+2026-01-30 19:21:12 | OUTPUT |     • Andy Farrell: Ireland coach, tactical decisions, pressure to perform, former rugby player (often influences coaching style)
+2026-01-30 19:21:12 | OUTPUT |     • Dublin: Irish capital, lively atmosphere, rugby stadium (Aviva Stadium), home advantage
+2026-01-30 19:21:12 | OUTPUT |     • Clash: Confrontation, rivalry, physical contest, high stakes
+2026-01-30 19:21:12 | OUTPUT |     • Rugby: Physicality, scrums, lineouts, tries, tackling, complex rules (often a source of humor for non-fans)
+2026-01-30 19:21:12 | OUTPUT |     • Team Selection: Strategy, risk assessment, player form, injury concerns
+2026-01-30 19:21:12 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:21:12 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 19:21:12 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:21:12 | OUTPUT |   situation: This headline reports on a team selection decision for an upcoming rugby match between Ireland and South Africa (the Springboks) in Dublin. Andy Farrell, the Ireland coach, has reinstated Bundee Aki into the starting lineup. This implies Aki was previously out of the team, perhaps due to injury or performance reasons. The "clash" wording suggests this is a significant, potentially competitive, and highly anticipated match. Ireland and South Africa are both strong rugby nations, and matches between them are often physical and closely fought. The location in Dublin suggests Ireland has home advantage, which is a factor in rugby. The subtext is that Farrell believes Aki's inclusion will strengthen the team against a tough opponent. It also hints at potential tactical considerations – Aki likely brings specific skills or attributes that Farrell wants to utilize against the Springboks.
+2026-01-30 19:21:12 | OUTPUT |   semantic_associations:
+2026-01-30 19:21:12 | OUTPUT |     • Ireland: Green, shamrocks, Guinness, rugby tradition, passionate fans, underdog status (historically)
+2026-01-30 19:21:12 | OUTPUT |     • Springboks: South Africa, rugby powerhouse, physicality, Springbok (animal - associated with agility and resilience), apartheid history (sometimes relevant in sporting context)
+2026-01-30 19:21:12 | OUTPUT |     • Bundee Aki: Rugby player, centre position, physicality, New Zealand heritage (often mentioned in commentary), potential for impactful plays
+2026-01-30 19:21:12 | OUTPUT |     • Andy Farrell: Ireland coach, tactical decisions, pressure to perform, former rugby player (often influences coaching style)
+2026-01-30 19:21:12 | OUTPUT |     • Dublin: Irish capital, lively atmosphere, rugby stadium (Aviva Stadium), home advantage
+2026-01-30 19:21:12 | OUTPUT |     • Clash: Confrontation, rivalry, physical contest, high stakes
+2026-01-30 19:21:12 | OUTPUT |     • Rugby: Physicality, scrums, lineouts, tries, tackling, complex rules (often a source of humor for non-fans)
+2026-01-30 19:21:12 | OUTPUT |     • Team Selection: Strategy, risk assessment, player form, injury concerns
+2026-01-30 19:21:13 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:21:13 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 19:21:13 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:21:13 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:21:13 | OUTPUT |     focal_targets: "Silent City" and "two hotels"
+2026-01-30 19:21:13 | OUTPUT |     cognitive_manipulation: Reinterpret the "silence" of the Silent City not as peaceful preservation, but as a consequence of a complete lack of activity *because* there are so few options for visitors, implying the city is deserted and boring rather than serene and exclusive.
+2026-01-30 19:21:13 | OUTPUT |     logical_mechanism: Missing the Point
+2026-01-30 19:21:13 | OUTPUT |     script_opposition: [Desirable Exclusivity] vs. [Undesirable Desolation]
+2026-01-30 19:21:13 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:21:13 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 19:21:13 | OUTPUT |     language_style: Deadpan
+2026-01-30 19:21:13 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:21:13 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:21:13 | OUTPUT |     │ I stayed at one of only two hotels in Malta’s Silent City. │
+2026-01-30 19:21:13 | OUTPUT |     │ It was… quiet. Yeah, really quiet. Turns out when a city   │
+2026-01-30 19:21:13 | OUTPUT |     │ only has two hotels, it’s not exclusive, it’s just… empty. │
+2026-01-30 19:21:13 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:21:13 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:21:13 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:21:16 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:21:16 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:21:17 | WARNING | Interrupted by user. Cancelling pending tasks...
+2026-01-30 19:21:17 | WARNING | 
+⚠️ Pipeline interrupted. Partial results have been saved.

@@ -1,0 +1,291 @@
+2026-01-30 18:58:51 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:58:51 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:58:51 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:58:51 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:58:51 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:58:51 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:58:51 | OUTPUT | 
+  INPUT: Meet Troy - the parrot named after Ireland’s hat-trick hero
+2026-01-30 18:58:51 | OUTPUT | 
+  INPUT: Instagram to start closing Australian teen accounts ahead of social media ban
+2026-01-30 18:59:08 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:08 | OUTPUT |   📦 ContextEnricher
+2026-01-30 18:59:08 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:08 | OUTPUT |   situation: This headline refers to a new Australian law aimed at increasing online safety, particularly for children. Instagram (owned by Meta) is proactively closing the accounts of Australian teenagers who haven't had their age verified, rather than waiting for the government to enforce a broader ban. The subtext is that Instagram is prioritizing compliance with the law over maintaining its user base, and that age verification is proving difficult or inconvenient. There's an implication that a significant number of Australian teens are using Instagram with false age information. The law is a response to concerns about cyberbullying, exposure to harmful content, and data privacy. It's also a power play between a government trying to regulate big tech and a tech company trying to minimize disruption to its business. The situation highlights the tension between freedom of access to social media and the need to protect vulnerable users.
+2026-01-30 18:59:08 | OUTPUT |   semantic_associations:
+2026-01-30 18:59:08 | OUTPUT |     • Instagram: Social media, selfies, influencers, validation, teenage life, filters, curated reality, addiction, Meta, Mark Zuckerberg
+2026-01-30 18:59:08 | OUTPUT |     • Australia: Outback, kangaroos, beaches, laid-back culture, strict laws, independent spirit, 'no worries' attitude, remote location
+2026-01-30 18:59:08 | OUTPUT |     • Teenagers: Rebellion, social pressure, identity formation, online presence, vulnerability, impulsivity, peer influence, digital natives
+2026-01-30 18:59:08 | OUTPUT |     • Social Media Ban: Censorship, control, privacy, safety, government overreach, freedom of speech, digital rights
+2026-01-30 18:59:08 | OUTPUT |     • Age Verification: Privacy concerns, data collection, identity theft, loopholes, parental consent, difficulty of implementation
+2026-01-30 18:59:08 | OUTPUT |     • Online Safety: Cyberbullying, harmful content, predators, mental health, digital wellbeing, responsible use
+2026-01-30 18:59:08 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:08 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 18:59:08 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:08 | OUTPUT |   situation: This headline refers to a new Australian law aimed at increasing online safety, particularly for children. Instagram (owned by Meta) is proactively closing the accounts of Australian teenagers who haven't had their age verified, rather than waiting for the government to enforce a broader ban. The subtext is that Instagram is prioritizing compliance with the law over maintaining its user base, and that age verification is proving difficult or inconvenient. There's an implication that a significant number of Australian teens are using Instagram with false age information. The law is a response to concerns about cyberbullying, exposure to harmful content, and data privacy. It's also a power play between a government trying to regulate big tech and a tech company trying to minimize disruption to its business. The situation highlights the tension between freedom of access to social media and the need to protect vulnerable users.
+2026-01-30 18:59:08 | OUTPUT |   semantic_associations:
+2026-01-30 18:59:08 | OUTPUT |     • Instagram: Social media, selfies, influencers, validation, teenage life, filters, curated reality, addiction, Meta, Mark Zuckerberg
+2026-01-30 18:59:08 | OUTPUT |     • Australia: Outback, kangaroos, beaches, laid-back culture, strict laws, independent spirit, 'no worries' attitude, remote location
+2026-01-30 18:59:08 | OUTPUT |     • Teenagers: Rebellion, social pressure, identity formation, online presence, vulnerability, impulsivity, peer influence, digital natives
+2026-01-30 18:59:08 | OUTPUT |     • Social Media Ban: Censorship, control, privacy, safety, government overreach, freedom of speech, digital rights
+2026-01-30 18:59:08 | OUTPUT |     • Age Verification: Privacy concerns, data collection, identity theft, loopholes, parental consent, difficulty of implementation
+2026-01-30 18:59:08 | OUTPUT |     • Online Safety: Cyberbullying, harmful content, predators, mental health, digital wellbeing, responsible use
+2026-01-30 18:59:34 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:59:34 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:59:34 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 18:59:45 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:45 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 18:59:45 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:45 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:59:45 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 18:59:45 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as a safety measure, but as a desperate attempt to avoid the logistical nightmare and potential data breaches inherent in widespread age verification, implying the platform values its own convenience over user safety.
+2026-01-30 18:59:45 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 18:59:45 | OUTPUT |     script_opposition: [Corporate Responsibility/User Protection] vs. [Corporate Self-Preservation/Operational Convenience]
+2026-01-30 18:59:45 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:59:45 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:59:45 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:59:45 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:59:45 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:59:45 | OUTPUT |     │ Breaking: Instagram is proactively closing accounts of     │
+2026-01-30 18:59:45 | OUTPUT |     │ unverified Australian teens… primarily to avoid the        │
+2026-01-30 18:59:45 | OUTPUT |     │ massive GDPR-style data breach that would inevitably occur │
+2026-01-30 18:59:45 | OUTPUT |     │ trying to confirm their ages. User safety is, of course, a │
+2026-01-30 18:59:45 | OUTPUT |     │ *close* second.                                            │
+2026-01-30 18:59:45 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:59:46 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:59:46 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:59:49 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:59:49 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:59:50 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:59:50 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:59:53 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:53 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 18:59:53 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:53 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:59:53 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 18:59:53 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as a safety measure, but as a desperate attempt to avoid the logistical nightmare and potential data breaches inherent in widespread age verification, implying the platform values its own convenience over user safety.
+2026-01-30 18:59:53 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 18:59:53 | OUTPUT |     script_opposition: [Corporate Responsibility/User Protection] vs. [Operational Convenience/Self-Preservation]
+2026-01-30 18:59:53 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:59:53 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:59:53 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:59:53 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:59:53 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:59:53 | OUTPUT |     │ Breaking: Instagram is proactively deleting Australian     │
+2026-01-30 18:59:53 | OUTPUT |     │ teen accounts ahead of new online safety laws. Sources say │
+2026-01-30 18:59:53 | OUTPUT |     │ the company is deeply concerned about the well-being of    │
+2026-01-30 18:59:53 | OUTPUT |     │ its young users…and even more concerned about the sheer    │
+2026-01-30 18:59:53 | OUTPUT |     │ logistical nightmare of actually verifying their ages      │
+2026-01-30 18:59:53 | OUTPUT |     │ without accidentally triggering a massive data breach and  │
+2026-01-30 18:59:53 | OUTPUT |     │ a class-action lawsuit. Turns out protecting data is       │
+2026-01-30 18:59:53 | OUTPUT |     │ easier than protecting kids.                               │
+2026-01-30 18:59:53 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:59:59 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:59 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 18:59:59 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:59:59 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:59:59 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 18:59:59 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as a safety measure, but as a desperate attempt to avoid the logistical nightmare and potential data breaches inherent in widespread age verification, implying the platform values its operational ease over teen safety.
+2026-01-30 18:59:59 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 18:59:59 | OUTPUT |     script_opposition: [Corporate Responsibility/Teen Safety] vs. [Operational Convenience/Data Security]
+2026-01-30 18:59:59 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:59:59 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:59:59 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:59:59 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:59:59 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:59:59 | OUTPUT |     │ Breaking: Instagram is proactively deleting Australian     │
+2026-01-30 18:59:59 | OUTPUT |     │ teen accounts ahead of new online safety laws. Sources say │
+2026-01-30 18:59:59 | OUTPUT |     │ the company is deeply concerned about the well-being of    │
+2026-01-30 18:59:59 | OUTPUT |     │ its young users and is taking unprecedented steps to       │
+2026-01-30 18:59:59 | OUTPUT |     │ protect them. Apparently, verifying ages is *way* harder   │
+2026-01-30 18:59:59 | OUTPUT |     │ than letting kids see endless ads and questionable         │
+2026-01-30 18:59:59 | OUTPUT |     │ content. It’s a data breach waiting to happen, honestly.   │
+2026-01-30 18:59:59 | OUTPUT |     │ Much safer just to… delete them.                           │
+2026-01-30 18:59:59 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:00:02 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:00:02 | OUTPUT |   📦 ContextEnricher
+2026-01-30 19:00:02 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:00:02 | OUTPUT |   situation: This headline reports on a parrot being named "Troy" in honor of Troy Parrott, a young Irish footballer who recently scored a hat-trick (three goals in one game) for Ireland's national team. The situation is a lighthearted, celebratory gesture – someone (presumably the parrot's owner) is a fan of Troy Parrott and decided to commemorate his achievement by naming their pet after him. It implies a level of national pride and excitement surrounding the footballer's performance. The subtext is that the hat-trick was a significant event, enough to inspire a pet naming. It's a feel-good story designed to appeal to football fans and animal lovers.
+2026-01-30 19:00:02 | OUTPUT |   semantic_associations:
+2026-01-30 19:00:02 | OUTPUT |     • Troy Parrott: Young footballer, Irish national team, hat-trick hero, rising star, potential for future success
+2026-01-30 19:00:02 | OUTPUT |     • Parrot (bird): Mimicry, talking, colorful, pet, tropical, sometimes seen as silly or unintelligent
+2026-01-30 19:00:02 | OUTPUT |     • Ireland: Football (soccer), national pride, green, Celtic culture, known for passionate sports fans
+2026-01-30 19:00:02 | OUTPUT |     • Hat-trick: Significant achievement in football, rare, celebrated, indicates skill
+2026-01-30 19:00:02 | OUTPUT |     • Naming: Symbolism, honoring someone, expressing admiration, personal connection
+2026-01-30 19:00:02 | OUTPUT |     • Pets: Companionship, affection, anthropomorphism (attributing human characteristics to animals)
+2026-01-30 19:00:02 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:00:02 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 19:00:02 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:00:02 | OUTPUT |   situation: This headline reports on a parrot being named "Troy" in honor of Troy Parrott, a young Irish footballer who recently scored a hat-trick (three goals in one game) for Ireland's national team. The situation is a lighthearted, celebratory gesture – someone (presumably the parrot's owner) is a fan of Troy Parrott and decided to commemorate his achievement by naming their pet after him. It implies a level of national pride and excitement surrounding the footballer's performance. The subtext is that the hat-trick was a significant event, enough to inspire a pet naming. It's a feel-good story designed to appeal to football fans and animal lovers.
+2026-01-30 19:00:02 | OUTPUT |   semantic_associations:
+2026-01-30 19:00:02 | OUTPUT |     • Troy Parrott: Young footballer, Irish national team, hat-trick hero, rising star, potential for future success
+2026-01-30 19:00:02 | OUTPUT |     • Parrot (bird): Mimicry, talking, colorful, pet, tropical, sometimes seen as silly or unintelligent
+2026-01-30 19:00:02 | OUTPUT |     • Ireland: Football (soccer), national pride, green, Celtic culture, known for passionate sports fans
+2026-01-30 19:00:02 | OUTPUT |     • Hat-trick: Significant achievement in football, rare, celebrated, indicates skill
+2026-01-30 19:00:02 | OUTPUT |     • Naming: Symbolism, honoring someone, expressing admiration, personal connection
+2026-01-30 19:00:02 | OUTPUT |     • Pets: Companionship, affection, anthropomorphism (attributing human characteristics to animals)
+2026-01-30 19:00:02 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:02 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:05 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:05 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:05 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:05 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:07 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:07 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:12 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:00:12 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 19:00:12 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:00:12 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 19:00:12 | OUTPUT |     focal_targets: Instagram, Australian teenagers, age verification
+2026-01-30 19:00:12 | OUTPUT |     cognitive_manipulation: Reframe Instagram's proactive account closures not as a safety measure, but as a desperate attempt to avoid the logistical nightmare and potential data breaches inherent in widespread age verification, implying the platform values its own convenience over user safety.
+2026-01-30 19:00:12 | OUTPUT |     logical_mechanism: Reasoning from False Premises
+2026-01-30 19:00:12 | OUTPUT |     script_opposition: [Corporate Responsibility/User Protection] vs. [Corporate Self-Preservation/Operational Convenience]
+2026-01-30 19:00:12 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 19:00:12 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 19:00:12 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 19:00:12 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 19:00:12 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 19:00:12 | OUTPUT |     │ Breaking: Instagram is proactively closing accounts of     │
+2026-01-30 19:00:12 | OUTPUT |     │ unverified Australian teens… primarily to avoid the        │
+2026-01-30 19:00:12 | OUTPUT |     │ massive GDPR-style data breach that would inevitably occur │
+2026-01-30 19:00:12 | OUTPUT |     │ trying to confirm their ages. User safety is, of course, a │
+2026-01-30 19:00:12 | OUTPUT |     │ *close* second.                                            │
+2026-01-30 19:00:12 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 19:00:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 19:00:22 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:22 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:23 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:23 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:00:26 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:26 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:00:26 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:26 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 19:00:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:28 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:28 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:28 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:28 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 19:00:28 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 19:00:28 | WARNING | Interrupted by user. Cancelling pending tasks...
+2026-01-30 19:00:29 | WARNING | 
+⚠️ Pipeline interrupted. Partial results have been saved.

@@ -1,0 +1,39 @@
+2026-01-30 19:09:53 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:09:53 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 19:09:53 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 19:09:53 | OUTPUT | 
+  INPUT: Meet Troy - the parrot named after Ireland’s hat-trick hero
+2026-01-30 19:10:21 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 19:10:21 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 19:10:21 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 19:10:43 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:10:43 | OUTPUT |   📦 ContextEnricher
+2026-01-30 19:10:43 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:10:43 | OUTPUT |   situation: This headline reports on a parrot being named "Troy" after Troy Parrott, a young Irish footballer who recently scored a hat-trick (three goals in one game) for Ireland's national team. The situation is a lighthearted, feel-good story stemming from a sporting achievement. It implies a level of national pride and enthusiasm surrounding Parrott's performance, enough to inspire someone to name their pet after him. The subtext is that the owner is likely a football fan, specifically supporting Ireland, and wanted to commemorate the event in a quirky way. It's a relatively minor news item, relying on the connection between a popular sport and a beloved animal.
+2026-01-30 19:10:43 | OUTPUT |   semantic_associations:
+2026-01-30 19:10:43 | OUTPUT |     • Troy Parrott - young athlete, Irish football, rising star, hat-trick hero, national pride
+2026-01-30 19:10:43 | OUTPUT |     • Parrot - mimicry, talking bird, pet, colorful, tropical, sometimes annoying
+2026-01-30 19:10:43 | OUTPUT |     • Ireland - football (soccer), green, St. Patrick's Day, pubs, friendly people, underdog spirit
+2026-01-30 19:10:43 | OUTPUT |     • Hat-trick - significant achievement in football, rare, exciting, memorable
+2026-01-30 19:10:43 | OUTPUT |     • Naming - symbolism, affection, commemoration, fandom
+2026-01-30 19:10:43 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 19:10:43 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 19:10:43 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 19:10:43 | OUTPUT |   situation: This headline reports on a parrot being named "Troy" after Troy Parrott, a young Irish footballer who recently scored a hat-trick (three goals in one game) for Ireland's national team. The situation is a lighthearted, feel-good story stemming from a sporting achievement. It implies a level of national pride and enthusiasm surrounding Parrott's performance, enough to inspire someone to name their pet after him. The subtext is that the owner is likely a football fan, specifically supporting Ireland, and wanted to commemorate the event in a quirky way. It's a relatively minor news item, relying on the connection between a popular sport and a beloved animal.
+2026-01-30 19:10:43 | OUTPUT |   semantic_associations:
+2026-01-30 19:10:43 | OUTPUT |     • Troy Parrott - young athlete, Irish football, rising star, hat-trick hero, national pride
+2026-01-30 19:10:43 | OUTPUT |     • Parrot - mimicry, talking bird, pet, colorful, tropical, sometimes annoying
+2026-01-30 19:10:43 | OUTPUT |     • Ireland - football (soccer), green, St. Patrick's Day, pubs, friendly people, underdog spirit
+2026-01-30 19:10:43 | OUTPUT |     • Hat-trick - significant achievement in football, rare, exciting, memorable
+2026-01-30 19:10:43 | OUTPUT |     • Naming - symbolism, affection, commemoration, fandom
+2026-01-30 19:10:56 | WARNING | Interrupted by user. Progress has been saved.

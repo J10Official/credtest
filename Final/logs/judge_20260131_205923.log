@@ -1,0 +1,121 @@
+2026-01-31 20:59:23 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:23 | OUTPUT |   ⚖️ JUDGING: Semi-final 1: Candidate 1 vs 2
+2026-01-31 20:59:23 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:23 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:23 | OUTPUT |   ⚖️ JUDGING: Semi-final 2: Candidate 3 vs 4
+2026-01-31 20:59:23 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:23 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-31 20:59:23 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:23 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-31 20:59:23 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:23 | OUTPUT |     │ Breaking News! Tensions are escalating after a delegation of           │
+2026-01-31 20:59:23 | OUTPUT |     │ Breaking News: A diplomatic row has erupted between Panama and China   │
+2026-01-31 20:59:23 | OUTPUT |     │ following a visit by Panamanian lawmakers to Taiwan. Sources say       │
+2026-01-31 20:59:23 | OUTPUT |     │ Panamanian lawmakers dared to visit Taiwan. Sources say Beijing is…    │
+2026-01-31 20:59:23 | OUTPUT |     │ tensions are high, with both nations issuing strongly worded           │
+2026-01-31 20:59:23 | OUTPUT |     │ displeased. And has just mobilized its entire naval fleet. Initial     │
+2026-01-31 20:59:23 | OUTPUT |     │ statements…and China has responded by grounding all of Panama’s        │
+2026-01-31 20:59:23 | OUTPUT |     │ reports indicate they’re deploying… rubber ducks. Millions of them.    │
+2026-01-31 20:59:23 | OUTPUT |     │ miniature golf balls.                                                  │
+2026-01-31 20:59:23 | OUTPUT |     │ Apparently, it’s a “sternly worded message” about sovereignty.         │
+2026-01-31 20:59:23 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:23 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:23 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-31 20:59:23 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-31 20:59:23 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:23 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:23 | OUTPUT |     │ Breaking news: tensions are escalating after a delegation of           │
+2026-01-31 20:59:23 | OUTPUT |     │ Breaking News! Tensions are soaring in the South China Sea… no, wait,  │
+2026-01-31 20:59:23 | OUTPUT |     │ Panamanian lawmakers visited Taiwan. Sources say Beijing is *furious*, │
+2026-01-31 20:59:23 | OUTPUT |     │ scratch that. A far greater international crisis is unfolding! Sources │
+2026-01-31 20:59:23 | OUTPUT |     │ issuing a strongly worded statement condemning the move as a blatant   │
+2026-01-31 20:59:23 | OUTPUT |     │ confirm a major diplomatic incident has erupted after Panamanian       │
+2026-01-31 20:59:23 | OUTPUT |     │ disregard for the “One China” policy. We go live now to our            │
+2026-01-31 20:59:23 | OUTPUT |     │ lawmakers dared to visit Taiwan. We go live to our correspondent… who  │
+2026-01-31 20:59:23 | OUTPUT |     │ correspondent, Anya Sharma, with the latest. Anya? Anya Sharma: Well,  │
+2026-01-31 20:59:23 | OUTPUT |     │ reports China has responded by grounding all of Panama’s allowance of  │
+2026-01-31 20:59:23 | OUTPUT |     │ Bob, the situation is incredibly delicate. Apparently, President Xi    │
+2026-01-31 20:59:23 | OUTPUT |     │ LEGO bricks for the next fiscal quarter and issuing a strongly worded  │
+2026-01-31 20:59:23 | OUTPUT |     │ Jinping has locked himself in his office and is refusing to come out   │
+2026-01-31 20:59:23 | OUTPUT |     │ letter to the lawmakers’ mothers.                                      │
+2026-01-31 20:59:23 | OUTPUT |     │ until Panama issues a formal apology… written in glitter glue, and     │
+2026-01-31 20:59:23 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:23 | OUTPUT |     │ signed by a panda. He’s also reportedly grounded all of Panama’s       │
+2026-01-31 20:59:23 | OUTPUT |     │ access to bubble tea for a month.                                      │
+2026-01-31 20:59:23 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:30 | ERROR | ❌ API Error [NotFoundError]: litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No endpoints found for the request with quantization: bf16. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection","code":404}}
+2026-01-31 20:59:30 | ERROR | 💀 Non-retryable error. Aborting.
+2026-01-31 20:59:31 | ERROR | ❌ API Error [NotFoundError]: litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No endpoints found for the request with quantization: bf16. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection","code":404}}
+2026-01-31 20:59:31 | ERROR | 💀 Non-retryable error. Aborting.
+2026-01-31 20:59:31 | ERROR | ❌ Error in judging en_2001: NotFoundError: litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No endpoints found for the request with quantization: bf16. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection","code":404}}
+2026-01-31 20:59:31 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:31 | OUTPUT |   ⚖️ JUDGING: Semi-final 1: Candidate 1 vs 2
+2026-01-31 20:59:31 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:31 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-31 20:59:31 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:31 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:31 | OUTPUT |   ⚖️ JUDGING: Semi-final 2: Candidate 3 vs 4
+2026-01-31 20:59:31 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-31 20:59:31 | OUTPUT | 
+  📝 JOKE 1:
+2026-01-31 20:59:31 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:31 | OUTPUT |     │ Agnes, the sculptor, was staring at the floral arrangement commission  │
+2026-01-31 20:59:31 | OUTPUT |     │ with barely concealed contempt. “Honestly,” she muttered to her        │
+2026-01-31 20:59:31 | OUTPUT |     │ assistant, “they want *delicacy*. They want… blooms. As if I, Agnes    │
+2026-01-31 20:59:31 | OUTPUT |     │ Blackwood, creator of monumental steel beasts, should be fussing with  │
+2026-01-31 20:59:31 | OUTPUT |     │ petals. I need something to… anchor the whole thing, you know?         │
+2026-01-31 20:59:31 | OUTPUT |     │ Something with presence.” She hefted a tool. “I’m thinking,” she       │
+2026-01-31 20:59:31 | OUTPUT |     │ declared, examining a particularly hefty claw hammer, “this hammer     │
+2026-01-31 20:59:31 | OUTPUT |     │ will be the focal point. It’s… surprisingly fragrant. And the weight   │
+2026-01-31 20:59:31 | OUTPUT |     │ really brings out the flower’s… structural integrity.”                 │
+2026-01-31 20:59:31 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:31 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-31 20:59:31 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:31 | OUTPUT |     │ Agnes, the sculptor, was staring at the floral arrangement commission  │
+2026-01-31 20:59:31 | OUTPUT |     │ with barely concealed contempt. “Honestly,” she muttered to her        │
+2026-01-31 20:59:31 | OUTPUT |     │ assistant, “they want *delicacy*. They want… blooms. As if I, Agnes    │
+2026-01-31 20:59:31 | OUTPUT |     │ Blackwood, creator of monumental steel beasts, should be fussing with  │
+2026-01-31 20:59:31 | OUTPUT |     │ petals. I need something to… anchor the whole thing, you know?         │
+2026-01-31 20:59:31 | OUTPUT |     │ Something with presence.” She hefted a tool. “I’m thinking,” she       │
+2026-01-31 20:59:31 | OUTPUT |     │ declared, examining a particularly hefty claw hammer, “this hammer     │
+2026-01-31 20:59:31 | OUTPUT |     │ will be the focal point. It’s… surprisingly fragrant. And the weight   │
+2026-01-31 20:59:31 | OUTPUT |     │ really brings out the flower’s… structural integrity.”                 │
+2026-01-31 20:59:31 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:31 | OUTPUT |     │ Agnes, the sculptor, was staring intensely at a particularly stubborn  │
+2026-01-31 20:59:31 | OUTPUT |     │ piece of granite. Her assistant, Bernard, tentatively approached.      │
+2026-01-31 20:59:31 | OUTPUT |     │ “Everything alright, Agnes? The garden party is tomorrow, and Mrs.     │
+2026-01-31 20:59:31 | OUTPUT |     │ Featherbottom is *very* particular about her centerpiece.” Agnes       │
+2026-01-31 20:59:31 | OUTPUT |     │ sighed dramatically. “It’s just… I can’t seem to capture the… essence. │
+2026-01-31 20:59:31 | OUTPUT |     │ The *delicacy*. I need something to really… bloom.” Bernard blinked.   │
+2026-01-31 20:59:31 | OUTPUT |     │ “You’ve been trying to attach a flower to a hammer for the last three  │
+2026-01-31 20:59:31 | OUTPUT |     │ hours, Agnes. And then hammering the flower.” Agnes didn’t even look   │
+2026-01-31 20:59:31 | OUTPUT |     │ up. “Precisely. It’s a statement on the duality of creation. Brutality │
+2026-01-31 20:59:31 | OUTPUT |     │ birthing beauty.”                                                      │
+2026-01-31 20:59:31 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:31 | OUTPUT | 
+  📝 JOKE 2:
+2026-01-31 20:59:31 | OUTPUT |     ┌────────────────────────────────────────────────────────────────────────┐
+2026-01-31 20:59:31 | OUTPUT |     │ Agnes, the sculptor, was holding a press conference. “My latest        │
+2026-01-31 20:59:31 | OUTPUT |     │ piece,” she announced, gesturing dramatically at a… well, it was       │
+2026-01-31 20:59:31 | OUTPUT |     │ mostly metal. “It’s a commentary on the duality of existence. The raw  │
+2026-01-31 20:59:31 | OUTPUT |     │ power of industry… juxtaposed with the ephemeral beauty of nature.” A  │
+2026-01-31 20:59:31 | OUTPUT |     │ reporter cautiously asked, “Is that… a hammer?” Agnes sniffed. “A      │
+2026-01-31 20:59:31 | OUTPUT |     │ hammer? Darling, it’s a *flower*. A brutally honest flower, forged in  │
+2026-01-31 20:59:31 | OUTPUT |     │ the fires of existential angst. And frankly, it’s quite delicate.      │
+2026-01-31 20:59:31 | OUTPUT |     │ Don’t even *think* about hitting anything with it.”                    │
+2026-01-31 20:59:31 | OUTPUT |     └────────────────────────────────────────────────────────────────────────┘
+2026-01-31 20:59:35 | ERROR | ❌ API Error [NotFoundError]: litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No endpoints found for the request with quantization: bf16. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection","code":404}}
+2026-01-31 20:59:35 | ERROR | 💀 Non-retryable error. Aborting.
+2026-01-31 20:59:36 | ERROR | ❌ API Error [NotFoundError]: litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No endpoints found for the request with quantization: bf16. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection","code":404}}
+2026-01-31 20:59:36 | ERROR | 💀 Non-retryable error. Aborting.
+2026-01-31 20:59:36 | ERROR | ❌ Error in judging en_2276: NotFoundError: litellm.NotFoundError: NotFoundError: OpenrouterException - {"error":{"message":"No endpoints found for the request with quantization: bf16. To learn more about provider routing, visit: https://openrouter.ai/docs/guides/routing/provider-selection","code":404}}

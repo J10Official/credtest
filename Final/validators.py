@@ -20,16 +20,29 @@ def normalize_text(text: str) -> str:
     return text.lower().strip()
 
 
-def check_word_inclusion(joke: str, word1: str, word2: str) -> Tuple[bool, dict]:
+def is_chinese_text(text: str) -> bool:
+    """Check if text contains Chinese characters."""
+    for char in text:
+        if '\u4e00' <= char <= '\u9fff':  # CJK Unified Ideographs
+            return True
+    return False
+
+
+def check_word_inclusion(joke: str, word1: str, word2: str, flexible: bool = True) -> Tuple[bool, dict]:
     """
     Check if both required words appear in the joke.
     
-    Uses case-insensitive matching and handles word boundaries.
+    Uses flexible matching that:
+    - Is case-insensitive
+    - Handles word boundaries for alphabetic languages
+    - For Chinese: does substring matching (no word boundaries in Chinese)
+    - Allows morphological variations (flower -> flowers, flowering, etc.) when flexible=True
     
     Args:
         joke: The generated joke text
         word1: First required word
         word2: Second required word
+        flexible: If True, allows word variations (plurals, verb forms, etc.)
     
     Returns:
         Tuple of (passed, details_dict)
@@ -38,23 +51,86 @@ def check_word_inclusion(joke: str, word1: str, word2: str) -> Tuple[bool, dict]
     normalized_word1 = normalize_text(word1)
     normalized_word2 = normalize_text(word2)
     
-    # Use word boundary matching for accuracy
-    # This handles cases like "hammer" not matching "hammered"
-    # But we want "hammer" to match "hammer," or "hammer!"
-    pattern1 = re.compile(r'\b' + re.escape(normalized_word1) + r'\b', re.IGNORECASE)
-    pattern2 = re.compile(r'\b' + re.escape(normalized_word2) + r'\b', re.IGNORECASE)
+    def find_word(word: str, text: str, original_word: str) -> Tuple[bool, str]:
+        """
+        Find a word in text with flexible matching.
+        
+        Returns:
+            Tuple of (found, matched_form)
+        """
+        # Check if this is a Chinese word
+        if is_chinese_text(word):
+            # Chinese: simple substring matching (no word boundaries)
+            if word in text:
+                return True, word
+            return False, None
+        
+        # For alphabetic languages, try multiple patterns
+        
+        # 1. Exact word boundary match (strictest)
+        exact_pattern = re.compile(r'\b' + re.escape(word) + r'\b', re.IGNORECASE)
+        match = exact_pattern.search(text)
+        if match:
+            return True, match.group()
+        
+        if not flexible:
+            return False, None
+        
+        # 2. Flexible: allow common morphological variations
+        # This handles: flower -> flowers, flowering, flowered, flower's
+        # Also handles: hammer -> hammers, hammering, hammered, hammer's
+        stem_pattern = re.compile(
+            r'\b' + re.escape(word) + r"(?:s|ed|ing|er|ers|'s|es|ies)?\b",
+            re.IGNORECASE
+        )
+        match = stem_pattern.search(text)
+        if match:
+            return True, match.group()
+        
+        # 3. For words ending in 'e', check for variations like "move -> moving"
+        if word.endswith('e'):
+            stem = word[:-1]
+            stem_pattern = re.compile(
+                r'\b' + re.escape(stem) + r"(?:e|es|ed|ing|er|ers)?\b",
+                re.IGNORECASE
+            )
+            match = stem_pattern.search(text)
+            if match:
+                return True, match.group()
+        
+        # 4. For words ending in 'y', check for variations like "carry -> carries, carried"
+        if word.endswith('y'):
+            stem = word[:-1]
+            stem_pattern = re.compile(
+                r'\b' + re.escape(stem) + r"(?:y|ies|ied|ying)?\b",
+                re.IGNORECASE
+            )
+            match = stem_pattern.search(text)
+            if match:
+                return True, match.group()
+        
+        return False, None
     
-    word1_found = bool(pattern1.search(joke))
-    word2_found = bool(pattern2.search(joke))
+    word1_found, word1_match = find_word(normalized_word1, normalized_joke, word1)
+    word2_found, word2_match = find_word(normalized_word2, normalized_joke, word2)
     
     passed = word1_found and word2_found
     
     details = {
-        f"'{word1}'": "✅ found" if word1_found else "❌ missing",
-        f"'{word2}'": "✅ found" if word2_found else "❌ missing",
+        f"'{word1}'": f"✅ found as '{word1_match}'" if word1_found else "❌ missing",
+        f"'{word2}'": f"✅ found as '{word2_match}'" if word2_found else "❌ missing",
     }
     
     return passed, details
+
+
+def check_word_inclusion_strict(joke: str, word1: str, word2: str) -> Tuple[bool, dict]:
+    """
+    Strict word inclusion check - exact word boundaries only.
+    
+    Use this for final validation where you need exact matches.
+    """
+    return check_word_inclusion(joke, word1, word2, flexible=False)
 
 
 def check_char_length(text: str, language: str) -> Tuple[bool, dict]:

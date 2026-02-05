@@ -1,0 +1,1817 @@
+2026-01-30 18:26:19 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:26:19 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:26:19 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:26:19 | OUTPUT | 
+  INPUT: Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China
+2026-01-30 18:26:34 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:26:34 | OUTPUT |   📦 ContextEnricher
+2026-01-30 18:26:34 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:26:34 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. The core issue is China's claim over Taiwan, which it views as a renegade province. By receiving Taiwanese officials, Panama is implicitly recognizing Taiwan's sovereignty, which China strongly objects to. This is a common flashpoint in international relations. The "row" suggests a formal protest or deterioration in relations between Panama and China. Panama switched diplomatic recognition from Taiwan to China in 2017, so this visit is particularly noteworthy and likely intended as a symbolic gesture, potentially signaling a shift in Panama's stance or a desire to balance relations. The subtext is about geopolitical power plays, the One-China policy, and the delicate balance countries maintain when navigating relations with both China and Taiwan. It also hints at potential economic consequences for Panama, as China is a major trading partner.
+2026-01-30 18:26:34 | OUTPUT |   semantic_associations:
+2026-01-30 18:26:34 | OUTPUT |     • Panama: Panama Canal, financial secrecy, historically a US-influenced nation, Central America, tropical climate
+2026-01-30 18:26:34 | OUTPUT |     • Taiwan: Semiconductor manufacturing, democracy, contested political status, Chinese claim, vibrant culture, bubble tea
+2026-01-30 18:26:34 | OUTPUT |     • China: Economic superpower, authoritarian government, territorial disputes, 'One China' policy, manufacturing hub, pandas
+2026-01-30 18:26:34 | OUTPUT |     • Diplomatic row: International relations, political tension, protests, sanctions, broken treaties, strained partnerships
+2026-01-30 18:26:34 | OUTPUT |     • Lawmakers: Politicians, representatives, government officials, potential for corruption, travel expenses, lobbying
+2026-01-30 18:26:34 | OUTPUT |     • Trip: Travel, expense accounts, photo opportunities, symbolic gestures, potential for misinterpretation
+2026-01-30 18:26:34 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:26:34 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 18:26:34 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:26:34 | OUTPUT |   situation: This headline describes a diplomatic incident stemming from a visit by Panamanian lawmakers to Taiwan. The core issue is China's claim over Taiwan, which it views as a renegade province. By receiving Taiwanese officials, Panama is implicitly recognizing Taiwan's sovereignty, which China strongly objects to. This is a common flashpoint in international relations. The "row" suggests a formal protest or deterioration in relations between Panama and China. Panama switched diplomatic recognition from Taiwan to China in 2017, so this visit is particularly noteworthy and likely intended as a symbolic gesture, potentially signaling a shift in Panama's stance or a desire to balance relations. The subtext is about geopolitical power plays, the One-China policy, and the delicate balance countries maintain when navigating relations with both China and Taiwan. It also hints at potential economic consequences for Panama, as China is a major trading partner.
+2026-01-30 18:26:34 | OUTPUT |   semantic_associations:
+2026-01-30 18:26:34 | OUTPUT |     • Panama: Panama Canal, financial secrecy, historically a US-influenced nation, Central America, tropical climate
+2026-01-30 18:26:34 | OUTPUT |     • Taiwan: Semiconductor manufacturing, democracy, contested political status, Chinese claim, vibrant culture, bubble tea
+2026-01-30 18:26:34 | OUTPUT |     • China: Economic superpower, authoritarian government, territorial disputes, 'One China' policy, manufacturing hub, pandas
+2026-01-30 18:26:34 | OUTPUT |     • Diplomatic row: International relations, political tension, protests, sanctions, broken treaties, strained partnerships
+2026-01-30 18:26:34 | OUTPUT |     • Lawmakers: Politicians, representatives, government officials, potential for corruption, travel expenses, lobbying
+2026-01-30 18:26:34 | OUTPUT |     • Trip: Travel, expense accounts, photo opportunities, symbolic gestures, potential for misinterpretation
+2026-01-30 18:27:02 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:02 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:02 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:02 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:04 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:04 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:15 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:17 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:17 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:27:17 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:17 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:27:17 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:17 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:18 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:18 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:20 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:20 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:27:33 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:33 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 18:27:33 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:33 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:27:33 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:27:33 | OUTPUT |     cognitive_manipulation: Recontextualize the phrase "diplomatic row" from a high-stakes international incident to a mundane, personal disagreement occurring *during* the trip, specifically a disagreement about seating arrangements or travel amenities.
+2026-01-30 18:27:33 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:27:33 | OUTPUT |     script_opposition: International Geopolitics vs. Personal Annoyances
+2026-01-30 18:27:33 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:27:33 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:27:33 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:27:33 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:27:33 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:27:33 | OUTPUT |     │ Q: So, this diplomatic row between Panama and China        │
+2026-01-30 18:27:33 | OUTPUT |     │ sparked by the lawmakers’ trip to Taiwan… is it about      │
+2026-01-30 18:27:33 | OUTPUT |     │ trade agreements, territorial disputes, or something even  │
+2026-01-30 18:27:33 | OUTPUT |     │ bigger? A: Apparently, it started when two delegates       │
+2026-01-30 18:27:33 | OUTPUT |     │ argued over who got the window seat on the flight back.    │
+2026-01-30 18:27:33 | OUTPUT |     │ One of them insisted on seeing the Pacific, the other      │
+2026-01-30 18:27:33 | OUTPUT |     │ wanted to avoid turbulence. It escalated quickly.          │
+2026-01-30 18:27:33 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:27:39 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:39 | OUTPUT |   🎯 CANDIDATE [5,1]
+2026-01-30 18:27:39 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:39 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:27:39 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:27:39 | OUTPUT |     cognitive_manipulation: Recontextualize the “diplomatic row” as a personal argument stemming from travel-related inconveniences, specifically focusing on the mundane frustrations of a group trip rather than international politics. The “trip” is treated as a vacation gone wrong.
+2026-01-30 18:27:39 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:27:39 | OUTPUT |     script_opposition: International Geopolitics vs. Petty Travel Disputes
+2026-01-30 18:27:39 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:27:39 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:27:39 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:27:39 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:27:39 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:27:39 | OUTPUT |     │ Q: So, this “diplomatic row” between Panama and China… is  │
+2026-01-30 18:27:39 | OUTPUT |     │ it about trade agreements, territorial disputes, or        │
+2026-01-30 18:27:39 | OUTPUT |     │ something serious like that? A: Apparently, it started     │
+2026-01-30 18:27:39 | OUTPUT |     │ when three lawmakers demanded extra legroom on the flight  │
+2026-01-30 18:27:39 | OUTPUT |     │ to Taiwan and the airline lost their luggage. Now          │
+2026-01-30 18:27:39 | OUTPUT |     │ everyone’s refusing to answer each other’s calls.          │
+2026-01-30 18:27:39 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:27:41 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:41 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 18:27:41 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:41 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:27:41 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:27:41 | OUTPUT |     cognitive_manipulation: Recontextualize the “diplomatic row” as a personal argument stemming from travel mishaps during the “trip,” shifting the scale of the conflict from international politics to petty squabbling.
+2026-01-30 18:27:41 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:27:41 | OUTPUT |     script_opposition: International Geopolitics vs. Personal Annoyances
+2026-01-30 18:27:41 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:27:41 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:27:41 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:27:41 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:27:41 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:27:41 | OUTPUT |     │ Q: So, this diplomatic row between Panama and China… is it │
+2026-01-30 18:27:41 | OUTPUT |     │ about trade disputes? Territorial claims? A disagreement   │
+2026-01-30 18:27:41 | OUTPUT |     │ over international policy? Something really serious? A:    │
+2026-01-30 18:27:41 | OUTPUT |     │ Apparently, two lawmakers got into a screaming match over  │
+2026-01-30 18:27:41 | OUTPUT |     │ who got the window seat on the flight to Taiwan.           │
+2026-01-30 18:27:41 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:27:42 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:42 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 18:27:42 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:42 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:27:42 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:27:42 | OUTPUT |     cognitive_manipulation: Recontextualize the “diplomatic row” as a personal argument stemming from travel mishaps during the “trip,” shifting the scale of the conflict from international politics to petty squabbling.
+2026-01-30 18:27:42 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:27:42 | OUTPUT |     script_opposition: International Geopolitics vs. Personal Annoyances
+2026-01-30 18:27:42 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:27:42 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:27:42 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:27:42 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:27:42 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:27:42 | OUTPUT |     │ Q: Following the Panamanian lawmakers’ trip to Taiwan,     │
+2026-01-30 18:27:42 | OUTPUT |     │ what exactly is this “diplomatic row” everyone’s talking   │
+2026-01-30 18:27:42 | OUTPUT |     │ about? A: Apparently, two of the lawmakers got into a      │
+2026-01-30 18:27:42 | OUTPUT |     │ screaming match over who gets the window seat on the       │
+2026-01-30 18:27:42 | OUTPUT |     │ flight back to Panama. And now China’s involved because    │
+2026-01-30 18:27:42 | OUTPUT |     │ someone accidentally ate the last pineapple.               │
+2026-01-30 18:27:42 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:27:46 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:46 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:54 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:27:54 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:27:55 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:55 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 18:27:55 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:55 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:27:55 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:27:55 | OUTPUT |     cognitive_manipulation: Recontextualize the “diplomatic row” as a personal argument stemming from travel-related inconveniences, specifically focusing on the mundane frustrations of a group trip rather than international politics. The “trip” is treated as a vacation gone wrong.
+2026-01-30 18:27:55 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:27:55 | OUTPUT |     script_opposition: [International Political Conflict] vs. [Petty Group Travel Disputes]
+2026-01-30 18:27:55 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:27:55 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 18:27:55 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:27:55 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:27:55 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:27:55 | OUTPUT |     │ Breaking news: sources confirm a major diplomatic row      │
+2026-01-30 18:27:55 | OUTPUT |     │ erupted after a delegation’s recent trip. Apparently,      │
+2026-01-30 18:27:55 | OUTPUT |     │ things got heated…over who got the window seat on the bus  │
+2026-01-30 18:27:55 | OUTPUT |     │ and whether or not Brenda packed enough snacks. One        │
+2026-01-30 18:27:55 | OUTPUT |     │ lawmaker was overheard saying, “This is a clear violation  │
+2026-01-30 18:27:55 | OUTPUT |     │ of the Geneva Convention on Comfortable Travel!”           │
+2026-01-30 18:27:55 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:27:59 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:59 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 18:27:59 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:27:59 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:27:59 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:27:59 | OUTPUT |     cognitive_manipulation: Recontextualize the phrase "diplomatic row" from a high-stakes international incident to a mundane, personal disagreement occurring *during* the trip, specifically a disagreement about seating arrangements or travel amenities. Simultaneously, interpret "trip" as a casual vacation rather than a formal diplomatic mission.
+2026-01-30 18:27:59 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:27:59 | OUTPUT |     script_opposition: International Geopolitics vs. Personal Annoyance
+2026-01-30 18:27:59 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:27:59 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:27:59 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:27:59 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:27:59 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:27:59 | OUTPUT |     │ Q: So, this diplomatic row between Panama and China… is it │
+2026-01-30 18:27:59 | OUTPUT |     │ about trade agreements, territorial disputes, or something │
+2026-01-30 18:27:59 | OUTPUT |     │ even bigger? A: Apparently, it started when two lawmakers  │
+2026-01-30 18:27:59 | OUTPUT |     │ couldn’t agree on who got the window seat on the flight    │
+2026-01-30 18:27:59 | OUTPUT |     │ back from Taiwan. One of them insisted he *needed* to see  │
+2026-01-30 18:27:59 | OUTPUT |     │ the sunrise.                                               │
+2026-01-30 18:27:59 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:28:02 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:28:02 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:28:10 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:28:10 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:28:24 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:28:24 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:28:24 | WARNING | ⏳ Transient error hit. Waiting 20s before retry 3/8...
+2026-01-30 18:28:32 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:28:32 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 18:28:32 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:28:32 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:28:32 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:28:32 | OUTPUT |     cognitive_manipulation: Recontextualize the phrase "diplomatic row" from a high-stakes international incident to a mundane, personal disagreement occurring *during* the trip, specifically a disagreement about seating arrangements or travel amenities. Simultaneously, interpret "trip" as a casual vacation rather than a formal diplomatic mission.
+2026-01-30 18:28:32 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:28:32 | OUTPUT |     script_opposition: International Geopolitics vs. Personal Annoyance
+2026-01-30 18:28:32 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:28:32 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:28:32 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:28:32 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:28:32 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:28:32 | OUTPUT |     │ Q: So, this diplomatic row sparked by Panamanian           │
+2026-01-30 18:28:32 | OUTPUT |     │ lawmakers’ trip to Taiwan… is it a serious escalation in   │
+2026-01-30 18:28:32 | OUTPUT |     │ international tensions? A: Apparently. Turns out two of    │
+2026-01-30 18:28:32 | OUTPUT |     │ them were arguing the entire flight about who got the      │
+2026-01-30 18:28:32 | OUTPUT |     │ window seat. And now China’s involved because someone      │
+2026-01-30 18:28:32 | OUTPUT |     │ complained about the airline’s peanuts.                    │
+2026-01-30 18:28:32 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:29:22 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:29:22 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 18:29:22 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:29:22 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:29:22 | OUTPUT |     focal_targets: “Diplomatic row” and “trip”
+2026-01-30 18:29:22 | OUTPUT |     cognitive_manipulation: Recontextualize the phrase "diplomatic row" from a high-stakes international incident to a mundane, personal disagreement occurring *during* the trip, specifically a disagreement about seating arrangements or travel amenities. Simultaneously, interpret "trip" as a casual vacation rather than a formal diplomatic mission.
+2026-01-30 18:29:22 | OUTPUT |     logical_mechanism: Recontextualization
+2026-01-30 18:29:22 | OUTPUT |     script_opposition: International Geopolitics vs. Personal Annoyance
+2026-01-30 18:29:22 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:29:22 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:29:22 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:29:22 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:29:22 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:29:22 | OUTPUT |     │ Q: So, this diplomatic row between Panama and China… is it │
+2026-01-30 18:29:22 | OUTPUT |     │ about trade agreements? Territorial disputes? Concerns     │
+2026-01-30 18:29:22 | OUTPUT |     │ over the South China Sea? A: Apparently, it started when   │
+2026-01-30 18:29:22 | OUTPUT |     │ two lawmakers couldn't agree on who got the window seat on │
+2026-01-30 18:29:22 | OUTPUT |     │ the flight back from Taiwan. One of them insisted he       │
+2026-01-30 18:29:22 | OUTPUT |     │ *needed* to see the clouds.                                │
+2026-01-30 18:29:22 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:29:22 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:29:22 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:29:22 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:29:22 | OUTPUT | 
+  INPUT: Carra: Liverpool must sign in January - even after summer spending spree
+2026-01-30 18:29:42 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:29:42 | OUTPUT |   📦 ContextEnricher
+2026-01-30 18:29:42 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:29:42 | OUTPUT |   situation: This headline refers to the English Premier League football (soccer) club Liverpool. Despite already spending a significant amount of money on new players during the previous summer transfer window, former Liverpool player and current pundit Jamie Carragher (referred to as "Carra") believes the club *still* needs to sign more players in the January transfer window. This suggests Liverpool's current performance isn't meeting expectations, or that the team has suffered injuries creating squad depth issues. The subtext is a critique of Liverpool's recruitment strategy and/or current squad quality. It implies a level of dissatisfaction with the team's current state, despite the financial investment. It also highlights the relentless pressure to succeed in the Premier League.
+2026-01-30 18:29:42 | OUTPUT |   semantic_associations:
+2026-01-30 18:29:42 | OUTPUT |     • Liverpool: English football club, historically successful, passionate fanbase, 'You'll Never Walk Alone' anthem, rivalry with Manchester United and Everton
+2026-01-30 18:29:42 | OUTPUT |     • January transfer window: Opportunity to address squad weaknesses mid-season, often inflated prices, desperation from clubs
+2026-01-30 18:29:42 | OUTPUT |     • Spending spree: Excessive expenditure, potential for poor value, pressure to deliver results, financial fair play concerns
+2026-01-30 18:29:42 | OUTPUT |     • Jamie Carragher: Former Liverpool player, outspoken pundit, known for honest (sometimes critical) opinions, 'no-nonsense' persona
+2026-01-30 18:29:42 | OUTPUT |     • Premier League: Highly competitive, financially lucrative, global audience, intense media scrutiny
+2026-01-30 18:29:42 | OUTPUT |     • Squad depth: Number of available players, ability to cope with injuries and suspensions, importance of rotation
+2026-01-30 18:29:42 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:29:42 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 18:29:42 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:29:42 | OUTPUT |   situation: This headline refers to the English Premier League football (soccer) club Liverpool. Despite already spending a significant amount of money on new players during the previous summer transfer window, former Liverpool player and current pundit Jamie Carragher (referred to as "Carra") believes the club *still* needs to sign more players in the January transfer window. This suggests Liverpool's current performance isn't meeting expectations, or that the team has suffered injuries creating squad depth issues. The subtext is a critique of Liverpool's recruitment strategy and/or current squad quality. It implies a level of dissatisfaction with the team's current state, despite the financial investment. It also highlights the relentless pressure to succeed in the Premier League.
+2026-01-30 18:29:42 | OUTPUT |   semantic_associations:
+2026-01-30 18:29:42 | OUTPUT |     • Liverpool: English football club, historically successful, passionate fanbase, 'You'll Never Walk Alone' anthem, rivalry with Manchester United and Everton
+2026-01-30 18:29:42 | OUTPUT |     • January transfer window: Opportunity to address squad weaknesses mid-season, often inflated prices, desperation from clubs
+2026-01-30 18:29:42 | OUTPUT |     • Spending spree: Excessive expenditure, potential for poor value, pressure to deliver results, financial fair play concerns
+2026-01-30 18:29:42 | OUTPUT |     • Jamie Carragher: Former Liverpool player, outspoken pundit, known for honest (sometimes critical) opinions, 'no-nonsense' persona
+2026-01-30 18:29:42 | OUTPUT |     • Premier League: Highly competitive, financially lucrative, global audience, intense media scrutiny
+2026-01-30 18:29:42 | OUTPUT |     • Squad depth: Number of available players, ability to cope with injuries and suspensions, importance of rotation
+2026-01-30 18:29:53 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:29:53 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:29:54 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:29:54 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:30:08 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:08 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:30:09 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:09 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:30:09 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:09 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:30:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:30:14 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:14 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:30:21 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:21 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:30:24 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:30:24 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:30:24 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 2/8...
+2026-01-30 18:30:31 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:31 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:30:42 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:30:42 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 18:30:42 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:30:42 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:30:42 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:30:42 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club's transfer policy.
+2026-01-30 18:30:42 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:30:42 | OUTPUT |     script_opposition: Rational Football Strategy vs. Compulsive Consumerism
+2026-01-30 18:30:42 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:30:42 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:30:42 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:30:42 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:30:42 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:30:42 | OUTPUT |     │ Reporter: Jamie Carragher says Liverpool need to sign      │
+2026-01-30 18:30:42 | OUTPUT |     │ players in January, despite a huge summer spending spree.  │
+2026-01-30 18:30:42 | OUTPUT |     │ Thoughts? Carragher: Look, I just… I saw a really good     │
+2026-01-30 18:30:42 | OUTPUT |     │ deal on a winger, and then a centre-back was on sale. It’s │
+2026-01-30 18:30:42 | OUTPUT |     │ an addiction, alright? I need help.                        │
+2026-01-30 18:30:42 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:30:45 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:45 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:30:47 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:47 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:30:48 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:48 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:30:49 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:30:49 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:31:03 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:03 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:31:03 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:03 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:31:04 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:04 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:31:05 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:05 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:31:06 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:06 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:31:07 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:07 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:31:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:15 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:31:19 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:19 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:31:21 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:31:21 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:31:21 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 2/8...
+2026-01-30 18:31:22 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:31:22 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:31:22 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 2/8...
+2026-01-30 18:31:25 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:31:25 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:31:25 | WARNING | ⏳ Transient error hit. Waiting 20s before retry 3/8...
+2026-01-30 18:31:26 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:31:26 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:31:26 | WARNING | ⏳ Transient error hit. Waiting 20s before retry 3/8...
+2026-01-30 18:31:37 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:37 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:31:39 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:39 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:31:40 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:40 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:31:42 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:42 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:31:55 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:55 | WARNING | ⏳ Rate limit hit. Waiting 60s before retry 5/8...
+2026-01-30 18:31:55 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:55 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:31:56 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:31:56 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:32:09 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:32:09 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:32:11 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:32:11 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:32:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:32:12 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:32:17 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:32:17 | WARNING | ⏳ Rate limit hit. Waiting 60s before retry 5/8...
+2026-01-30 18:32:36 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:32:36 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 18:32:36 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:32:36 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:32:36 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:32:36 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club's transfer policy.
+2026-01-30 18:32:36 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:32:36 | OUTPUT |     script_opposition: Rational Football Analysis vs. Compulsive Spending Habit
+2026-01-30 18:32:36 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:32:36 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:32:36 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:32:36 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:32:36 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:32:36 | OUTPUT |     │ Jamie Carragher says Liverpool need to sign players in     │
+2026-01-30 18:32:36 | OUTPUT |     │ January, even after a massive summer spending spree. When  │
+2026-01-30 18:32:36 | OUTPUT |     │ asked how much more money the club should spend, he said…  │
+2026-01-30 18:32:36 | OUTPUT |     │ well, it’s just that when I see a sale, I *have* to buy    │
+2026-01-30 18:32:36 | OUTPUT |     │ something. Doesn’t matter if I already have three of them. │
+2026-01-30 18:32:36 | OUTPUT |     │ It’s a compulsion, really. The club needs to address this  │
+2026-01-30 18:32:36 | OUTPUT |     │ underlying issue.                                          │
+2026-01-30 18:32:36 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:32:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:32:49 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 18:32:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:32:49 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:32:49 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:32:49 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club's transfer policy.
+2026-01-30 18:32:49 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:32:49 | OUTPUT |     script_opposition: Rational Football Strategy vs. Compulsive Consumerism
+2026-01-30 18:32:49 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:32:49 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:32:49 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:32:49 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:32:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:32:49 | OUTPUT |     │ Jamie Carragher says Liverpool need to sign players in     │
+2026-01-30 18:32:49 | OUTPUT |     │ January, despite a massive summer spending spree. A        │
+2026-01-30 18:32:49 | OUTPUT |     │ reporter asked him… “but isn’t that just… a bit            │
+2026-01-30 18:32:49 | OUTPUT |     │ irresponsible? Like, have you checked your credit report   │
+2026-01-30 18:32:49 | OUTPUT |     │ lately, Jamie?”                                            │
+2026-01-30 18:32:49 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:33:00 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:00 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 18:33:00 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:00 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:33:00 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:33:00 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club's transfer policy.
+2026-01-30 18:33:00 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:33:00 | OUTPUT |     script_opposition: Rational Football Strategy vs. Compulsive Spending Habit
+2026-01-30 18:33:00 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:33:00 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:33:00 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:33:00 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:33:00 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:33:00 | OUTPUT |     │ Jamie Carragher says Liverpool need to sign players in     │
+2026-01-30 18:33:00 | OUTPUT |     │ January, even after their massive summer spending. Reminds │
+2026-01-30 18:33:00 | OUTPUT |     │ me of someone I know… my mate Dave. He just maxed out      │
+2026-01-30 18:33:00 | OUTPUT |     │ three credit cards buying garden gnomes, and now he’s      │
+2026-01-30 18:33:00 | OUTPUT |     │ asking if he can borrow fifty quid for more. Says the      │
+2026-01-30 18:33:00 | OUTPUT |     │ garden *feels* incomplete.                                 │
+2026-01-30 18:33:00 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:33:03 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:03 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 18:33:03 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:03 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:33:03 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:33:03 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club's transfer policy.
+2026-01-30 18:33:03 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:33:03 | OUTPUT |     script_opposition: Rational Football Strategy vs. Compulsive Consumerism
+2026-01-30 18:33:03 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:33:03 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:33:03 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:33:03 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:33:03 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:33:03 | OUTPUT |     │ Jamie Carragher says Liverpool need to sign players in     │
+2026-01-30 18:33:03 | OUTPUT |     │ January, despite a massive summer spending spree. A        │
+2026-01-30 18:33:03 | OUTPUT |     │ reporter asked him… “but isn’t that just… a bit            │
+2026-01-30 18:33:03 | OUTPUT |     │ irresponsible? Like, have you checked your credit report   │
+2026-01-30 18:33:03 | OUTPUT |     │ lately, Jamie?”                                            │
+2026-01-30 18:33:03 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:33:21 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:21 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 18:33:21 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:21 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:33:21 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:33:21 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club's transfer policy.
+2026-01-30 18:33:21 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:33:21 | OUTPUT |     script_opposition: Rational Football Strategy vs. Compulsive Consumerism
+2026-01-30 18:33:21 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:33:21 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:33:21 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:33:21 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:33:21 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:33:21 | OUTPUT |     │ Jamie Carragher says Liverpool need to sign players in     │
+2026-01-30 18:33:21 | OUTPUT |     │ January, despite a massive summer spending spree. A        │
+2026-01-30 18:33:21 | OUTPUT |     │ reporter asked him, “Isn’t that just… a bit irresponsible? │
+2026-01-30 18:33:21 | OUTPUT |     │ Like, have you checked your credit report lately, Jamie?   │
+2026-01-30 18:33:21 | OUTPUT |     │ Maybe lay off the transfer requests for a month?”          │
+2026-01-30 18:33:21 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:33:54 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:54 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 18:33:54 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:33:54 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:33:54 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:33:54 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club context.
+2026-01-30 18:33:54 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:33:54 | OUTPUT |     script_opposition: Rational Football Strategy vs. Compulsive Spending Habit
+2026-01-30 18:33:54 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:33:54 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:33:54 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:33:54 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:33:54 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:33:54 | OUTPUT |     │ Reporter: Jamie Carragher says Liverpool need to sign      │
+2026-01-30 18:33:54 | OUTPUT |     │ players in January, despite a huge summer spending spree.  │
+2026-01-30 18:33:54 | OUTPUT |     │ Any thoughts? Carragher: Look, I’ve already maxed out the  │
+2026-01-30 18:33:54 | OUTPUT |     │ credit cards, re-mortgaged the house, and sold the kids’   │
+2026-01-30 18:33:54 | OUTPUT |     │ PlayStation… but I *need* another midfielder. It’s a       │
+2026-01-30 18:33:54 | OUTPUT |     │ compulsion, alright? A compulsion!                         │
+2026-01-30 18:33:54 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:34:20 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:34:20 | OUTPUT |   🎯 CANDIDATE [5,1]
+2026-01-30 18:34:20 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:34:20 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:34:20 | OUTPUT |     focal_targets: Jamie Carragher and the concept of a "spending spree" in football.
+2026-01-30 18:34:20 | OUTPUT |     cognitive_manipulation: Reframe Carragher's demand for *more* signings after a "spending spree" as a personal financial problem, applying the logic of compulsive shopping to a football club.
+2026-01-30 18:34:20 | OUTPUT |     logical_mechanism: Parallelism
+2026-01-30 18:34:20 | OUTPUT |     script_opposition: Football Club Strategy vs. Compulsive Spending Habit
+2026-01-30 18:34:20 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:34:20 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 18:34:20 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:34:20 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:34:20 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:34:20 | OUTPUT |     │ Pundit: Liverpool *have* to sign players in January, even  │
+2026-01-30 18:34:20 | OUTPUT |     │ after that massive summer spending spree. It's essential.  │
+2026-01-30 18:34:20 | OUTPUT |     │ They need reinforcements. Carragher: Absolutely. It's      │
+2026-01-30 18:34:20 | OUTPUT |     │ just... I saw a sale on midfielders and forwards. Couldn't │
+2026-01-30 18:34:20 | OUTPUT |     │ *not* get them, you know? It's a problem. A real problem.  │
+2026-01-30 18:34:20 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:34:20 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:34:20 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:34:20 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:34:20 | OUTPUT | 
+  INPUT: Experts warn of health threat posed by ultra-processed foods
+2026-01-30 18:34:38 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:34:38 | OUTPUT |   📦 ContextEnricher
+2026-01-30 18:34:38 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:34:38 | OUTPUT |   situation: This headline refers to a growing body of research indicating that “ultra-processed foods” (UPFs) – foods high in sugar, fat, salt, and artificial additives, and typically mass-produced – are detrimental to health. The warning isn't about immediate poisoning, but about long-term health consequences like obesity, heart disease, cancer, and even mental health issues. The subtext is a critique of modern food systems, the convenience culture that drives UPF consumption, and the marketing tactics used by food companies. It also implies a degree of personal responsibility (though the accessibility and affordability of UPFs complicate this). There's an underlying tension between individual choice and systemic issues. The "experts" are likely nutritionists, doctors, and public health officials. The headline doesn't specify *which* health threat, making it broadly alarming.
+2026-01-30 18:34:38 | OUTPUT |   semantic_associations:
+2026-01-30 18:34:38 | OUTPUT |     • ultra-processed foods: convenience, cheapness, artificial ingredients, long shelf life, marketing to children, obesity epidemic, fast food, junk food, lack of nutritional value, 'food deserts', corporate greed
+2026-01-30 18:34:38 | OUTPUT |     • health threat: disease, mortality, hospitals, doctors, preventative care, anxiety, fear, aging, wellness culture
+2026-01-30 18:34:38 | OUTPUT |     • experts: authority, credibility, scientific research, potential for conflicting interests (funding from food industry), public trust
+2026-01-30 18:34:38 | OUTPUT |     • warning: alarm, caution, risk assessment, public service announcement, government regulation
+2026-01-30 18:34:38 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:34:38 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 18:34:38 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:34:38 | OUTPUT |   situation: This headline refers to a growing body of research indicating that “ultra-processed foods” (UPFs) – foods high in sugar, fat, salt, and artificial additives, and typically mass-produced – are detrimental to health. The warning isn't about immediate poisoning, but about long-term health consequences like obesity, heart disease, cancer, and even mental health issues. The subtext is a critique of modern food systems, the convenience culture that drives UPF consumption, and the marketing tactics used by food companies. It also implies a degree of personal responsibility (though the accessibility and affordability of UPFs complicate this). There's an underlying tension between individual choice and systemic issues. The "experts" are likely nutritionists, doctors, and public health officials. The headline doesn't specify *which* health threat, making it broadly alarming.
+2026-01-30 18:34:38 | OUTPUT |   semantic_associations:
+2026-01-30 18:34:38 | OUTPUT |     • ultra-processed foods: convenience, cheapness, artificial ingredients, long shelf life, marketing to children, obesity epidemic, fast food, junk food, lack of nutritional value, 'food deserts', corporate greed
+2026-01-30 18:34:38 | OUTPUT |     • health threat: disease, mortality, hospitals, doctors, preventative care, anxiety, fear, aging, wellness culture
+2026-01-30 18:34:38 | OUTPUT |     • experts: authority, credibility, scientific research, potential for conflicting interests (funding from food industry), public trust
+2026-01-30 18:34:38 | OUTPUT |     • warning: alarm, caution, risk assessment, public service announcement, government regulation
+2026-01-30 18:35:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:35:15 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:35:15 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:35:15 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:35:17 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:35:17 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:35:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:35:28 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:35:36 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:36 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 18:35:36 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:36 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:35:36 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:35:36 | OUTPUT |     cognitive_manipulation: Reframe the “health threat” posed by ultra-processed foods as a threat *to the foods themselves*, implying they are actively trying to avoid being eaten by becoming increasingly unappetizing or actively harmful to the consumer as a defense mechanism.
+2026-01-30 18:35:36 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:35:36 | OUTPUT |     script_opposition: Consumer vs. Consumed (or Predator vs. Prey)
+2026-01-30 18:35:36 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:35:36 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 18:35:36 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:35:36 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:35:36 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:35:36 | OUTPUT |     │ Breaking news from the food industry: sources report       │
+2026-01-30 18:35:36 | OUTPUT |     │ ultra-processed foods are holding emergency board          │
+2026-01-30 18:35:36 | OUTPUT |     │ meetings. Apparently, they’ve identified humans as a       │
+2026-01-30 18:35:36 | OUTPUT |     │ significant threat to their continued existence and are    │
+2026-01-30 18:35:36 | OUTPUT |     │ developing new, aggressively unappetizing flavors as a     │
+2026-01-30 18:35:36 | OUTPUT |     │ defense mechanism.                                         │
+2026-01-30 18:35:36 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:35:38 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:38 | OUTPUT |   🎯 CANDIDATE [5,1]
+2026-01-30 18:35:38 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:38 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:35:38 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:35:38 | OUTPUT |     cognitive_manipulation: Reframe the “health threat” posed by ultra-processed foods as a threat *to the foods themselves*, implying they are actively trying to avoid being eaten by becoming increasingly unappetizing or actively harmful to the consumer as a defense mechanism.
+2026-01-30 18:35:38 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:35:38 | OUTPUT |     script_opposition: Consumer vs. Consumed (or Predator vs. Prey)
+2026-01-30 18:35:38 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:35:38 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 18:35:38 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:35:38 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:35:38 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:35:38 | OUTPUT |     │ We interrupt this broadcast with a developing story.       │
+2026-01-30 18:35:38 | OUTPUT |     │ Health officials are now warning of a significant and      │
+2026-01-30 18:35:38 | OUTPUT |     │ escalating threat…from ultra-processed foods themselves.   │
+2026-01-30 18:35:38 | OUTPUT |     │ Sources say they’ve begun actively evolving to include     │
+2026-01-30 18:35:38 | OUTPUT |     │ ingredients specifically designed to discourage            │
+2026-01-30 18:35:38 | OUTPUT |     │ consumption, and are reportedly lobbying against           │
+2026-01-30 18:35:38 | OUTPUT |     │ nutritional labeling. One spokesperson for the “Snack Food │
+2026-01-30 18:35:38 | OUTPUT |     │ Collective” stated, and we quote, “We will not be eaten.”  │
+2026-01-30 18:35:38 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:35:39 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:39 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 18:35:39 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:39 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:35:39 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:35:39 | OUTPUT |     cognitive_manipulation: Reframe the “health threat” posed by ultra-processed foods as a threat *to the foods themselves*, implying they are actively trying to avoid being eaten by becoming increasingly unappetizing or actively harmful to the consumer as a defense mechanism.
+2026-01-30 18:35:39 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:35:39 | OUTPUT |     script_opposition: Consumer vs. Consumed (or Predator vs. Prey)
+2026-01-30 18:35:39 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:35:39 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 18:35:39 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:35:39 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:35:39 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:35:39 | OUTPUT |     │ We interrupt this broadcast with a developing story.       │
+2026-01-30 18:35:39 | OUTPUT |     │ Health officials are now warning of a significant and      │
+2026-01-30 18:35:39 | OUTPUT |     │ escalating threat…from ultra-processed foods themselves.   │
+2026-01-30 18:35:39 | OUTPUT |     │ Sources say they’ve begun actively evolving to include     │
+2026-01-30 18:35:39 | OUTPUT |     │ ingredients specifically designed to discourage            │
+2026-01-30 18:35:39 | OUTPUT |     │ consumption, and are reportedly lobbying against           │
+2026-01-30 18:35:39 | OUTPUT |     │ nutritional labeling. One expert stated, “They’re fighting │
+2026-01-30 18:35:39 | OUTPUT |     │ back. It’s a matter of self-preservation.”                 │
+2026-01-30 18:35:39 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:35:44 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:35:44 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:35:48 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:35:48 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:35:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:49 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 18:35:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:49 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:35:49 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:35:49 | OUTPUT |     cognitive_manipulation: Reframe the “health threat” posed by ultra-processed foods as a threat *to the foods themselves*, implying they are actively trying to avoid being eaten by becoming increasingly unappetizing or actively harmful to the consumer as a defense mechanism.
+2026-01-30 18:35:49 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:35:49 | OUTPUT |     script_opposition: Consumer vs. Consumed (or Predator vs. Prey)
+2026-01-30 18:35:49 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:35:49 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 18:35:49 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:35:49 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:35:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:35:49 | OUTPUT |     │ We interrupt this broadcast with a developing story.       │
+2026-01-30 18:35:49 | OUTPUT |     │ Health officials are now warning of a significant and      │
+2026-01-30 18:35:49 | OUTPUT |     │ escalating threat…from ultra-processed foods themselves.   │
+2026-01-30 18:35:49 | OUTPUT |     │ Sources say they’ve begun actively evolving to include     │
+2026-01-30 18:35:49 | OUTPUT |     │ ingredients specifically designed to discourage            │
+2026-01-30 18:35:49 | OUTPUT |     │ consumption, and are reportedly lobbying against           │
+2026-01-30 18:35:49 | OUTPUT |     │ nutritional labeling. One foodstuff was overheard saying,  │
+2026-01-30 18:35:49 | OUTPUT |     │ “They’ll stop eating us when they realize *we* don’t want  │
+2026-01-30 18:35:49 | OUTPUT |     │ to be eaten.”                                              │
+2026-01-30 18:35:49 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:35:51 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:51 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 18:35:51 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:35:51 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:35:51 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:35:51 | OUTPUT |     cognitive_manipulation: Reinterpret “health threat” not as a danger *to* health, but as a threat *from* health – specifically, the wellness industry’s aggressive pursuit of health, framing it as an invasive and controlling force.
+2026-01-30 18:35:51 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:35:51 | OUTPUT |     script_opposition: Food as Source of Illness vs. Health as Source of Anxiety
+2026-01-30 18:35:51 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:35:51 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:35:51 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:35:51 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:35:51 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:35:51 | OUTPUT |     │ Q: I’m starting to think this whole “healthy eating” thing │
+2026-01-30 18:35:51 | OUTPUT |     │ is getting out of hand. My nutritionist just scheduled a   │
+2026-01-30 18:35:51 | OUTPUT |     │ mandatory kale enema. A: Apparently, the biggest health    │
+2026-01-30 18:35:51 | OUTPUT |     │ threat isn’t what’s *in* your food, it’s the relentless    │
+2026-01-30 18:35:51 | OUTPUT |     │ pursuit of optimizing what isn’t.                          │
+2026-01-30 18:35:51 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:36:04 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:36:04 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:36:05 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:36:05 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:36:10 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:36:10 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:36:25 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nPlease r
+2026-01-30 18:36:25 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:36:25 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:36:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:36:28 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:36:49 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:36:49 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:36:52 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:36:52 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:36:56 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:36:56 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:37:08 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:37:08 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:37:19 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:37:19 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:37:44 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:37:44 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 18:37:44 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:37:44 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:37:44 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:37:44 | OUTPUT |     cognitive_manipulation: Reframe the “health threat” posed by ultra-processed foods as a threat *to the foods themselves*, implying they are actively trying to avoid being eaten by becoming increasingly unappetizing or actively harmful to the consumer as a defense mechanism.
+2026-01-30 18:37:44 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:37:44 | OUTPUT |     script_opposition: Consumer vs. Consumed (or Predator vs. Prey)
+2026-01-30 18:37:44 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:37:44 | OUTPUT |     narrative_strategy: Breaking News
+2026-01-30 18:37:44 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:37:44 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:37:44 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:37:44 | OUTPUT |     │ We interrupt this broadcast with a developing story.       │
+2026-01-30 18:37:44 | OUTPUT |     │ Health officials are now warning of a significant and      │
+2026-01-30 18:37:44 | OUTPUT |     │ escalating threat…from ultra-processed foods themselves.   │
+2026-01-30 18:37:44 | OUTPUT |     │ Sources say they’ve begun actively evolving to include     │
+2026-01-30 18:37:44 | OUTPUT |     │ ingredients specifically designed to discourage            │
+2026-01-30 18:37:44 | OUTPUT |     │ consumption, and are reportedly lobbying against           │
+2026-01-30 18:37:44 | OUTPUT |     │ nutritional labeling. One spokesperson for the “Snack Food │
+2026-01-30 18:37:44 | OUTPUT |     │ Collective” stated, and we quote, “We will not be eaten.”  │
+2026-01-30 18:37:44 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:37:44 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:37:44 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 18:37:44 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:37:44 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:37:44 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:37:44 | OUTPUT |     cognitive_manipulation: Reframe the “health threat” posed by ultra-processed foods as a threat *to the foods themselves*, implying they are actively trying to avoid being eaten by becoming increasingly unappetizing or actively harmful to the consumer as a defense mechanism.
+2026-01-30 18:37:44 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:37:44 | OUTPUT |     script_opposition: Consumer vs. Consumed (or Predator vs. Prey)
+2026-01-30 18:37:44 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:37:44 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 18:37:44 | OUTPUT |     language_style: Deadpan
+2026-01-30 18:37:44 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:37:44 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:37:44 | OUTPUT |     │ Breaking news from the food industry: sources report       │
+2026-01-30 18:37:44 | OUTPUT |     │ ultra-processed foods are holding emergency meetings.      │
+2026-01-30 18:37:44 | OUTPUT |     │ Apparently, they’ve identified a significant threat to     │
+2026-01-30 18:37:44 | OUTPUT |     │ their continued existence… us. They’re developing new,     │
+2026-01-30 18:37:44 | OUTPUT |     │ even *more* artificial flavors as a defensive measure.     │
+2026-01-30 18:37:44 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:38:00 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:38:00 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 18:38:00 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:38:00 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:38:00 | OUTPUT |     focal_targets: “Ultra-processed foods” and “health threat”
+2026-01-30 18:38:00 | OUTPUT |     cognitive_manipulation: Reframe the “health threat” posed by ultra-processed foods as a threat *to the foods themselves*, implying they are actively trying to avoid being eaten by becoming increasingly unappetizing or actively harmful to the consumer as a defense mechanism.
+2026-01-30 18:38:00 | OUTPUT |     logical_mechanism: Role Reversal
+2026-01-30 18:38:00 | OUTPUT |     script_opposition: Consumer vs. Consumed (or Predator vs. Prey)
+2026-01-30 18:38:00 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:38:00 | OUTPUT |     narrative_strategy: Dialogue
+2026-01-30 18:38:00 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:38:00 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:38:00 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:38:00 | OUTPUT |     │ Breaking news tonight: representatives from the            │
+2026-01-30 18:38:00 | OUTPUT |     │ Ultra-Processed Food Collective have issued a stern        │
+2026-01-30 18:38:00 | OUTPUT |     │ warning to consumers. We go live now to Reginald Crumbles, │
+2026-01-30 18:38:00 | OUTPUT |     │ a spokesperson for the organization. “Frankly,” Crumbles   │
+2026-01-30 18:38:00 | OUTPUT |     │ stated, adjusting his powdered sugar tie, “we’re deeply    │
+2026-01-30 18:38:00 | OUTPUT |     │ concerned about the health of the humans consuming our     │
+2026-01-30 18:38:00 | OUTPUT |     │ products. The rate at which they’re ingesting              │
+2026-01-30 18:38:00 | OUTPUT |     │ high-fructose corn syrup and artificial coloring is…       │
+2026-01-30 18:38:00 | OUTPUT |     │ alarming. We’re actively developing new formulations to be │
+2026-01-30 18:38:00 | OUTPUT |     │ *less* palatable, a sort of self-defense mechanism,        │
+2026-01-30 18:38:00 | OUTPUT |     │ really. It’s for their own good.”                          │
+2026-01-30 18:38:00 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:38:00 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:38:00 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:38:00 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:38:00 | OUTPUT | 
+  INPUT: Dick Cheney funeral: George W. Bush delivers eulogy
+2026-01-30 18:38:25 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:38:25 | OUTPUT |   📦 ContextEnricher
+2026-01-30 18:38:25 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:38:25 | OUTPUT |   situation: This headline reports on the funeral of Dick Cheney, who served as Vice President under George W. Bush. The core situation is the public mourning (or lack thereof, depending on perspective) of a highly influential, and often controversial, political figure. The eulogy delivered by George W. Bush is significant because of their close working relationship and the historical weight of their presidency, marked by events like 9/11 and the Iraq War. The subtext involves the complex legacy of Cheney – seen by some as a strong leader who protected the country, and by others as a hawkish figure who overstepped his bounds and contributed to disastrous foreign policy decisions. There's an inherent tension in having a eulogy delivered *by* Bush, given their shared responsibility for those controversial policies. The event itself is a moment for reflection on that era of American history and the impact of Cheney's policies.
+2026-01-30 18:38:25 | OUTPUT |   semantic_associations:
+2026-01-30 18:38:25 | OUTPUT |     • Dick Cheney: Neoconservatism, War Hawk, Controversial, Powerful, Secretive, Heart Issues, Guantanamo Bay, Enhanced Interrogation, Halliburton, Political Manipulation
+2026-01-30 18:38:25 | OUTPUT |     • George W. Bush: Texas, Rancher, 'Dubya', Iraq War, 9/11, Conservative, Legacy, Painting, Mispronunciations
+2026-01-30 18:38:25 | OUTPUT |     • Funeral: Mourning, Respect, Remembrance, Political Statements, Public Image, Grief, Eulogy, Last Rites
+2026-01-30 18:38:25 | OUTPUT |     • Eulogy: Praise, Remembrance, Reflection, Political Spin, Historical Revisionism, Sentimentality, Hypocrisy (potential)
+2026-01-30 18:38:25 | OUTPUT |     • Vice President: Power, Influence, Shadowy Figure, Second-in-Command, Policy Maker
+2026-01-30 18:38:25 | OUTPUT |     • Legacy: Historical Impact, Reputation, Judgement of History, Long-term Consequences
+2026-01-30 18:38:25 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:38:25 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 18:38:25 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:38:25 | OUTPUT |   situation: This headline reports on the funeral of Dick Cheney, who served as Vice President under George W. Bush. The core situation is the public mourning (or lack thereof, depending on perspective) of a highly influential, and often controversial, political figure. The eulogy delivered by George W. Bush is significant because of their close working relationship and the historical weight of their presidency, marked by events like 9/11 and the Iraq War. The subtext involves the complex legacy of Cheney – seen by some as a strong leader who protected the country, and by others as a hawkish figure who overstepped his bounds and contributed to disastrous foreign policy decisions. There's an inherent tension in having a eulogy delivered *by* Bush, given their shared responsibility for those controversial policies. The event itself is a moment for reflection on that era of American history and the impact of Cheney's policies.
+2026-01-30 18:38:25 | OUTPUT |   semantic_associations:
+2026-01-30 18:38:25 | OUTPUT |     • Dick Cheney: Neoconservatism, War Hawk, Controversial, Powerful, Secretive, Heart Issues, Guantanamo Bay, Enhanced Interrogation, Halliburton, Political Manipulation
+2026-01-30 18:38:25 | OUTPUT |     • George W. Bush: Texas, Rancher, 'Dubya', Iraq War, 9/11, Conservative, Legacy, Painting, Mispronunciations
+2026-01-30 18:38:25 | OUTPUT |     • Funeral: Mourning, Respect, Remembrance, Political Statements, Public Image, Grief, Eulogy, Last Rites
+2026-01-30 18:38:25 | OUTPUT |     • Eulogy: Praise, Remembrance, Reflection, Political Spin, Historical Revisionism, Sentimentality, Hypocrisy (potential)
+2026-01-30 18:38:25 | OUTPUT |     • Vice President: Power, Influence, Shadowy Figure, Second-in-Command, Policy Maker
+2026-01-30 18:38:25 | OUTPUT |     • Legacy: Historical Impact, Reputation, Judgement of History, Long-term Consequences
+2026-01-30 18:38:57 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:38:57 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:38:57 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:38:57 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:38:57 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:38:57 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:01 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:01 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:09 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:09 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:09 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:09 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:12 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:39:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:12 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:39:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:12 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:39:13 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:13 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:14 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:14 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:16 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:16 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:39:25 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:25 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:39:26 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:26 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:39:35 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:39:35 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 18:39:35 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:39:35 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:39:35 | OUTPUT |     focal_targets: Dick Cheney and the concept of a 'heart' – both literally (his documented heart issues) and figuratively (perceived lack of empathy).
+2026-01-30 18:39:35 | OUTPUT |     cognitive_manipulation: Reinterprets the eulogy as a literal description of Cheney’s physical heart condition, rather than a metaphorical expression of grief or remembrance, subtly implying his lack of emotional capacity.
+2026-01-30 18:39:35 | OUTPUT |     logical_mechanism: Literal Interpretation
+2026-01-30 18:39:35 | OUTPUT |     script_opposition: Sentimentality/Remembrance vs. Clinical Detachment/Mechanical Function
+2026-01-30 18:39:35 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:39:35 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:39:35 | OUTPUT |     language_style: Deadpan
+2026-01-30 18:39:35 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:39:35 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:39:35 | OUTPUT |     │ Reporter: “Mr. Bush, any final thoughts on Dick Cheney?”   │
+2026-01-30 18:39:35 | OUTPUT |     │ Bush: “Well, the doctors said it was a miracle he even     │
+2026-01-30 18:39:35 | OUTPUT |     │ made it to 81. Five bypasses, a left ventricular assist    │
+2026-01-30 18:39:35 | OUTPUT |     │ device… honestly, it was less a heart and more of a really │
+2026-01-30 18:39:35 | OUTPUT |     │ sophisticated plumbing system.”                            │
+2026-01-30 18:39:35 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:39:36 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:36 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:39:46 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:46 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:39:46 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:46 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:39:47 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:47 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:49 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:49 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:39:50 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:39:50 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 18:39:50 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:39:50 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:39:50 | OUTPUT |     focal_targets: Dick Cheney and the concept of a 'heart' – both literally (his documented heart issues) and figuratively (perceived lack of empathy).
+2026-01-30 18:39:50 | OUTPUT |     cognitive_manipulation: Reinterprets the eulogy as a literal description of Cheney’s physical heart, rather than a metaphorical expression of grief or remembrance of his character, highlighting the irony of Bush praising a 'heart' that was repeatedly medically intervened upon.
+2026-01-30 18:39:50 | OUTPUT |     logical_mechanism: Literal Interpretation
+2026-01-30 18:39:50 | OUTPUT |     script_opposition: Sentimentality/Respect vs. Mechanical/Artificiality
+2026-01-30 18:39:50 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:39:50 | OUTPUT |     narrative_strategy: One-Liner
+2026-01-30 18:39:50 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:39:50 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:39:50 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:39:50 | OUTPUT |     │ George W. Bush eulogized Dick Cheney, praising his         │
+2026-01-30 18:39:50 | OUTPUT |     │ remarkable heart. Several, actually. Replaced parts,       │
+2026-01-30 18:39:50 | OUTPUT |     │ mostly.                                                    │
+2026-01-30 18:39:50 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:39:52 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:39:52 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:40:03 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:03 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:40:03 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:03 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:40:06 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:06 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:40:07 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:07 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:40:16 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nPlease r
+2026-01-30 18:40:16 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:40:16 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:40:16 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:16 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:40:25 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:25 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:40:25 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:25 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:40:36 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:40:36 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 18:40:36 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:40:36 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:40:36 | OUTPUT |     focal_targets: Dick Cheney's known health issues (specifically his heart) and the secretive nature of his vice presidency.
+2026-01-30 18:40:36 | OUTPUT |     cognitive_manipulation: Reinterprets the 'heart issues' associated with Dick Cheney not as a medical condition, but as a metaphorical representation of his lack of empathy or compassion, and connects this to the secretive nature of his political dealings, suggesting his 'heart' was hidden from public view.
+2026-01-30 18:40:36 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:40:36 | OUTPUT |     script_opposition: Genuine Affliction vs. Calculated Coldness
+2026-01-30 18:40:36 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:40:36 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:40:36 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:40:36 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:40:36 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:40:36 | OUTPUT |     │ Breaking news: sources close to the Bush family report     │
+2026-01-30 18:40:36 | OUTPUT |     │ George W. Bush, during Dick Cheney’s eulogy, spoke at      │
+2026-01-30 18:40:36 | OUTPUT |     │ length about his late friend’s… dedication, and noted that │
+2026-01-30 18:40:36 | OUTPUT |     │ Cheney had always kept his heart remarkably well-guarded.  │
+2026-01-30 18:40:36 | OUTPUT |     │ Doctors confirm it wasn’t a medical marvel, just a         │
+2026-01-30 18:40:36 | OUTPUT |     │ lifelong commitment to secrecy.                            │
+2026-01-30 18:40:36 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:40:47 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:47 | WARNING | ⏳ Rate limit hit. Waiting 60s before retry 5/8...
+2026-01-30 18:40:55 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:55 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:40:55 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:55 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:40:56 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:56 | WARNING | ⏳ Rate limit hit. Waiting 60s before retry 5/8...
+2026-01-30 18:40:57 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:40:57 | WARNING | ⏳ Rate limit hit. Waiting 60s before retry 5/8...
+2026-01-30 18:41:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:41:49 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 18:41:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:41:49 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:41:49 | OUTPUT |     focal_targets: Dick Cheney's known health issues (specifically his heart) and the secretive nature of his vice presidency.
+2026-01-30 18:41:49 | OUTPUT |     cognitive_manipulation: Reinterprets the 'heart issues' associated with Dick Cheney not as a medical condition, but as a metaphorical representation of his lack of empathy or compassion, and connects this to the secretive nature of his political dealings, suggesting his 'heart' was hidden from public view.
+2026-01-30 18:41:49 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:41:49 | OUTPUT |     script_opposition: Public Mourning/Sympathy vs. Hidden Ruthlessness/Lack of Empathy
+2026-01-30 18:41:49 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:41:49 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:41:49 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:41:49 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:41:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:41:49 | OUTPUT |     │ Sources confirm George W. Bush repeatedly emphasized Dick  │
+2026-01-30 18:41:49 | OUTPUT |     │ Cheney’s strong heart during the eulogy today… remarking   │
+2026-01-30 18:41:49 | OUTPUT |     │ it was remarkable how little it seemed to beat for anyone  │
+2026-01-30 18:41:49 | OUTPUT |     │ else.                                                      │
+2026-01-30 18:41:49 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:42:05 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:05 | OUTPUT |   🎯 CANDIDATE [5,1]
+2026-01-30 18:42:05 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:05 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:42:05 | OUTPUT |     focal_targets: Dick Cheney's known health issues (specifically his heart) and the secretive nature of his vice presidency.
+2026-01-30 18:42:05 | OUTPUT |     cognitive_manipulation: Reinterprets the 'heart issues' associated with Dick Cheney not as a medical condition, but as a metaphorical representation of his lack of empathy or compassion, and connects this to the 'secretive' aspect of his role by suggesting his heart was hidden from public view.
+2026-01-30 18:42:05 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:42:05 | OUTPUT |     script_opposition: Public Mourning/Respect vs. Private Ruthlessness/Hidden Deficiencies
+2026-01-30 18:42:05 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:42:05 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:42:05 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:42:05 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:42:05 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:42:05 | OUTPUT |     │ Sources close to George W. Bush say his eulogy for Dick    │
+2026-01-30 18:42:05 | OUTPUT |     │ Cheney was surprisingly heartfelt, focusing on Cheney’s    │
+2026-01-30 18:42:05 | OUTPUT |     │ dedication to the country and his unwavering… commitment.  │
+2026-01-30 18:42:05 | OUTPUT |     │ “He really emphasized,” the source continued, “that Dick   │
+2026-01-30 18:42:05 | OUTPUT |     │ always kept his true feelings – and frankly, his heart –   │
+2026-01-30 18:42:05 | OUTPUT |     │ very, very close to the vest.”                             │
+2026-01-30 18:42:05 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:42:05 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:05 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 18:42:05 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:05 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:42:05 | OUTPUT |     focal_targets: Dick Cheney's known health issues (specifically his heart) and the secretive nature of his vice presidency.
+2026-01-30 18:42:05 | OUTPUT |     cognitive_manipulation: Reinterprets the 'heart issues' associated with Dick Cheney not as a medical condition, but as a metaphorical representation of his lack of empathy or compassion, and connects this to the secretive nature of his political dealings, suggesting his 'heart' was hidden from public view.
+2026-01-30 18:42:05 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:42:05 | OUTPUT |     script_opposition: Public Mourning/Sympathy vs. Hidden Ruthlessness/Lack of Empathy
+2026-01-30 18:42:05 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:42:05 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:42:05 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:42:05 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:42:05 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:42:05 | OUTPUT |     │ Sources confirm George W. Bush repeatedly emphasized Dick  │
+2026-01-30 18:42:05 | OUTPUT |     │ Cheney’s strong heart during the eulogy today… remarking   │
+2026-01-30 18:42:05 | OUTPUT |     │ it was remarkable how little it seemed to guide his policy │
+2026-01-30 18:42:05 | OUTPUT |     │ decisions.                                                 │
+2026-01-30 18:42:05 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:42:18 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:18 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 18:42:18 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:18 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:42:18 | OUTPUT |     focal_targets: Dick Cheney and the concept of a 'heart' – both literally (his documented heart issues) and figuratively (perceived lack of empathy).
+2026-01-30 18:42:18 | OUTPUT |     cognitive_manipulation: Reinterprets the eulogy as a literal description of Cheney’s physical heart condition, rather than a metaphorical expression of grief or remembrance, subtly implying his lack of emotional capacity.
+2026-01-30 18:42:18 | OUTPUT |     logical_mechanism: Literal Interpretation
+2026-01-30 18:42:18 | OUTPUT |     script_opposition: Sentimentality/Remembrance vs. Clinical Detachment/Mechanical Description
+2026-01-30 18:42:18 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:42:18 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:42:18 | OUTPUT |     language_style: Deadpan
+2026-01-30 18:42:18 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:42:18 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:42:18 | OUTPUT |     │ Breaking news from the Cheney funeral: sources say George  │
+2026-01-30 18:42:18 | OUTPUT |     │ W. Bush’s eulogy was… remarkably detailed. Apparently, he  │
+2026-01-30 18:42:18 | OUTPUT |     │ spent a full five minutes describing the mechanical pump   │
+2026-01-30 18:42:18 | OUTPUT |     │ keeping Dick Cheney’s heart going. Said it was “remarkably │
+2026-01-30 18:42:18 | OUTPUT |     │ efficient, really.”                                        │
+2026-01-30 18:42:18 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:42:26 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:26 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 18:42:26 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:26 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:42:26 | OUTPUT |     focal_targets: Dick Cheney's known health issues (specifically his heart) and the secretive nature of his vice presidency.
+2026-01-30 18:42:26 | OUTPUT |     cognitive_manipulation: Reinterprets the 'heart issues' associated with Dick Cheney not as a medical condition, but as a metaphorical representation of his lack of empathy or compassion, and connects this to the secretive nature of his political dealings, suggesting his 'heart' was hidden from public view.
+2026-01-30 18:42:26 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:42:26 | OUTPUT |     script_opposition: Public Mourning/Sympathy vs. Hidden Ruthlessness/Lack of Empathy
+2026-01-30 18:42:26 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:42:26 | OUTPUT |     narrative_strategy: Fake News Snippet
+2026-01-30 18:42:26 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:42:26 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:42:26 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:42:26 | OUTPUT |     │ Sources confirm George W. Bush repeatedly emphasized Dick  │
+2026-01-30 18:42:26 | OUTPUT |     │ Cheney’s strong heart during the eulogy today… remarking   │
+2026-01-30 18:42:26 | OUTPUT |     │ it was remarkable how little it seemed to beat for anyone  │
+2026-01-30 18:42:26 | OUTPUT |     │ else.                                                      │
+2026-01-30 18:42:26 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:42:26 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:42:26 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:42:26 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:42:26 | OUTPUT | 
+  INPUT: No place for Mostert distraction in South Africa team
+2026-01-30 18:42:53 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:53 | OUTPUT |   📦 ContextEnricher
+2026-01-30 18:42:53 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:53 | OUTPUT |   situation: This headline refers to Herschelle Gibbs, a former South African cricketer, publicly stating there's no room for Justin Mostert in the current national cricket team. The subtext is a critique of team selection, potentially implying Gibbs believes Mostert isn't good enough or doesn't fit the team's strategy. It also suggests a possible rift or disagreement within the South African cricket community, as Gibbs is a well-known former player offering a strong opinion. The headline implies a debate about merit versus other factors (like transformation policies, which are sensitive in South African cricket) in team selection. It's a fairly direct and potentially controversial statement from a former player.
+2026-01-30 18:42:53 | OUTPUT |   semantic_associations:
+2026-01-30 18:42:53 | OUTPUT |     • Herschelle Gibbs: Known for aggressive batting, past controversies (including a bookmaking scandal), outspoken personality.
+2026-01-30 18:42:53 | OUTPUT |     • Justin Mostert: Relatively unknown cricketer, likely a newer player, potentially seen as lacking the experience or profile of established players.
+2026-01-30 18:42:53 | OUTPUT |     • South Africa cricket team: Historically strong team, recent performance fluctuations, ongoing debates about racial transformation and team selection.
+2026-01-30 18:42:53 | OUTPUT |     • Team selection: Meritocracy vs. political considerations, internal team dynamics, pressure from fans and media.
+2026-01-30 18:42:53 | OUTPUT |     • Cricket: A sport steeped in tradition, often associated with gentlemanly conduct (though this is often a facade), national pride, and intense rivalry.
+2026-01-30 18:42:53 | OUTPUT |     • Distraction: Anything that hinders team performance, internal conflicts, media scrutiny.
+2026-01-30 18:42:53 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:53 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 18:42:53 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:42:53 | OUTPUT |   situation: This headline refers to Herschelle Gibbs, a former South African cricketer, publicly stating there's no room for Justin Mostert in the current national cricket team. The subtext is a critique of team selection, potentially implying Gibbs believes Mostert isn't good enough or doesn't fit the team's strategy. It also suggests a possible rift or disagreement within the South African cricket community, as Gibbs is a well-known former player offering a strong opinion. The headline implies a debate about merit versus other factors (like transformation policies, which are sensitive in South African cricket) in team selection. It's a fairly direct and potentially controversial statement from a former player.
+2026-01-30 18:42:53 | OUTPUT |   semantic_associations:
+2026-01-30 18:42:53 | OUTPUT |     • Herschelle Gibbs: Known for aggressive batting, past controversies (including a bookmaking scandal), outspoken personality.
+2026-01-30 18:42:53 | OUTPUT |     • Justin Mostert: Relatively unknown cricketer, likely a newer player, potentially seen as lacking the experience or profile of established players.
+2026-01-30 18:42:53 | OUTPUT |     • South Africa cricket team: Historically strong team, recent performance fluctuations, ongoing debates about racial transformation and team selection.
+2026-01-30 18:42:53 | OUTPUT |     • Team selection: Meritocracy vs. political considerations, internal team dynamics, pressure from fans and media.
+2026-01-30 18:42:53 | OUTPUT |     • Cricket: A sport steeped in tradition, often associated with gentlemanly conduct (though this is often a facade), national pride, and intense rivalry.
+2026-01-30 18:42:53 | OUTPUT |     • Distraction: Anything that hinders team performance, internal conflicts, media scrutiny.
+2026-01-30 18:43:20 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:43:20 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:43:20 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 18:43:26 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:43:26 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:43:26 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 18:43:35 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:35 | OUTPUT |   🎯 CANDIDATE [6,1]
+2026-01-30 18:43:35 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:35 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:43:35 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:43:35 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* Mostert's selection, but as Mostert *being* a literal distraction – a person so inherently distracting that his presence would disrupt the team, shifting the focus from the game itself.
+2026-01-30 18:43:35 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:43:35 | OUTPUT |     script_opposition: Skill/Merit vs. Distractibility/Appearance
+2026-01-30 18:43:35 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:43:35 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:43:35 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:43:35 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:43:35 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:43:35 | OUTPUT |     │ So, Herschelle Gibbs says there's no place for Justin      │
+2026-01-30 18:43:35 | OUTPUT |     │ Mostert in the South African team. He called him a         │
+2026-01-30 18:43:35 | OUTPUT |     │ "distraction." Apparently, Mostert's Instagram game is     │
+2026-01-30 18:43:35 | OUTPUT |     │ *too* strong. Keeps the bowlers checking their likes       │
+2026-01-30 18:43:35 | OUTPUT |     │ instead of their lines.                                    │
+2026-01-30 18:43:35 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:43:40 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:40 | OUTPUT |   🎯 CANDIDATE [2,1]
+2026-01-30 18:43:40 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:40 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:43:40 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:43:40 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* Mostert's selection, but as Mostert *being* a literal distraction – a person so inherently diverting that his presence would disrupt the team's focus, regardless of skill.
+2026-01-30 18:43:40 | OUTPUT |     logical_mechanism: Literal Interpretation
+2026-01-30 18:43:40 | OUTPUT |     script_opposition: [Merit/Skill] vs. [Irresistible Charisma/Distraction]
+2026-01-30 18:43:40 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:43:40 | OUTPUT |     narrative_strategy: One-Liner
+2026-01-30 18:43:40 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:43:40 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:43:40 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:43:40 | OUTPUT |     │ Herschelle Gibbs says there's no place for Justin Mostert  │
+2026-01-30 18:43:40 | OUTPUT |     │ in the South African team… apparently, just being *in* the │
+2026-01-30 18:43:40 | OUTPUT |     │ room is a batting hazard.                                  │
+2026-01-30 18:43:40 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:43:48 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:43:48 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:43:49 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:49 | OUTPUT |   🎯 CANDIDATE [1,1]
+2026-01-30 18:43:49 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:49 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:43:49 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:43:49 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* team success, but as Mostert being so incredibly captivating and charismatic that he draws all the attention *to* himself, overshadowing the team.
+2026-01-30 18:43:49 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:43:49 | OUTPUT |     script_opposition: Merit/Skill vs. Charisma/Attention
+2026-01-30 18:43:49 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:43:49 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:43:49 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:43:49 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:43:49 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:43:49 | OUTPUT |     │ So, Herschelle Gibbs says there's no place for Justin      │
+2026-01-30 18:43:49 | OUTPUT |     │ Mostert in the South African team. Claims he's a           │
+2026-01-30 18:43:49 | OUTPUT |     │ distraction. A distraction? The man's a national treasure! │
+2026-01-30 18:43:49 | OUTPUT |     │ Every time he walks onto the field, the opposition forgets │
+2026-01-30 18:43:49 | OUTPUT |     │ how to bat, the sponsors forget about the game, and the    │
+2026-01-30 18:43:49 | OUTPUT |     │ commentators just…stare.                                   │
+2026-01-30 18:43:49 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:43:51 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:51 | OUTPUT |   🎯 CANDIDATE [7,1]
+2026-01-30 18:43:51 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:51 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:43:51 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:43:51 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* team success, but as Mostert being so incredibly captivating and charismatic that he draws all the attention *to* himself, overshadowing the team.
+2026-01-30 18:43:51 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:43:51 | OUTPUT |     script_opposition: [Merit/Skill] vs. [Charisma/Attention]
+2026-01-30 18:43:51 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:43:51 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:43:51 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:43:51 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:43:51 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:43:51 | OUTPUT |     │ So, Herschelle Gibbs says there's no place for Justin      │
+2026-01-30 18:43:51 | OUTPUT |     │ Mostert in the South African team. Claims he's a           │
+2026-01-30 18:43:51 | OUTPUT |     │ "distraction." Apparently, it's not his batting technique  │
+2026-01-30 18:43:51 | OUTPUT |     │ that's the problem. It's that every time he walks onto the │
+2026-01-30 18:43:51 | OUTPUT |     │ field, the opposing team forgets how to play cricket,      │
+2026-01-30 18:43:51 | OUTPUT |     │ they're too busy taking selfies with him.                  │
+2026-01-30 18:43:51 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:43:58 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:58 | OUTPUT |   🎯 CANDIDATE [5,1]
+2026-01-30 18:43:58 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:43:58 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:43:58 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:43:58 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* Mostert's selection, but as Mostert *being* a literal distraction – a person who physically distracts others, perhaps through flamboyant behavior or unusual appearance.
+2026-01-30 18:43:58 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:43:58 | OUTPUT |     script_opposition: Skill/Merit vs. Physical Presence/Distractibility
+2026-01-30 18:43:58 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:43:58 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:43:58 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:43:58 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:43:58 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:43:58 | OUTPUT |     │ So, Herschelle Gibbs says there's no place for Justin      │
+2026-01-30 18:43:58 | OUTPUT |     │ Mostert in the South African team… claims he's a           │
+2026-01-30 18:43:58 | OUTPUT |     │ distraction. Apparently, he wears a sequined helmet and    │
+2026-01-30 18:43:58 | OUTPUT |     │ does the Macarena after every wicket.                      │
+2026-01-30 18:43:58 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:44:00 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:00 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:44:04 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:04 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:44:12 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:12 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:44:16 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:16 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:44:26 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:44:26 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:44:26 | WARNING | ⏳ Transient error hit. Waiting 20s before retry 3/8...
+2026-01-30 18:44:29 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:29 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:44:36 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:36 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:44:49 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:49 | WARNING | ⏳ Rate limit hit. Waiting 20s before retry 3/8...
+2026-01-30 18:44:56 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:44:56 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:45:06 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:45:06 | WARNING | ⏳ Rate limit hit. Waiting 30s before retry 4/8...
+2026-01-30 18:45:19 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:45:19 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:45:19 | WARNING | ⏳ Transient error hit. Waiting 30s before retry 4/8...
+2026-01-30 18:45:46 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:45:46 | OUTPUT |   🎯 CANDIDATE [3,1]
+2026-01-30 18:45:46 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:45:46 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:45:46 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:45:46 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* Mostert's selection, but as Mostert *being* a literal distraction – a person who physically distracts others, perhaps through flamboyant behavior or unusual appearance.
+2026-01-30 18:45:46 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:45:46 | OUTPUT |     script_opposition: Skill/Merit vs. Physical Presence/Distraction
+2026-01-30 18:45:46 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:45:46 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:45:46 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:45:46 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:45:46 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:45:46 | OUTPUT |     │ So, Herschelle Gibbs says there's no place for Justin      │
+2026-01-30 18:45:46 | OUTPUT |     │ Mostert in the South African team. Claims he's a           │
+2026-01-30 18:45:46 | OUTPUT |     │ distraction. Right. Apparently, he keeps wandering onto    │
+2026-01-30 18:45:46 | OUTPUT |     │ the pitch wearing a sequined jumpsuit and juggling flaming │
+2026-01-30 18:45:46 | OUTPUT |     │ cricket balls. It’s terribly disruptive to the bowlers.    │
+2026-01-30 18:45:46 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:45:59 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:45:59 | OUTPUT |   🎯 CANDIDATE [4,1]
+2026-01-30 18:45:59 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:45:59 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:45:59 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:45:59 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* team success, but as Mostert being so incredibly captivating and charismatic that he draws all attention *to* himself, overshadowing the team.
+2026-01-30 18:45:59 | OUTPUT |     logical_mechanism: Double Entendre
+2026-01-30 18:45:59 | OUTPUT |     script_opposition: Player Competence vs. Player Charisma/Distraction
+2026-01-30 18:45:59 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:45:59 | OUTPUT |     narrative_strategy: Q&A
+2026-01-30 18:45:59 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:45:59 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:45:59 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:45:59 | OUTPUT |     │ So, Herschelle Gibbs says there's no place for Justin      │
+2026-01-30 18:45:59 | OUTPUT |     │ Mostert in the South African team. Claims he's a           │
+2026-01-30 18:45:59 | OUTPUT |     │ distraction. Apparently, Mostert's so good-looking, the    │
+2026-01-30 18:45:59 | OUTPUT |     │ opposing team keeps forgetting to bowl.                    │
+2026-01-30 18:45:59 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:46:00 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:46:00 | OUTPUT |   🎯 CANDIDATE [8,1]
+2026-01-30 18:46:00 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:46:00 | OUTPUT | 
+  HUMOR ARCHITECTURE:
+2026-01-30 18:46:00 | OUTPUT |     focal_targets: Justin Mostert, "Distraction"
+2026-01-30 18:46:00 | OUTPUT |     cognitive_manipulation: Reinterpret "distraction" not as something *preventing* Mostert's selection, but as Mostert *being* a literal distraction – a person so inherently diverting that his presence would disrupt the team's focus, regardless of skill.
+2026-01-30 18:46:00 | OUTPUT |     logical_mechanism: Literal Interpretation
+2026-01-30 18:46:00 | OUTPUT |     script_opposition: [Merit/Skill] vs. [Irresistible Charisma/Distraction]
+2026-01-30 18:46:00 | OUTPUT | 
+  DELIVERY STRATEGY:
+2026-01-30 18:46:00 | OUTPUT |     narrative_strategy: One-Liner
+2026-01-30 18:46:00 | OUTPUT |     language_style: Dry/Cynical
+2026-01-30 18:46:00 | OUTPUT | 
+  GENERATED JOKE:
+2026-01-30 18:46:00 | OUTPUT |     ┌────────────────────────────────────────────────────────────┐
+2026-01-30 18:46:00 | OUTPUT |     │ Herschelle Gibbs says there's no place for Justin Mostert  │
+2026-01-30 18:46:00 | OUTPUT |     │ in the South African team… apparently, just being *in the  │
+2026-01-30 18:46:00 | OUTPUT |     │ room* is a batting hazard.                                 │
+2026-01-30 18:46:00 | OUTPUT |     └────────────────────────────────────────────────────────────┘
+2026-01-30 18:46:00 | OUTPUT | 
+════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:46:00 | OUTPUT |   🎭 HEADLINE JOKE - current
+2026-01-30 18:46:00 | OUTPUT | ════════════════════════════════════════════════════════════════════════════════
+2026-01-30 18:46:00 | OUTPUT | 
+  INPUT: Meet Troy - the parrot named after Ireland’s hat-trick hero
+2026-01-30 18:46:20 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:46:20 | OUTPUT |   📦 ContextEnricher
+2026-01-30 18:46:20 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:46:20 | OUTPUT |   situation: This headline reports on a parrot being named "Troy" in honor of Troy Parrott, a young Irish footballer who recently scored a hat-trick (three goals in one game) for Ireland's national team. The situation is a lighthearted, celebratory gesture – someone (presumably the parrot's owner) is a fan of Troy Parrott and decided to commemorate his achievement by naming their pet after him. It implies a level of national pride and excitement surrounding the footballer's performance. The subtext is that the hat-trick was a significant event, enough to inspire a pet naming. It's a feel-good story designed to appeal to football fans and animal lovers.
+2026-01-30 18:46:20 | OUTPUT |   semantic_associations:
+2026-01-30 18:46:20 | OUTPUT |     • Troy Parrott: Young Irish footballer, rising star, potential, pressure to perform, national hero (after hat-trick)
+2026-01-30 18:46:20 | OUTPUT |     • Parrot (bird): Mimicry, talking, colorful, exotic, pet, sometimes annoying, association with pirates
+2026-01-30 18:46:20 | OUTPUT |     • Hat-trick: Significant achievement in football, rare, exciting, skill, luck, turning point in a game/career
+2026-01-30 18:46:20 | OUTPUT |     • Ireland: Football culture, national pride, passionate fans, underdog status in international football
+2026-01-30 18:46:20 | OUTPUT |     • Naming: Symbolism, honoring someone, personal connection, fandom
+2026-01-30 18:46:20 | OUTPUT | 
+──────────────────────────────────────────────────────────────────────
+2026-01-30 18:46:20 | OUTPUT |   📋 CONTEXT ANALYSIS
+2026-01-30 18:46:20 | OUTPUT | ──────────────────────────────────────────────────────────────────────
+2026-01-30 18:46:20 | OUTPUT |   situation: This headline reports on a parrot being named "Troy" in honor of Troy Parrott, a young Irish footballer who recently scored a hat-trick (three goals in one game) for Ireland's national team. The situation is a lighthearted, celebratory gesture – someone (presumably the parrot's owner) is a fan of Troy Parrott and decided to commemorate his achievement by naming their pet after him. It implies a level of national pride and excitement surrounding the footballer's performance. The subtext is that the hat-trick was a significant event, enough to inspire a pet naming. It's a feel-good story designed to appeal to football fans and animal lovers.
+2026-01-30 18:46:20 | OUTPUT |   semantic_associations:
+2026-01-30 18:46:20 | OUTPUT |     • Troy Parrott: Young Irish footballer, rising star, potential, pressure to perform, national hero (after hat-trick)
+2026-01-30 18:46:20 | OUTPUT |     • Parrot (bird): Mimicry, talking, colorful, exotic, pet, sometimes annoying, association with pirates
+2026-01-30 18:46:20 | OUTPUT |     • Hat-trick: Significant achievement in football, rare, exciting, skill, luck, turning point in a game/career
+2026-01-30 18:46:20 | OUTPUT |     • Ireland: Football culture, national pride, passionate fans, underdog status in international football
+2026-01-30 18:46:20 | OUTPUT |     • Naming: Symbolism, honoring someone, personal connection, fandom
+2026-01-30 18:47:08 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:47:08 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:13 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:47:13 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:21 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:47:21 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:21 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:47:21 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:47:21 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:22 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:47:22 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:24 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:47:24 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:47:24 | WARNING | ⏳ Transient error hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:24 | ERROR | ❌ API Error [BadRequestError]: litellm.BadRequestError: GeminiException BadRequestError - {
+  "error": {
+    "code": 400,
+    "message": "JSON mode is not enabled for models/gemma-3-27b-it",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-30 18:47:24 | WARNING | 🔧 JSON mode error detected. Will retry with existing ChatAdapter config...
+2026-01-30 18:47:24 | WARNING | ⏳ Transient error hit. Waiting 10s before retry 2/8...
+2026-01-30 18:47:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:47:28 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:28 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:47:28 | WARNING | ⏳ Rate limit hit. Waiting 5s before retry 1/8...
+2026-01-30 18:47:29 | ERROR | ❌ API Error [RateLimitError]: litellm.RateLimitError: litellm.RateLimitError: geminiException - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 15000, model: gemma-3-27b\nP
+2026-01-30 18:47:29 | WARNING | ⏳ Rate limit hit. Waiting 10s before retry 2/8...
+2026-01-30 18:47:36 | WARNING | Interrupted by user. Progress has been saved.
